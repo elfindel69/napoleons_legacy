@@ -1,5 +1,5 @@
 characters={
-	CHL_aaron_galvez={
+	BOL_aaron_galvez={
 		name="Aarón Gálvez"
 		portraits={
 			civilian={

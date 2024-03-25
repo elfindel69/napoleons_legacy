@@ -126,16 +126,7 @@ set_popularities = {
 	communism = 2
 }
 
-create_country_leader = {
-	name = "Arturo Alessandri"
-	desc = "POLITICS_ARTURO_ALESSANDRI_DESC"
-	picture = "GFX_Portrait_chile_arturo_alessandri"
-	expire = "1965.1.1"
-	ideology = liberalism
-	traits = {
-		#
-	}
-}
+
 
 1939.1.1 = {
 	set_politics = {
@@ -149,62 +140,159 @@ create_country_leader = {
 		democratic = 98
 		monarchist = 2
 	}
-
-	create_country_leader = {
-		name = "Pedro Aguirre Cerda"
-		desc = "POLITICS_PEDRO_AGUIRRE_CERDA_DESC"
-		picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
-		expire = "1965.1.1"
-		ideology = socialism
-		traits = {
-			#
+	IF = {
+		limit = {
+			NOT = {
+				has_dlc = "Trial of Allegiance"
+			}
+		}
+		recruit_character = CHL_pedro_aguirre_cerda
+		promote_character = CHL_pedro_aguirre_cerda
+		retire_character = CHL_arturo_alessandri
+		ELSE_IF = {
+			limit = {
+				has_dlc = "Trial of Allegiance"
+			}
+			add_country_leader_role = {
+			    character = CHL_pedro_aguirre_cerda
+			    promote_leader = yes
+			    country_leader = {
+			        ideology = socialism
+			        expire = "1965.1.1.1"
+			        traits = { JUNO_gobernar_es_educar }
+			    }
+			}
+			retire_character = CHL_arturo_alessandri
 		}
 	}
+	
 }
 
-create_country_leader = {
-	name = "Jorge González von Marées"
-	desc = "POLITICS_JORGE_GONZÁLEZ_VON_MARÉES_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
-	expire = "1965.1.1"
-	ideology = nazism
-	traits = {
-		#
+recruit_character = CHL_aaron_galvez
+IF = {
+	limit = { 
+		NOT = {
+			has_dlc = "Trial of Allegiance"
+		}
+	}
+	recruit_character = CHL_arturo_alessandri
+	recruit_character = CHL_jorge_gonzález_von_marées
+	recruit_character = CHL_carlos_contreras_labarca
+	recruit_character = CHL_escudero_oscar_otárola
+	recruit_character = CHL_domingo_blanco # not in the dlc
+	recruit_character = CHL_julio_allard_pinto
+	recruit_character = CHL_gustavo_silva # not in the dlc
+	recruit_character = CHL_jose_luis_sanchez_besa
+	recruit_character = CHL_marmaduke_grove
+	recruit_character = CHL_e_novoa_fuentes
+	recruit_character = CHL_dario_mujica_gamboa
+	recruit_character = CHL_c_j_de_la_motte
+	recruit_character = CHL_carlos_fuentes_rabe
+	recruit_character = CHL_arturo_espinoza_mujica
+	recruit_character = CHL_carlos_puga_monsalve
+	recruit_character = CHL_francisco_o_ryan_orrego
+	recruit_character = CHL_ernesto_m_orlando
+	recruit_character = CHL_dario_cellejas_rojas
+	recruit_character = CHL_ariosto_herrera
+	recruit_character = CHL_luis_alamos_barros
+	recruit_character = CHL_miguel_cruchaga_tacomal
+	recruit_character = CHL_gustavo_ross_santa_maria
+	ELSE_IF = {
+		limit = {
+			has_dlc = "Trial of Allegiance"
+		}
+		recruit_character = CHL_arturo_alessandri
+		recruit_character = CHL_jorge_gonzález_von_marées
+		recruit_character = CHL_carlos_contreras_labarca
+		recruit_character = CHL_pedro_aguirre_cerda
+		recruit_character = CHL_escudero_oscar_otárola
+		recruit_character = CHL_julio_allard_pinto
+		recruit_character = CHL_jose_luis_sanchez_besa
+		recruit_character = CHL_marmaduke_grove
+		recruit_character = CHL_e_novoa_fuentes
+		recruit_character = CHL_carlos_fuentes_rabe
+		recruit_character = CHL_arturo_espinoza_mujica
+		recruit_character = CHL_ariosto_herrera
+		recruit_character = CHL_luis_alamos_barros
+		recruit_character = CHL_miguel_cruchaga_tacomal
+		recruit_character = CHL_gustavo_ross_santa_maria
+		recruit_character = CHL_elias_lafertte_gavino
+		recruit_character = CHL_carlos_ibanez
+		recruit_character = CHL_carlos_keller_reuff
+		recruit_character = CHL_juan_gomez_millas
+		recruit_character = CHL_manuel_hidalgo_plaza
+		recruit_character = CHL_juan_antonio_rios
+		recruit_character = CHL_gabriel_gonzales_videla
+		recruit_character = CHL_eduardo_cruz_coke
+		recruit_character = CHL_fernando_alessandri
+		recruit_character = CHL_antoine_iii
+		recruit_character = CHL_manuel_manquilef
+		recruit_character = CHL_venancio_huenchual
+		recruit_character = CHL_esteban_romero_sandoval
+		recruit_character = CHL_bartolome_blanche
+		recruit_character = CHL_pedro_dartnell
+		recruit_character = CHL_guillermo_barrios_tirado
+		recruit_character = CHL_francisco_valderrama
+		recruit_character = CHL_augustin_de_guevara
+		recruit_character = CHL_pedro_calderon
+		recruit_character = CHL_ricardo_aguayo
+		recruit_character = CHL_humberto_valdivieso
+		recruit_character = CHL_gregorio_tascon
+		recruit_character = CHL_rafael_reyes
+		recruit_character = CHL_vincente_merino_bielich
+		recruit_character = CHL_oscar_reeves_leiva
+		recruit_character = CHL_oscar_fuentes_pantoja
+		recruit_character = CHL_alfredo_portales_mourgues
+		recruit_character = CHL_olegario_reyes
+		recruit_character = CHL_emilio_soto
+		recruit_character = CHL_jorge_cobo
+		recruit_character = CHL_peter_hansen
+		recruit_character = CHL_manuel_pedregal
+		recruit_character = CHL_augusto_pimochet
+		recruit_character = CHL_carlos_prats
+		recruit_character = CHL_rene_schneider
+		recruit_character = CHL_ulk
+		recruit_character = CHL_arnaldo_carrasco
+		recruit_character = CHL_elena_caffarena
+		recruit_character = CHL_pablo_neruda
+		recruit_character = CHL_jaime_quintana
+		recruit_character = CHL_maria_de_la_cruz
+		recruit_character = CHL_salvador_allende
+		recruit_character = CHL_rayen_quitral
+		recruit_character = CHL_jorge_alessandri
+		recruit_character = CHL_guido_beck
+		recruit_character = CHL_gabriela_mistral
+		recruit_character = CHL_juan_rosetti
+		recruit_character = CHL_emilio_codesido
+		recruit_character = CHL_ernesto_jarpa
+		recruit_character = CHL_francisco_encina
+		recruit_character = CHL_jose_morales
+		recruit_character = CHL_ramon_perez
+		recruit_character = CHL_manuel_panguilef
+		recruit_character = CHL_oskar_schnake
+		recruit_character = CHL_bernardo_leighton
+		recruit_character = CHL_tancredo_pinochet
+		recruit_character = CHL_emilio_diaz
+		recruit_character = CHL_radomiro_romero
+		recruit_character = CHL_roberto_araya
+		recruit_character = CHL_arturo_olavaria
+		recruit_character = CHL_rolando_reyes
+		recruit_character = CHL_diego_aguilar
+		recruit_character = CHL_arturo_benitez
+		recruit_character = CHL_jeronimo_mendez
+		recruit_character = CHL_miguel_serrano
+		recruit_character = CHL_manuel_neculman
+		recruit_character = CHL_benjamin_larrain
+		recruit_character = CHL_pedro_alfonso
+		recruit_character = CHL_guillermo_araya
+		recruit_character = CHL_marta_vergara
+		recruit_character = CHL_osvaldo_lira_perez
+		recruit_character = CHL_quintin_lame
+		recruit_character = CHL_carlos_huayquinir
 	}
 }
 
-create_country_leader = {
-	name = "Carlos Contreras Labarca"
-	desc = "POLITICS_CARLOS_CONTRERAS_LABARCA_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		#
-	}
-}
 
-create_country_leader = {
-	name = "Aarón Gálvez"
-	desc = "POLITICS_CARLOS_QUINTANILLA_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
-	expire = "1965.1.1"
-	ideology = monarchism
-	traits = {
-		#
-	}
-}
-
-create_corps_commander = {
-	name = "Escudero Oscar Otárola"
-	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
-	traits = { trait_mountaineer }
-	skill = 4
-	attack_skill = 4
-	defense_skill = 2
-	planning_skill = 4
-	logistics_skill = 3
-}
 
 ### VARIANTS ###
 # 1936 Start #

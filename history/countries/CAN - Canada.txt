@@ -176,7 +176,8 @@ set_popularities = {
 	monarchist = 2
 }
 
-recruit_character = CAN_mackenzie_king
+ recruit_character = CAN_arthur_of_connaught
+ recruit_character = CAN_mackenzie_king
 recruit_character = CAN_adrien_arcand
 recruit_character = CAN_tim_buck
 recruit_character = CAN_j_s_woodsworth
@@ -215,6 +216,13 @@ recruit_character = CAN_william_kashtan
 recruit_character = CAN_leo_richer_lafleche
 recruit_character = CAN_r_b_bennett
 recruit_character = CAN_louis_st_laurent
+
+IF = {
+	limit = {
+		has_dlc = "Trial of Allegiance"
+	}
+	recruit_character = CAN_first_nations_council
+}
 
 ### VARIANTS ###
 # 1936 Start #

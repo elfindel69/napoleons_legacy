@@ -1,4 +1,4 @@
-capital = 238
+capital = 371
 
 oob = "LOU_1936"
 set_research_slots = 3

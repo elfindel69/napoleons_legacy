@@ -58,76 +58,138 @@ set_country_flag = monroe_doctrine
 	}
 }
 
-set_politics = {
-	ruling_party = communism
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = yes
-}
-set_popularities = {
-	democratic = 25
-	communism = 72
-	monarchist = 3
-}
+IF = {
+	limit = {
+		has_dlc = "Trial of Allegiance"
+	}
 
-#create_country_leader = {
-#	name = "Eusebio Ayala"
-#	desc = "POLITICS_EUSEBIO_AYALA_DESC"
-#	picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
-#	expire = "1965.1.1"
-#	ideology = liberalism
-#	traits = {
-#		#
-#	}
-#}
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 55
+		communism = 30
+		neutrality = 10
+		fascism = 5
+	}
+	add_timed_idea = {
+		idea = idea_PAR_the_aftershock_of_the_tripple_alliance
+		days = 1780
+	}
+	every_core_state = {
+		add_dynamic_modifier = {
+			modifier = idea_PAR_river_navy
+			#days = <INT> #will be temporary if specified
+			#scope = TAG #optional, state or country tag or a variable
+		}
+	}
+	#recruit_character = PAR_war_industrialist
+	#recruit_character = PAR_captain_of_industry
+	recruit_character = PAR_ivan_belyaev
+	recruit_character = PAR_rafael_franco
+	recruit_character = PAR_higinio_morinigo
+	recruit_character = PAR_manuel_t_aponte
+	recruit_character = PAR_juan_stefanich
+	recruit_character = PAR_juan_manuel_frutos
+	recruit_character = PAR_isaias_baez_allende
+	recruit_character = PAR_alfred_stroessner_matiauda
+	recruit_character = PAR_amancio_pampliega
+	recruit_character = PAR_juan_natalicio_gonzalez
+	recruit_character = PAR_remigio_bastia_martin
+	recruit_character = PAR_francisco_esculies
+	recruit_character = PAR_riccardo_odriosola
+	recruit_character = PAR_Jose_Felix_Estigarribia
+	recruit_character = PAR_Eusebio_Ayala
+	recruit_character = PAR_eduardo_schaerer
+	recruit_character = PAR_arturo_javier_gonzalez
+	recruit_character = PAR_finance_graduate
+	recruit_character = PAR_fortification_armchair_general
+	#recruit_character = PAR_backroom_windbag
+	#recruit_character = PAR_war_profiteer
+	#recruit_character = PAR_quartermaster_general
+	#recruit_character = PAR_financial_expert
+	#recruit_character = PAR_armaments_organizer
+	#recruit_character = PAR_lieutenant_of_industry
+	recruit_character = PAR_aristides_rivas_ortellado
+	recruit_character = PAR_freire_gomez_esteves
+	recruit_character = PAR_ramon_paredes 
+	recruit_character = PAR_mutshuito_villasboa_barboza
+	recruit_character = PAR_emilio_gardel
+	recruit_character = PAR_anselmo_jover_peralta
+	recruit_character = PAR_bernardino_caballero
+	recruit_character = PAR_pedro_duarte_ortellado
+	recruit_character = PAR_felipe_molas_lopez 
+	recruit_character = PAR_tomas_salomoni
+	recruit_character = PAR_justo_pastor_benitez
+	recruit_character = PAR_damian_bruyn
+	recruit_character = PAR_higenio_morinigo_martinez
 
-# Rafael Franco technically comes to and loses power slightly after/before the bookmarks, but is the go-to choice for a socialist leader
-create_country_leader = {
-	name = "Rafael Franco"
-	desc = "POLITICS_RAFAEL_FRANCO_DESC"
-	picture = "GFX_Portrait_paraguay_rafael_franco"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		#
+	ELSE = {
+
+		set_politics = {
+			ruling_party = communism
+			last_election = "1936.1.1"
+			election_frequency = 48
+			elections_allowed = yes
+		}
+		set_popularities = {
+			democratic = 25
+			communism = 75
+		}
+
+		recruit_character = PAR_rafael_franco
+		recruit_character = PAR_emilio_melgarejo
+		recruit_character = PAR_francisco_daza
+		recruit_character = PAR_manuel_de_la_cruz
+		recruit_character = PAR_manuel_t_aponte
+		recruit_character = PAR_hector_velasquez
+		recruit_character = PAR_jesus_g_arraza
+		recruit_character = PAR_juan_stefanich
+		recruit_character = PAR_juan_manuel_frutos
+		recruit_character = PAR_isaias_baez_allende
+		recruit_character = PAR_vicente_almonacid
+		recruit_character = PAR_alfred_stroessner_matiauda
+		recruit_character = PAR_amancio_pampliega
+		recruit_character = PAR_hernan_rojas_baltassare
+		recruit_character = PAR_higenio_morinigo_martinez
+		recruit_character = PAR_juan_natalicio_gonzalez
+		recruit_character = PAR_remigio_bastia_martin
+		recruit_character = PAR_francisco_esculies
+		recruit_character = PAR_riccardo_odriosola
 	}
 }
 
-create_country_leader = {
-	name = "Daniel Alcabú"
-	desc = "POLITICS_CARLOS_QUINTANILLA_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
-	expire = "1965.1.1"
-	ideology = monarchism
-	traits = {
-		#
-	}
-}
+recruit_character = PAR_daniel_alcabu
 
 1939.1.1 = {
+	IF = {
+		limit = {
+			NOT = {
+				has_dlc = "Trial of Allegiance"
+			}
+		}
+		recruit_character = PAR_higinio_morinigo
+		promote_character = PAR_higinio_morinigo
+		retire_character = PAR_manuel_de_la_cruz
+	}
+
 	set_politics = {
-		ruling_party = neutrality
+		ruling_party = communism
 		last_election = "1938.1.1"
 		election_frequency = 48
 		elections_allowed = no
 	}
+
 	set_popularities = {
 		democratic = 20
 		communism = 30
-		neutrality = 45
-		monarchist = 5
+		neutrality = 50
 	}
 
-	create_country_leader = {
-		name = "Higinio Morinigo"
-		desc = "POLITICS_HIGINIO_MORINIGO_DESC"
-		picture = "gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
-		expire = "1965.1.1"
-		ideology = despotism
-		traits = {
-			#
-		}
-	}
+	
 
 
 }

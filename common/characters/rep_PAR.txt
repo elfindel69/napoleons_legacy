@@ -1,6 +1,6 @@
 characters={
-	CHL_aaron_galvez={
-		name="Aarón Gálvez"
+	PAR_daniel_alcabu={
+		name="Daniel Alcabú"
 		portraits={
 			civilian={
 				large="gfx/leaders/South America/Portrait_South_America_Generic_2.dds"

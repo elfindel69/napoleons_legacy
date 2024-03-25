@@ -1,0 +1,27 @@
+characters={
+	NGA_siddiq_abubakar_iii = {
+		name = "Sultan Siddiq Abubakar III" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Monarchs/Siddiq_Abubakar.tga"
+			}
+		}
+		country_leader = {
+			ideology = absolutism
+			traits = {
+				rich_sultan
+			}
+			expire = "1960.1.1.1"
+			
+		}
+		country_leader = {
+			ideology = oligarchism
+			traits = {
+				rich_sultan
+			}
+			expire = "1960.1.1.1"
+			
+		}
+	}
+	
+}

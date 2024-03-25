@@ -1,4 +1,4 @@
-capital = 364
+capital = 378
 
 oob = "CAL_1936"
 set_research_slots = 3
