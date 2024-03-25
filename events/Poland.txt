@@ -48,8 +48,8 @@ country_event = {
 					any_other_country = {
 						is_major = yes
 						OR = {
-							is_in_faction_with = PLC
-							has_guaranteed = PLC
+							is_in_faction_with = POL
+							has_guaranteed = POL
 						}
 					}
 					has_idea = anti_soviet_pact
@@ -59,51 +59,51 @@ country_event = {
 		effect_tooltip = {
 			RUS = {
 				if = {
-					limit = { PLC = { owns_state = 96 controls_state = 96 } }
+					limit = { POL = { owns_state = 96 controls_state = 96 } }
 					transfer_state = 96
 				}
 				if = {
-					limit = { PLC = { owns_state = 95 controls_state = 95 } }
+					limit = { POL = { owns_state = 95 controls_state = 95 } }
 					transfer_state = 95
 				}
 				if = {
-					limit = { PLC = { owns_state = 94 controls_state = 94 } }
+					limit = { POL = { owns_state = 94 controls_state = 94 } }
 					transfer_state = 94
 				}
 				if = {
-					limit = { PLC = { owns_state = 93 controls_state = 93 } }
+					limit = { POL = { owns_state = 93 controls_state = 93 } }
 					transfer_state = 93
 				}
 				if = {
-					limit = { PLC = { owns_state = 91 controls_state = 91 } }
+					limit = { POL = { owns_state = 91 controls_state = 91 } }
 					transfer_state = 91
 				}
 				if = {
-					limit = { PLC = { owns_state = 89 controls_state = 89 } }
+					limit = { POL = { owns_state = 89 controls_state = 89 } }
 					transfer_state = 89
 				}
 				if = {
-					limit = { PLC = { owns_state = 97 controls_state = 97 } }
+					limit = { POL = { owns_state = 97 controls_state = 97 } }
 					transfer_state = 97
 				}
 				if = {
-					limit = { PLC = { owns_state = 784 controls_state = 784 } }
+					limit = { POL = { owns_state = 784 controls_state = 784 } }
 					transfer_state = 784
 				}
 				if = {
-					limit = { PLC = { owns_state = 194 controls_state = 194 } }
+					limit = { POL = { owns_state = 194 controls_state = 194 } }
 					transfer_state = 194
 				}
 				if = {
-					limit = { PLC = { owns_state = 204 controls_state = 204 } }
+					limit = { POL = { owns_state = 204 controls_state = 204 } }
 					transfer_state = 204
 				}
 				if = {
-					limit = { PLC = { owns_state = 206 controls_state = 206 } }
+					limit = { POL = { owns_state = 206 controls_state = 206 } }
 					transfer_state = 206
 				}
 				if = {
-					limit = { PLC = { owns_state = 207 controls_state = 207 } }
+					limit = { POL = { owns_state = 207 controls_state = 207 } }
 					transfer_state = 207
 				}
 			}
@@ -118,7 +118,7 @@ country_event = {
 			RUS = {
 				create_wargoal = {
 					type = take_state_focus
-					target = PLC
+					target = POL
 					generator = { 96 95 94 93 91 89 97 784 }
 				}
 			}
@@ -140,7 +140,7 @@ country_event = {
 		name = poland.3.a
 		if = {
 			limit = { 
-				PLC = { 
+				POL = { 
 					owns_state = 96
 					controls_state = 96 
 				}
@@ -149,7 +149,7 @@ country_event = {
 		}
 		if = {
 			limit = { 
-				PLC = { 
+				POL = { 
 					owns_state = 95
 					controls_state = 95 
 				}
@@ -158,7 +158,7 @@ country_event = {
 		}
 		if = {
 			limit = { 
-				PLC = { 
+				POL = { 
 					owns_state = 94
 					controls_state = 94 
 				}
@@ -167,7 +167,7 @@ country_event = {
 		}
 		if = {
 			limit = { 
-				PLC = { 
+				POL = { 
 					owns_state = 93
 					controls_state = 93 
 				}
@@ -176,7 +176,7 @@ country_event = {
 		}
 		if = {
 			limit = { 
-				PLC = { 
+				POL = { 
 					owns_state = 91
 					controls_state = 91 
 				}
@@ -185,7 +185,7 @@ country_event = {
 		}
 		if = {
 			limit = { 
-				PLC = { 
+				POL = { 
 					owns_state = 89
 					controls_state = 89 
 				}
@@ -194,7 +194,7 @@ country_event = {
 		}
 		if = {
 			limit = { 
-				PLC = { 
+				POL = { 
 					owns_state = 97
 					controls_state = 97 
 				}
@@ -203,7 +203,7 @@ country_event = {
 		}
 		if = {
 			limit = { 
-				PLC = { 
+				POL = { 
 					owns_state = 784
 					controls_state = 784 
 				}
@@ -229,7 +229,7 @@ country_event = {
 		name = poland.4.a
 		create_wargoal = {
 			type = take_state_focus
-			target = PLC
+			target = POL
 			generator = { 96 95 94 93 91 89 784 }
 		}
 	}
@@ -257,31 +257,31 @@ country_event = {
 			custom_effect_tooltip = SOV_offer_poland_protection_tt
 			RUS = {
 				if = {
-					limit = { PLC = { owns_state = 96 controls_state = 96 } }
+					limit = { POL = { owns_state = 96 controls_state = 96 } }
 					transfer_state = 96
 				}
 				if = {
-					limit = { PLC = { owns_state = 95 controls_state = 95 } }
+					limit = { POL = { owns_state = 95 controls_state = 95 } }
 					transfer_state = 95
 				}
 				if = {
-					limit = { PLC = { owns_state = 94 controls_state = 94 } }
+					limit = { POL = { owns_state = 94 controls_state = 94 } }
 					transfer_state = 94
 				}
 				if = {
-					limit = { PLC = { owns_state = 93 controls_state = 93 } }
+					limit = { POL = { owns_state = 93 controls_state = 93 } }
 					transfer_state = 93
 				}
 				if = {
-					limit = { PLC = { owns_state = 91 controls_state = 91 } }
+					limit = { POL = { owns_state = 91 controls_state = 91 } }
 					transfer_state = 91
 				}
 				if = {
-					limit = { PLC = { owns_state = 89 controls_state = 89 } }
+					limit = { POL = { owns_state = 89 controls_state = 89 } }
 					transfer_state = 89
 				}
 				if = {
-					limit = { PLC = { owns_state = 784 controls_state = 784 } }
+					limit = { POL = { owns_state = 784 controls_state = 784 } }
 					transfer_state = 784
 				}
 			}
@@ -296,7 +296,7 @@ country_event = {
 			RUS = {
 				create_wargoal = {
 					type = take_state_focus
-					target = PLC
+					target = POL
 					generator = { 96 95 94 93 91 89 784 }
 				}
 			}
@@ -316,41 +316,41 @@ country_event = {
 	
 	option = {
 		name = poland.6.a
-		PLC = {
+		POL = {
 			add_state_claim = 5
 			add_state_claim = 63
 			add_state_claim = 68
 			add_state_claim = 66
 			add_state_claim = 67
-			set_country_flag = PLC_accepted_soviet_protection
+			set_country_flag = POL_accepted_soviet_protection
 		}
 		custom_effect_tooltip = SOV_offer_poland_protection_tt
 		if = {
-			limit = { PLC = { owns_state = 96 } }
+			limit = { POL = { owns_state = 96 } }
 			transfer_state = 96
 		}
 		if = {
-			limit = { PLC = { owns_state = 95 } }
+			limit = { POL = { owns_state = 95 } }
 			transfer_state = 95
 		}
 		if = {
-			limit = { PLC = { owns_state = 94 } }
+			limit = { POL = { owns_state = 94 } }
 			transfer_state = 94
 		}
 		if = {
-			limit = { PLC = { owns_state = 93 } }
+			limit = { POL = { owns_state = 93 } }
 			transfer_state = 93
 		}
 		if = {
-			limit = { PLC = { owns_state = 91 } }
+			limit = { POL = { owns_state = 91 } }
 			transfer_state = 91
 		}
 		if = {
-			limit = { PLC = { owns_state = 89 } }
+			limit = { POL = { owns_state = 89 } }
 			transfer_state = 89
 		}
 		if = {
-			limit = { PLC = { owns_state = 784 } }
+			limit = { POL = { owns_state = 784 } }
 			transfer_state = 784
 		}
 		hidden_effect = {
@@ -372,7 +372,7 @@ country_event = {
 		name = poland.7.a
 		create_wargoal = {
 			type = take_state_focus
-			target = PLC
+			target = POL
 			generator = { 96 95 94 93 91 89 }
 		}
 	}
@@ -386,8 +386,8 @@ country_event = {
 	picture = GFX_report_event_polish_tanks_01
 	
 	trigger = {
-		PLC = { has_country_flag = PLC_accepted_soviet_protection }
-		tag = PLC
+		POL = { has_country_flag = POL_accepted_soviet_protection }
+		tag = POL
 		RUS = {
 			OR = {
 				owns_state = 5
@@ -400,7 +400,7 @@ country_event = {
 	}
 
 	immediate = {
-		clr_country_flag = PLC_accepted_soviet_protection
+		clr_country_flag = POL_accepted_soviet_protection
 	}
 
 	fire_only_once = yes
@@ -450,46 +450,46 @@ country_event = {
 				limit = {
 					OR = {
 						RUS = { owns_state = 5 }
-						PLC = { owns_state = 5 }
+						POL = { owns_state = 5 }
 					}
 				}
-				PLC = { transfer_state = 5 }
+				POL = { transfer_state = 5 }
 			}
 			if = {
 				limit = {
 					OR = {
 						RUS = { owns_state = 63 }
-						PLC = { owns_state = 63 }
+						POL = { owns_state = 63 }
 					}
 				}
-				PLC = { transfer_state = 63 }
+				POL = { transfer_state = 63 }
 			}
 			if = {
 				limit = {
 					OR = {
 						RUS = { owns_state = 68 }
-						PLC = { owns_state = 68 }
+						POL = { owns_state = 68 }
 					}
 				}
-				PLC = { transfer_state = 68 }
+				POL = { transfer_state = 68 }
 			}
 			if = {
 				limit = {
 					OR = {
 						RUS = { owns_state = 66 }
-						PLC = { owns_state = 66 }
+						POL = { owns_state = 66 }
 					}
 				}
-				PLC = { transfer_state = 66 }
+				POL = { transfer_state = 66 }
 			}
 			if = {
 				limit = {
 					OR = {
 						RUS = { owns_state = 67 }
-						PLC = { owns_state = 67 }
+						POL = { owns_state = 67 }
 					}
 				}
-				PLC = { transfer_state = 67 }
+				POL = { transfer_state = 67 }
 			}
 		}
 		hidden_effect = {
@@ -537,8 +537,8 @@ country_event = {
 	picture = GFX_report_event_polish_tanks_01
 	
 	trigger = {
-		tag = PLC
-		has_completed_focus = PLC_artillery_modernisation
+		tag = POL
+		has_completed_focus = POL_artillery_modernisation
 		OR = {
 			has_government = neutrality
 			has_government = monarchist
@@ -548,8 +548,8 @@ country_event = {
 		417 = {
 			controller = {
 				OR = {
-					tag = PLC
-					is_in_faction_with = PLC			
+					tag = POL
+					is_in_faction_with = POL			
 				}
 				has_war_with = ITA
 			}
@@ -582,11 +582,11 @@ country_event = {
 		hidden_effect = {
 			create_corps_commander = {
 				name = "Wojtek"
-				portrait_path = "gfx/leaders/PLC/Portrait_PLC_Voytek.dds"
+				portrait_path = "gfx/leaders/POL/Portrait_POL_Voytek.dds"
 				traits = { bearer_of_artillery }
 				skill = 1
 			}
-			set_country_flag = PLC_vojtek_commander
+			set_country_flag = POL_vojtek_commander
 		}
 	}
 
@@ -796,11 +796,11 @@ country_event = {
 			}
 		}
 		diplomatic_relation = {
-			country = PLC
+			country = POL
 			relation = guarantee
 			active = yes
 		}
-		PLC = {
+		POL = {
 			diplomatic_relation = {
 				country = LIT
 				relation = guarantee
@@ -808,7 +808,7 @@ country_event = {
 			}
 		}
 		hidden_effect = {
-			PLC = {
+			POL = {
 				country_event = { days = 10 id = LIT_events.201 }
 			}
 		}
@@ -829,7 +829,7 @@ country_event = {
 			}
 		}
 		hidden_effect = {
-			PLC = {
+			POL = {
 				country_event = { days = 10 id = LIT_events.202 }
 			}
 		}
@@ -862,22 +862,22 @@ country_event = {
 			base = 30
 			modifier = {
 				add = -25
-				PLC = { has_army_size = { size < 40 } }
+				POL = { has_army_size = { size < 40 } }
 			}
 			modifier = {
 				add = 100
-				PLC = { has_army_size = { size > 39 } }
+				POL = { has_army_size = { size > 39 } }
 			}
 			modifier = {
 				add = 20
-				is_in_faction_with = PLC
+				is_in_faction_with = POL
 			}
 			modifier = {
 				factor = 0.1
 				is_in_faction = yes
 			}
 		}
-		PLC = {
+		POL = {
 			country_event = { hours = 2 id = poland.1501 }
 		}
 		custom_effect_tooltip = GAME_OVER_TT
@@ -888,17 +888,17 @@ country_event = {
 		ai_chance = {
 			base = 10
 			modifier = {
-				PLC = { has_army_size = { size > 39 } }
+				POL = { has_army_size = { size > 39 } }
 				factor = 0.5
 			}
 			modifier = {
 				add = 20
-				PLC = { has_army_size = { size < 30 } }
+				POL = { has_army_size = { size < 30 } }
 			}
 			modifier = {
 				factor = 2
 				is_in_faction = yes
-				NOT = { is_in_faction_with = PLC }
+				NOT = { is_in_faction_with = POL }
 			}
 			modifier = {
 				any_other_country = {
@@ -914,7 +914,7 @@ country_event = {
 				factor = 5 #i've got big friends
 			}
 		}
-		PLC = {
+		POL = {
 			add_opinion_modifier = { target = PREV modifier = POL_annexation_refused }
 			country_event = { hours = 2 id = poland.1502 }
 			if = { limit = { is_in_faction_with = LIT }
@@ -942,9 +942,9 @@ country_event = {
 		FROM = {
 			every_unit_leader = {
 					limit = {
-						has_unit_leader_flag = PLC_monarchy_sympathies_flag
+						has_unit_leader_flag = POL_monarchy_sympathies_flag
 					}
-					set_nationality = PLC
+					set_nationality = POL
 				}
 		}
 	}
@@ -1119,7 +1119,7 @@ country_event = {
 		}
 		add_ai_strategy = {
 			type = alliance
-			id = PLC
+			id = POL
 			value = 200
 		}
 		if = {
@@ -1240,15 +1240,15 @@ country_event = {
 		ai_chance = {
 			factor = 50
 		}
-		set_cosmetic_tag = PLC_SANATION
+		set_cosmetic_tag = POL_SANATION
 		set_politics = {
 			ruling_party = neutrality
 			elections_allowed = yes
-			long_name = PLC_POS_party_long
-			name = PLC_POS_party 
+			long_name = POL_POS_party_long
+			name = POL_POS_party 
 		}
 		add_country_leader_role = {
-			character = "PLC_walery_slawek"
+			character = "POL_walery_slawek"
 			country_leader = {
 				ideology=oligarchism
 				traits = { left_sanationist_minister }
@@ -1267,20 +1267,20 @@ country_event = {
 			}
 		}
 		effect_tooltip = {
-			set_cosmetic_tag = PLC_SANATION_democratic
+			set_cosmetic_tag = POL_SANATION_democratic
 		}
 		hidden_effect = {
-			set_cosmetic_tag = PLC_SANATION
+			set_cosmetic_tag = POL_SANATION
 		}
 		add_ruling_to_dem = yes
 		set_politics = {
 			ruling_party = democratic
 			elections_allowed = yes
-			long_name = PLC_POS_party_long
-			name = PLC_POS_party 
+			long_name = POL_POS_party_long
+			name = POL_POS_party 
 		}
 		add_country_leader_role = {			
-			character = "PLC_walery_slawek"
+			character = "POL_walery_slawek"
 			country_leader = {
 				ideology=socialism
 				traits = { left_sanationist_minister }
@@ -1333,15 +1333,15 @@ country_event = {
 		ai_chance = {
 			factor = 50
 		}
-		set_cosmetic_tag = PLC_SANATION
+		set_cosmetic_tag = POL_SANATION
 		set_politics = {
 			ruling_party = neutrality
 			elections_allowed = no
-			long_name = PLC_OZON_party_long
-			name = PLC_OZON_party
+			long_name = POL_OZON_party_long
+			name = POL_OZON_party
 		}
 		add_country_leader_role = {
-			character = "rep_PLC_edward_rydzsmigly"
+			character = "rep_POL_edward_rydzsmigly"
 			country_leader = {
 				ideology=oligarchism
 				traits = { sanation_militarist }
@@ -1360,20 +1360,20 @@ country_event = {
 			}
 		}
 		effect_tooltip = {
-			set_cosmetic_tag = PLC_SANATION_fascism
+			set_cosmetic_tag = POL_SANATION_fascism
 		}
 		hidden_effect = {
-			set_cosmetic_tag = PLC_SANATION
+			set_cosmetic_tag = POL_SANATION
 		}
 		add_ruling_to_fas = yes
 		set_politics = {
 			ruling_party = fascism
 			elections_allowed = no
-			long_name = PLC_OZON_party_long
-			name = PLC_OZON_party
+			long_name = POL_OZON_party_long
+			name = POL_OZON_party
 		}
 		add_country_leader_role = {
-			character = "rep_PLC_edward_rydzsmigly"
+			character = "rep_POL_edward_rydzsmigly"
 			country_leader = {
 				ideology=falangism
 				traits = { sanation_militarist_falangist }
@@ -1439,20 +1439,20 @@ country_event = {
 	desc = { # Four Year Plan went poorly
 		text = poland.20.desc.a
 		trigger = {
-			check_variable = { PLC_investments_var < 6 }
+			check_variable = { POL_investments_var < 6 }
 		}
 	}
 	desc = { # Four Year Plan went okay
 		text = poland.20.desc.b
 		trigger = {
-			check_variable = { PLC_investments_var < 14 }
-			check_variable = { PLC_investments_var > 5 }
+			check_variable = { POL_investments_var < 14 }
+			check_variable = { POL_investments_var > 5 }
 		}
 	}
 	desc = { # Four Year Plan went well
 		text = poland.20.desc.c
 		trigger = {
-			check_variable = { PLC_investments_var > 15 }
+			check_variable = { POL_investments_var > 15 }
 		}
 	}
 	picture = GFX_report_event_generic_factory
@@ -1464,7 +1464,7 @@ country_event = {
 	option = {
 		name = poland.20.a
 		trigger = {
-			check_variable = { PLC_investments_var < 6 }
+			check_variable = { POL_investments_var < 6 }
 		}
 		ai_chance = {
 			factor = 50
@@ -1478,8 +1478,8 @@ country_event = {
 	option = {
 		name = poland.20.b
 		trigger = {
-			check_variable = { PLC_investments_var < 11 }
-			check_variable = { PLC_investments_var > 5 }
+			check_variable = { POL_investments_var < 11 }
+			check_variable = { POL_investments_var > 5 }
 		}
 		ai_chance = {
 			factor = 50
@@ -1493,8 +1493,8 @@ country_event = {
 	option = {
 		name = poland.20.c
 		trigger = {
-			check_variable = { PLC_investments_var < 14 }
-			check_variable = { PLC_investments_var > 10 }
+			check_variable = { POL_investments_var < 14 }
+			check_variable = { POL_investments_var > 10 }
 		}
 		ai_chance = {
 			factor = 50
@@ -1508,8 +1508,8 @@ country_event = {
 	option = {
 		name = poland.20.d
 		trigger = {
-			#has_completed_focus = PLC_complete_the_plan
-			check_variable = { PLC_investments_var > 15 }
+			#has_completed_focus = POL_complete_the_plan
+			check_variable = { POL_investments_var > 15 }
 		}
 		ai_chance = {
 			factor = 50
@@ -1523,8 +1523,8 @@ country_event = {
 	option = {
 		name = poland.20.e
 		trigger = {
-			#NOT = { #has_completed_focus = PLC_complete_the_plan }
-			check_variable = { PLC_investments_var > 9 }
+			#NOT = { #has_completed_focus = POL_complete_the_plan }
+			check_variable = { POL_investments_var > 9 }
 		}
 		ai_chance = {
 			factor = 50
@@ -1538,8 +1538,8 @@ country_event = {
 	option = {
 		name = poland.20.f
 		trigger = {
-			#NOT = { #has_completed_focus = PLC_complete_the_plan }
-			check_variable = { PLC_investments_var < 10 }
+			#NOT = { #has_completed_focus = POL_complete_the_plan }
+			check_variable = { POL_investments_var < 10 }
 		}
 		ai_chance = {
 			factor = 50
@@ -1563,7 +1563,7 @@ country_event = {
 		has_completed_focus = GER_rhineland
 		is_subject = no
 		DNZ = {
-			has_war_with = PLC
+			has_war_with = POL
 		}
 	}
 
@@ -1604,7 +1604,7 @@ country_event = {
 			add_to_faction = DNZ
 			add_to_war = { 
 				targeted_alliance = DNZ
-				enemy = PLC
+				enemy = POL
 				hostility_reason = asked_to_join
 			}
 		}
@@ -1667,7 +1667,7 @@ country_event = { #fallback event just in case Danzig is somehow a player
 			add_to_faction = DNZ
 			add_to_war = { 
 				targeted_alliance = DNZ
-				enemy = PLC
+				enemy = POL
 				hostility_reason = asked_to_join
 			}
 		}
@@ -1751,10 +1751,10 @@ country_event = { #Event for independent Danzig winning the war
 	picture = GFX_report_event_generic_conference
 	
 	trigger = {
-		tag = PLC
+		tag = POL
 		DNZ = {
 			is_subject = no
-			has_war_with = PLC
+			has_war_with = POL
 			controls_state = 807
 		}
 		OR = {
@@ -1860,7 +1860,7 @@ country_event = { #Event to replace the Sanation government when Poland capitula
 				elections_allowed = no
 			}
 		}
-		promote_character = PLC_wladyslaw_sikorski
+		promote_character = POL_wladyslaw_sikorski
 	}
 
 	option = {
@@ -1878,7 +1878,7 @@ country_event = { #Event to replace the Sanation government when Poland capitula
 				elections_allowed = no
 			}
 		}
-		promote_character = PLC_boleslaw_wieniawa_glugoszowski
+		promote_character = POL_boleslaw_wieniawa_glugoszowski
 	}
 
 	option = {
@@ -1890,10 +1890,10 @@ country_event = { #Event to replace the Sanation government when Poland capitula
 		set_politics = {
 			ruling_party = democratic
 			elections_allowed = yes
-			long_name = PLC_exile_democratic_party_long
-			name = PLC_exile_democratic_party 
+			long_name = POL_exile_democratic_party_long
+			name = POL_exile_democratic_party 
 		}
-		promote_character = PLC_wladyslaw_raczkiewicz
+		promote_character = POL_wladyslaw_raczkiewicz
 		if = {
 			limit = {
 				has_idea = POL_april_constitution_4
@@ -1946,6 +1946,6 @@ country_event = { #Event to alert Germany/Soviets of Warsaw Uprising potentially
 		ai_chance = {
 			factor = 50
 		}
-		custom_effect_tooltip = PLC_keep_resistance_low_tt
+		custom_effect_tooltip = POL_keep_resistance_low_tt
 	}
 }

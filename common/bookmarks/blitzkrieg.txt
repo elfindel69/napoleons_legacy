@@ -332,7 +332,7 @@ bookmarks = {
 			}
 		}
 
-		"BYZ"={
+		"GRE"={
 			minor = yes
 			history = "GRE_BLITZKRIEG_DESC"
 			ideology = monarchist

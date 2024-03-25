@@ -23,8 +23,8 @@ focus_tree = {
 		id = crypto_bomb_focus
 		available = {
 				has_war_with = GER
-				PLC = {
-					NOT = { is_in_faction_with = GER } #We assume PLC will help vs Germany unless they are allied to them
+				POL = {
+					NOT = { is_in_faction_with = GER } #We assume POL will help vs Germany unless they are allied to them
 				}
 			}
 		
@@ -32,8 +32,8 @@ focus_tree = {
 			OR = {
 				AND = {
 					has_war_with = GER
-					PLC = {
-							is_in_faction_with = GER # If PLC is in GER's faction, no help for us
+					POL = {
+							is_in_faction_with = GER # If POL is in GER's faction, no help for us
 						}
 				}
 				AND = {
@@ -8430,14 +8430,14 @@ focus_tree = {
 		completion_reward = {
 			add_timed_idea = { idea = ENG_a_change_in_course_idea days = 365 }
 			hidden_effect = {
-				PLC = {
+				POL = {
 					add_ai_strategy = {
 						type = alliance
 						id = "ENG"
 						value = -200
 					}
 				}
-				PLC = {
+				POL = {
 					add_ai_strategy = {
 						type = befriend
 						id = "ENG"
@@ -8446,17 +8446,17 @@ focus_tree = {
 				}
 				add_ai_strategy = {
 					type = alliance
-					id = PLC
+					id = POL
 					value = -200
 				}
 				add_ai_strategy = {
 					type = befriend
-					id = PLC
+					id = POL
 					value = -200
 				}
 				add_ai_strategy = {
 					type = protect
-					id = PLC
+					id = POL
 					value = -200
 				}
 				add_ai_strategy = {
@@ -8652,7 +8652,7 @@ focus_tree = {
 					add_opinion_modifier = { target = ENG modifier = ENG_reassessed_continental_committments_bad }
 				}
 			}
-			PLC = {
+			POL = {
 				if = {
 					limit = { NOT = { is_in_faction_with = ENG } }
 					add_opinion_modifier = { target = ENG modifier = ENG_reassessed_continental_committments_bad }

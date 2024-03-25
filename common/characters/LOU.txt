@@ -1,5 +1,5 @@
 characters = {
-	ALA_33554647 = {
+	LOU_33554647 = {
 		name = es_Favio_dyn_es_Espinosa
 		portraits = {
 			civilian = {
@@ -11,7 +11,7 @@ characters = {
 			traits = {  }
 		}
 	}
-	ALA_33554775 = {
+	LOU_33554775 = {
 		name = es_Leandro_dyn_es_Hernandez
 		portraits = {
 			civilian = {
@@ -25,7 +25,7 @@ characters = {
 			cost = 150
 		}
 	}
-	ALA_50332378 = {
+	LOU_50332378 = {
 		name = es_Alejandro_dyn_es_Sandoval
 		portraits = {
 			civilian = {
@@ -39,12 +39,12 @@ characters = {
 			cost = 150
 		}
 	}
-	ALA_50332528 = {
+	LOU_50332528 = {
 		name = es_Florian_dyn_es_Salinas
 		portraits = {
 			army = {
-				large = GFX_portrait_europe_generic_land_8
-				small = GFX_portrait_europe_generic_land_8_small
+				large = GFX_portrait_europe_generic_land_3
+				small = GFX_portrait_europe_generic_land_3_small
 			}
 			civilian = {
 			}
@@ -64,7 +64,7 @@ characters = {
 			cost = 150
 		}
 	}
-	ALA_67109874 = {
+	LOU_67109874 = {
 		name = es_Rufo_dyn_es_Longoria
 		portraits = {
 			civilian = {
@@ -78,7 +78,7 @@ characters = {
 			cost = 150
 		}
 	}
-	ALA_67110050 = {
+	LOU_67110050 = {
 		name = es_Naldo_dyn_es_Reyes
 		portraits = {
 			civilian = {
@@ -92,7 +92,7 @@ characters = {
 			cost = 150
 		}
 	}
-	ALA_83886354 = {
+	LOU_83886354 = {
 		name = es_Albano_dyn_es_Salas
 		portraits = {
 			civilian = {
@@ -106,7 +106,7 @@ characters = {
 			cost = 150
 		}
 	}
-	ALA_83886857 = {
+	LOU_83886857 = {
 		name = es_Apocalipsis_dyn_es_Aguilar
 		portraits = {
 			civilian = {
@@ -120,7 +120,7 @@ characters = {
 			cost = 150
 		}
 	}
-	ALA_100663620 = {
+	LOU_100663620 = {
 		name = es_Derico_dyn_es_Trevino
 		portraits = {
 			navy = {

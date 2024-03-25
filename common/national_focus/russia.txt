@@ -10182,227 +10182,15 @@ focus_tree = {
 		}
 	}
 
-	focus = {
-		id = RUS_baltic_security
-		icon = GFX_focus_SOV_baltic_security
-		prerequisite = { focus = RUS_open_diplomacy }
-		x = 3
-		y = -1
-		relative_position_id = RUS_anti_capitalist_policies
-		cost = 5
 
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				has_civil_war = yes
-			}	
-		}
-		
-		bypass = {
-			NOT = {
-				country_exists = UBD
-			}
-		}
-
-		available = {
-			
-			is_subject = no
-		}
-		
-		search_filters = {}
-
-		completion_reward = {
-			if = {
-				limit = {
-					country_exists = UBD
-				}
-				UBD = {
-					if = {
-						limit = { ROOT = { has_government = fascism } }
-						add_timed_idea = { idea = fascist_influence days = 1095 }
-					}
-					if = {
-						limit = { ROOT = { has_government = democratic } }
-						add_timed_idea = { idea = democratic_influence days = 1095 }
-					}
-					if = {
-						limit = { ROOT = { has_government = communism } }
-						add_timed_idea = { idea = communist_influence days = 1095 }
-					}
-					hidden_effect = {
-						country_event = { id = generic.1 }
-					}
-				}
-			}
-			
-		}
-	}
-
-	focus = {
-		id = RUS_respect_baltic_self_determination
-		icon = GFX_focus_generic_concessions
-		prerequisite = { focus = RUS_baltic_security }
-		x = -1
-		y = 1
-		relative_position_id = RUS_baltic_security
-		cost = 5
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				has_civil_war = yes
-			}	
-		}
-		
-		mutually_exclusive = { focus = RUS_claims_in_baltic }
-
-		bypass = {
-			NOT = {
-				country_exists = UBD
-			}
-		}
-
-		available = {
-			is_subject = no
-		}
-		
-		search_filters = {}
-
-		completion_reward = {
-			if = {
-				limit = {country_exists = UBD}
-				UBD = {
-					if = {
-						limit = {
-							NOT = {
-								has_non_aggression_pact_with = RUS
-							}
-						}
-						diplomatic_relation = {
-							country = RUS
-							relation = non_aggression_pact
-							active = yes
-						}
-					}
-				}
-			}
-			
-			
-		}
-	}
-
-	focus = {
-		id = RUS_claims_in_baltic
-		icon = GFX_goal_generic_more_territorial_claims
-		prerequisite = { focus = RUS_baltic_security }
-		x = 1
-		y = 1
-		relative_position_id = RUS_baltic_security
-		cost = 10
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				OR = {
-					has_civil_war = yes
-					date < 1939.1.1
-				}
-			}	
-		}
-
-		mutually_exclusive = { focus = RUS_respect_baltic_self_determination }
-
-		available = {
-			NOT = { has_country_flag = RUS_paranoia_system_active_flag }
-			is_subject = no
-		}
-
-		bypass = {
-			all_state = {
-				OR = {
-					is_core_of = UBD
-					
-				}
-				NOT = { state = 188 }
-				is_controlled_by = ROOT
-			}
-		}
-		
-		search_filters = {FOCUS_FILTER_ANNEXATION}
-
-		completion_reward = {
-			# Estonia
-			custom_effect_tooltip = RUS_estonian_claimed_states_tt
-			hidden_effect = {
-				UBD = {
-					every_owned_state = {
-						limit = {
-							is_core_of = PREV
-						}
-						ROOT = { add_state_claim = PREV }
-					}
-				}
-			}
-			
-			
-			add_named_threat = { threat = 1 name = RUS_claims_in_baltic }
-		}
-	}
-
-	focus = {
-		id = RUS_secure_leningrad
-		icon = GFX_focus_generic_attack_finland
-		prerequisite = { focus = RUS_respect_baltic_self_determination focus = RUS_claims_in_baltic }
-		x = 0
-		y = 1
-		relative_position_id = RUS_respect_baltic_self_determination
-		cost = 10
-		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				has_civil_war = yes
-			}	
-		}
-		dynamic = yes 
-
-		available = {
-			NOT = { has_country_flag = RUS_paranoia_system_active_flag }
-			is_subject = no
-		}
-
-		bypass = {
-			has_full_control_of_state = 146
-		}
-		
-		search_filters = {FOCUS_FILTER_ANNEXATION}
-
-		completion_reward = {
-			add_state_claim = 146 # Karjala
-			146 = {
-				controller = {
-					set_country_flag = RUS_ultimatum_sent_flag #Add it for AI strats reasons
-					add_timed_idea = {
-						idea = communist_pressure
-						days = 365
-					}
-					country_event = { id = finland.1 hours = 16 random_hours = 8 }
-				}
-			}
-		}
-	}
-
+	
 	focus = {
 		id = RUS_control_scandinavia
 		icon = GFX_focus_generic_scandinavia_flags
-		prerequisite = { focus = RUS_secure_leningrad }
-		x = 0
-		y = 2
-		relative_position_id = RUS_secure_leningrad
+		prerequisite = { focus = RUS_open_diplomacy }
+		x = 4
+		y = 1
+		relative_position_id = RUS_open_diplomacy
 		cost = 10
 
 		ai_will_do = {
@@ -10491,10 +10279,10 @@ focus_tree = {
 	focus = {
 		id = RUS_claims_on_poland
 		icon = GFX_goal_generic_occupy_states_ongoing_war
-		prerequisite = { focus = RUS_respect_baltic_self_determination focus = RUS_claims_in_baltic }
-		x = 0
+		prerequisite = { focus = RUS_open_diplomacy }
+		x = 6
 		y = 1
-		relative_position_id = RUS_claims_in_baltic
+		relative_position_id = RUS_open_diplomacy
 		cost = 10
 
 		ai_will_do = {
@@ -10859,55 +10647,16 @@ focus_tree = {
 		}
 	}
 
-	focus = {
-		id = RUS_attack_ukraine
-		icon = GFX_goal_generic_attack_allies
-		prerequisite = { focus = RUS_claims_on_poland }
-		x = 3
-		y = 1
-		relative_position_id = RUS_claims_on_poland
-		cost = 10
-
-		ai_will_do = {
-			factor = 2.5
-			modifier = {
-				factor = 0
-				OR = {
-					date < 1939.1.1
-					has_civil_war = yes
-				}
-			}	
-			modifier = {
-				factor = 200
-				GER = { has_government = democratic }
-			}
-		}
-
-		available = {
-			UKR = {exists = YES}
-			is_subject = no
-		}
-
-		will_lead_to_war_with = UKR
-		
-		search_filters = { FOCUS_FILTER_ANNEXATION }
-		completion_reward = { 
-		create_wargoal = {
-			type = annex_everything
-			target = UKR
-			expire = 0
-		}
-		}
-	}
+	
 
 	
 	focus = {
 		id = RUS_middle_east_diplomacy
 		icon = GFX_focus_TUR_treaty_of_saadabad
 		prerequisite = { focus = RUS_open_diplomacy }
-		x = 4
-		y = 0
-		relative_position_id = RUS_baltic_security
+		x = 10
+		y = 1
+		relative_position_id = RUS_open_diplomacy
 		cost = 5
 		
 		ai_will_do = {
@@ -11203,7 +10952,7 @@ focus_tree = {
 		id = RUS_the_threat_from_the_land_of_the_rising_sun
 		icon = GFX_focus_attack_japan
 		prerequisite = { focus = RUS_open_diplomacy }
-		x = 5
+		x = 3
 		y = 0
 		relative_position_id = RUS_middle_east_diplomacy
 		cost = 5

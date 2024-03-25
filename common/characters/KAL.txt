@@ -3,7 +3,7 @@ characters={
 		name = "I.M Badmayev" 
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/Asia/portrait_asia_generic_4.dds"
+				large = "gfx/leaders/Asia/portrait_asia_generic_3.dds"
 			}
 		}
 		country_leader = {

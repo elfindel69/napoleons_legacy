@@ -1,7 +1,7 @@
 state = {
-	id = 331
-	name = "STATE_331"
-	manpower = 255060
+	id = 465
+	name = "STATE_465"
+	manpower = 475020
 	
 	state_category = rural
 
@@ -10,22 +10,23 @@ state = {
 		owner = QUE
 		add_core_of = CAN
 		add_core_of = QUE
+
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
-			12505 = {
-				naval_base = 1
+			infrastructure = 3 #was: 5
+			industrial_complex = 2
+			4285 = {
+				naval_base = 2
 			}
 		}
 
 		victory_points = {
-			12505 2 
+			4285 2 
 		}
 		
 	}
 
 	provinces = {
-		7758 7788 12505 12680 12698 
+		634 1424 4285 4342 4362 4432 7379 12289 
 	}
 
 	local_supplies = 0.0 
