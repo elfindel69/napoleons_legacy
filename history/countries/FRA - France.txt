@@ -337,16 +337,16 @@ set_convoys = 300
 
 
 set_politics = {
-	ruling_party = monarchist
+	ruling_party = democratic
 	last_election = "1932.5.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 29
+	democratic = 52
 	fascism = 1
 	communism = 15
-	monarchist = 52
+	monarchist = 29
 	neutrality = 3
 }
 

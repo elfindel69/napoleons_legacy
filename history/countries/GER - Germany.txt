@@ -347,16 +347,16 @@ add_to_faction = ITA
 
 
 set_politics = {
-	ruling_party = monarchist
+	ruling_party = fascism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
 	democratic = 10
-	fascism = 30
+	fascism = 62
 	communism = 5
-	monarchist = 52
+	monarchist = 20
 	neutrality = 3
 }
 
