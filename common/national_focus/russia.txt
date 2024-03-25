@@ -6735,7 +6735,7 @@ focus_tree = {
 	focus =  {
 		id = RUS_reach_out_to_poland 
 		icon = GFX_focus_generic_polish_deal
-		x = 1
+		x = 0
 		y = 1
 		relative_position_id = RUS_and_the_rebuilding_begins
 		cost = 5
@@ -6748,7 +6748,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = { RUS_polish_deal }
-			UBD = {
+			POL = {
 				add_timed_idea = {
 					idea = monarchist_influence
 					days = 720
@@ -6758,43 +6758,15 @@ focus_tree = {
 
 	}
 
-	focus = {
-		id = RUS_reach_out_to_the_baltics
-		icon = GFX_focus_generic_concessions
-		x = -1
-		y = 1
-		relative_position_id = RUS_and_the_rebuilding_begins
-		cost = 5
-
-		prerequisite = { focus = RUS_and_the_rebuilding_begins }
-		available = {
-			UBD = { exists = yes }
-			
-		}
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		completion_reward = {
-			add_ideas = { RUS_baltic_deal }
-			UBD = {
-				add_timed_idea = {
-					idea = monarchist_influence
-					days = 720
-				}
-			}
-		}
-
-	}
+	
 
 	focus= {
 		id = RUS_monarchist_science
 		icon = GFX_focus_research2
-		x = -1
+		x = 0
 		y = 1
 		relative_position_id = RUS_reach_out_to_poland
-		prerequisite = { focus = RUS_reach_out_to_poland focus = RUS_reach_out_to_the_baltics }
+		prerequisite = { focus = RUS_reach_out_to_poland }
 		cost = 5
 		ai_will_do = {
 			factor = 1
@@ -7689,7 +7661,7 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_POLITICAL}	
 		completion_reward = {
 			add_political_power = 60
-			country_event = { id = RUS_royals_events.1 }
+			#country_event = { id = RUS_royals_events.1 }
 		}
 	}
 
@@ -8772,47 +8744,7 @@ focus_tree = {
 		}
 	}
 
-	focus = {
-		id = RUS_supporting_the_ukrainian_liberals
-		icon =  GFX_focus_generic_self_management
-		prerequisite = { focus = RUS_establishing_diplomatic_relations_with_USA }
-		
-		x = 0
-		y = 1
-		relative_position_id = RUS_establishing_diplomatic_relations_with_USA
-		cost = 2
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			UKR = {exists = yes}
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		complete_tooltip = {
-
-        }
-		search_filters = { FOCUS_FILTER_POLITICAL } 
-
-		completion_reward = {
-			add_political_power = 50
-			UKR = {
-				add_timed_idea = {
-					idea = RUS_democracy
-					days = 1000
-				}
-			}
-		}
-	}
+	
 	focus = {
 		id = RUS_new_roads
 		icon = GFX_goal_generic_construct_infrastructure
