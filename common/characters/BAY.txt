@@ -1,0 +1,33 @@
+characters={
+	BAY_franz_neff={
+		name="Franz Neff"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+			}
+		}
+		country_leader={
+			ideology = paternalism
+			
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	BAS_king_rupprecht={
+		name="King Rupprecht"
+		portraits={
+			civilian={
+				large="gfx/leaders/Monarchs/Portrait_Bavaria_Rupprecht_von_Bayern.tga"
+			}
+		}
+		country_leader={
+			ideology = paternalism
+			traits = {
+				constitutional_monarch
+			}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

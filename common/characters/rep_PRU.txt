@@ -1,0 +1,19 @@
+characters={
+	PRU_pachacutec_ii={
+		name="Francisco Chukiwanka Ayulo"
+		portraits={
+			civilian={
+				large="gfx/leaders/Monarchs/Portrait_Pachacutec_II.tga"
+			}
+		}
+		country_leader={
+			ideology=absolutism
+			traits = {
+				nationalist_symbol
+			}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	
+}

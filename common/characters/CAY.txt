@@ -1,0 +1,16 @@
+characters={
+	CAY_matheo_trouve={
+		name="Mathéo Trouvé"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
+			}
+		}
+		country_leader={
+			ideology=paternalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	
+}

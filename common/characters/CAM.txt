@@ -1,0 +1,54 @@
+characters ={
+	CAM_pol_pot = {
+		name = "Pol Pot" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Asia/Portrait_Asia_Generic_warlord1.dds"
+			}
+		}
+		country_leader = {
+			ideology = anarchist_communism
+			expire = "1953.1.1.1"
+			
+		}
+	}
+	CAM_sisovath_youtevong = {
+		name = "Sisowath Youtévong" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			expire = "1960.1.1.1"
+			
+		}
+	}
+	CAM_ek_phirum = {
+		name = "Ek Phirum" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
+			}
+		}
+		country_leader = {
+			ideology = paternalism
+			expire = "1960.1.1.1"
+			
+		}
+	}
+	CAM_norodom_sihanouk = {
+		name = "Norodom Sihanouk" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Monarchs/Portrait_CAM_Norodom_Sihanouk.tga"
+			}
+		}
+		country_leader = {
+			ideology = paternalism
+			expire = "1960.1.1.1"
+			
+		}
+	}
+}

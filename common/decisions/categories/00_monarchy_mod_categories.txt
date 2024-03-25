@@ -1,0 +1,6 @@
+
+
+monarchism_on_the_rise_mod_category = {
+	icon = decision_category_new_monarchy
+}
+

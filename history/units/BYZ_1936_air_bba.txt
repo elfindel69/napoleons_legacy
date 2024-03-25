@@ -1,0 +1,44 @@
+﻿
+
+##### Air units -- Greece did not start to modernize air force until 1937 -- but they should still have their interwar air force available #####
+air_wings = {
+	##### Elliniki Polemiki Aeroporia #####
+	731 = { 
+		# Machitís Moíras
+		small_plane_airframe_0 = {
+			owner = "BYZ" 
+			amount = 26
+			creator = "ENG"
+			version_name = "Hawker Fury"
+		}
+		# Moíra vomvistón
+		small_plane_cas_airframe_0 = {
+			owner = "BYZ" 
+			amount = 71
+			creator = "FRA"
+			version_name = "Br. 19" #also Potez 25
+		}
+		small_plane_naval_bomber_airframe_0 = {
+			owner = "BYZ" 
+			amount = 25
+			creator = "ENG"
+			version_name = "Vickers Vildebeest" #covers a multitude of torpedo bombers, most of which were British
+		}
+	}
+	49 = { 
+		# 1. Havacilik Alay -- Curtiss F11C Hawk II fighters (technically CAG fighters)
+		small_plane_airframe_0 = {
+			owner = "BYZ" 
+			amount = 45
+			creator = "USA"
+			version_name = "P-6"
+		}
+		# 2. Havacilik Alay -- Letov S.16T light bombers
+		small_plane_cas_airframe_0 = {
+			owner = "BYZ" 
+			amount = 16
+			creator = "CZE"
+			version_name = "Letov S-16"
+		}
+	}
+}

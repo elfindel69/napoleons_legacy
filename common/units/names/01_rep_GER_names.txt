@@ -1,0 +1,10 @@
+﻿GER = {
+
+	motorized = {
+		prefix = ""
+		generic = { "Infanterie-Division (mot.)" }
+		generic_pattern = "UNIT_GENERIC_NAME_GER"
+		unique = {}
+	}
+	
+}

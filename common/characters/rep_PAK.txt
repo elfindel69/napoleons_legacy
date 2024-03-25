@@ -1,0 +1,38 @@
+characters={
+	PAK_sadek_mohammad_khan = { 
+		name = "Sadeq Mohammad Khan"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Monarchs/Portrait_PAK_Sadeq_Mohammad_Khan_V.tga"
+				}
+		}
+
+		country_leader = {
+			ideology = absolutism
+			traits = {
+				nationalist_symbol 
+			}
+			expire = "1943.1.1.1"
+			
+		}
+
+	}
+	PAK_qazi_muhammad_essa = { 
+		name = "Qazi Muhammad Essa"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+				}
+		}
+
+		country_leader = {
+			ideology = centrism
+			traits = {
+				nationalist_symbol 
+			}
+			expire = "1943.1.1.1"
+			
+		}
+
+	}
+}

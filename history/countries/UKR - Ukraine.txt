@@ -1,0 +1,106 @@
+﻿capital = 202 #Kiev
+
+oob = "UKR_1936"
+
+set_research_slots = 3
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_military_police = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	paratroopers = 1
+	gw_artillery = 1
+	gwtank = 1
+	basic_light_tank = 1  # PLACEHOLDER
+	#basic_heavy_tank = 1  # PLACEHOLDER
+	#basic_medium_tank = 1 # PLACEHOLDER
+	early_fighter = 1
+	fighter1 = 1
+	early_bomber = 1
+	strategic_bomber1 = 1
+	naval_bomber1 = 1
+	mass_assault = 1
+	fleet_in_being = 1
+}
+
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+		early_submarine = 1
+		basic_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		early_heavy_cruiser = 1
+		early_battleship = 1
+		early_battlecruiser = 1
+		transport = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		mtg_transport = 1
+		basic_battery = 1
+		basic_torpedo = 1
+	}
+}
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = monarchist
+	last_election = "1934.3.26"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 20
+	fascism = 10
+	communism = 10
+	monarchist = 55
+	neutrality = 5
+}
+
+recruit_character = UKR_pavlo_skoropadskyi
+recruit_character = UKR_vitaliy_primakov
+recruit_character = UKR_stepan_bandera
+recruit_character = UKR_nikita_khrushchev
+recruit_character = UKR_kost_levytsky
+recruit_character = UKR_tymofij_ponomarenko
+recruit_character = UKR_bohdan_oleksyuk
+recruit_character = UKR_yaroslav_mykhajlenko
+recruit_character = UKR_stepan_levchenko
+recruit_character = UKR_adam_oleksyuk
+recruit_character = UKR_nazar_polyakov
+recruit_character = UKR_taras_sirenko
+recruit_character = UKR_semen_zozulya
+recruit_character = UKR_borys_hryshko
+recruit_character = UKR_sava_koval
+recruit_character = UKR_yakiv_pinchuk
+recruit_character = UKR_stanislav_savchuk
+recruit_character = UKR_yaroslav_dmytruk
+recruit_character = UKR_mykhajlo_yarov
+recruit_character = UKR_vadim_sych
+recruit_character = UKR_artem_honcharuk
+recruit_character = UKR_afanasij_shcherbak
+recruit_character = UKR_valerij_stepanyuk
+recruit_character = UKR_adam_kucher
+recruit_character = UKR_feodosij_ishchuk
+recruit_character = UKR_leonid_horobets
+recruit_character = UKR_stefan_buhaj

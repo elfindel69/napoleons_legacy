@@ -1,0 +1,194 @@
+﻿l_french:
+
+ POL_FRA_faction.1.t:0 "La France demande son adhesion a l'Intermarium."
+ POL_FRA_faction.1.d:0 "Nos camarades du Parti Royaliste Français ont fait de réels progrès. La France est prête désormais à intégrer l'Intermarium."
+ POL_FRA_faction.1.a:0 "Tant mieux!"
+ POL_FRA_faction.1.b:0 "Jamais!"
+ 
+ POL_FRA_faction_news.1.t:0 "La France intègre l'Intermarium"
+ POL_FRA_faction_news.1.d:0 "[POL.GetLeader] a annoncé que les longues négociations avec La France étaient terminées. \n Il est heureux d'annoncer que La France a toutes les qualités pour rejoindre l'Intermarium et les accueille à bras ouverts."
+ POL_FRA_faction_news.1.a:0 "Un nouvel ennemi de la révolution mondiale !"
+ POL_FRA_faction_news.1.b:0 "Leur belle alliance ne tardera pas à s'effondrer"
+ POL_FRA_faction_news.1.c:0 "Bienvenue aux alliés de la démocratie"
+ POL_FRA_faction_news.1.e:0 "Une nouvelle victoire pour la cause monarchiste !"
+ POL_FRA_faction_news.1.f:0 "La France a choisi son camp"
+ 
+ POL_FRA_faction_news.2.t:0 "la Pologne rejette l'alliance avec la France!"
+ POL_FRA_faction_news.2.d:0 "[POL.GetLeader] a rejeté la demande française d'adhérer à l'Intermarium \n Il dit que l'heure n'est pas encore venue d'un tel besoin et que la monarchie française n'est pas une stable comme il le semble."
+ POL_FRA_faction_news.2.a:0 "C'est dommage!"
+ POL_FRA_faction_news.2.b:0 "Ils n'étaent pas prêts"
+ POL_FRA_faction_news.2.c:0 "Une opportunité manquée"
+ 
+ FRA_POL_faction.1.t:0 "La France est invitée à rejoindre l'Intermarium"
+ FRA_POL_faction.1.d:0 "Nos camarades de Polska Partia Monarchiczna nous ont fait une demande d'alliance.\n Ils veulent que nous rejoignions leur faction, l'Intermarium.\n Sommes-nous d'accord?"
+ FRA_POL_faction.1.a:0 "Bien sur que oui !"
+ FRA_POL_faction.1.b:0 "Non, nous préférons rester seuls!"
+ 
+ FRA_POL_faction_news.1.t:0 "La France est accueillie dans l'Intermarium"
+ FRA_POL_faction_news.1.d:0 "Suite au basculement vers le monarchisme, non seulement de la population française, mais aussi du pouvoir, La France a publiquement annoncé son intention d'intégrer l'Intermarium.\n¤ ¤La Pologne y a répondu immédiatement, montrant que des négociations ont certainement été menées en coulisses depuis des semaines. [POL.GetLeader] a longuement parlé de la nécessité pour les peuples du monde entier de s'unir pour sauvegarder la paix.\n¤ ¤[France.GetLeader], quant à lui, a approuvé ce point de vue, sans omettre de menacer sans détour « tous ceux qui ont la moindre raison de craindre l'Intermarium »."
+ FRA_POL_faction_news.1.a:0 "Un nouvel ennemi de la révolution mondiale !"
+ FRA_POL_faction_news.1.b:0 "Leur belle alliance ne tardera pas à s'effondrer"
+ FRA_POL_faction_news.1.c:0 "Bienvenue aux alliés de la démocratie"
+ FRA_POL_faction_news.1.e:0 "Une nouvelle victoire pour la cause monarchiste !"
+ FRA_POL_faction_news.1.f:0 "La France a choisi son camp"
+ 
+ FRA_POL_faction_news.2.t:0 "La France a rejeté l'offre de rejoindre l'Intermarium"
+ FRA_POL_faction_news.2.d:0 "Plus tard hier soir après un long rassemblement, nos amis du Parti Monarchiste Français ont décliné notre belle offre de rejoindre l'Intermarium. \n C'est dommage!"
+ FRA_POL_faction_news.2.a:0 "C'est dommage!"
+ FRA_POL_faction_news.2.b:0 "Ils n'étaient pas encore prêts"
+ FRA_POL_faction_news.2.c:0 "Une autre occasion manquée"
+ 
+ ITA_FRA_news.1.t:0 "L'Italie cherche\nà se réconcilier avec la France"
+ ITA_FRA_news.1.d:0 "\n\nEn dépit de plusieurs décennies de conflits et de manœuvres diplomatiques pour asseoir leur domination en Europe Occidentale, l'Italie et la France ont commencé à régler leurs désaccords.\n¤ ¤Dans le cadre d'un accord de coopération établi « pour le bien de l'ensemble de la région européenne », les autorités italiennes et françaises se sont engagées à entretenir désormais des relations diplomatiques plus étroites qu'il n'y en avait jamais eu depuis la fondation de ces deux États modernes."
+ ITA_FRA_news.1.a:0 "L'influence italienne s'accroît"
+ ITA_FRA_news.1.b:0 "Comment peut-on avoir idée de « coopérer »\navec les italiens ?"
+ ITA_FRA_news.1.c:0 "Un partenariat européen\n n'est pas dénué d'importance"
+ 
+ ITA_POL_news.1.t:0 "L'Italie cherch[ITA.GetEEntNP]\nà se réconcilier avec la Pologne"
+ ITA_POL_news.1.d:0 "\n\nEn dépit de plusieurs décennies de conflits et de manœuvres diplomatiques pour asseoir leur domination en Europe Centrale, l'Italie et la Pologne ont commencé à régler leurs désaccords.\n¤ ¤Dans le cadre d'un accord de coopération établi « pour le bien de l'ensemble de la région européenne », les autorités italiennes et polonaises se sont engagées à entretenir désormais des relations diplomatiques plus étroites qu'il n'y en avait jamais eu depuis la fondation de ces deux États modernes."
+ ITA_POL_news.1.a:0 "L'influence italienne s'accroît"
+ ITA_POL_news.1.b:0 "Comment peut-on avoir idée de « coopérer »\navec les italiens ?"
+ ITA_POL_news.1.c:0 "Un partenariat européen\n n'est pas dénué d'importance"
+ 
+ POL_ITA_faction.1.t:0 "L'Italie intègre l'Intermarium"
+ POL_ITA_faction.1.d:0 "Nos camarades du Partito Nationale Monarchico ont fait de réels progrès. L'Italie est prête désormais à intégrer l'Intermarium."
+ POL_ITA_faction.1.a:0 "Tant mieux!"
+ POL_ITA_faction.1.b:0 "Jamais!"
+ 
+ POL_ITA_faction_news.1.t:0 "L'Italie est accueillie dans l'Intermarium"
+ POL_ITA_faction_news.1.d:0 "Suite au basculement vers le monarchisme, non seulement de la population italienne, mais aussi du pouvoir, L'Italie a publiquement annoncé son intention d'intégrer l'Intermarium.\n¤ ¤La Pologne y a répondu immédiatement, montrant que des négociations ont certainement été menées en coulisses depuis des semaines. [From.GetLeader] a longuement parlé de la nécessité pour les peuples du monde entier de s'unir pour sauvegarder la paix.\n¤ ¤[ITA.GetLeader], quant à lui, a approuvé ce point de vue, sans omettre de menacer sans détour « tous ceux qui ont la moindre raison de craindre l'Intermarium »."
+ POL_ITA_faction_news.1.a:0 "Un nouvel ennemi de la révolution mondiale !"
+ POL_ITA_faction_news.1.b:0 "Leur belle alliance ne tardera pas à s'effondrer"
+ POL_ITA_faction_news.1.c:0 "Bienvenue aux alliés de la démocratie."
+ POL_ITA_faction_news.1.d:0 "Une nouvelle victoire pour la cause monarchiste !"
+ POL_ITA_faction_news.1.e:0 "L'Italie a choisi son camp."
+ 
+ POL_ITA_faction_news.2.t:0 "La Pologne refuse\nune alliance avec L'Italie"
+ POL_ITA_faction_news.2.d:0 "[POL.GetLeader] a rejeté la demande italienne de rejoindre l'Intermarium \n Il dit que le moment n'est pas encore venu d'un tel besoin et que la monarchie italienne n'est pas une aussi stable qu'il le semble."
+ POL_ITA_faction_news.2.a:0 "C'est dommage!"
+ POL_ITA_faction_news.2.b:0 "Ils n'étaient pas encore prêts"
+ POL_ITA_faction_news.2.c:0 "Une autre occasion manquée"
+ 
+ GER_POL_faction.1.t:0 "La Pologne souhaite\nintégrer l'Axe"
+ GER_POL_faction.1.d:0 "\nLes dirigeants de l'ONR ont fait de réels progrès, et souhaiteraient maintenant s'associer à la cause de l'Allemagne. Les polonais se disent prêts à combattre pour le Reich."
+ GER_POL_faction.1.a:0 "Mehr Soldaten für das Reich"
+ GER_POL_faction.1.b:0 "Nein!"
+ 
+ GER_POL_faction_news.1.t:0 "La Pologne intègre\nL'Axe!"
+ GER_POL_faction_news.1.d:0 "\nC'est toute la scène politique européenne qui a été chamboulée aujourd'hui par l'annonce des diplomates polonais et allemands de la signature d'un pacte militaire entre leurs deux pays. Selon leur communiqué, trop de sang a déjà été versé sur la frontière commune, alors que d'autres forces sont à l'œuvre, qui cherchent à les détruire.\n    [From.GetName] a encouragé tout un chacun à considérer cela pour ce que cela signifiait : plutôt que chercher à s'affaiblir mutuellement, les ennemis héréditaires seront dorénavant plus forts en travaillant de concert."
+ GER_POL_faction_news.1.a:0 "Rien ne pourra maintenant menacer l'Axe !"
+ GER_POL_faction_news.1.b:0 "L'Allemagne est maintenant une menace pour l'Europe"
+ GER_POL_faction_news.1.c:0 "Avec l'axe Varsovie-Berlin, c'est une véritable redéfinition de la diplomatie européenne qui est à l'œuvre"
+ GER_POL_faction_news.1.e:0 "Oh my God!"
+ 
+ GER_POL_faction_news.2.t:0 "L'Allemagne refuse\nune alliance avec la Pologne"
+ GER_POL_faction_news.2.d:0 "\n\nRepoussant sans ménagement ses avances diplomatiques, [From.GetLeader] a publiquement refusé que L'Allemagne puisse conclure le moindre rapprochement militaire avec la Pologne.\n    N'hésitant pas à qualifier celui-ci de « pays faible et corrompu », la diplomatie allemande a quant à elle proclamé que jamais les véritables allemands ne pourraient permettre que la « tumeur polonaise » puisse se répandre."
+ GER_POL_faction_news.2.a:0 "Comment osent-ils ?"
+ GER_POL_faction_news.2.b:0 "Nous pouvons bien nous permettre de compter\nla Pologne parmi nos ennemis..."
+ GER_POL_faction_news.2.c:0 "Tant qu'ils restent occupés à se battre..."
+ 
+ ENG_POL_faction.1.t:0 "la Pologne souhaite\nintégrer les Alliés"
+ ENG_POL_faction.1.d:0 "Le PSL nous a contacté avec une demande de rejoindre les Alliés. \n Sommes-nous d'accord?"
+ ENG_POL_faction.1.a:0 "Bien sûr qu'ils le peuvent!"
+ ENG_POL_faction.1.b:0 "Sûrement pas!"
+ 
+ ENG_POL_faction_news.1.t:0 "La Pologne intègre\nles Alliés!"
+ ENG_POL_faction_news.1.d:0 "\n [ENG.GetLeader] a annoncé publiquement que la Pologne a demandé à rejoindre les Alliés. Il a continué en disant que cette demande avait été acceptée avec plaisir car  [POL.GetName] est un farouche défenseur des valeurs démocratiques."
+ ENG_POL_faction_news.1.a:0 "Notre alliance se renforce!"
+ ENG_POL_faction_news.1.b:0 "Un pas de plus vers la guerre."
+ ENG_POL_faction_news.1.c:0 "le Royaume-Uni à un nouvel ami."
+ ENG_POL_faction_news.1.e:0 "Un allié bienvenu."
+ 
+ ENG_POL_faction_news.2.t:0 "le Royaume-Uni refuse\nune alliance avec la Pologne"
+ ENG_POL_faction_news.2.d:0 "[ENG.GetLeader] a rejeté la demande polonaise de rejoindre les Alliés \n Il dit que le moment n'est pas encore venu d'un tel besoin et que la démocratie polonaise n'est pas une aussi stable qu'il le semble."
+ ENG_POL_faction_news.2.a:0 "C'est dommage!"
+ ENG_POL_faction_news.2.b:0 "Ils n'étaent pas prêts"
+ ENG_POL_faction_news.2.c:0 "Une opportunité manquée"
+ 
+ SOV_POL_faction.1.t:0 "la Pologne souhaite\nintégrer le Komintern"
+ SOV_POL_faction.1.d:0 "Nos camarades du KPP nous ont contacté avec une demande de rejoindre le Komintern. \n Sommes-nous d'accord?"
+ SOV_POL_faction.1.a:0 "Plus de soldats pour la révolution mondiale!"
+ SOV_POL_faction.1.b:0 "Niet!"
+ 
+ SOV_POL_faction_news.1.t:0 "la Pologne intègre\nle Komintern!"
+ SOV_POL_faction_news.1.d:0 "\n [SOV.GetLeader] a annoncé publiquement que la Pologne a demandé à rejoindre le Komintern. Il a continué en disant que cette demande avait été acceptée avec plaisir car  [POL.GetName] est un farouche défenseur des valeurs communistes."
+ SOV_POL_faction_news.1.a:0 "Notre alliance se renforce!"
+ SOV_POL_faction_news.1.b:0 "Un pas de plus vers la guerre."
+ SOV_POL_faction_news.1.c:0 "l'URSS à un nouvel ami."
+ SOV_POL_faction_news.1.e:0 "Un allié bienvenu."
+ 
+ SOV_POL_faction_news.2.t:0 "l'URSS refuse\nune alliance avec la Pologne"
+ SOV_POL_faction_news.2.d:0 "[SOV.GetLeader] a rejeté la demande polonaise de rejoindre le Komintern \n Il dit que le moment n'est pas encore venu d'un tel besoin et que le communisme polonais n'est pas une aussi stable qu'il le semble."
+ SOV_POL_faction_news.2.a:0 "C'est dommage!"
+ SOV_POL_faction_news.2.b:0 "Ils n'étaent pas prêts"
+ SOV_POL_faction_news.2.c:0 "Une opportunité manquée"
+ 
+ POL_royals_events.1.t:0 "Le sort de la famille royale"
+ POL_royals_events.1.d:0 "Le roi et sa famille sont assignés à résidence dans le luxueux Palais Saxon, il est temps de discuter de leur sort."
+ POL_royals_events.1.a:0 "Exilons-la en France!"
+ POL_royals_events.1.b:0 "Elle doit être jugée et condamnée."
+ 
+ POL_royals_events.2.t:0 "Exil de la famille royale polonaise"
+ POL_royals_events.2.d:0 "Notre gouvernement a accepté d'accueillir la famille royale polonaise exilée. Il est de notre devoir de les accueillir et de les faire se sentir en sécurité dans notre pays."
+ POL_royals_events.2.a:0 "Elle est évidemment bienvenue"
+ 
+ POL_royals_news_events.1.t:0 "Bannissement de la famille royale polonaise"
+ POL_royals_news_events.1.desc:0 "\n« Par mesure de clémence », l'ensemble de la famille royale polonaise a été bannie hors du pays. Les porte-parole officiels du gouvernement n'ont fait aucun commentaire, non plus que les représentants de la famille elle-même.\n    Celle-ci est arrivée dans la journée en France, où elle a demandé l'asile – ce qui lui a été accordé."
+ POL_royals_news_events.1a:0 "Bon débarras !"
+ POL_royals_news_events.1.b:0 "Ainsi, tous peuvent constater\nla tyrannie des socialistes"
+ POL_royals_news_events.c:0 "C'est une magnifique victoire\ndans la lutte des classes"
+ 
+ POL_royals_news_events.2.t:0 "Disparition de la famille royale polonaise"
+ POL_royals_news_events.2.desc:0 "\nUne nouvelle semaine vient de s'écouler depuis la dernière apparition publique d'un membre de la famille royale polonaise. Les rumeurs ont commencé à circuler sur son sort le plus probable. Le gouvernement a quant à lui refusé de faire le moindre commentaire à ce propos, et a commencé à poursuivre les médias qui voudraient s'y intéresser.\n    Le silence du gouvernement est d'autant plus remarquable que certaines personnes restées anonymes mais prétendant avoir travaillé pour elle disent avoir vu « la famille royale être emmenée hors de Palais Saxon par des hommes masqués », il y a de cela quelques semaines."
+ POL_royals_news_events.2.a:0 "Nous devions le faire"
+ POL_royals_news_events.2.b:0 "Ces socialistes n'ont décidément\naucun respect pour la vie humaine !"
+ POL_royals_news_events.2.c:0 "Ils ont eu ce qu'ils méritaient"
+ 
+ GER_royals_events.1.t:0 "Le sort de la famille royale"
+ GER_royals_events.1.d:0 "Le Kaiser et sa famille sont assignés à résidence dans le luxueux Palais Royal, il est temps de discuter de leur sort."
+ GER_royals_events.1.a:0 "Exilons-la en Angleterre!"
+ GER_royals_events.1.b:0 "Elle doit être jugée et condamnée."
+ 
+ GER_royals_events.2.t:0 "Exil de la famille royale allemande"
+ GER_royals_events.2.d:0 "Notre gouvernement a accepté d'accueillir la famille royale allemande exilée. Il est de notre devoir de les accueillir et de les faire se sentir en sécurité dans notre pays."
+ GER_royals_events.2.a:0 "Elle est évidemment bienvenue"
+ 
+ GER_royals_news_events.1.t:0 "Bannissement de la famille royale allemande"
+ GER_royals_news_events.1.desc:0 "\n« Par mesure de clémence », l'ensemble de la famille royale allemande a été bannie hors du pays. Les porte-parole officiels du gouvernement n'ont fait aucun commentaire, non plus que les représentants de la famille elle-même.\n    Celle-ci est arrivée dans la journée en France, où elle a demandé l'asile – ce qui lui a été accordé."
+ GER_royals_news_events.1a:0 "Bon débarras !"
+ GER_royals_news_events.1.b:0 "Ainsi, tous peuvent constater\nla tyrannie des socialistes"
+ GER_royals_news_events.c:0 "C'est une magnifique victoire\ndans la lutte des classes"
+ 
+ GER_royals_news_events.2.t:0 "Disparition de la famille royale allemande"
+ GER_royals_news_events.2.desc:0 "\nUne nouvelle semaine vient de s'écouler depuis la dernière apparition publique d'un membre de la famille royale allemande. Les rumeurs ont commencé à circuler sur son sort le plus probable. Le gouvernement a quant à lui refusé de faire le moindre commentaire à ce propos, et a commencé à poursuivre les médias qui voudraient s'y intéresser.\n    Le silence du gouvernement est d'autant plus remarquable que certaines personnes restées anonymes mais prétendant avoir travaillé pour elle disent avoir vu « la famille royale être emmenée hors de Palais Royal par des hommes masqués », il y a de cela quelques semaines."
+ GER_royals_news_events.2.a:0 "Nous devions le faire"
+ GER_royals_news_events.2.b:0 "Ces socialistes n'ont décidément\naucun respect pour la vie humaine !"
+ GER_royals_news_events.2.c:0 "Ils ont eu ce qu'ils méritaient"
+
+ 
+ UKR_POL_news.1.t:0 "L'Ukraine cherche\nà se réconcilier avec la Pologne"
+ UKR_POL_news.1.d:0 "\n\nAprès des décennies de tensions diplomatiques, l'Ukraine cherche à devenir l'amie de la Pologne, son protecteur. [UKR.GetName] and [POL.GetName] ont commencé à régler leurs désaccords.\n¤ ¤Dans le cadre d'un accord de coopération établi « pour le bien de l'ensemble de la région européenne », les autorités ukrainiennes et polonaises se sont engagées à entretenir désormais des relations diplomatiques plus étroites qu'il n'y en avait jamais eu depuis la fondation de ces deux États modernes."
+ UKR_POL_news.1.a:0 "L'influence ukrainienne s'accroît"
+ UKR_POL_news.1.b:0 "Comment peut-on avoir idée de « coopérer »\navec les ukrainiens ?"
+ UKR_POL_news.1.c:0 "Un partenariat en Europe Centrale\n n'est pas dénué d'importance"
+ 
+ REP_political.1.title:0 "Les monarchistes exigent un référendum"
+ REP_political.1.desc:1 "En plein essor, la mouvance monarchiste [Root.GetAdjFS] n'a jamais prétendu devoir disposer du soutien de la majorité pour prendre le pouvoir, préférant instaurer l'unité du pays une fois arrivée au gouvernement. Toutefois, le soutien dans la population enfle rapidement, et nombreux sont les monarchistes qui accusent ouvertement [Root.GetLeader] d'hypocrisie, prétendant représenter la voix du peuple tout en refusant d'écouter les masses.\n\nJusqu'à présent, [Root.GetLeLaLPartiPouv] [Root.GetRulingParty] [Root.GetAOntPartiPouv] écarté les exigences des monarchistes, les qualifiant de tentatives ne visant qu'à déstabiliser le régime. L'avantage pourtant d'une telle mesure est qu'elle confinerait le débat dans le champ du politique ; or, si rien n'est fait très rapidement, les monarchistes pourraient bien songer à recourir à la force pour s'emparer du pouvoir."
+ REP_political.1.a:0 "Si telle est la volonté du peuple,\nnous devons organiser ce référendum"
+
+ 
+
+ 
+
+####################
+### TO BE ERASED ###
+####################
+# election.9.t:0 "TODO Fascist Faction Event"
+# election.9.d:0 ""
+# election.9.a:0 ""
+# election.9.b:0 ""
+# election.10.t:0 "TODO Communist Faction Event"
+# election.10.d:0 ""
+# election.10.a:0 ""
+# election.10.b:0 ""
+# usa.24.title:0 "La fin du communisme"

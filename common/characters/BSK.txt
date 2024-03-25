@@ -1,0 +1,29 @@
+characters = {
+	BSK_yakov_bykin = {
+		name = "Yakov Borisovich Bykin" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+			}
+		}
+		country_leader = {
+			ideology = leninism
+			expire = "1950.1.1.1"
+			
+		}
+	}
+	BSK_potap_bobrik = {
+		name = "Potap Leonidovich Bobrik" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+			}
+		}
+		country_leader = {
+			ideology = monarchism
+			expire = "1950.1.1.1"
+			
+		}
+	}
+}
+	

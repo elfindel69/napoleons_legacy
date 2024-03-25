@@ -1,0 +1,424 @@
+ideas = {
+
+country = {
+
+	PLC_exiled_royal_family = {
+
+		allowed = {
+			always = no
+		}
+
+		allowed_civil_war = {
+			has_government = monarchist
+		}
+		
+		modifier = {
+			army_morale_factor = 0.1
+			stability_factor = 0.1
+			war_support_factor = 0.05
+		}
+
+		picture = generic_king_handled
+
+		removal_cost = -1
+	}
+		
+	PLC_confiscated_royal_wealth = {
+
+		allowed = {
+			always = no
+		}
+
+		allowed_civil_war = {
+			has_government = monarchist
+		}
+		
+		modifier = {
+			production_speed_industrial_complex_factor = 0.20
+			production_speed_arms_factory_factor = 0.20
+			production_speed_dockyard_factor = 0.20
+		}
+
+		picture = generic_foreign_capital
+
+		removal_cost = -1
+	}
+
+	PLC_jan_v= {
+		picture = stanislas_iii	
+			
+		allowed = {
+			original_tag = PLC
+			always = yes
+			NOT = { has_country_flag = PLC_king_dies}
+		}
+
+	   available = {
+			NOT = {
+				has_government = monarchist #remove if King in power
+			}
+		}
+		allowed_civil_war = {
+			NOT = {
+				has_government = communism
+			}
+			NOT = {
+				any_other_country = {
+					original_tag = PLC
+					has_government = fascism
+				}
+			}
+		}
+		
+		removal_cost = -1
+		
+		modifier = {
+			stability_factor = 0.1
+			political_advisor_cost_factor = -0.25
+		}
+	}
+	
+	
+
+	PLC_ideological_fanaticism = {
+		
+		
+		allowed = {
+			always = no
+		}
+
+		allowed_civil_war = {
+			has_government = neutrality
+		}
+		
+		removal_cost = -1
+
+		picture = generic_pp_unity_bonus	
+	
+		modifier = {
+			stability_factor = 0.05
+		}
+	}
+	
+	PLC_militarism_focus = {
+			
+		allowed = {
+			original_tag = PLC
+			always = no
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+			
+		removal_cost = -1
+
+		picture = generic_manpower_bonus
+		
+		modifier = {
+			conscription = 0.025
+			war_support_factor = 0.05
+			resistance_damage_to_garrison = -0.1 
+		}
+	}
+	PLC_authoritarianism_focus = {
+			
+		allowed = {
+			original_tag = PLC
+			always = no
+		}
+
+		allowed_civil_war = {
+			NOT = {
+				has_government = democratic
+			}
+		}
+			
+		removal_cost = -1
+
+		picture = generic_neutrality_drift_bonus
+		
+		modifier = {
+			neutrality_drift = +0.1
+			neutrality_acceptance = 85
+			fascism_drift = -0.1
+			democratic_drift = -0.1
+			democratic_acceptance = -100
+			communism_drift = -0.1
+			monarchist_drift = -0.1
+		}
+	}
+	PLC_polish_revanchism_focus = {
+	
+							  
+   
+		allowed = {
+			original_tag = PLC
+			always = no
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+
+		picture = generic_intel_bonus
+		
+		modifier = {		
+			justify_war_goal_time = -0.25
+			generate_wargoal_tension = -0.4
+			war_support_factor = 0.05
+		}
+	}
+	
+	PLC_internationalism_focus = {
+	
+		allowed = {
+			original_tag = PLC
+			always = no
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+
+		picture = generic_goods_red_bonus
+		
+		modifier = {		
+			trade_opinion_factor = 0.2
+		}
+	}								
+	
+	PLC_neutrality_government = {
+			
+		allowed = {
+			original_tag = PLC
+			always = no
+		}
+
+		allowed_civil_war = {
+			has_government = neutrality
+		}
+			
+		removal_cost = -1
+
+		picture = generic_neutrality_drift_bonus
+		
+		modifier = {
+			neutrality_drift = +0.1
+			stability_factor = 0.05
+		}
+	}
+	
+	PLC_fascist_government = {
+			
+		allowed = {
+			original_tag = PLC
+			always = no
+		}
+
+		allowed_civil_war = {
+			has_government = fascism
+		}
+			
+		removal_cost = -1
+
+		picture = generic_fascism_drift_bonus
+		
+		modifier = {
+			fascism_drift = +0.1
+			stability_factor = 0.05
+		}
+	}
+	
+	PLC_communist_government = {
+			
+		allowed = {
+			original_tag = PLC
+			always = no
+		}
+
+		allowed_civil_war = {
+			has_government = communism
+		}
+			
+		removal_cost = -1
+
+		picture = generic_communism_drift_bonus
+		
+		modifier = {
+			communism_drift = +0.1
+			stability_factor = 0.05
+		}
+	}
+	
+	PLC_fascist_influence = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = fascism
+			}
+
+			removal_cost = -1
+
+			picture = generic_fascism_drift_bonus
+			
+			modifier = {
+				monarchist_drift = -0.1
+				fascism_drift = +0.1
+				fascism_acceptance = 85
+				democratic_drift = -0.1
+				democratic_acceptance = -100
+				neutrality_drift = -0.1
+				communism_drift = -0.1
+			}
+		}
+		
+		PLC_communist_influence = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = communism
+			}
+
+			removal_cost = -1
+
+			picture = generic_communism_drift_bonus
+			
+			modifier = {
+				monarchist_drift = -0.1
+				fascism_drift = -0.1
+				democratic_drift = -0.1
+				democratic_acceptance = -100
+				neutrality_drift = -0.1
+				communism_drift = +0.1
+				communism_acceptance = 85
+			}
+		}
+		
+		PLC_communist_science = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = communism
+			}
+
+			removal_cost = -1
+
+			picture = generic_research_bonus
+			
+			modifier = {
+				research_speed_factor = +0.2
+			}
+		}
+		
+	
+	
+	PLC_monarchism_focus = {
+			
+		allowed = {
+			original_tag = PLC
+			always = no
+		}
+
+		allowed_civil_war = {
+			NOT = {
+				has_government = democratic
+			}
+		}
+			
+		removal_cost = -1
+
+		picture = HUN_hungarian_monarchy
+		
+		modifier = {
+			monarchist_drift = +0.1
+			monarchist_acceptance = 85
+			fascism_drift = -0.1
+			democratic_drift = -0.1
+			democratic_acceptance = -100
+			neutrality_drift = -0.1
+			communism_drift = -0.1
+		}
+	}
+	
+	PLC_king_rules_focus = {
+			
+		allowed = {
+			original_tag = PLC
+			always = no
+		}
+
+		allowed_civil_war = {
+			NOT = {
+				has_government = democratic
+			}
+		}
+			
+		removal_cost = -1
+
+		picture = HUN_hungarian_monarchy
+		
+		modifier = {
+			monarchist_drift = +0.1
+			stability_factor = 0.05
+		}
+	}
+
+	PLC_Polish_Cipher_Bureau_Focus0	= {
+	
+		name = PLC_Polish_Cipher_Bureau_Focus0
+	
+		allowed = {
+			original_tag = PLC
+			always = no
+		}
+
+		allowed_civil_war = {
+			always = no
+		}
+			
+		removal_cost = -1
+		
+		picture = PLC_Intelligence_Service0
+		
+		modifier = {
+			decryption_power_factor = 0.05
+		}
+	}
+	
+	PLC_Synthetic_Rubber = {
+		allowed = {
+			always = no
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+			
+		removal_cost = -1
+			
+		picture = Synthetic_Rubber
+		
+		modifier = {
+			custom_modifier_tooltip = PLC_Synthetic_Rubber_tt
+			production_speed_synthetic_refinery_factor = 0.02
+		}
+		
+	}
+}
+}

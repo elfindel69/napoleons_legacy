@@ -1,0 +1,489 @@
+characters={
+	MAD_tsiory_rajohson={
+		name="Tsiory Rajohnson"
+		portraits={
+			civilian={
+				large="gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			traits = {
+				compassionate_gentleman
+			}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	
+	}
+	MAD_ranavalona_iv={
+		name="Ranavalona IV"
+		portraits={
+			civilian={
+				large="gfx/leaders/Monarchs/MAD_ranavalona_iii.tga"
+			}
+		}
+		country_leader={
+			ideology=paternalism
+			traits = {
+				popular_figurehead
+			}
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=oligarchism
+			traits = {
+				popular_figurehead
+			}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	
+	MAD_ajesaia_rafenomanjato={
+		name = "Ajesaia Rafenomanjato"
+		advisor={
+			slot = high_command
+			idea_token = MAD_ajesaia_rafenomanjato
+			ledger = army 
+			allowed = {
+				original_tag = MAD
+			}
+			traits = {
+				army_armored_2 
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_generic_army_african_2"
+			}
+		}
+	}
+	MAD_arsene_mahefarinoro={
+		name = "Arsène Mahefarinoro"
+		advisor={
+			slot = political_advisor
+			idea_token = MAD_arsene_mahefarinoro
+			allowed = {
+				original_tag = MAD
+			}
+			traits = {
+				democratic_reformer 
+			}
+			do_effect = {
+				not = {
+					has_government = democratic 
+				}
+			}
+			ai_will_do = {
+				factor = 0.000
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_african_1"
+			}
+		}
+	}
+	MAD_zotsara_tolia={
+		name = "Zotsara Tolia"
+		advisor={
+			slot = air_chief
+			idea_token = MAD_zotsara_tolia
+			allowed = {
+				original_tag = MAD
+			}
+			traits = {
+				air_chief_ground_support_2 
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_generic_air_african_3"
+			}
+		}
+	}
+	MAD_andry_mahazaka={
+		name = "Andry Mahazaka"
+		advisor={
+			slot = navy_chief
+			idea_token = MAD_andry_mahazaka
+			allowed = {
+				original_tag = MAD
+			}
+			traits = {
+				navy_chief_maneuver_2 
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_generic_navy_african_3"
+			}
+		}
+	}
+	MAD_lalaina_razanakolana={
+		name = "Lalaina Razanakolana"
+		advisor={
+			slot = theorist
+			idea_token = MAD_lalaina_razanakolana
+			ledger = navy 
+			allowed = {
+				original_tag = MAD
+			}
+			traits = {
+				naval_theorist 
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_generic_navy_african_3"
+			}
+		}
+	}
+	MAD_joseph_rajohnson={
+		name = "Joseph Rajohnson"
+		advisor={
+			slot = high_command
+			idea_token = MAD_joseph_rajohnson
+			ledger = air 
+			allowed = {
+				original_tag = MAD
+			}
+			traits = {
+				air_close_air_support_2 
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_generic_air_african_2"
+			}
+		}
+	}
+	MAD_rodolphe_andriamanjato={
+		name = "Rodolphe Andriamanjato"
+		advisor={
+			slot = theorist
+			idea_token = MAD_rodolphe_andriamanjato
+			ledger = air 
+			allowed = {
+				original_tag = MAD
+			}
+			traits = {
+				air_warfare_theorist 
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_generic_air_african_2"
+			}
+		}
+	}
+	MAD_emeric_ralefy={
+		name = "Émeric Ralefy"
+		advisor={
+			slot = political_advisor
+			idea_token = MAD_emeric_ralefy
+			allowed = {
+				original_tag = MAD
+			}
+			traits = {
+				prince_of_terror 
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_african_2"
+			}
+		}
+	}
+	MAD_killian_rakotomanjato={
+		name = "Killian Rakotomanjato"
+		advisor={
+			slot = political_advisor
+			idea_token = MAD_killian_rakotomanjato
+			allowed = {
+				original_tag = MAD
+			}
+			traits = {
+				smooth_talking_charmer 
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_african_3"
+			}
+		}
+	}
+	MAD_colin_razafindrakoto={
+		name = "Colin Razafindrakoto"
+		advisor={
+			slot = army_chief
+			idea_token = MAD_colin_razafindrakoto
+			allowed = {
+				original_tag = MAD
+			}
+			traits = {
+				army_chief_defensive_2 
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_generic_army_african_1"
+			}
+		}
+	}
+	MAD_tsilavohery_razafimahaleo={
+		name = "Tsilavohery Razafimahaleo"
+		advisor={
+			slot = political_advisor
+			idea_token = MAD_tsilavohery_razafimahaleo
+			allowed = {
+				original_tag = MAD
+			}
+			traits = {
+				communist_revolutionary 
+			}
+			do_effect = {
+				not = {
+					has_government = communism 
+				}
+			}
+			ai_will_do = {
+				factor = 0.000
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_african_3"
+			}
+		}
+	}
+	MAD_fanamby_rakotoarimbelo={
+		name = "Fanamby Rakotoarimbelo"
+		advisor={
+			slot = army_chief
+			idea_token = MAD_fanamby_rakotoarimbelo
+			allowed = {
+				original_tag = MAD
+			}
+			traits = {
+				army_chief_organizational_2 
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_generic_army_african_4"
+			}
+		}
+	}
+	MAD_tisbite_manorohanta={
+		name = "Tisbite Manorohanta"
+		advisor={
+			slot = political_advisor
+			idea_token = MAD_tisbite_manorohanta
+			allowed = {
+				original_tag = MAD
+			}
+			traits = {
+				fascist_demagogue 
+			}
+			do_effect = {
+				not = {
+					has_government = fascism 
+				}
+			}
+			ai_will_do = {
+				factor = 0.000
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_african_2"
+			}
+		}
+	}
+	MAD_rasoanaivo_randriana={
+		name = "Rasoanaivo Randriana"
+		advisor={
+			slot = political_advisor
+			idea_token = MAD_rasoanaivo_randriana
+			allowed = {
+				original_tag = MAD
+			}
+			traits = {
+				captain_of_industry 
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_african_1"
+			}
+		}
+	}
+	MAD_denis_tolia={
+		name = "Denis Tolia"
+		advisor={
+			slot = high_command
+			idea_token = MAD_denis_tolia
+			ledger = army 
+			allowed = {
+				original_tag = MAD
+			}
+			traits = {
+				army_regrouping_2 
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_generic_army_african_5"
+			}
+		}
+	}
+	MAD_lucas_randrianekena={
+		name = "Lucas Randrianekena"
+		advisor={
+			slot = navy_chief
+			idea_token = MAD_lucas_randrianekena
+			allowed = {
+				original_tag = MAD
+			}
+			traits = {
+				navy_chief_commerce_raiding_2 
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_generic_navy_african_2"
+			}
+		}
+	}
+	MAD_clovis_ravelonarivo={
+		name = "Clovis Ravelonarivo"
+		advisor={
+			slot = theorist
+			idea_token = MAD_clovis_ravelonarivo
+			ledger = army 
+			allowed = {
+				original_tag = MAD
+			}
+			traits = {
+				military_theorist 
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_generic_army_african_6"
+			}
+		}
+	}
+	MAD_aymeric_botokeky={
+		name = "Aymeric Botokeky"
+		advisor={
+			slot = high_command
+			idea_token = MAD_aymeric_botokeky
+			ledger = army 
+			allowed = {
+				original_tag = MAD
+			}
+			traits = {
+				army_infantry_2 
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_generic_army_african_3"
+			}
+		}
+	}
+	MAD_jacques_randimbisoa={
+		name = "Jacques Randimbisoa"
+		advisor={
+			slot = high_command
+			idea_token = MAD_jacques_randimbisoa
+			ledger = navy 
+			allowed = {
+				original_tag = MAD
+			}
+			traits = {
+				navy_capital_ship_2 
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_generic_navy_african_2"
+			}
+		}
+	}
+	MAD_aaron_lalanirina={
+		name = "Aaron Lalanirina"
+		advisor={
+			slot = air_chief
+			idea_token = MAD_aaron_lalanirina
+			allowed = {
+				original_tag = MAD
+			}
+			traits = {
+				air_chief_reform_2 
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_generic_air_african_3"
+			}
+		}
+	}
+}

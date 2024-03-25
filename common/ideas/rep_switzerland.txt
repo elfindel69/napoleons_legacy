@@ -1,0 +1,31 @@
+ideas = {
+	
+
+	country = {
+		SWI_towards_monarchy
+		  = {	
+			allowed = {
+				original_tag = SWI
+				always = no
+			}
+	
+			allowed_civil_war = {
+				has_government = monarchist
+
+			}
+				
+			removal_cost = -1
+	
+			picture = generic_intel_bonus
+			
+			modifier = {
+				stability_factor = +0.10
+				monarchist_drift = +0.1
+				
+				
+			}
+		}
+	}
+}
+
+	

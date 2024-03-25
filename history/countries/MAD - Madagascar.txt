@@ -1,0 +1,84 @@
+﻿capital = 543
+
+#oob = ""
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 5
+
+1939.1.1 = {
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = naval_effort
+	complete_national_focus = flexible_navy
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+	
+	set_technology = {
+
+		#doctrines
+		grand_battle_plan = 1
+		trench_warfare = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		construction1 = 1
+		construction2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+	}
+}
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 27
+	fascism = 8
+	communism = 15
+	neutrality = 45
+	monarchist = 5
+}
+
+
+
+
+recruit_character = MAD_tsiory_rajohson
+recruit_character = MAD_ranavalona_iv
+recruit_character = MAD_joseph_rajohnson
+recruit_character = MAD_tsilavohery_razafimahaleo
+recruit_character = MAD_jacques_randimbisoa
+recruit_character = MAD_rodolphe_andriamanjato
+recruit_character = MAD_emeric_ralefy
+recruit_character = MAD_tisbite_manorohanta
+recruit_character = MAD_aymeric_botokeky
+recruit_character = MAD_lalaina_razanakolana
+recruit_character = MAD_fanamby_rakotoarimbelo
+recruit_character = MAD_denis_tolia
+recruit_character = MAD_aaron_lalanirina
+recruit_character = MAD_clovis_ravelonarivo
+recruit_character = MAD_killian_rakotomanjato
+recruit_character = MAD_ajesaia_rafenomanjato
+recruit_character = MAD_zotsara_tolia
+recruit_character = MAD_andry_mahazaka
+recruit_character = MAD_lucas_randrianekena
+recruit_character = MAD_rasoanaivo_randriana
+recruit_character = MAD_arsene_mahefarinoro
+recruit_character = MAD_colin_razafindrakoto

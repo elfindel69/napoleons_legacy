@@ -1,0 +1,30 @@
+﻿
+###### Vazduhoplovstvo Vojske Kraljevine Jugoslavije (VVKJ) ######
+air_wings = {
+	107 = {
+		# 1. Vazduhoplovna Brigada -- Dewotine D.1/9/27 fighters
+		small_plane_airframe_0 = {
+			owner = "YUG" 
+			amount = 48
+			creator = "AUH"
+			version_name = "Aero A.101"
+		}
+	}
+
+	104 = {
+		# 2. Vazduhoplovna Brigada  -- Aero A.101 and Ikarus IK-2 fighters
+		small_plane_airframe_0 = {
+			owner = "YUG" 
+			amount = 36
+			creator = "AUH"
+			version_name = "Aero A.101"
+		}
+		small_plane_airframe_1 = {
+			owner = "YUG" 
+			amount = 12
+			creator = "GER"
+			version_name = "Bf 109 D"
+		}
+	}
+
+}

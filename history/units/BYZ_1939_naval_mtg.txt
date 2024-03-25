@@ -1,0 +1,63 @@
+﻿
+units= {
+
+	##### NAVAL UNITS #####
+	fleet = {
+		name = "Vasilikó Polemikó Naftikó"			
+		naval_base = 4109 # Athens
+		task_force = {				
+			name = "Vasilikós Stólos"				
+			location = 4109 # Athens
+			ship = { name = "RHS Georgios Averof" pride_of_the_fleet = yes definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = BYZ version_name =  "Averof Class" } } }				
+			ship = { name = "RHS Elli" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BYZ version_name =  "Elli Class" } } }				
+			# Destroyer Flotilla
+			ship = { name = "RHS Vasilefs Georgios I" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = BYZ version_name =  "Vasilefs Georgios I Class" } } }		
+			ship = { name = "RHS Vasilissa Olga" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = BYZ version_name =  "Vasilefs Georgios I Class" } } }		
+			ship = { name = "RHS Aetos" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name =  "Aetos Class" } } }		
+			ship = { name = "RHS Ierax" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name =  "Aetos Class" } } }		
+			ship = { name = "RHS Leon" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name =  "Aetos Class" } } }		
+			ship = { name = "RHS Panthir" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name =  "Aetos Class" } } }		
+			ship = { name = "RHS Kountouriotis" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name =  "Hydra Class" } } }
+			ship = { name = "RHS Hydra" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name =  "Hydra Class" } } }
+			ship = { name = "RHS Psara" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name =  "Hydra Class" } } }
+			ship = { name = "RHS Spetsai" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name =  "Hydra Class" } } }
+		}					
+		task_force = {					
+			name = "Stolískou Ypovrychíon"				
+			location = 4109 # Athens
+			ship = { name = "RHS Katsonis" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name =  "Katsonis Class" } } }		
+			ship = { name = "RHS Papanikolis" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name =  "Katsonis Class" } } }		
+			ship = { name = "RHS Protefs" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = BYZ version_name =  "Glafkos Class" } } }		
+			ship = { name = "RHS Nirefs" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = BYZ version_name =  "Glafkos Class" } } }		 
+			ship = { name = "RHS Triton" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = BYZ version_name =  "Glafkos Class" } } }		
+			ship = { name = "RHS Glafkos" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = BYZ version_name =  "Glafkos Class" } } }		
+		}					
+	}
+	fleet = {
+		name = "Türk Donanmasi"			
+		naval_base = 4112 # Izmir
+		task_force = {				
+			name = "Türk Donanmasi"			
+			location = 4112 # Izmir
+			ship = { name = "RHS Yavuz" pride_of_the_fleet = yes definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = BYZ version_name = "Yavuz Class" } } }			
+			ship = { name = "RHS Mecidiye" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = BYZ version_name = "Mecidiye Class" } } }
+			ship = { name = "RHS Hamidiye" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = BYZ version_name = "Mecidiye Class" } } }
+			ship = { name = "RHS Peyk" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peyk Class" } } }
+			ship = { name = "RHS Berk" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Peyk Class" } } }
+			ship = { name = "RHS Kocatepe" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Kocatepe Class" } } }
+			ship = { name = "RHS Adatepe" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Kocatepe Class" } } }
+			ship = { name = "RHS Zafer" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Kocatepe Class" } } }
+			ship = { name = "RHS Tinaztepe" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BYZ version_name = "Kocatepe Class" } } }
+		}				
+		task_force = {				
+			name = "Filotilla Denizalti Kücük"			
+			location = 11881 # Samsun
+			ship = { name = "RHS Birinci Inönü" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Birinci Inönü Class" } } }		
+			ship = { name = "RHS Ikinci Inönü" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Birinci Inönü Class" } } }		
+			ship = { name = "RHS Dumlupinar" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = BYZ version_name = "Dumlupinar Class" } } }
+			ship = { name = "RHS Sakarya" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Sakarya Class" } } }
+			ship = { name = "RHS Gür" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BYZ version_name = "Sakarya Class" } } }
+		}				
+	}
+} 
+

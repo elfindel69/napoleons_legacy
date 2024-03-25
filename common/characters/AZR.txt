@@ -1,0 +1,72 @@
+characters={
+	AZR_mir_jafar_baghirov={
+		name="Mir Jafar Baghirov"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology = stalinism
+			expire="1953.3.1"
+			id=-1
+		}
+	}
+	AZR_mammad_amin_rasuladze={
+		name="Mammad Amin Rasulzade"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+			}
+		}
+		country_leader={
+			ideology = conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	AZR_kamil_gasimov={
+		name="Kamil Gasimov"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+			}
+		}
+		country_leader={
+			ideology = monarchism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	AZR_hassan_mirza_qajar={
+		name="Hassan Mirza Qajar"
+		portraits={
+			civilian={
+				large="gfx/leaders/Monarchs/Portrait_Persia_Hassan_Mirza_Qajar.tga"
+			}
+		}
+		country_leader={
+			ideology = absolutism
+			traits = {
+				unpopular_monarch
+			}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	AZR_gara_garayebov={
+		name="Gara Garabeyov"
+		portraits={
+			civilian={
+				large="gfx/leaders/SOV/Portrait_Soviet_Generic_3.dds"
+			}
+		}
+		country_leader={
+			ideology = moderatism
+		
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	
+}

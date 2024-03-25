@@ -1,0 +1,29 @@
+characters = {
+	ADU_eric_gallego = {
+		name = "Eric Gallego" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+			}
+		}
+		country_leader = {
+			ideology = paternalism
+			expire = "1965.1.1.1"
+			
+		}
+	}
+
+	ADU_mohammed_ben_aarafa = {
+		name = "Emir Mohammed Ben Aarafa" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Monarchs/Mohammed_Ben_Aarafa.tga"
+			}
+		}
+		country_leader = {
+			ideology = absolutism
+			expire = "1987.1.1.1"
+			
+		}
+	}
+}

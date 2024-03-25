@@ -1,0 +1,53 @@
+check_has_focus_tree_to_switch_to_monarchist = {
+	NOT = { tag = JAP }
+	NOT = { tag = GER }
+	NOT = { tag = ENG }
+	NOT = { tag = FRA }
+	OR = {
+		NOT = {
+			AND = {
+				tag = HOL
+				has_dlc = "Man the Guns"
+			}
+		}
+		AND = {
+			tag = HOL
+			has_dlc = "Man the Guns"
+			has_completed_focus = HOL_oranje_boven
+		}
+	}
+	NOT = {
+		AND = {
+			tag = MAN
+			has_dlc = "Waking the Tiger"
+		}
+	}
+	NOT = {
+		AND = {
+			tag = HUN
+			has_dlc = "Death or Dishonor"
+			has_completed_focus = HUN_balanced_budget
+		}
+	}
+	NOT = {
+		AND = {
+			tag = ROM
+			has_dlc = "Death or Dishonor"
+			has_completed_focus = ROM_institute_royal_dictatorship
+		}
+	}
+	NOT = {
+		AND = {
+			tag = POR
+			has_completed_focus = POR_a_royal_wedding
+			has_dlc = "La Resistance"
+		}
+	}
+	NOT = {
+		AND = {
+			original_tag = SPR
+			has_completed_focus = SPA_supremacy_of_the_communion
+			has_dlc = "La Resistance"
+		}
+	}
+}

@@ -1,0 +1,51 @@
+characters = {
+
+	# AMEDEO UMBERTO ISABELLA LUIGI FILIPPO MARIA GIUSEPPE GIOVANNI DI SAVOIA-AOSTA
+	rep_AOI_prince_amedeo = { 
+		name = AOI_prince_amedeo
+		portraits = {
+			civilian = {
+				large = GFX_portrait_AOI_amedeo_di_savoia_aosta
+				small = GFX_portrait_AOI_amedeo_di_savoia_aosta_small
+			}
+		}
+
+		country_leader = {
+			ideology = fascism_ideology
+			traits = { duke_of_aosta iron_duke }
+			expire = "1943.1.1.1"
+			
+		}
+		country_leader = {
+			ideology = despotism
+			traits = { duke_of_aosta viceroy_of_aoi }
+			expire = "1943.1.1.1"
+			
+		}
+		country_leader = {
+			ideology = paternalism
+			traits = { duke_of_aosta viceroy_of_aoi }
+			expire = "1943.1.1.1"
+			
+		}
+
+		field_marshal = {
+			traits = { politically_connected inflexible_strategist }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			
+			visible = {
+				NOT = {
+					has_government = communism
+					has_government = democratic
+				}
+			}
+		}
+	}
+
+	
+	
+}

@@ -1,0 +1,47 @@
+ideas = {
+
+	country = {
+	
+
+		USA_royal_path = {
+			removal_cost = -1
+			allowed = {
+				always = no
+			}
+			picture = generic_pp_unity_bonus
+			cancel = {
+				OR = {
+					is_subject = yes
+					is_puppet = yes
+				}
+			}
+			modifier = {
+				stability_weekly = 0.0015
+				monarchist_drift = 0.25
+			}
+		}
+		USA_new_constitution = {
+			removal_cost = -1
+			allowed = {
+				always = no
+			}
+			picture = generic_pp_unity_bonus
+			cancel = {
+				OR = {
+					is_subject = yes
+					is_puppet = yes
+				}
+			}
+			modifier = {
+				stability_weekly = 0.0015
+				fascism_drift = -0.25
+				communism_drift = -0.25
+				democratic_drift = -0.25
+				monarchist_acceptance = 50
+			}
+		}
+	}
+	
+	
+	
+}

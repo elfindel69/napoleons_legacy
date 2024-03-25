@@ -1,0 +1,59 @@
+﻿
+units= {
+
+	### FAR EAST ###				
+	fleet = {
+		name = "Flotte d'Extrême Orient"
+		naval_base = 4401 # Saigon
+		task_force = {
+			name = "Flotte d'Extrême Orient"
+			location = 4401 # Saigon			
+			ship = { name = "Suffren" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = FRI } } }
+			ship = { name = "Lamotte-Picquet" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FRI } } }
+		}
+	}
+} 
+
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+
+	# Ship Production
+	# SS: Redoutable variant (x7) ("Le Héros" "Le Conquérant" "Le Tonnant" "Agosta" "Sfax" "Casabianca" "Bévéziers")
+	add_equipment_production = {
+		equipment = {
+			type = submarine_1
+			creator = "FRA" 
+			version_name = "Redoutable Class"
+		}
+		requested_factories = 1
+		progress = 0.90
+		amount = 4
+	}
+	add_equipment_production = {
+		equipment = {
+			type = submarine_1
+			creator = "FRA" 
+			version_name = "Redoutable Class"
+		}
+		requested_factories = 1
+		progress = 0.85
+		amount = 3
+	}
+	# SS: Minerve class (x4) ("Iris" "Minerve" "Vénus" "Junon")
+	add_equipment_production = {
+		equipment = {
+			type = submarine_2
+			creator = "FRI" 
+		}
+		requested_factories = 1
+		progress = 0.70
+		amount = 4
+	}
+	
+}
+
+#####################

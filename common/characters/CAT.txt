@@ -1,0 +1,72 @@
+characters={
+	CAT_andreu_nin_i_perez={
+		name="Andreu Nin i Pérez"
+		portraits={
+			civilian={
+				large="gfx//leaders//Europe//Portrait_Europe_Generic_1.dds"
+			}
+		}
+		country_leader={
+			ideology=marxism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	CAT_lluis_companys_i_jover={
+		name="Lluís Companys i Jover"
+		portraits={
+			civilian={
+				large="gfx//leaders//Europe//portrait_europe_generic_5.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	CAT_daniel_cardona_i_civit={
+		name="Daniel Cardona i Civit"
+		portraits={
+			civilian={
+				large="gfx//leaders//Europe//portrait_europe_generic_5.dds"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	CAT_lluc_isarch={
+		name="Lluc Isarch"
+		portraits={
+			civilian={
+				large="gfx//leaders//Europe//portrait_europe_generic_5.dds"
+			}
+		}
+		country_leader={
+			ideology=paternalism
+			
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	CAT_francesc_cambo_i_battle={
+		name="Francesc Cambó i Batlle"
+		portraits={
+			civilian={
+				large="gfx//leaders//Europe//portrait_europe_generic_6.dds"
+			}
+		}
+		country_leader={
+			ideology=centrism
+			
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	
+}

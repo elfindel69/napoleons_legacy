@@ -1,0 +1,339 @@
+ideas = {
+	country = {
+		UKR_a_model_ukraine  = {	
+			allowed = {
+				original_tag = UKR
+				always = no
+			}
+	
+			allowed_civil_war = {
+				OR = {
+					has_government = monarchist
+					has_government = neutrality
+				}
+			}
+				
+			removal_cost = -1
+	
+			picture = generic_intel_bonus
+			
+			modifier = {
+				stability_factor = +0.10
+				democratic_drift = -0.1
+				fascism_drift = -0.1
+				communism_drift = -0.1
+				monarchist_drift = +0.1
+				neutrality_drift = +0.1
+				#autonomy_gain_global_factor = +0.20
+			}
+		}
+
+		UKR_rule_of_the_hetman  = {	
+			allowed = {
+				original_tag = UKR
+				always = no
+			}
+	
+			allowed_civil_war = {
+				OR = {
+					has_government = monarchist
+					has_government = neutrality
+				}
+			}
+				
+			removal_cost = -1
+	
+			picture = generic_intel_bonus
+			
+			modifier = {
+				stability_factor = +0.10
+				monarchist_drift = +0.1
+				neutrality_drift = -0.1
+			}
+		}
+
+		UKR_a_strong_hand  = {	
+			allowed = {
+				original_tag = UKR
+				always = no
+			}
+	
+			allowed_civil_war = {
+				OR = {
+					has_government = monarchist
+					has_government = neutrality
+				}
+			}
+				
+			removal_cost = -1
+	
+			picture = generic_intel_bonus
+			
+			modifier = {
+				monarchist_drift = -0.1
+				neutrality_drift = +0.1
+			}
+		}
+
+		UKR_road_to_independence  = {	
+			allowed = {
+				original_tag = UKR
+				always = no
+			}
+	
+			allowed_civil_war = {
+				NOT = {
+					has_government = monarchist
+					has_government = neutrality
+				}
+			}
+				
+			removal_cost = -1
+	
+			picture = generic_intel_bonus
+			
+			modifier = {
+				stability_factor = +0.10
+				autonomy_gain_global_factor = +0.20
+			}
+		}
+		UKR_towards_democracy  = {	
+			allowed = {
+				original_tag = UKR
+				always = no
+			}
+	
+			allowed_civil_war = {
+				has_government = democratic
+
+			}
+				
+			removal_cost = -1
+	
+			picture = generic_intel_bonus
+			
+			modifier = {
+				stability_factor = +0.10
+				democratic_drift = +0.1
+				fascism_drift = -0.1
+				communism_drift = -0.1
+				monarchist_drift = -0.1
+				neutrality_drift = -0.1
+				
+			}
+		}
+		UKR_add_autonomy  = {	
+			allowed = {
+				original_tag = UKR
+				always = no
+			}
+	
+			allowed_civil_war = {
+				NOT = {
+					has_government = monarchist
+					has_government = neutrality
+				}
+			}
+				
+			removal_cost = -1
+	
+			picture = generic_intel_bonus
+			
+			modifier = {
+	
+				autonomy_gain_global_factor = +0.20
+			}
+		}
+		UKR_the_red_tide = {	
+			allowed = {
+				original_tag = UKR
+				always = no
+			}
+	
+			allowed_civil_war = {
+				has_government = communism
+			}
+				
+			removal_cost = -1
+	
+			picture = generic_intel_bonus
+			
+			modifier = {
+				democratic_drift = -0.1
+				fascism_drift = -0.1
+				communism_drift = +0.1
+				monarchist_drift = -0.1
+				neutrality_drift = -0.1
+				
+			}
+		}
+
+		UKR_found_UPA = {	
+			allowed = {
+				original_tag = UKR
+				always = no
+			}
+	
+			allowed_civil_war = {
+				has_government = communism
+			}
+				
+			removal_cost = -1
+	
+			picture = generic_intel_bonus
+			
+			modifier = {
+				democratic_drift = -0.1
+				fascism_drift = +0.1
+				communism_drift = -0.1
+				monarchist_drift = -0.1
+				neutrality_drift = -0.1
+				
+			}
+		}
+		UKR_liberty_ethos_focus = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = democratic
+			}
+			
+			removal_cost = -1
+
+			picture = generic_democratic_drift_bonus
+	
+			modifier = {
+				trade_opinion_factor = 0.2
+				democratic_drift = +0.1
+			}
+		}
+		
+		
+		
+		UKR_strong_army_focus = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = monarchist
+			}
+			
+			removal_cost = -1
+
+			picture = generic_manpower_bonus
+	
+			modifier = {
+				conscription = 0.05
+				resistance_damage_to_garrison = -0.1 
+			}
+		}
+		
+		UKR_strong_nation_focus = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_pp_unity_bonus
+	
+			rule = {
+				can_create_factions = yes
+			}
+	
+			modifier = {
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
+			}
+		}
+		
+		UKR_neutrality_idea = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = neutrality
+			}
+
+			cancel = {
+				has_war = yes
+			}
+			
+			removal_cost = -1
+	
+			modifier = {
+				#generate_wargoal_tension = 1.00
+				join_faction_tension = 0.40
+				#lend_lease_tension = 0.50
+				send_volunteers_tension = 0.20
+				guarantee_tension = 0.40
+				ai_badass_factor = 0.01    # Will receive 1% of the threat from others
+				ai_get_ally_desire_factor = -40
+				neutrality_drift = +0.05
+				monarchist_drift = +0.05
+			}
+		}
+		
+		UKR_monarchy_rise_focus = {
+				
+			allowed = {
+				original_tag = UKR
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = democratic
+				}
+			}
+				
+			removal_cost = -1
+
+			picture = generic_intel_bonus
+			
+			modifier = {
+				stability_factor = +0.10
+				autonomy_gain_global_factor = +0.20
+			}
+		}
+	
+		UKR_monarchism_focus = {
+				
+			allowed = {
+				original_tag = UKR
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = democratic
+				}
+			}
+				
+			removal_cost = -1
+
+			picture = generic_intel_bonus
+			
+			modifier = {
+				monarchist_drift = +0.1
+				fascism_drift = -0.1
+				democratic_drift = -0.1
+				democratic_acceptance = -100
+			}
+		}
+	}
+}

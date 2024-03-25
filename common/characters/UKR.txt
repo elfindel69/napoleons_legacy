@@ -1,0 +1,576 @@
+characters = {
+	UKR_pavlo_skoropadskyi={
+		name="Pavlo Skoropadskyi"
+		portraits={
+			civilian={
+				large="gfx/leaders/UKR/r56_portrait_UKR_Pavlo_Skoropadskyi.dds"
+			}
+		}
+		country_leader={
+			ideology = monarchism
+			traits = {
+				dictator generallissimo disdain_for_politicians_1
+			}
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology= despotism
+
+			traits = {
+				dictator generallissimo disdain_for_politicians_1
+			}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	UKR_vitaliy_primakov={
+		name="Vitaliy Primakov"
+		portraits={
+			civilian={
+				large="gfx/leaders/UKR/UKR_Vitaliy_Primakov_N.tga"
+			}
+		}
+		country_leader={
+			ideology = despotism
+			traits = {
+				warrior_code
+			}
+			expire="1965.1.1.1"
+			id=-1
+		}
+		
+	}
+	UKR_stepan_bandera={
+		name="Stepan Bandera"
+		portraits={
+			civilian={
+				large="gfx/leaders/UKR/URK_Stepan_Bandera_F.tga"
+			}
+		}
+		country_leader={
+			ideology = fascism_ideology
+			traits = {
+			
+			}
+			expire="1965.1.1.1"
+			id=-1
+		}
+		
+	}
+	UKR_nikita_khrushchev={
+		name="Nikita Sergeyevich Khrushchev"
+		portraits={
+			civilian={
+				large="gfx/leaders/UKR/UKR_Nikita_Chruschov_C.tga"
+			}
+		}
+		country_leader={
+			ideology = marxism
+			traits = {
+			
+			}
+			expire="1965.1.1.1"
+			id=-1
+		}
+		
+	}
+	UKR_kost_levytsky={
+		name="Kost Levytsky"
+		portraits={
+			civilian={
+				large="gfx/leaders/UKR/UKR_Nikita_Chruschov_C.tga"
+			}
+		}
+		country_leader={
+			ideology = marxism
+			traits = {
+			
+			}
+			expire="1965.1.1.1"
+			id=-1
+		}
+		
+	}
+	UKR_tymofij_ponomarenko = {
+		name="Tymofij Ponomarenko"
+		portraits={
+			army={
+				large="gfx/leaders/UKR/Portrait_Europe_Generic_land_4.dds"
+				small="GFX_idea_europe_generic_land_4" #Can become a unit leader later
+			}
+		}
+		field_marshal={
+			traits = {  offensive_doctrine }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	UKR_bohdan_oleksyuk = {
+		name="Bohdan Oleksyuk"
+		portraits={
+			army={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+				small="GFX_idea_europe_generic_land_3" #Can become a unit leader later
+			}
+		}
+		corps_commander={
+			traits = {  armor_officer }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	UKR_yaroslav_mykhajlenko={
+		name = "Yaroslav Mykhajlenko"
+		advisor={
+			slot = high_command
+			idea_token = UKR_yaroslav_mykhajlenko
+			ledger = army 
+			allowed = {
+				original_tag = UKR
+			}
+			traits = {
+				army_armored_2 
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_europe_generic_land_2"
+			}
+		}
+	}
+	UKR_stepan_levchenko={
+		name = "Stepan Levchenko"
+		advisor={
+			slot = political_advisor
+			idea_token = UKR_stepan_levchenko
+			allowed = {
+				original_tag = UKR
+			}
+			traits = {
+				democratic_reformer 
+			}
+			do_effect = {
+				not = {
+					has_government = democratic 
+				}
+			}
+			ai_will_do = {
+				factor = 0.000
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_europe_generic_1"
+			}
+		}
+	}
+	UKR_adam_oleksyuk={
+		name = "Adam Oleksyuk"
+		advisor={
+			slot = air_chief
+			idea_token = UKR_adam_oleksyuk
+			allowed = {
+				original_tag = UKR
+			}
+			traits = {
+				air_chief_ground_support_2 
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_europe_generic_land_13"
+			}
+		}
+	}
+	UKR_nazar_polyakov={
+		name = "Nazar Polyakov"
+		advisor={
+			slot = navy_chief
+			idea_token = UKR_nazar_polyakov
+			allowed = {
+				original_tag = UKR
+			}
+			traits = {
+				navy_chief_maneuver_2 
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_europe_generic_navy_2"
+			}
+		}
+	}
+	UKR_taras_sirenko={
+		name = "Taras Sirenko"
+		advisor={
+			slot = theorist
+			idea_token = UKR_taras_sirenko
+			ledger = navy 
+			allowed = {
+				original_tag = UKR
+			}
+			traits = {
+				naval_theorist 
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_europe_generic_navy_3"
+			}
+		}
+	}
+	UKR_semen_zozulya={
+		name = "Semen Zozulya"
+		advisor={
+			slot = high_command
+			idea_token = UKR_joseph_rajohnson
+			ledger = air 
+			allowed = {
+				original_tag = UKR
+			}
+			traits = {
+				air_close_air_support_2 
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_europe_generic_land_5"
+			}
+		}
+	}
+	UKR_borys_hryshko={
+		name = "Borys Hryshko"
+		advisor={
+			slot = theorist
+			idea_token = UKR_rodolphe_andriamanjato
+			ledger = air 
+			allowed = {
+				original_tag = UKR
+			}
+			traits = {
+				air_warfare_theorist 
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_europe_generic_land_6"
+			}
+		}
+	}
+	UKR_sava_koval={
+		name = "Sava Koval"
+		advisor={
+			slot = political_advisor
+			idea_token = UKR_sava_koval
+			allowed = {
+				original_tag = UKR
+			}
+			traits = {
+				prince_of_terror 
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_europe_generic_2"
+			}
+		}
+	}
+	UKR_yakiv_pinchuk={
+		name = "Yakiv Pinchuk"
+		advisor={
+			slot = political_advisor
+			idea_token = UKR_yakiv_pinchuk
+			allowed = {
+				original_tag = UKR
+			}
+			traits = {
+				smooth_talking_charmer 
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_europe_generic_3"
+			}
+		}
+	}
+	UKR_stanislav_savchuk={
+		name = "Stanislav Savchuk"
+		advisor={
+			slot = army_chief
+			idea_token = UKR_colin_razafindrakoto
+			allowed = {
+				original_tag = UKR
+			}
+			traits = {
+				army_chief_defensive_2 
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_europe_generic_land_11"
+			}
+		}
+	}
+	UKR_yaroslav_dmytruk={
+		name = "Yaroslav Dmytruk"
+		advisor={
+			slot = political_advisor
+			idea_token = UKR_yaroslav_dmytruk
+			allowed = {
+				original_tag = UKR
+			}
+			traits = {
+				communist_revolutionary 
+			}
+			do_effect = {
+				not = {
+					has_government = communism 
+				}
+			}
+			ai_will_do = {
+				factor = 0.000
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_europe_generic_4"
+			}
+		}
+	}
+	UKR_mykhajlo_yarov={
+		name = "Mykhajlo Yarov"
+		advisor={
+			slot = army_chief
+			idea_token = UKR_mykhajlo_yarov
+			allowed = {
+				original_tag = UKR
+			}
+			traits = {
+				army_chief_organizational_2 
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_europe_generic_land_7"
+			}
+		}
+	}
+	UKR_vadim_sych={
+		name = "Vadym Adamovych Sych"
+		advisor={
+			slot = political_advisor
+			idea_token = UKR_vadim_sych
+			allowed = {
+				original_tag = UKR
+			}
+			traits = {
+				fascist_demagogue 
+			}
+			do_effect = {
+				not = {
+					has_government = fascism 
+				}
+			}
+			ai_will_do = {
+				factor = 0.000
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_europe_generic_5"
+			}
+		}
+	}
+	UKR_artem_honcharuk={
+		name = "Artem Honcharuk"
+		advisor={
+			slot = political_advisor
+			idea_token = UKR_artem_honcharuk
+			allowed = {
+				original_tag = UKR
+			}
+			traits = {
+				captain_of_industry 
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_europe_generic_6"
+			}
+		}
+	}
+	UKR_afanasij_shcherbak={
+		name = "Afanasij Shcherbak"
+		advisor={
+			slot = high_command
+			idea_token = UKR_afanasij_shcherbak
+			ledger = army 
+			allowed = {
+				original_tag = UKR
+			}
+			traits = {
+				army_regrouping_2 
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_europe_generic_land_8"
+			}
+		}
+	}
+	UKR_valerij_stepanyuk={
+		name = "Valerij Stepanyuk"
+		advisor={
+			slot = navy_chief
+			idea_token = UKR_valerij_stepanyuk
+			allowed = {
+				original_tag = UKR
+			}
+			traits = {
+				navy_chief_commerce_raiding_2 
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_europe_generic_navy_4"
+			}
+		}
+	}
+	UKR_adam_kucher={
+		name = "Adam Kucher"
+		advisor={
+			slot = theorist
+			idea_token = UKR_adam_kucher
+			ledger = army 
+			allowed = {
+				original_tag = UKR
+			}
+			traits = {
+				military_theorist 
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_europe_generic_9"
+			}
+		}
+	}
+	UKR_feodosij_ishchuk={
+		name = "Feodosij Ishchuk"
+		advisor={
+			slot = high_command
+			idea_token = UKR_feodosij_ishchuk
+			ledger = army 
+			allowed = {
+				original_tag = UKR
+			}
+			traits = {
+				army_infantry_2 
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_europe_generic_5"
+			}
+		}
+	}
+	UKR_leonid_horobets={
+		name = "Leonid Horobets"
+		advisor={
+			slot = high_command
+			idea_token = UKR_leonid_horobets
+			ledger = navy 
+			allowed = {
+				original_tag = UKR
+			}
+			traits = {
+				navy_capital_ship_2 
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_europe_generic_navy_6"
+			}
+		}
+	}
+	UKR_stefan_buhaj={
+		name = "Stefan Buhaj"
+		advisor={
+			slot = air_chief
+			idea_token = UKR_aaron_lalanirina
+			allowed = {
+				original_tag = UKR
+			}
+			traits = {
+				air_chief_reform_2 
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_europe_generic_land_3"
+			}
+		}
+	}
+}
+
+

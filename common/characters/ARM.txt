@@ -1,0 +1,80 @@
+characters={
+	ARM_dramastat_kanayan={
+		name="Drastamat Kanayan"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			
+			expire="1953.3.1.1"
+			id=-1
+		}
+	}
+
+	ARM_grigor_harutyunyan={
+		name="Grigor Harutyunyan"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinism
+			
+			expire="1953.3.1.1"
+			id=-1
+		}
+	}
+
+	ARM_hovhannes_kajaznuni={
+		name="Hovhannes Kajaznuni"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			
+			expire="1953.3.1.1"
+			id=-1
+		}
+	}
+
+	
+
+	ARM_mesrob_sandruni={
+		name="Mesrob Sandruni"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+			}
+		}
+		country_leader={
+			ideology=monarchism
+			
+			expire="1953.3.1.1"
+			id=-1
+		}
+	}
+
+	ARM_hakob_bragatuni={
+		name="Hakob Bragatuni"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+			}
+		}
+		country_leader={
+			ideology=paternalism
+			traits = { constitutional_monarch }
+			expire="1953.3.1.1"
+			id=-1
+		}
+	}
+
+}
+

@@ -1,0 +1,822 @@
+RUS_left_opposition_plan = {
+	name = "RUS left opposition plan"
+	desc = ""
+
+	allowed = {
+		original_tag = RUS
+	}
+	enable = {
+		OR = {
+			has_country_flag = RUS_AI_RANDOM_COMMUNIST_LEFT_OPPOSITION
+			has_game_rule = {
+				rule = RUS_ai_behavior
+				option = LEFT_OPPOSITION
+			}
+		}
+	}
+	abort = {
+		is_subject = yes
+	}
+
+	ai_national_focuses = {
+		#Things to do ASAP
+		RUS_desperate_measures # 35
+		RUS_lessons_of_war # 35
+		RUS_an_adaptable_army
+		RUS_shift_to_armaments_production # (FYP)
+		RUS_fourth_five_year_plan # (FYP)
+		
+		# 1938 
+		RUS_infrastructure_effort_nsb #35
+		RUS_heavy_industry #35
+		RUS_finish_the_five_year_plan
+		RUS_third_five_year_plan
+		RUS_national_specialists # 35
+		
+
+		# 1939
+		RUS_strengthen_the_mobilization_plan # 35
+		RUS_cohesion_first # 35
+
+
+		# 1940 
+
+		RUS_rehabilitated_military
+		RUS_the_threat_from_the_land_of_the_rising_sun # 35
+
+
+		# 1941
+		RUS_anti_capitalist_policies
+	RUS_middle_east_diplomacy
+		RUS_support_afghan_ideology
+		
+	
+		# 1942
+		RUS_military_reorganization
+	RUS_smersh
+		RUS_barrier_troops # 35
+		
+
+		# 1943
+		RUS_the_glory_of_the_red_army
+		RUS_experts_in_camouflage
+
+		#1944
+	}	
+
+	research = {
+
+	}
+
+	ideas = {
+
+	}
+	traits = {
+		
+	}
+
+	
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+}
+
+RUS_left_opposition_cooperative_plan = {
+	name = "RUS left opposition cooperative plan"
+	desc = ""
+
+	allowed = {
+		original_tag = RUS
+	}
+	enable = {
+		OR = {
+			has_country_flag = RUS_AI_RANDOM_COMMUNIST_LEFT_OPPOSITION_COOPERATIVE
+			has_game_rule = {
+				rule = RUS_ai_behavior
+				option = LEFT_OPPOSITION_COOPERATIVE
+			}
+		}
+	}
+	abort = {
+		is_subject = yes
+	}
+
+	ai_national_focuses = {
+		#Things to do ASAP
+		RUS_desperate_measures # 35
+		RUS_lessons_of_war # 35
+		RUS_an_adaptable_army
+		RUS_shift_to_armaments_production # (FYP)
+		RUS_fourth_five_year_plan # (FYP)
+		RUS_infrastructure_effort_nsb #35
+		RUS_heavy_industry #35
+		RUS_finish_the_five_year_plan
+		RUS_third_five_year_plan
+		RUS_national_specialists # 35
+		
+
+		# 1939
+		RUS_strengthen_the_mobilization_plan # 35
+		RUS_cohesion_first # 35
+	
+		RUS_rehabilitated_military
+		
+
+		# 1941
+		RUS_anti_capitalist_policies
+		
+		RUS_the_threat_from_the_land_of_the_rising_sun # 35
+		
+		RUS_baltic_security #35
+		RUS_respect_baltic_self_determination # 35
+		RUS_military_reorganization
+		RUS_secure_leningrad
+
+		# 1943
+		RUS_smersh
+		RUS_barrier_troops # 35
+		RUS_the_glory_of_the_red_army
+		RUS_experts_in_camouflage
+
+		#1944
+		
+	}
+
+	research = {
+
+	}
+
+	ideas = {
+
+	}
+	traits = {
+		
+	}
+
+	
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+}
+
+
+RUS_right_opposition_plan = {
+	name = "RUS right opposition plan"
+	desc = ""
+
+	allowed = {
+		original_tag = RUS
+	}
+	enable = {
+		OR = {
+			has_country_flag = RUS_AI_RANDOM_COMMUNIST_RIGHT_OPPOSITION
+			has_game_rule = {
+				rule = RUS_ai_behavior
+				option = RIGHT_OPPOSITION
+			}
+		}
+	}
+	abort = {
+		is_subject = yes
+	}
+
+	ai_national_focuses = {
+		#Things to do ASAP
+		RUS_desperate_measures # 35
+		RUS_lessons_of_war # 35
+		RUS_an_adaptable_army
+		RUS_shift_to_armaments_production # (FYP)
+		RUS_fourth_five_year_plan # (FYP)
+		
+		RUS_infrastructure_effort_nsb #35
+		RUS_heavy_industry #35
+		
+
+		# 1939
+		RUS_finish_the_five_year_plan
+		
+		RUS_strengthen_the_mobilization_plan # 35
+
+		# 1941
+
+		RUS_third_five_year_plan
+		RUS_national_specialists # 35
+		RUS_strengthen_the_mobilization_plan # 35
+		RUS_restore_cossack_units # 35
+		RUS_rehabilitated_military
+		RUS_military_reorganization
+
+		# 1942 
+		
+		RUS_policy_of_collective_security # 35
+		RUS_anti_fascist_policies
+		RUS_seek_a_defense_pact_with_the_allies # 35
+		
+
+		# 1943
+		
+	}
+
+	research = {
+
+	}
+
+	ideas = {
+
+	}
+	traits = {
+		
+	}
+
+	
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+}
+
+
+
+RUS_right_opposition_cooperative_plan = {
+	name = "RUS right opposition cooperative plan"
+	desc = ""
+
+	allowed = {
+		original_tag = RUS
+	}
+	enable = {
+		OR = {
+			has_country_flag = RUS_AI_RANDOM_COMMUNIST_RIGHT_OPPOSITION_COOPERATIVE
+			has_game_rule = {
+				rule = RUS_ai_behavior
+				option = RIGHT_OPPOSITION_COOPERATIVE
+			}
+		}
+	}
+	abort = {
+		is_subject = yes
+	}
+
+	ai_national_focuses = {
+		#Things to do ASAP
+		RUS_desperate_measures # 35
+		RUS_lessons_of_war # 35
+		RUS_an_adaptable_army
+		RUS_shift_to_armaments_production # (FYP)
+		RUS_fourth_five_year_plan # (FYP)
+		
+		RUS_infrastructure_effort_nsb #35
+		RUS_heavy_industry #35
+		
+
+		# 1939
+		RUS_finish_the_five_year_plan
+	
+
+		
+
+		# 1940 
+	
+		RUS_strengthen_the_mobilization_plan # 35
+
+		# 1941
+
+		RUS_third_five_year_plan
+		RUS_national_specialists # 35
+		RUS_strengthen_the_mobilization_plan # 35
+		RUS_restore_cossack_units # 35
+		RUS_rehabilitated_military
+		RUS_military_reorganization
+
+		# 1942 
+	
+		RUS_policy_of_collective_security # 35
+		RUS_anti_fascist_policies
+		RUS_seek_a_defense_pact_with_the_allies # 35
+		
+
+		# 1943
+	
+
+		# 1944 
+		RUS_development_aid_for_eastern_allies
+		RUS_war_measures_in_the_east
+		
+	}
+
+	research = {
+
+	}
+
+	ideas = {
+
+	}
+	traits = {
+		
+	}
+
+	
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+}
+
+##################
+### FOCUS KEYS ###
+##################
+#RUS_infrastructure_effort_nsb
+#RUS_heavy_industry
+#RUS_finish_the_five_year_plan
+#RUS_improve_railway_network
+#RUS_third_five_year_plan
+#RUS_reorganize_the_pc_of_heavy_industry
+#RUS_industrial_modernization
+#RUS_increase_state_reserves
+#RUS_shift_to_armaments_production
+#RUS_optimize_production_lines
+#RUS_steel_casting_industry
+#RUS_synthetic_rubber
+#RUS_oil_production
+#RUS_fourth_five_year_plan
+#RUS_found_the_comecon
+#RUS_the_common_economic_space_initiative
+#RUS_no_time_for_peace
+#RUS_national_specialists
+#RUS_foreign_experts
+#RUS_eastern_development
+#RUS_develop_the_urals
+#RUS_the_ussr_academy_of_sciences
+#RUS_national_academies_of_sciences
+#RUS_transformation_of_nature
+#RUS_transformation_of_nature_alt
+#RUS_transpolar_flights
+#RUS_expand_the_aircraft_industry
+#RUS_modernize_aircraft_facilities
+#RUS_merge_aircraft_plants
+#RUS_found_the_jet_institute
+#RUS_increase_aircraft_production
+#RUS_foster_flying_clubs
+#RUS_women_in_aviation
+#RUS_raskovas_aviation_group
+#RUS_intensify_pilot_training_program
+#RUS_expand_aviation_institutes
+#RUS_ground_support
+#RUS_long_range_aircraft
+#RUS_the_modern_war_in_the_skies
+#RUS_expand_the_red_fleet
+#RUS_reinforce_western_naval_bases
+#RUS_reinforce_northern_naval_bases
+#RUS_reinforce_southern_naval_bases
+#RUS_reinforce_eastern_naval_bases
+#RUS_expand_shipbuilding_plants
+#RUS_merge_naval_plants
+#RUS_pc_of_the_ussr_navy
+#RUS_surface_warfare
+#RUS_submarine_warfare
+#RUS_offensive_maritime_strategy
+#RUS_an_oceangoing_navy
+#RUS_mine_warfare
+#RUS_long_range_raiders
+#RUS_advanced_maneuvers
+#RUS_expand_the_morskaya_aviatsiya
+#RUS_naval_infantry
+#RUS_found_the_pcdi
+#RUS_pc_of_mechanical_engineering
+#RUS_superior_war_machines
+#RUS_the_means_to_wage_war
+#RUS_development_of_tankograd
+#RUS_pc_of_mortar_armament
+#RUS_soviet_artillery
+#RUS_merge_tank_and_materiel_plants
+#RUS_strengthen_the_mobilization_plan
+#RUS_military_engineering_university
+#RUS_leningrad_polytechnical_institute
+#RUS_soviet_atomic_bomb_project
+#RUS_move_industry_to_the_urals
+#RUS_the_road_of_life
+#RUS_improve_the_stalin_line
+#RUS_the_molotov_line
+#RUS_the_defense_of_moscow
+#RUS_impregnable_forts
+#RUS_protect_the_white_sea_baltic_canal
+#RUS_far_east_fortification
+#RUS_restore_cossack_units
+#RUS_cohesion_first
+#RUS_rehabilitated_military
+#RUS_military_reorganization
+#RUS_desperate_measures
+#RUS_an_adaptable_army
+#RUS_lessons_of_war
+#RUS_penal_battalions
+#RUS_organization_of_the_partisans
+#RUS_smersh
+#RUS_barrier_troops
+#RUS_experts_in_camouflage
+#RUS_keep_commissars_organization
+#RUS_swap_to_political_advisors
+#RUS_the_glory_of_the_red_army
+#RUS_the_path_of_marxism_leninism
+#RUS_the_centre
+#RUS_socialism_in_one_country
+#RUS_the_stalin_constitution
+#RUS_the_zinovyevite_terrorist_center
+#RUS_secure_the_administration
+#RUS_the_collectivization_process
+#RUS_the_anti_soviet_trotskyist_center
+#RUS_the_workers_dictatorship
+#RUS_organization_centralization_discipline
+#RUS_war_economy
+#RUS_the_military_conspiracy
+#RUS_the_bloc_of_rights_and_trotskyites
+#RUS_behead_the_snake
+#RUS_stalins_cult_of_personality
+#RUS_inheritor_of_the_mantle_of_lenin
+#RUS_brilliant_genius
+#RUS_the_faithful_servant_of_lenin
+#RUS_ban_excessive_hero_worship
+#RUS_leader_of_the_party_and_the_people
+#RUS_great_commander
+#RUS_architect_of_communism
+#RUS_father_of_nations
+#RUS_freedom_of_debate_unity_of_action
+#RUS_the_construction_of_communism
+#RUS_the_left_opposition
+#RUS_the_fourth_international
+#RUS_bring_old_trotskyists_back
+#RUS_organize_the_wreckers
+#RUS_integrate_smirnovs_bloc
+#RUS_left_eliminate_right
+#RUS_committee_in_exile
+#RUS_approach_tukhachevsky
+#RUS_approach_primakov
+#RUS_funds_for_the_cause
+#RUS_left_opposition_coup
+#RUS_the_vanguard_of_the_true_revolution
+#RUS_long_live_the_workers_government
+#RUS_left_purges
+#RUS_the_builder_of_the_red_army
+#RUS_reigniting_the_revolutionary_spirit
+#RUS_the_permanent_revolution
+#RUS_depoliticize_the_military
+#RUS_system_decentralization
+#RUS_strengthen_heavy_industry
+#RUS_a_global_class_struggle
+#RUS_all_power_to_the_soviets
+#RUS_the_onslaught_on_colonialism
+#RUS_carry_revolution_east
+#RUS_the_end_of_the_imperialist_era
+#RUS_the_right_opposition
+#RUS_the_need_for_policy_changes
+#RUS_reverse_the_collectivization_process
+#RUS_organize_uprisings_in_the_country
+#RUS_dissent_in_the_party
+#RUS_eliminate_the_left
+#RUS_concessions_to_foreign_powers
+#RUS_covert_support_for_spanish_poum
+#RUS_undermine_stalins_authority
+#RUS_clandestine_cells
+#RUS_the_plan_for_the_coup
+#RUS_the_socialist_bulwark
+#RUS_coup_detat
+#RUS_right_purges
+#RUS_the_power_of_the_peasantry
+#RUS_curtailment_of_the_collective_farms
+#RUS_administrative_reforms
+#RUS_a_new_theory_of_revolution
+#RUS_back_to_the_nep
+#RUS_planned_economy
+#RUS_paced_industrialization
+#RUS_the_trade_union_as_labor_organizer
+#RUS_incorporate_local_organizations
+#RUS_international_revolutionary_marxist_centre
+#RUS_a_sustainable_economy
+#RUS_the_enemies_of_the_people
+#RUS_proclaim_soviet_hegemony
+#RUS_military_support
+#RUS_divert_attention_towards_military
+#RUS_gain_support_from_party_members
+#RUS_infiltrate_the_nkvd
+#RUS_cooperation_against_stalin
+#RUS_align_the_zinovyevites
+#RUS_liberate_ryutin
+#RUS_return_democracy_to_the_party
+#RUS_strengthen_the_trade_unions
+#RUS_the_peoples_revolution
+#RUS_the_supreme_soviet
+#RUS_addressing_internal_affairs
+#RUS_nkvd_primacy
+#RUS_the_new_soviet_woman
+#RUS_expand_the_agitprop
+#RUS_positive_heroism
+#RUS_revive_the_stakhanovite_movement
+#RUS_war_heroes
+#RUS_collectivist_propaganda
+#RUS_socialist_emulation
+#RUS_socialist_realism
+#RUS_the_komsomol
+#RUS_patriarch_of_all_russia
+#RUS_the_comintern
+#RUS_development_aid_for_eastern_allies
+#RUS_war_measures_in_the_east
+#RUS_annex_tannu_tuva
+#RUS_fortify_mongolian_border
+#RUS_send_military_advisors_to_spain
+#RUS_policy_of_collective_security
+#RUS_anti_fascist_policies
+#RUS_seek_a_defense_pact_with_the_allies
+#RUS_the_khakimov_proposal
+#RUS_eradicate_western_fascism
+#RUS_policy_of_individual_security
+#RUS_approach_germany
+#RUS_liberation_of_the_european_proletariat
+#RUS_anti_capitalist_policies
+#RUS_recover_alaska
+#RUS_the_fight_for_the_pacific
+#RUS_baltic_security
+#RUS_respect_baltic_self_determination
+#RUS_claims_in_baltic
+#RUS_secure_leningrad
+#RUS_control_scandinavia
+#RUS_claims_on_poland
+#RUS_demand_eastern_poland
+#RUS_claim_on_bessarabia
+#RUS_demand_balkan_submission
+#RUS_seek_balkan_cooperation
+#RUS_middle_east_diplomacy
+#RUS_the_southern_thrust
+#RUS_support_afghan_ideology
+#RUS_preemptive_invasion_of_iran
+#RUS_the_threat_from_the_land_of_the_rising_sun
+#RUS_the_gobi_gambit
+#RUS_two_red_flags
+#RUS_support_the_kuomintang
+#RUS_intervention_in_china
+#RUS_prepare_a_war_with_japan
+#RUS_end_the_khalkhin_gol_conflict
+#RUS_recover_the_kuril_islands
+#RUS_reconcile_japan
+#RUS_spheres_of_influence_in_china
+#RUS_soviet_japanese_pact_against_usa_focus
+
+###### LEFT
+
+#RUS_the_left_opposition
+#RUS_the_fourth_international
+#RUS_bring_old_trotskyists_back
+#RUS_organize_the_wreckers
+#RUS_integrate_smirnovs_bloc
+#RUS_left_eliminate_right
+#RUS_committee_in_exile
+#RUS_approach_tukhachevsky
+#RUS_approach_primakov
+#RUS_funds_for_the_cause
+#RUS_left_opposition_coup
+#RUS_the_vanguard_of_the_true_revolution
+#RUS_long_live_the_workers_government
+#RUS_left_purges
+#RUS_the_builder_of_the_red_army
+#RUS_reigniting_the_revolutionary_spirit
+#RUS_the_permanent_revolution
+#RUS_depoliticize_the_military
+#RUS_system_decentralization
+#RUS_strengthen_heavy_industry
+#RUS_a_global_class_struggle
+#RUS_all_power_to_the_soviets
+#RUS_regional_development
+#RUS_autonomous_soviet_republics
+#RUS_international_union_of_soviet_republics
+#RUS_the_onslaught_on_colonialism
+#RUS_carry_revolution_east
+#RUS_the_end_of_the_imperialist_era
+
+###### RIGHT
+
+#RUS_the_right_opposition
+#RUS_the_need_for_policy_changes
+#RUS_reverse_the_collectivization_process
+#RUS_organize_uprisings_in_the_country
+#RUS_dissent_in_the_party
+#RUS_eliminate_the_left
+#RUS_concessions_to_foreign_powers
+#RUS_covert_support_for_spanish_poum
+#RUS_undermine_stalins_authority
+#RUS_clandestine_cells
+#RUS_the_plan_for_the_coup
+#RUS_the_socialist_bulwark
+#RUS_coup_detat
+#RUS_right_purges
+#RUS_the_power_of_the_peasantry
+#RUS_curtailment_of_the_collective_farms
+#RUS_administrative_reforms
+#RUS_a_new_theory_of_revolution
+#RUS_back_to_the_nep
+#RUS_planned_economy
+#RUS_paced_industrialization
+#RUS_the_trade_union_as_labor_organizer
+#RUS_incorporate_local_organizations
+#RUS_for_the_common_good
+#RUS_victory_over_devastation
+#RUS_socialist_humanism
+#RUS_international_revolutionary_marxist_centre
+#RUS_a_sustainable_economy
+#RUS_the_enemies_of_the_people
+#RUS_proclaim_soviet_hegemony
+
+###### COMMON
+
+#RUS_military_support
+#RUS_divert_attention_towards_military
+#RUS_gain_support_from_party_members
+#RUS_sway_the_railway_workers
+#RUS_infiltrate_the_nkvd
+#RUS_cooperation_against_stalin
+#RUS_align_the_zinovyevites
+#RUS_liberate_ryutin
+#RUS_return_democracy_to_the_party
+#RUS_strengthen_the_trade_unions
+#RUS_the_peoples_revolution
+#RUS_the_supreme_soviet
+
+RUS_exiles_tsarist_plan = {
+	name = "Soviet Union Tsarist Plan"
+	desc = "The White Exiles return to bring Russia onto the path to renewed Tsarism."
+
+	allowed = {
+		original_tag = RUS
+	}
+	enable = {
+		OR = {
+			has_country_flag = RUS_AI_RANDOM_EXILES_TSARIST
+			has_game_rule = {
+				rule = RUS_ai_behavior
+				option = EXILES_TSARIST
+			}
+		}
+	}
+	abort = {
+		
+	}
+
+	ai_national_focuses = {
+		# Civil War Prep
+		
+
+		#Take during Civil War if it lasts long, but otherwise take it as soon as political path is established - until 1st tech slot
+		RUS_infrastructure_effort_nsb #35
+		RUS_heavy_industry #35
+		RUS_finish_the_five_year_plan #70
+		RUS_third_five_year_plan #70
+		RUS_improve_railway_network #70
+		RUS_national_specialists #35
+		RUS_eastern_development #35
+		RUS_develop_the_urals #35
+		RUS_the_ussr_academy_of_sciences #70
+
+		#Further down political path
+		
+
+		#Second tech slot
+		RUS_found_the_pcdi #35
+		RUS_pc_of_mechanical_engineering #70
+		RUS_military_engineering_university #35
+		RUS_leningrad_polytechnical_institute #70
+
+		#More political path until next wargoals and big phat tanks
+		
+
+		#More industry
+		RUS_reorganize_the_pc_of_heavy_industry #70
+		RUS_steel_casting_industry #70
+		RUS_oil_production #70
+		#Unleash the AI at this point
+
+	}
+
+	research = {
+
+	}
+
+	ideas = {
+
+	}
+	traits = {
+		
+	}
+
+	
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+}
+
+RUS_exiles_fascist_plan = {
+	name = "Soviet Union Fascist Plan"
+	desc = "The White Exiles return to bring Fascism to Russia."
+
+	allowed = {
+		original_tag = RUS
+	}
+	enable = {
+		OR = {
+			has_country_flag = RUS_AI_RANDOM_EXILES_FASCIST
+			has_game_rule = {
+				rule = RUS_ai_behavior
+				option = EXILES_FASCIST
+			}
+		}
+	}
+	abort = {
+		
+	}
+
+	ai_national_focuses = {
+	
+		
+
+		#Take during Civil War if it lasts long, but otherwise take it as soon as political path is established - until 1st tech slot
+		RUS_infrastructure_effort_nsb
+		RUS_heavy_industry
+		RUS_finish_the_five_year_plan
+		RUS_third_five_year_plan
+		RUS_improve_railway_network
+		RUS_national_specialists
+		RUS_eastern_development
+		RUS_develop_the_urals
+		RUS_the_ussr_academy_of_sciences
+
+	
+
+		#Second tech slot
+		RUS_found_the_pcdi
+		RUS_pc_of_mechanical_engineering
+		RUS_military_engineering_university
+		RUS_leningrad_polytechnical_institute
+
+	
+
+		#More industry
+		RUS_reorganize_the_pc_of_heavy_industry
+		RUS_steel_casting_industry
+		RUS_oil_production
+
+		#Unleash the AI at this point
+
+	}
+
+	research = {
+
+	}
+
+	ideas = {
+
+	}
+	traits = {
+		
+	}
+
+	
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+}

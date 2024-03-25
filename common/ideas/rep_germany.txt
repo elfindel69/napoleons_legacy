@@ -1,0 +1,253 @@
+ideas = {
+
+	country = {
+	
+		GER_exiled_royal_family = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = monarchist
+			}
+			
+			modifier = {
+				army_morale_factor = 0.1
+				stability_factor = 0.1
+				war_support_factor = 0.05
+			}
+
+			picture = generic_king_handled
+
+			removal_cost = -1
+		}
+			
+		GER_confiscated_royal_wealth = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = monarchist
+			}
+			
+			modifier = {
+				production_speed_industrial_complex_factor = 0.20
+				production_speed_arms_factory_factor = 0.20
+				production_speed_dockyard_factor = 0.20
+			}
+
+			picture = generic_foreign_capital
+
+			removal_cost = -1
+		}
+		
+		GER_long_live_the_kaiserreich = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				 has_government = monarchist
+			}
+
+			removal_cost = -1
+
+			picture = ger_revive_the_kaiserreich
+
+			modifier = {
+				monarchist_drift = 0.1
+				drift_defence_factor = 0.1
+				join_faction_tension = -0.2
+				lend_lease_tension = -0.2
+				send_volunteers_tension = -0.2
+			}
+		}
+
+		GER_long_live_the_kaiserreich2 = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				 has_government = monarchist
+			}
+
+			removal_cost = -1
+
+			picture = ger_revive_the_kaiserreich
+
+			modifier = {
+				monarchist_drift = 0.1
+				democratic_drift = -0.02
+				drift_defence_factor = 0.1
+				join_faction_tension = -0.2
+				lend_lease_tension = -0.2
+				send_volunteers_tension = -0.2
+			}
+		}
+
+	
+		GER_abwehr_contacts = {
+			removal_cost = -1
+
+			picture = generic_spy_coup
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				operative_slot = 1
+			}
+		}
+
+		
+		GER_relegalize_communism_idea = {
+			removal_cost = -1
+			allowed = {
+				always = no
+			}
+			picture = generic_communism_drift_bonus
+			cancel = {
+				OR = {
+					is_subject = yes
+					is_puppet = yes
+				}
+				NOT = {
+					has_government = communism
+				}
+			}
+			modifier = {
+				stability_weekly = 0.0015
+				communism_drift = 0.25
+			}
+		}
+		GER_world_revolution_idea = {
+			removal_cost = -1
+			allowed = {
+				always = no
+			}
+			picture = home_of_the_revolution
+			modifier = {
+				stability_factor = 0.05
+				political_power_gain = 0.5
+			}
+		}
+		GER_progress_cult_idea = {
+			removal_cost = -1
+			allowed = {
+				always = no
+			}
+			picture = generic_research_bonus
+			modifier = {
+				research_speed_factor = 0.04
+			}
+		}
+		GER_establish_stasi_idea = {
+			removal_cost = -1
+			allowed = {
+				always = no
+			}
+			picture = generic_spy_political
+			modifier = {
+				resistance_damage_to_garrison = -0.1
+				subversive_activites_upkeep = -0.25
+			}
+		}
+		GER_recruit_grenztruppen_idea = {
+			removal_cost = -1
+			allowed = {
+				always = no
+			}
+			picture = generic_infantry_bonus
+			modifier = {
+				army_morale_factor = 0.05
+				conscription = 0.01
+			}
+		}
+		GER_rehabilitate_military_idea = {
+			removal_cost = -1
+			allowed = {
+				always = no
+			}
+			picture = generic_intel_bonus
+			modifier = {
+				land_reinforce_rate = 0.02
+				army_morale_factor = 0.05
+			}
+		}
+		GER_establish_NVA_idea = {
+			removal_cost = -1
+			allowed = {
+				always = no
+			}
+			picture = generic_manpower_bonus
+			modifier = {
+				conscription = 0.02
+				army_org = 2
+			}
+		}
+		GER_production_effort_idea = {
+			removal_cost = -1
+			allowed = {
+				always = no
+			}
+			picture = generic_goods_red_bonus
+			research_bonus = {
+				industry = 0.07
+			}
+		}
+		GER_collectivize_industry_idea = {
+			removal_cost = -1
+			allowed = {
+				always = no
+			}
+			picture = generic_production_bonus
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_speed_buildings_factor = 0.05
+				stability_factor = -0.15
+			}
+		}
+
+		GER_boost_the_economy = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				 has_government = neutrality
+			}
+
+			removal_cost = -1
+
+			picture = ger_rebuild_the_nation
+
+			modifier = {
+				consumer_goods_factor = -0.20
+			}
+		}
+
+		GER_a_new_constitution = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				 has_government = democratic
+			}
+
+			removal_cost = -1
+
+			picture = generic_democratic_drift_bonus
+
+			modifier = {
+				democratic_drift = 0.1
+			}
+		}
+	}
+
+}

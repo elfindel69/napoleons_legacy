@@ -1,0 +1,71 @@
+﻿
+units= {
+
+	### FAR EAST ###				
+	fleet = {
+		name = "Flotte d'Algérie"
+		naval_base = 7132 # Oran
+		task_force = {				
+			name = "Flottille de Haute Mer"			
+			location = 7132 # Oran			
+			# 8e Légère Division des Contre-Torpilleurs
+			ship = { name = "L'Oranais" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ALG } } }	
+			ship = { name = "L'Alcyon" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ALG } } }	
+			ship = { name = "Trombe" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ALG } } }	
+			}			
+	
+		task_force = {				
+			name = "Escadron Sous-Marins" 			
+			location = 7132 # Oran			
+			# 14e Division des Sous-Marins
+			ship = { name = "Diane" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ALG } } }
+			ship = { name = "Ariane" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ALG } } }				
+			ship = { name = "Eurydice" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ALG } } }				
+			ship = { name = "Danaé" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ALG } } }				
+		}	
+	}
+} 
+
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+
+	# Ship Production
+	# SS: Redoutable variant (x7) ("Le Héros" "Le Conquérant" "Le Tonnant" "Agosta" "Sfax" "Casabianca" "Bévéziers")
+	add_equipment_production = {
+		equipment = {
+			type = submarine_1
+			creator = "FRA" 
+			version_name = "Redoutable Class"
+		}
+		requested_factories = 1
+		progress = 0.90
+		amount = 4
+	}
+	add_equipment_production = {
+		equipment = {
+			type = submarine_1
+			creator = "FRA" 
+			version_name = "Redoutable Class"
+		}
+		requested_factories = 1
+		progress = 0.85
+		amount = 3
+	}
+	# SS: Minerve class (x4) ("Iris" "Minerve" "Vénus" "Junon")
+	add_equipment_production = {
+		equipment = {
+			type = submarine_2
+			creator = "FRA" 
+		}
+		requested_factories = 1
+		progress = 0.70
+		amount = 4
+	}
+	
+}
+
+#####################

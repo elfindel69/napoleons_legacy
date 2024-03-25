@@ -1,0 +1,74 @@
+﻿
+units= {
+
+	##### NAVAL UNITS #####
+	### FAR EAST ###				
+	fleet = {
+		name = "Flotte d'Extrême Orient"
+		naval_base = 4401 # Saigon
+		task_force = {
+			name = "Flotte d'Extrême Orient"
+			location = 4401 # Saigon			
+			ship = { name = "Suffren" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRI version_name = "Suffren Class" } } }
+			ship = { name = "Lamotte-Picquet" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRI version_name = "Duguay-Trouin Class" } } }
+		}
+	}
+} 
+
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+
+	# Ship Production
+	# DD: Le Fantasque class (x4) ("Le Malin" "L'Indomptable" "Le Fantasque" "Le Triomphant")
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "FRA" 
+			version_name = "Le Fantasque Class"
+		}
+		name = "Le Malin" 
+		requested_factories = 1
+		progress = 0.60
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "FRA" 
+			version_name = "Le Fantasque Class"
+		}
+		name = "L'Indomptable" 
+		requested_factories = 1
+		progress = 0.85
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "FRA" 
+			version_name = "Le Fantasque Class"
+		}
+		name = "Le Fantasque" 
+		requested_factories = 1
+		progress = 0.75
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "FRA" 
+			version_name = "Le Fantasque Class"
+		}
+		name = "Le Triomphant" 
+		requested_factories = 1
+		progress = 0.60
+		amount = 1
+	}
+	
+}
+
+#####################

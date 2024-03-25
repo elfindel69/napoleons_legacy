@@ -1,0 +1,17 @@
+characters={
+	BAH_finlay_spencer={
+		name="Finlay Spencer"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
+			}
+		}
+		country_leader={
+			ideology = paternalism
+			expire="1965.3.1"
+			id=-1
+		}
+	}
+	
+	
+}

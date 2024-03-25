@@ -1,0 +1,76 @@
+﻿
+units= {
+
+	### NORTH AFRICA ###				
+	fleet = {
+		name = "Flotte de Tunisie"			
+		naval_base = 9994 # Bizerte
+					
+		task_force = {				
+			name = "Force d'Attaque Légère"			
+			location = 9994 # Bizerte, Tunisia	
+			ship = { name = "La Galissonnière" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUN } } }	# La Galissonnière variant
+			ship = { name = "Émile Bertin" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TUN } } }
+		}				
+	
+				
+		task_force = {				
+			name = "Escadron Sous-Marins"			
+			location = 9994 # Bizerte, Tunisia	
+			# 9e Division des Sous-Marins
+			ship = { name = "Caïman" definition = submarine equipment = { submarine_1 = { amount = 1 owner = TUN } } }				
+			ship = { name = "Morse" definition = submarine equipment = { submarine_1 = { amount = 1 owner = TUN } } }				
+			ship = { name = "Souffleur" definition = submarine equipment = { submarine_1 = { amount = 1 owner = TUN } } }				
+		}				
+					
+	}
+
+	
+} 
+
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+
+	# Ship Production
+	# SS: Redoutable variant (x7) ("Le Héros" "Le Conquérant" "Le Tonnant" "Agosta" "Sfax" "Casabianca" "Bévéziers")
+	add_equipment_production = {
+		equipment = {
+			type = submarine_1
+			creator = "FRA" 
+			version_name = "Redoutable Class"
+		}
+		requested_factories = 1
+		progress = 0.90
+		amount = 4
+	}
+	add_equipment_production = {
+		equipment = {
+			type = submarine_1
+			creator = "FRA" 
+			version_name = "Redoutable Class"
+		}
+		requested_factories = 1
+		progress = 0.85
+		amount = 3
+	}
+	
+	# DD: Le Fantasque class (x4) ("Le Malin" "L'Indomptable" "Le Fantasque" "Le Triomphant")
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_2
+			creator = "FRA" 
+		}
+		requested_factories = 1
+		progress = 0.70
+		amount = 4
+	}
+
+	
+	
+}
+
+#####################

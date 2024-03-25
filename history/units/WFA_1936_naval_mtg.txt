@@ -1,0 +1,52 @@
+﻿
+units= {
+
+	##### NAVAL UNITS #####
+	### FAR EAST ###				
+	fleet = {
+		name = "Flotte d'Afrique de l'Ouest"
+		naval_base = 4948 # Dakar
+		task_force = {				
+			name = "Flotte d'Afrique de l'Ouest"			
+			location = 4948 # Dakar			
+			ship = { name = "Jeanne d'Arc" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = WFA version_name = "Duguay-Trouin Class" } } }
+			ship = { name = "Duguay-Trouin" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = WFA version_name = "Duguay-Trouin Class" } } }
+			ship = { name = "Primauguet" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = WFA version_name = "Duguay-Trouin Class" } } }
+		}	
+	}
+} 
+
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+
+	# Ship Production
+	# DD: Le Fantasque class (x4) ("Le Malin" "L'Indomptable" "Le Fantasque" "Le Triomphant")
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "FRA" 
+			version_name = "Le Fantasque Class"
+		}
+		requested_factories = 1
+		progress = 0.60
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "FRA" 
+			version_name = "Le Fantasque Class"
+		}
+		requested_factories = 1
+		progress = 0.85
+		amount = 1
+	}
+	
+	
+}
+
+#####################

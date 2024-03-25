@@ -1,0 +1,59 @@
+ideas = {
+
+	country = {
+
+		rhodesian_air_training_group = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			cancel = {
+				NOT = {
+					OR = {
+						is_subject_of = ENG
+						is_in_faction_with = ENG
+					}
+				}
+			}
+
+			picture = air_support_focus
+			
+			removal_cost = -1
+			
+			modifier = {
+				experience_gain_air_factor = 0.15
+				air_ace_generation_chance_factor = 0.25
+			}
+		}
+
+		rhodesian_segregation = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+
+			cancel = {
+				has_government = communism
+			}
+
+			picture = saf_history_of_segregation
+			
+			removal_cost = -1
+			
+			modifier = {
+				conscription_factor = -0.40
+			}
+		}
+	}
+}

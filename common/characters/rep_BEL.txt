@@ -1,0 +1,19 @@
+characters={
+	BEL_leopold_iii={
+		name="Léopold III"
+		portraits={
+			civilian={
+				large="gfx/leaders/BEL/Portrait_BEL_Leopold_III.dds"
+			}
+		}
+		country_leader={
+			ideology = paternalism
+			traits = {
+				stout_defender
+			}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	
+}

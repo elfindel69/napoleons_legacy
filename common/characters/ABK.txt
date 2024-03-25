@@ -1,0 +1,30 @@
+characters = {
+	ABK_kirilli_bechvaya = {
+		name = "Kirill Bechvaya" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+			expire = "1950.1.1.1"
+			
+		}
+	}
+
+	ABK_ilarion_suvorin = {
+		name = "Ilarion Suvorin" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SOV/Portrait_Soviet_Generic_land_5.dds"
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+			expire = "1950.1.1.1"
+			
+		}
+	}
+}
+	

@@ -1,0 +1,76 @@
+characters={
+	BLR_vasil_zacharka={
+		name="Vasil Zacharka"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+			}
+		}
+		country_leader={
+			ideology = centrism
+			
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	BLR_radaslau_astrouski={
+		name="Radasłaŭ Astroŭski"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+			}
+		}
+		country_leader={
+			ideology = fascism_ideology
+			
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	BLR_taras_lecka={
+		name="Taras Lecka"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+			}
+		}
+		country_leader={
+			ideology = monarchism
+			
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	BLR_panteleimon_ponomarenko={
+		name="Panteleimon Ponomarenko"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+			}
+		}
+		country_leader={
+			ideology = paternalism
+			
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	BLR_adam_stankevic={
+		name="Adam Stankievič"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+			}
+		}
+		country_leader={
+			ideology = socialism
+			
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

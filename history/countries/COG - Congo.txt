@@ -1,0 +1,86 @@
+﻿capital = 295
+
+oob = "COG_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+}
+
+set_convoys = 5
+
+1939.1.1 = {
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = naval_effort
+	complete_national_focus = flexible_navy
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+	
+	set_technology = {
+
+		#doctrines
+		grand_battle_plan = 1
+		trench_warfare = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		fuel_silos = 1
+		construction1 = 1
+		construction2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+	}
+}
+
+# A colony of Italy in 1939.  However, if independent it would have the same as its 1936 politics
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	neutrality = 95
+	monarchist = 5
+}
+
+
+recruit_character = COG_francois_tolenga
+recruit_character = COG_lumumba_lomendja
+recruit_character = COG_david_manera
+recruit_character = COG_joseph_boutet
+recruit_character = COG_mabumba_kitanika
+recruit_character = COG_divin_nkulu
+recruit_character = COG_joel_mukalay
+recruit_character = COG_jacob_kalala
+recruit_character = COG_joseph_mwamba
+recruit_character = COG_anatole_monga
+recruit_character = COG_boniface_mutombo
+recruit_character = COG_eugene_matondo
+recruit_character = COG_anatole_banza
+recruit_character = COG_isaie_kazadi
+recruit_character = COG_joel_nzuzi
+recruit_character = COG_lilian_kabila
+recruit_character = COG_noel_kabulo
+recruit_character = COG_martial_ilunga
+recruit_character = COG_desire_ntumba
+recruit_character = COG_alfred_kapinga
+recruit_character = COG_isaie_yumba
+recruit_character = COG_remi_tshibola
+recruit_character = COG_stephane_kasongo
+recruit_character = COG_wilfied_mputu
+recruit_character = COG_elisee_umba

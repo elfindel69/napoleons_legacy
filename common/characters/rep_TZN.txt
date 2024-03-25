@@ -1,0 +1,27 @@
+characters={
+	TZN_paulo_rwamujongo_nyamutura_III={
+		name="Paulo Rwamujongo Nyamutura III"
+		portraits={
+			civilian={
+				large="gfx/leaders/Monarchs/Portrait_Africa_Generic_land_new_2.tga"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits = {
+				restored_monarch
+			}
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=absolutism
+			traits = {
+				restored_monarch
+			}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	
+}

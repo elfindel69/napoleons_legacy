@@ -1,0 +1,16 @@
+characters={
+	SPR_juan_iii={
+		name="Juan III"
+		portraits={
+			civilian={
+				large="gfx/leaders/SPR/r56_portrait_SPR_Juan_III.dds"
+			}
+		}
+		country_leader={
+			ideology=monarchism
+			expire="1965.1.1.1"
+			id=1100
+		}
+	}
+
+}

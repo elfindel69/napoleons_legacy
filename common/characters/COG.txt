@@ -1,0 +1,533 @@
+characters={
+	COG_francois_tolenga={
+		name="François Tolenga"
+		portraits={
+			civilian={
+				large="gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits = {
+				compassionate_gentleman
+			}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	
+	}
+	COG_lumumba_lomendja={
+		name="Lumumba Lomendja"
+		portraits={
+			civilian={
+				large="gfx//leaders//Africa//Portrait_Africa_Generic_1.dds"
+			}
+		}
+		country_leader={
+			ideology=marxism
+			traits = {
+				silent_workhorse
+			}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	
+	}
+	COG_david_manera={
+		name="David Manera"
+		portraits={
+			civilian={
+				large="gfx//leaders//Africa//Portrait_Africa_Generic_Land_3.dds"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			traits = {
+				
+			}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	
+	}
+	COG_joseph_boutet={
+		name="Joseph Boutet"
+		portraits={
+			civilian={
+				large="gfx//leaders//Africa//Portrait_Africa_Generic_3.dds"
+			}
+		}
+		country_leader={
+			ideology=centrism
+			traits = {
+				
+			}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	
+	}
+	COG_mabumba_kitanika={
+		name="Mabumba Kitanika"
+		portraits={
+			civilian={
+				large="gfx/leaders/Monarchs/Portrait_KTG_Mabumba_Kitanika.tga"
+			}
+		}
+		country_leader={
+			ideology=absolutism
+			traits = {
+				
+			}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	
+	}
+	COG_martial_ilunga={
+		name="Martial Ilunga"
+		advisor={
+			slot = high_command
+			idea_token = COG_martial_ilunga
+			ledger = army 
+			allowed = {
+				original_tag = COG
+			}
+			traits = {
+				army_armored_2 
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+				
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_generic_army_african_2"
+			}
+		}
+	}
+	COG_stephane_kasongo={
+		name="Stephane Kasongo"
+		advisor={
+			slot = political_advisor
+			idea_token = COG_stephane_kasongo
+			allowed = {
+				original_tag = COG
+			}
+			traits = {
+				democratic_reformer 
+			}
+			do_effect = {
+				not = {
+					has_government = democratic 
+				}
+			}
+			ai_will_do = {
+				factor = 0.000
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_african_1"
+			}
+		}
+	}
+	COG_desire_ntumba={
+		advisor={
+			name = "Désiré Ntumba"
+			slot = air_chief
+			idea_token = COG_desire_ntumba
+			allowed = {
+				original_tag = COG
+			}
+			traits = {
+				air_chief_ground_support_2 
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_generic_air_african_3"
+			}
+		}
+	}
+	COG_alfred_kapinga={
+		advisor={
+			name = "Alfred Kapinga"
+			slot = navy_chief
+			idea_token = COG_alfred_kapinga
+			allowed = {
+				original_tag = COG
+			}
+			traits = {
+				navy_chief_maneuver_2 
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_generic_navy_african_3"
+			}
+		}
+	}
+	COG_anatole_banza={
+		advisor={
+			name = "Anatole Banza"
+			slot = theorist
+			idea_token = COG_anatole_banza
+			ledger = navy 
+			allowed = {
+				original_tag = COG
+			}
+			traits = {
+				naval_theorist 
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_generic_navy_african_3"
+			}
+		}
+	}
+	COG_divin_nkulu={
+		name = "Divin Nkulu"
+		advisor={
+			slot = high_command
+			idea_token = COG_divin_nkulu
+			ledger = air 
+			allowed = {
+				original_tag = COG
+			}
+			traits = {
+				air_close_air_support_2 
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_generic_air_african_2"
+			}
+		}
+	}
+	COG_joseph_mwamba={
+		name = "Joseph Mwamba"
+		advisor={
+			slot = theorist
+			idea_token = COG_joseph_mwamba
+			ledger = air 
+			allowed = {
+				original_tag = COG
+			}
+			traits = {
+				air_warfare_theorist 
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_generic_air_african_2"
+			}
+		}
+	}
+	COG_anatole_monga={
+		name = "Anatole Monga"
+		advisor={
+			slot = political_advisor
+			idea_token = COG_anatole_monga
+			allowed = {
+				original_tag = COG
+			}
+			traits = {
+				prince_of_terror 
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_african_2"
+			}
+		}
+	}
+	COG_elisee_umba={
+		name = "Elisée Umba"
+		advisor={
+			slot = political_advisor
+			idea_token = COG_elisee_umba
+			allowed = {
+				original_tag = COG
+			}
+			traits = {
+				smooth_talking_charmer 
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_african_3"
+			}
+		}
+	}
+	COG_wilfied_mputu={
+		name = "Wilfied Mputu"
+		advisor={
+			slot = army_chief
+			idea_token = COG_wilfied_mputu
+			allowed = {
+				original_tag = COG
+			}
+			traits = {
+				army_chief_defensive_2 
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_generic_army_african_1"
+			}
+		}
+	}
+	COG_joel_mukalay={
+		name = "Joel Mukalay"
+		advisor={
+			slot = political_advisor
+			idea_token = COG_joel_mukalay
+			allowed = {
+				original_tag = COG
+			}
+			traits = {
+				communist_revolutionary 
+			}
+			do_effect = {
+				not = {
+					has_government = communism 
+				}
+			}
+			ai_will_do = {
+				factor = 0.000
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_african_3"
+			}
+		}
+	}
+	COG_isaie_kazadi={
+		name = "Isaie Kazadi"
+		advisor={
+			slot = army_chief
+			idea_token = COG_isaie_kazadi
+			allowed = {
+				original_tag = COG
+			}
+			traits = {
+				army_chief_organizational_2 
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_generic_army_african_4"
+			}
+		}
+	}
+	COG_boniface_mutombo={
+		name = "Boniface Mutombo"
+		advisor={
+			slot = political_advisor
+			idea_token = COG_boniface_mutombo
+			allowed = {
+				original_tag = COG
+			}
+			traits = {
+				fascist_demagogue 
+			}
+			do_effect = {
+				not = {
+					has_government = fascism 
+				}
+			}
+			ai_will_do = {
+				factor = 0.000
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_african_2"
+			}
+		}
+	}
+	COG_remi_tshibola={
+		name = "Rémi Tshibola"
+		advisor={
+			slot = political_advisor
+			idea_token = COG_remi_tshibola
+			allowed = {
+				original_tag = COG
+			}
+			traits = {
+				captain_of_industry 
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_african_1"
+			}
+		}
+	}
+	COG_joel_nzuzi={
+		name = "Joel Nzuzi"
+		advisor={
+			slot = high_command
+			idea_token = COG_joel_nzuzi
+			ledger = army 
+			allowed = {
+				original_tag = COG
+			}
+			traits = {
+				army_regrouping_2 
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_generic_army_african_5"
+			}
+		}
+	}
+	COG_isaie_yumba={
+		name = "Isaie Yumba"
+		advisor={
+			slot = navy_chief
+			idea_token = COG_isaie_yumba
+			allowed = {
+				original_tag = COG
+			}
+			traits = {
+				navy_chief_commerce_raiding_2 
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_generic_navy_african_2"
+			}
+		}
+	}
+	COG_noel_kabulo={
+		name = "Noel Kabulo"
+		advisor={
+			slot = theorist
+			idea_token = COG_noel_kabulo
+			ledger = army 
+			allowed = {
+				original_tag = COG
+			}
+			traits = {
+				military_theorist 
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_generic_army_african_6"
+			}
+		}
+	}
+	COG_eugene_matondo={
+		name = "Eugene Matondo"
+		advisor={
+			slot = high_command
+			idea_token = COG_eugene_matondo
+			ledger = army 
+			allowed = {
+				original_tag = COG
+			}
+			traits = {
+				army_infantry_2 
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_generic_army_african_3"
+			}
+		}
+	}
+	COG_jacob_kalala={
+		name = "Jacob Kalala"
+		advisor={
+			slot = high_command
+			idea_token = COG_jacob_kalala
+			ledger = navy 
+			allowed = {
+				original_tag = COG
+			}
+			traits = {
+				navy_capital_ship_2 
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_generic_navy_african_2"
+			}
+		}
+	}
+	COG_lilian_kabila={
+		name = "Lilian Kabila"
+		advisor={
+			slot = air_chief
+			idea_token = COG_lilian_kabila
+			allowed = {
+				original_tag = COG
+			}
+			traits = {
+				air_chief_reform_2 
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+
+		portraits={
+			army={
+				small="GFX_idea_generic_air_african_3"
+			}
+		}
+	}
+}

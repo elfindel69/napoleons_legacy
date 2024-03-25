@@ -1,0 +1,65 @@
+#########################################################################
+# OPINION MODIFIERS
+##########################################################################
+# value
+# min_trust
+# max_trust
+# decay
+# months/years/days = timer
+# trade = yes/no
+
+opinion_modifiers = {
+
+	PLC_FRA_join_intermarius_reject = {		
+		value = -30
+	}
+
+	PLC_ITA_join_intermarius_reject = {		
+		value = -30
+	}
+
+	PLC_USA_join_intermarius_reject = {		
+		value = -30
+	}
+
+	PLC_join_germany_reject = {
+		value = -30
+	}
+	
+	PLC_join_ENG_reject = {
+		value = -30
+	}
+	
+	PLC_join_SOV_reject = {
+		value = -30
+	}
+
+	USA_join_FSL_reject = {
+		value = -30
+	}
+	
+	PLC_treaty_with_romania = { value = 25 }
+	
+	PLC_treaty_with_bulgaria = { value = 25 }
+	
+	PLC_seek_accommodation_with_france = { value = 25 }
+
+
+	rus_diplomacy_focus = {
+		value = 20
+	}
+	ukr_diplomacy_focus = {
+		value = 20
+	}
+	usa_diplomacy_focus = {
+		value = 20
+	}
+
+	befriended_germany = { value = 25 }
+
+	antagonized_germany = { value = -25 }
+
+	befriended_italy = { value = 25 }
+
+	established_embassy = { value = 25 }
+}	
