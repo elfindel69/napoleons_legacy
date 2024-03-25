@@ -2410,7 +2410,6 @@ political_actions = {
 				add = 10
 				tag = AUS
 				fascism > 0.45
-				GER = { has_completed_focus = GER_a_new_constitution }
 			}
 			modifier = {
 				add = 10

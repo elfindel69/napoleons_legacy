@@ -285,18 +285,38 @@ set_convoys = 500
 
 
 set_politics = {
-	ruling_party = monarchist
+	ruling_party = democratic
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 20
+	democratic = 65
 	communism = 1
-	monarchist = 55
+	monarchist = 10
 	fascism = 12
 	neutrality = 12
 
+}
+
+
+# DIPLOMACY
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = CUB
+		autonomous_state = autonomy_integrated_puppet
+	}
+	
+	
+	else = {
+		puppet = CUB
+	}
 }
 
 add_ideas = {

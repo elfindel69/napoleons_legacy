@@ -78,13 +78,8 @@ if = {
 		target = INS
 		autonomous_state = autonomy_integrated_puppet
 	}
-	set_autonomy = {
-		target = COG
-		autonomous_state = autonomy_integrated_puppet
-	}
 	else = {
 		puppet = INS
-		puppet = COG
 	}
 
 }

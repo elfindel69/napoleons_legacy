@@ -1,7 +1,7 @@
 characters = {
 
 
-	PLC_jan_v = {
+	POL_jan_v = {
 		name="Jan V Jagiełło"
 		portraits = {
 			civilian = {
@@ -17,7 +17,7 @@ characters = {
 	}
 	
 
-	rep_PLC_edward_rydzsmigly = {
+	rep_POL_edward_rydzsmigly = {
 		name=POL_edward_rydz_smigly
 		portraits = {
 			army = {
@@ -31,10 +31,10 @@ characters = {
 		advisor = {
 			cost = 100
 			slot = theorist
-			idea_token = PLC_edward_rydz_smigly
+			idea_token = POL_edward_rydz_smigly
 			ledger = army
 			allowed = {
-				original_tag = PLC
+				original_tag = POL
 			}
 			traits = {
 				sanation_militarist
@@ -57,7 +57,7 @@ characters = {
 
 ### POLITICAL ADVISORS ###
 	
-rep_PLC_wanda_wasilewska = {
+rep_POL_wanda_wasilewska = {
 	name=POL_wanda_wasilewska
 	portraits = {
 		army = {
@@ -68,11 +68,11 @@ rep_PLC_wanda_wasilewska = {
 	advisor = {
 		cost = 100
 		slot = political_advisor
-		idea_token = PLC_wanda_wasilewska
+		idea_token = POL_wanda_wasilewska
 		ledger = army
 		
 		allowed = {
-			original_tag = PLC
+			original_tag = POL
 		}
 		traits = {
 			leftist_intellectual
@@ -83,7 +83,7 @@ rep_PLC_wanda_wasilewska = {
 
 
 
-rep_PLC_mieczyslaw_michalowicz={
+rep_POL_mieczyslaw_michalowicz={
 	instance = {
 		allowed = {
 			has_dlc = "No Step Back"
@@ -96,9 +96,9 @@ rep_PLC_mieczyslaw_michalowicz={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = PLC_mieczyslaw_michalowicz
+			idea_token = POL_mieczyslaw_michalowicz
 			allowed = {
-				original_tag = PLC
+				original_tag = POL
 				has_dlc = "No Step Back"
 			}
 			traits = {
@@ -123,9 +123,9 @@ rep_PLC_mieczyslaw_michalowicz={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = PLC_mieczyslaw_michalowicz
+			idea_token = POL_mieczyslaw_michalowicz
 			allowed = {
-				original_tag = PLC
+				original_tag = POL
 				NOT = {
 					has_dlc = "No Step Back"
 				}
@@ -140,7 +140,7 @@ rep_PLC_mieczyslaw_michalowicz={
 	}
 }
 
-rep_PLC_henryk_floyar_rajchman={
+rep_POL_henryk_floyar_rajchman={
 	name=POL_henryk_floyar_rajchman
 	portraits={
 		army={
@@ -149,9 +149,9 @@ rep_PLC_henryk_floyar_rajchman={
 	}
 	advisor={
 		slot = political_advisor
-		idea_token = PLC_henryk_floyar_rajchman
+		idea_token = POL_henryk_floyar_rajchman
 		allowed = {
-			original_tag = PLC
+			original_tag = POL
 			has_dlc = "No Step Back"
 		}
 		traits = {
@@ -160,7 +160,7 @@ rep_PLC_henryk_floyar_rajchman={
 	}
 }
 
-rep_PLC_boleslaw_bierut={
+rep_POL_boleslaw_bierut={
 	name=POL_boleslaw_bierut
 	portraits={
 		army={
@@ -169,9 +169,9 @@ rep_PLC_boleslaw_bierut={
 	}
 	advisor={
 		slot = political_advisor
-		idea_token = PLC_boleslaw_bierut
+		idea_token = POL_boleslaw_bierut
 		allowed = {
-			original_tag = PLC
+			original_tag = POL
 		}
 		traits = {
 			socialist_autocrat 
@@ -188,7 +188,7 @@ rep_PLC_boleslaw_bierut={
 	}
 }
 
-rep_PLC_edward_osobka_morawski={
+rep_POL_edward_osobka_morawski={
 	name=POL_edward_osobka_morawski
 	portraits={
 		army={
@@ -197,9 +197,9 @@ rep_PLC_edward_osobka_morawski={
 	}
 	advisor={
 		slot = political_advisor
-		idea_token = PLC_edward_osobka_morawski
+		idea_token = POL_edward_osobka_morawski
 		allowed = {
-			original_tag = PLC
+			original_tag = POL
 		}
 		traits = {
 			patriotic_socialist 
@@ -216,7 +216,7 @@ rep_PLC_edward_osobka_morawski={
 	}
 }
 
-rep_PLC_kazimierz_switalski = {
+rep_POL_kazimierz_switalski = {
 	name=POL_kazimierz_switalski
 	portraits = {
 		army = {
@@ -225,9 +225,9 @@ rep_PLC_kazimierz_switalski = {
 	}
 	advisor = {
 		slot = political_advisor
-		idea_token = PLC_kazimierz_switalski
+		idea_token = POL_kazimierz_switalski
 		allowed = {
-			original_tag = PLC
+			original_tag = POL
 		}
 		traits = {
 			leftist_legionary
@@ -237,7 +237,7 @@ rep_PLC_kazimierz_switalski = {
 
 
 
-rep_PLC_zdzislaw_lubomirski={
+rep_POL_zdzislaw_lubomirski={
 	name=POL_zdzislaw_lubomirski
 	portraits={
 		army={
@@ -246,9 +246,9 @@ rep_PLC_zdzislaw_lubomirski={
 	}
 	advisor={
 		slot = political_advisor
-		idea_token = PLC_zdzislaw_lubomirski
+		idea_token = POL_zdzislaw_lubomirski
 		allowed = {
-				original_tag = PLC
+				original_tag = POL
 			}
 		
 		traits = {
@@ -266,7 +266,7 @@ rep_PLC_zdzislaw_lubomirski={
 	}		
 }
 
-rep_PLC_tadeusz_bielecki={
+rep_POL_tadeusz_bielecki={
 	name=POL_tadeusz_bielecki
 	portraits={
 		army={
@@ -279,9 +279,9 @@ rep_PLC_tadeusz_bielecki={
 	}
 	advisor={
 		slot = political_advisor
-		idea_token = PLC_tadeusz_bielecki
+		idea_token = POL_tadeusz_bielecki
 		allowed = {
-			original_tag = PLC
+			original_tag = POL
 			has_dlc = "No Step Back"
 		}
 		traits = {
@@ -290,7 +290,7 @@ rep_PLC_tadeusz_bielecki={
 	}		
 }
 
-rep_PLC_joachim_stefan_bartoszewicz={
+rep_POL_joachim_stefan_bartoszewicz={
 	name=POL_joachim_stefan_bartoszewicz
 	portraits={
 		army={
@@ -299,9 +299,9 @@ rep_PLC_joachim_stefan_bartoszewicz={
 	}
 	advisor={
 		slot = political_advisor
-		idea_token = PLC_joachim_stefan_bartoszewicz
+		idea_token = POL_joachim_stefan_bartoszewicz
 		allowed = {
-			original_tag = PLC
+			original_tag = POL
 			OR = {
 				has_dlc = "Poland: United and Ready"
 				has_dlc = "No Step Back"
@@ -313,18 +313,18 @@ rep_PLC_joachim_stefan_bartoszewicz={
 	}
 }
 
-rep_PLC_aleksander_kakowski={
+rep_POL_aleksander_kakowski={
 	name=POL_aleksander_kakowski
 	portraits={
 		army={
-			small="GFX_idea_PLC_aleksander_kakowski"
+			small="GFX_idea_POL_aleksander_kakowski"
 		}
 	}
 	advisor={
 		slot = political_advisor
-		idea_token = PLC_aleksander_kakowski
+		idea_token = POL_aleksander_kakowski
 		allowed = {
-			original_tag = PLC
+			original_tag = POL
 		}
 		traits = {
 			autocratic_archbishop 
@@ -341,7 +341,7 @@ rep_PLC_aleksander_kakowski={
 	}		
 }
 
-rep_PLC_stanislaw_radkiewicz={
+rep_POL_stanislaw_radkiewicz={
 	name=POL_stanislaw_radkiewicz
 	portraits={
 		army={
@@ -350,9 +350,9 @@ rep_PLC_stanislaw_radkiewicz={
 	}
 	advisor={
 		slot = political_advisor
-		idea_token = PLC_stanislaw_radkiewicz
+		idea_token = POL_stanislaw_radkiewicz
 		allowed = {
-			original_tag = PLC
+			original_tag = POL
 		}
 		available = {
 			if = {
@@ -375,7 +375,7 @@ rep_PLC_stanislaw_radkiewicz={
 }
 
 
-rep_PLC_stanislaw_wojciechowski={
+rep_POL_stanislaw_wojciechowski={
 	name=POL_stanislaw_wojciechowski
 	portraits={
 		army={
@@ -384,9 +384,9 @@ rep_PLC_stanislaw_wojciechowski={
 	}
 	advisor={
 		slot = political_advisor
-		idea_token = PLC_stanislaw_wojciechowski
+		idea_token = POL_stanislaw_wojciechowski
 		allowed = {
-			original_tag = PLC
+			original_tag = POL
 			OR = {
 				has_dlc = "Poland: United and Ready"
 				has_dlc = "No Step Back"
@@ -398,7 +398,7 @@ rep_PLC_stanislaw_wojciechowski={
 	}
 }
 
-rep_PLC_jerzy_rutkowski={
+rep_POL_jerzy_rutkowski={
 	name=POL_jerzy_rutkowski
 	portraits={
 		army={
@@ -407,9 +407,9 @@ rep_PLC_jerzy_rutkowski={
 	}
 	advisor={
 		slot = political_advisor
-		idea_token = PLC_jerzy_rutkowski
+		idea_token = POL_jerzy_rutkowski
 		allowed = {
-			original_tag = PLC
+			original_tag = POL
 		}
 		
 		traits = {
@@ -427,7 +427,7 @@ rep_PLC_jerzy_rutkowski={
 	}		
 }
 
-rep_PLC_marian_rejewski={
+rep_POL_marian_rejewski={
 	name=POL_marian_rejewski
 	portraits={
 		army={
@@ -436,9 +436,9 @@ rep_PLC_marian_rejewski={
 	}
 	advisor={
 		slot = political_advisor
-		idea_token = PLC_marian_rejewski
+		idea_token = POL_marian_rejewski
 		allowed = {
-			original_tag = PLC
+			original_tag = POL
 			has_dlc = "No Step Back"
 		}
 		traits = {

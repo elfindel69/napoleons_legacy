@@ -190,33 +190,43 @@ if = {
 		target = MAL
 		autonomous_state = autonomy_integrated_puppet
 	}
+	
 	set_autonomy = {
-		target = EGY
-		autonomous_state = autonomy_integrated_puppet
-		freedom_level = 0.35
-	}
-	set_autonomy = {
-		target = RHO
-		autonomous_state = autonomy_integrated_puppet
+		target = RAJ
+		autonomous_state = autonomy_dominion
 		freedom_level = 0.4
 	}
+	
 	set_autonomy = {
-		target = KEN
-		autonomous_state = autonomy_integrated_puppet
+		target = CAN
+		autonomous_state = autonomy_dominion
 		freedom_level = 0.4
-	}
-	set_autonomy = {
-		target = MLT
-		autonomous_state = autonomy_integrated_puppet
-		freedom_level = 0.1
 	}
 
+	set_autonomy = {
+		target = AST
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.4
+	}
+
+	set_autonomy = {
+		target = NZL
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.4
+	}
+
+	set_autonomy = {
+		target = SAF
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.4
+	}
 	else = {
 		puppet = MAL
-		puppet = EGY
-		puppet = RHO
-		puppet = KEN
-		puppet = MLT
+		puppet = RAJ
+		puppet = CAN
+		puppet = AST
+		puppet = SAF
+		puppet = NZL	
 	}
 }
 
