@@ -4,11 +4,11 @@ bookmarks = {
 		desc = "BLITZKRIEG_DESC"
 		date = 1939.8.14.12
 		picture = "GFX_select_date_1939"
-		default_country = "PLC"
+		default_country = "FRA"
 	
 		FRA = {
 			history = FRA_BLITZKRIEG_DESC
-			ideology = monarchist
+			ideology = democratic
 			ideas={
 				FRA_victors_of_wwi
 				FRA_disjointed_government
@@ -22,7 +22,7 @@ bookmarks = {
 		}
 		USA = {
 			history = USA_BLITZKRIEG_DESC
-			ideology = monarchist
+			ideology = democratic
 			
 			focuses = {
 				USA_war_plan_black
@@ -47,9 +47,9 @@ bookmarks = {
 			}
 			
 		}
-		PLC={
+		POL={
 			history = POL_BLITZKRIEG_DESC
-			ideology = monarchist
+			ideology = neutrality	
 			ideas = {
 			
 			}
@@ -61,7 +61,7 @@ bookmarks = {
 		}
 		GER = {
 			history = GER_BLITZKRIEG_DESC
-			ideology = monarchist
+			ideology = fascism
 			ideas = {
 				sour_loser
 				general_staff
@@ -77,7 +77,7 @@ bookmarks = {
 		
 		ITA = {
 			history = ITA_BLITZKRIEG_DESC
-			ideology = monarchist
+			ideology = fascism
 			ideas={
 				vittorio_emanuele_albania_ethiopia
 				ITA_camicie_nere
@@ -105,7 +105,7 @@ bookmarks = {
 		}
 		RUS = {
 			history = SOV_BLITZKRIEG_DESC
-			ideology = monarchist
+			ideology = democratic
 			ideas = {
 			
 			}

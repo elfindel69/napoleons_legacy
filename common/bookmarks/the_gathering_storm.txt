@@ -4,12 +4,12 @@ bookmarks = {
 		desc = "GATHERING_STORM_DESC"
 		date = 1936.1.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "PLC"
+		default_country = "FRA"
 		default = yes
 		
 		"FRA"={
 			history = "FRA_GATHERING_STORM_DESC"
-			ideology = monarchist
+			ideology = democratic
 			available = { NOT = { has_dlc = "La Resistance" } }
 			ideas = {
 				FRA_victors_of_wwi
@@ -24,7 +24,7 @@ bookmarks = {
 		}
 		"FRA"={
 			history = "FRA_GATHERING_STORM_DESC"
-			ideology = monarchist
+			ideology = democratic
 			available = { has_dlc = "La Resistance" } 
 			ideas = {
 				FRA_victors_of_wwi
@@ -34,12 +34,12 @@ bookmarks = {
 			focuses = {
 				FRA_invite_communist_ministers
 				FRA_revive_the_national_bloc
-				FRA_consolidate_the_throne
+				
 			}
 		}
 		"USA"={
 			history = "USA_GATHERING_STORM_DESC"
-			ideology = monarchist
+			ideology = democratic
 			ideas = {
 			
 				undisturbed_isolation
@@ -80,22 +80,21 @@ bookmarks = {
 				ENG_war_with_italy
 			}
 		}
-		"PLC"={
+		"POL"={
 			history = "PLC_GATHERING_STORM_DESC"
-			ideology = monarchist
+			ideology = neutrality
 			ideas = {
 				PLC_Polish_Cipher_Bureau_Focus0
 				PLC_Synthetic_Rubber
 			}
 			focuses = {
-				PLC_treaty_with_romania
 				POL_draw_closer_to_britain
 				POL_seek_accommodation_with_germany
 			}
 		}
 		"GER"={
 			history = "GER_GATHERING_STORM_DESC"
-			ideology = monarchist
+			ideology = fascism
 			available = { has_dlc = "Waking the Tiger" }
 			ideas = {
 				sour_loser
@@ -105,12 +104,11 @@ bookmarks = {
 			focuses = {
 				GER_anschluss
 				GER_danzig_or_war
-				GER_long_live_the_kaiserreich
 			}
 		}
 		"GER"={
 			history = "GER_GATHERING_STORM_DESC"
-			ideology = monarchist
+			ideology = fascism
 			available = { NOT = { has_dlc = "Waking the Tiger" } }
 			ideas = {
 				sour_loser
@@ -125,7 +123,7 @@ bookmarks = {
 		}
 		"ITA"={
 			history = "ITA_GATHERING_STORM_DESC"
-			ideology = monarchist
+			ideology = fascism
 			available = { has_dlc = "By Blood Alone" }
 			ideas = {
 				
@@ -140,7 +138,7 @@ bookmarks = {
 		}
 		"ITA"={
 			history = "ITA_GATHERING_STORM_DESC"
-			ideology = monarchist
+			ideology = fascism
 			available = { NOT = { has_dlc = "By Blood Alone" } }
 			ideas = {
 				
@@ -169,7 +167,7 @@ bookmarks = {
 		}
 		"RUS"={
 			history = "RUS_GATHERING_STORM_DESC"
-			ideology = monarchist
+			ideology = democratic
 			available = { has_dlc = "No Step Back" }
 			ideas = {
 				
@@ -182,7 +180,7 @@ bookmarks = {
 		}
 		"RUS"={
 			history = "RUS_GATHERING_STORM_DESC"
-			ideology = monarchist
+			ideology = democratic
 			available = { NOT = { has_dlc = "No Step Back" } }
 			ideas = {
 				
@@ -380,9 +378,9 @@ bookmarks = {
 			}
 		}
 
-		"BYZ"={
+		"GRE"={
 			minor = yes
-			history = "BYZ_GATHERING_STORM_DESC"
+			history = "GRE_GATHERING_STORM_DESC"
 			ideology = monarchist
 			ideas = {
 				GRE_debt_to_the_ifc
