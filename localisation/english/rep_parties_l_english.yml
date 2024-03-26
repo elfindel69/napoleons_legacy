@@ -274,11 +274,11 @@
  LOU_democratic_party:0 "Liberal Party"
  LOU_communism_party:0 "Workers' Party"
 
- LOU_monarchist_party:0 "King's Party (M)"
- LOU_monarchist_party_long:0 "King's Party - Monarchists"
- LOU_neutrality_party:0 "King's Party"
- LOU_neutrality_party_long:0 "King's Party"
- LOU_fascism_party:0 "People's Party" 
- LOU_democratic_party:0 "Liberal Party"
- LOU_communism_party:0 "Workers' Party"
+ ORG_monarchist_party:0 "King's Party (M)"
+ ORG_monarchist_party_long:0 "King's Party - Monarchists"
+ ORG_neutrality_party:0 "King's Party"
+ ORG_neutrality_party_long:0 "King's Party"
+ ORG_fascism_party:0 "People's Party" 
+ ORG_democratic_party:0 "Liberal Party"
+ ORG_communism_party:0 "Workers' Party"
 
