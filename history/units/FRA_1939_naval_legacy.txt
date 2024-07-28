@@ -431,4 +431,3 @@ instant_effect = {
 		industrial_manufacturer = mio:FRA_acl_organization
 	}
 
-#####################
