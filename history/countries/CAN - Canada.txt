@@ -60,7 +60,6 @@ if = {
 	add_ideas = CAN_conscription_crisis
 	
 
-	add_to_tech_sharing_group = commonwealth_research
 }
 
 1939.1.1 = {
@@ -201,7 +200,6 @@ recruit_character = CAN_andrew_mcnaughton
 recruit_character = CAN_george_jones
 recruit_character = CAN_raymond_collishaw
 recruit_character = CAN_guy_simonds
-recruit_character = CAN_gino_verchiella
 recruit_character = CAN_alasdair_murray
 recruit_character = CAN_george_volkoff
 recruit_character = CAN_george_croil
