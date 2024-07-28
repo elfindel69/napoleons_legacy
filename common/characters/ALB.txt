@@ -54,7 +54,7 @@ characters={
 		name="Gjon Burbank"
 		portraits={
 			civilian={
-				large="gfx/leaders/Europe/Portrait_europe_generic_7.dds"
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 			}
 		}
 		country_leader={

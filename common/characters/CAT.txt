@@ -3,7 +3,7 @@ characters={
 		name="Andreu Nin i Pérez"
 		portraits={
 			civilian={
-				large="gfx//leaders//Europe//Portrait_Europe_Generic_1.dds"
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 			}
 		}
 		country_leader={
@@ -16,7 +16,7 @@ characters={
 		name="Lluís Companys i Jover"
 		portraits={
 			civilian={
-				large="gfx//leaders//Europe//portrait_europe_generic_5.dds"
+				large="gfx/leaders/Europe/portrait_europe_generic_5.dds"
 			}
 		}
 		country_leader={
@@ -30,7 +30,7 @@ characters={
 		name="Daniel Cardona i Civit"
 		portraits={
 			civilian={
-				large="gfx//leaders//Europe//portrait_europe_generic_5.dds"
+				large="gfx/leaders/Europe/portrait_europe_generic_5.dds"
 			}
 		}
 		country_leader={
@@ -44,7 +44,7 @@ characters={
 		name="Lluc Isarch"
 		portraits={
 			civilian={
-				large="gfx//leaders//Europe//portrait_europe_generic_5.dds"
+				large="gfx/leaders/Europe/portrait_europe_generic_5.dds"
 			}
 		}
 		country_leader={
@@ -58,7 +58,7 @@ characters={
 		name="Francesc Cambó i Batlle"
 		portraits={
 			civilian={
-				large="gfx//leaders//Europe//portrait_europe_generic_6.dds"
+				large="gfx/leaders/Europe/portrait_europe_generic_6.dds"
 			}
 		}
 		country_leader={

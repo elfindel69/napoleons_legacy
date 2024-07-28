@@ -3,7 +3,7 @@ characters={
 		name="Loïc Lajoie"
 		portraits={
 			civilian={
-				large="gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
+				large="gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
 			}
 		}
 		country_leader={

@@ -3,7 +3,7 @@ characters={
 		name="François Tolenga"
 		portraits={
 			civilian={
-				large="gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
+				large="gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
 			}
 		}
 		country_leader={
@@ -20,7 +20,7 @@ characters={
 		name="Lumumba Lomendja"
 		portraits={
 			civilian={
-				large="gfx//leaders//Africa//Portrait_Africa_Generic_1.dds"
+				large="gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
 			}
 		}
 		country_leader={
@@ -37,7 +37,7 @@ characters={
 		name="David Manera"
 		portraits={
 			civilian={
-				large="gfx//leaders//Africa//Portrait_Africa_Generic_Land_3.dds"
+				large="gfx/leaders/Africa/Portrait_Africa_Generic_Land_1.dds"
 			}
 		}
 		country_leader={
@@ -54,7 +54,7 @@ characters={
 		name="Joseph Boutet"
 		portraits={
 			civilian={
-				large="gfx//leaders//Africa//Portrait_Africa_Generic_3.dds"
+				large="gfx/leaders/Africa/Portrait_Africa_Generic_3.dds"
 			}
 		}
 		country_leader={
