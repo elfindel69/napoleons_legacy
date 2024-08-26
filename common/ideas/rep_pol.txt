@@ -2,7 +2,7 @@ ideas = {
 
 country = {
 
-	PLC_exiled_royal_family = {
+	POL_exiled_royal_family = {
 
 		allowed = {
 			always = no
@@ -23,7 +23,7 @@ country = {
 		removal_cost = -1
 	}
 		
-	PLC_confiscated_royal_wealth = {
+	POL_confiscated_royal_wealth = {
 
 		allowed = {
 			always = no
@@ -44,13 +44,13 @@ country = {
 		removal_cost = -1
 	}
 
-	PLC_jan_v= {
+	POL_jan_v= {
 		picture = stanislas_iii	
 			
 		allowed = {
-			original_tag = PLC
+			original_tag = POL
 			always = yes
-			NOT = { has_country_flag = PLC_king_dies}
+			NOT = { has_country_flag = POL_king_dies}
 		}
 
 	   available = {
@@ -64,7 +64,7 @@ country = {
 			}
 			NOT = {
 				any_other_country = {
-					original_tag = PLC
+					original_tag = POL
 					has_government = fascism
 				}
 			}
@@ -80,7 +80,7 @@ country = {
 	
 	
 
-	PLC_ideological_fanaticism = {
+	POL_ideological_fanaticism = {
 		
 		
 		allowed = {
@@ -100,10 +100,10 @@ country = {
 		}
 	}
 	
-	PLC_militarism_focus = {
+	POL_militarism_focus = {
 			
 		allowed = {
-			original_tag = PLC
+			original_tag = POL
 			always = no
 		}
 
@@ -121,10 +121,10 @@ country = {
 			resistance_damage_to_garrison = -0.1 
 		}
 	}
-	PLC_authoritarianism_focus = {
+	POL_authoritarianism_focus = {
 			
 		allowed = {
-			original_tag = PLC
+			original_tag = POL
 			always = no
 		}
 
@@ -148,12 +148,12 @@ country = {
 			monarchist_drift = -0.1
 		}
 	}
-	PLC_polish_revanchism_focus = {
+	POL_polish_revanchism_focus = {
 	
 							  
    
 		allowed = {
-			original_tag = PLC
+			original_tag = POL
 			always = no
 		}
 
@@ -172,10 +172,10 @@ country = {
 		}
 	}
 	
-	PLC_internationalism_focus = {
+	POL_internationalism_focus = {
 	
 		allowed = {
-			original_tag = PLC
+			original_tag = POL
 			always = no
 		}
 
@@ -192,10 +192,10 @@ country = {
 		}
 	}								
 	
-	PLC_neutrality_government = {
+	POL_neutrality_government = {
 			
 		allowed = {
-			original_tag = PLC
+			original_tag = POL
 			always = no
 		}
 
@@ -213,10 +213,10 @@ country = {
 		}
 	}
 	
-	PLC_fascist_government = {
+	POL_fascist_government = {
 			
 		allowed = {
-			original_tag = PLC
+			original_tag = POL
 			always = no
 		}
 
@@ -234,10 +234,10 @@ country = {
 		}
 	}
 	
-	PLC_communist_government = {
+	POL_communist_government = {
 			
 		allowed = {
-			original_tag = PLC
+			original_tag = POL
 			always = no
 		}
 
@@ -255,7 +255,7 @@ country = {
 		}
 	}
 	
-	PLC_fascist_influence = {
+	POL_fascist_influence = {
 			
 			allowed = {
 				always = no
@@ -280,7 +280,7 @@ country = {
 			}
 		}
 		
-		PLC_communist_influence = {
+		POL_communist_influence = {
 			
 			
 			allowed = {
@@ -306,7 +306,7 @@ country = {
 			}
 		}
 		
-		PLC_communist_science = {
+		POL_communist_science = {
 			
 			
 			allowed = {
@@ -328,10 +328,10 @@ country = {
 		
 	
 	
-	PLC_monarchism_focus = {
+	POL_monarchism_focus = {
 			
 		allowed = {
-			original_tag = PLC
+			original_tag = POL
 			always = no
 		}
 
@@ -356,10 +356,10 @@ country = {
 		}
 	}
 	
-	PLC_king_rules_focus = {
+	POL_king_rules_focus = {
 			
 		allowed = {
-			original_tag = PLC
+			original_tag = POL
 			always = no
 		}
 
@@ -379,12 +379,12 @@ country = {
 		}
 	}
 
-	PLC_Polish_Cipher_Bureau_Focus0	= {
+	POL_Polish_Cipher_Bureau_Focus0	= {
 	
-		name = PLC_Polish_Cipher_Bureau_Focus0
+		name = POL_Polish_Cipher_Bureau_Focus0
 	
 		allowed = {
-			original_tag = PLC
+			original_tag = POL
 			always = no
 		}
 
@@ -394,14 +394,14 @@ country = {
 			
 		removal_cost = -1
 		
-		picture = PLC_Intelligence_Service0
+		picture = POL_Intelligence_Service0
 		
 		modifier = {
 			decryption_power_factor = 0.05
 		}
 	}
 	
-	PLC_Synthetic_Rubber = {
+	POL_Synthetic_Rubber = {
 		allowed = {
 			always = no
 		}
@@ -415,7 +415,7 @@ country = {
 		picture = Synthetic_Rubber
 		
 		modifier = {
-			custom_modifier_tooltip = PLC_Synthetic_Rubber_tt
+			custom_modifier_tooltip = POL_Synthetic_Rubber_tt
 			production_speed_synthetic_refinery_factor = 0.02
 		}
 		

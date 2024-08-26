@@ -16,11 +16,7 @@ set_technology = {
 	
 }
 
-if = {
-	limit = { has_dlc = "Together for Victory" }
 
-	add_to_tech_sharing_group = commonwealth_research
-}
 
 set_convoys = 20
 
@@ -28,7 +24,7 @@ set_convoys = 20
 	#generic focuses
 
 	add_political_power = 1198
-	oob = "PAK_1939"
+	#oob = "PAK_1939"
 	
 	complete_national_focus = army_effort
 	complete_national_focus = equipment_effort

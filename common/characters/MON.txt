@@ -43,7 +43,7 @@ characters={
 		name="Songgotu Kang'an"
 		portraits={
 			civilian={
-				large="gfx/leaders/Asia/portrait_asia_generic_4.dds"
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_2.dds"
 			}
 		}
 		country_leader={

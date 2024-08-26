@@ -65,7 +65,7 @@ characters={
 		name=GXC_liu_peng
 		portraits={
 			civilian={
-				large="gfx/leaders/Asia/portrait_asia_generic_4.dds"
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
 			}
 		}
 		country_leader={
@@ -80,7 +80,7 @@ characters={
 		name=GXC_zhang_lu
 		portraits={
 			civilian={
-				large="gfx/leaders/Asia/portrait_asia_generic_4.dds"
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
 			}
 		}
 		country_leader={
@@ -95,7 +95,7 @@ characters={
 		name=GXC_li_ting
 		portraits={
 			civilian={
-				large="gfx/leaders/Asia/portrait_asia_generic_4.dds"
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_2.dds"
 			}
 		}
 		country_leader={

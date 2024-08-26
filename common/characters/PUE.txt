@@ -137,7 +137,7 @@ characters={
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
 		portraits={
 			army={
-				small="GFX_idea_generic_army_south_america_6"
+				small="GFX_idea_generic_army_south_america_1"
 			}
 		}
 	}

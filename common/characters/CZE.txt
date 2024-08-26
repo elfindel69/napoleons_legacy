@@ -4,7 +4,7 @@ characters={
 		name=POL_karl_albrecht
 		portraits = {
 			civilian = {
-				large="GFX_portrait_POL_karl_albrecht"
+				large="gfx/leaders/POL/Portrait_POL_Karl_Albrecht.dds"
 			}
 		}
 	}

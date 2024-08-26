@@ -5,7 +5,7 @@
  institute_press_censorship_monarchist_state_desc:0 "The need to unite all of the subjects under the Monarchy require of us that the press, or a part of it, is subjected to the Crown or that acts on it's behalf."
  ban_monarchist_party:0 "Ban Monarchy"
  ban_monarchist_party_desc:0 "In the current situation, allowing monarchist parties to continue to organize would undermine our ability to govern effectively. Drastic measures will need to be taken."
- ban_monarchist_party_tt:1 "Change in popularity of Monarchist: §G-§![?.Root.party_popularity@monarchist|%0G].\n"
+ ban_monarchist_party_tt:1 "Change in popularity of Monarchism: §G-§![?.Root.party_popularity@monarchist|%0G].\n"
  anti_monarchist_raids:0 "Anti-Monarchist Raids"
  anti_monarchist_raids_desc:0 "We must crack down on monarchist elements in our nation for the sake of long-term domestic stability. Their influence is too great, and may potentially become a problem to the government."
  ban_neutrality_party:0 "Ban Non-aligned"

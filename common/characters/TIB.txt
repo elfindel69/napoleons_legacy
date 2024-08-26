@@ -16,7 +16,7 @@ characters={
 		name="Namgang Rinpoche"
 		portraits={
 			civilian={
-				large="gfx/leaders/Asia/portrait_asia_generic_4.dds"
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
 			}
 		}
 		country_leader={
@@ -29,7 +29,7 @@ characters={
 		name="Penor Tashi"
 		portraits={
 			civilian={
-				large="gfx/leaders/Asia/portrait_asia_generic_4.dds"
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
 			}
 		}
 		country_leader={

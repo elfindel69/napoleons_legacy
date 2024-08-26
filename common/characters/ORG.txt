@@ -3,7 +3,7 @@ characters = {
 		name = pl_Sobieslaw_dyn_pl_Rozanski
 		portraits = {
 			civilian = {
-				large = GFX_portrait_europe_generic_5
+				large = GFX_portrait_europe_generic_1
 			}
 		}
 		country_leader = {

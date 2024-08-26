@@ -30,8 +30,6 @@ if = {
 		RAJ_agrarian_society
 		RAJ_risk_of_famine
 	}
-
-	add_to_tech_sharing_group = commonwealth_research
 }
 
 set_convoys = 20

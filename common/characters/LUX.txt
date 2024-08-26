@@ -44,7 +44,7 @@ characters={
 		name="Jean Pirson"
 		portraits={
 			civilian={
-				large="gfx/leaders/Europe/Portrait_europe_generic_7.dds"
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 			}
 		}
 		country_leader={

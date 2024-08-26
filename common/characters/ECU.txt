@@ -30,7 +30,7 @@ characters={
 		name="Andrés Guilarte"
 		portraits={
 			civilian={
-				large="gfx/leaders/South America/portrait_south_america_generic_7.dds"
+				large="gfx/leaders/South America/Portrait_South_America_Generic_1.dds"
 			}
 		}
 		country_leader={
@@ -44,7 +44,7 @@ characters={
 		name="José La Mar"
 		portraits={
 			civilian={
-				large="gfx/leaders/South America/portrait_south_america_generic_7.dds"
+				large="gfx/leaders/South America/Portrait_South_America_Generic_1.dds"
 			}
 		}
 		country_leader={
