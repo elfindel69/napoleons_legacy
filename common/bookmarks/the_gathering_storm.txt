@@ -84,8 +84,8 @@ bookmarks = {
 			history = "PLC_GATHERING_STORM_DESC"
 			ideology = neutrality
 			ideas = {
-				PLC_Polish_Cipher_Bureau_Focus0
-				PLC_Synthetic_Rubber
+				POL_Polish_Cipher_Bureau_Focus0
+				POL_Synthetic_Rubber
 			}
 			focuses = {
 				POL_draw_closer_to_britain
