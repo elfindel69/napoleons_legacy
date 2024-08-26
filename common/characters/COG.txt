@@ -37,7 +37,7 @@ characters={
 		name="David Manera"
 		portraits={
 			civilian={
-				large="gfx/leaders/Africa/Portrait_Africa_Generic_Land_1.dds"
+				large="gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
 			}
 		}
 		country_leader={

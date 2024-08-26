@@ -4,8 +4,13 @@ characters={
 		name=POL_karl_albrecht
 		portraits = {
 			civilian = {
-				large="gfx/leaders/POL/Portrait_POL_Karl_Albrecht.dds"
+				large="gfx/leaders/CZE/portrait_POL_karl_albrecht.dds"
 			}
+		}
+		country_leader={
+			ideology=paternalism
+			expire="1965.1.1.1"
+			id=-1
 		}
 	}
 	CZE_edvard_benesh={

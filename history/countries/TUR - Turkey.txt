@@ -364,7 +364,7 @@ set_convoys = 20
 set_stability = 0.5
 set_war_support = 0.3
 
-
+recruit_character = rep_TUR_abdulmejid_ii
 if = {
 	limit = { has_dlc = "Battle for the Bosporus" }
 	recruit_character = TUR_mustafa_kemal_ataturk
@@ -428,7 +428,7 @@ if = {
 	recruit_character = GER_wilhelm_ritter_von_thoma #Foreign General. Not available at game start
 	recruit_character = ITA_ferdinando_umberto_filippo_adalberto #Foreign Admiral. Not available at game start
 	recruit_character = TUR_durrushehvar_i #Empty char. Can become country leader later
-	recruit_character = TUR_abdulmejid_ii #Empty char. Can become country leader later
+	 #Empty char. Can become country leader later
 	recruit_character = TUR_hazi_aslanov #Empty Char. Can become unit leader later
 }
 
