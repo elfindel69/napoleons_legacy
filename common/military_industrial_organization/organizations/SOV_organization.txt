@@ -1935,7 +1935,7 @@ SOV_grabin_design_bureau_organization = {
 		OR = {
 			tag = SOV 
 			AND = {
-				tag = BYZ
+				tag = GRE
 				has_dlc = "Battle for the Bosporus"
 			}
 		}
@@ -1951,7 +1951,7 @@ SOV_grabin_design_bureau_organization = {
 		}
 
 		IF = {
-			limit = { FROM = { original_tag = BYZ } }
+			limit = { FROM = { original_tag = GRE } }
 			FROM = {
 				has_government = communism 
 			}

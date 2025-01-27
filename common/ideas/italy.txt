@@ -1,0 +1,1318 @@
+ideas = {
+	hidden_ideas = {
+	
+	}
+
+	country = {
+
+
+##    ##    ###    ######## ####  #######  ##    ##    ###    ##           ######  ########  #### ########  #### ########  ######  
+###   ##   ## ##      ##     ##  ##     ## ###   ##   ## ##   ##          ##    ## ##     ##  ##  ##     ##  ##     ##    ##    ## 
+####  ##  ##   ##     ##     ##  ##     ## ####  ##  ##   ##  ##          ##       ##     ##  ##  ##     ##  ##     ##    ##       
+## ## ## ##     ##    ##     ##  ##     ## ## ## ## ##     ## ##           ######  ########   ##  ########   ##     ##     ######  
+##  #### #########    ##     ##  ##     ## ##  #### ######### ##                ## ##         ##  ##   ##    ##     ##          ## 
+##   ### ##     ##    ##     ##  ##     ## ##   ### ##     ## ##          ##    ## ##         ##  ##    ##   ##     ##    ##    ## 
+##    ## ##     ##    ##    ####  #######  ##    ## ##     ## ########     ######  ##        #### ##     ## ####    ##     ######  
+
+
+
+	}
+
+                        
+
+
+
+
+########  ########  ######  ####  ######   ##    ## ######## ########   ######  
+##     ## ##       ##    ##  ##  ##    ##  ###   ## ##       ##     ## ##    ## 
+##     ## ##       ##        ##  ##        ####  ## ##       ##     ## ##       
+##     ## ######    ######   ##  ##   #### ## ## ## ######   ########   ######  
+##     ## ##             ##  ##  ##    ##  ##  #### ##       ##   ##         ## 
+##     ## ##       ##    ##  ##  ##    ##  ##   ### ##       ##    ##  ##    ## 
+########  ########  ######  ####  ######   ##    ## ######## ##     ##  ######  
+	
+
+	tank_manufacturer = {
+	
+		designer = yes
+	
+		fiat = { #NORTH
+			allowed = {
+				original_tag = ITA
+			}
+
+			visible = {
+				
+			}
+			
+			available = {
+				controls_state = 158 #PIEMONT (Torino)
+				
+			}
+			
+			research_bonus = {
+				armor = 0.15
+			}
+			
+			traits = { tank_manufacturer }
+		}
+
+		ITA_fiat_improved = { #NORTH
+			name = fiat
+
+			picture = fiat
+
+			allowed = {
+				original_tag = ITA
+			}
+
+			visible = {
+				
+			}
+			
+			available = {
+				controls_state = 158 #PIEMONT (Torino)
+				
+			}
+			
+			research_bonus = {
+				armor = 0.15
+			}
+			
+			traits = { tank_manufacturer }
+
+			equipment_bonus = {
+				armor = {
+					instant = yes
+					build_cost_ic = -0.1
+				}
+			}
+		}
+		
+	}
+
+
+	naval_manufacturer = {
+	
+		designer = yes
+		
+		crda = { #NORTH
+			allowed = {
+				original_tag = ITA
+			}
+
+			visible = {
+				
+			}
+
+			available = {
+				controls_state = 736 #LITORALE (Trieste)
+				
+			}
+						
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			traits = { battlefleet_designer }
+		}
+
+		ITA_crda_improved = { #NORTH
+			name = crda
+
+			picture = crda
+
+			allowed = {
+				original_tag = ITA
+			}
+
+			visible = {
+				
+			}
+
+			available = {
+				controls_state = 736 #LITORALE (Trieste)
+				
+			}
+						
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			traits = { battlefleet_designer }
+
+			equipment_bonus = {
+				ship_hull_heavy = {
+					instant = yes
+					build_cost_ic = -0.1
+				}
+			}
+		}
+
+		ITA_cantiere_oto = { #NORTH
+			picture	= ITA_oto
+
+			allowed = {
+				original_tag = ITA
+			}
+
+			visible = {
+				
+			}
+
+			available = {
+				controls_State = 158 #PIEDMONT (Genova)
+				
+			}
+						
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			traits = { mediterranean_naval_manufacturer }
+		}
+
+		ITA_cantiere_oto_improved = { #NORTH
+			name = ITA_cantiere_oto
+
+			picture	= ITA_oto
+
+			allowed = {
+				original_tag = ITA
+			}
+
+			visible = {
+				
+			}
+
+			available = {
+				controls_State = 158 #PIEDMONT (Genova)
+				
+			}
+						
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			traits = { mediterranean_naval_manufacturer }
+
+			modifier = {
+				naval_equipment_upgrade_xp_cost = -0.25
+				refit_speed = 0.15
+				repair_speed_factor = 0.1
+			}
+		}
+
+		ITA_navalmeccanica = { #SOUTH
+			picture	= ITA_navalmeccanica
+
+			allowed = {
+				original_tag = ITA
+			}
+
+			visible = {
+				NOT = {
+					
+				}
+			}
+
+			available = {
+				controls_State = 117 # CAMPAGNA (Napoli)
+			
+			}
+						
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			traits = { convoy_escort_naval_manufacturer }
+		}
+
+		ITA_navalmeccanica_improved = { #SOUTH
+			name = ITA_navalmeccanica
+
+			picture	= ITA_navalmeccanica
+
+			allowed = {
+				original_tag = ITA
+			}
+
+			visible = {
+				
+			}
+
+			available = {
+				controls_State = 117 # CAMPAGNA (Napoli)
+				
+			}
+						
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			traits = { convoy_escort_naval_manufacturer }
+
+			equipment_bonus = {
+				destroyer = {
+					instant = yes
+					build_cost_ic = -0.1
+				}
+			}
+		}
+
+		ITA_cantiere_navale_di_ancona = { #SOUTH
+			picture	= ITA_cantera_navale_di_ancona
+
+			allowed = {
+				original_tag = ITA
+			}
+
+			visible = {
+				
+			}
+
+			available = {
+				controls_State = 157 # ABRUZZO (Ancona)
+				
+			}
+						
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			traits = { raiding_fleet_naval_manufacturer }
+		}
+
+		ITA_cantiere_navale_di_ancona_improved = { #SOUTH
+			name = ITA_cantiere_navale_di_ancona
+
+			picture	= ITA_cantera_navale_di_ancona
+
+			allowed = {
+				original_tag = ITA
+			}
+
+			visible = {
+				
+			}
+
+			available = {
+				controls_State = 157 # ABRUZZO (Ancona)
+				
+			}
+						
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			traits = { raiding_fleet_naval_manufacturer }
+
+			modifier = {
+				spotting_chance = 0.05
+			}
+		}
+
+		ITA_cantieri_navali_tosi = { #SOUTH
+			picture	= ITA_cantieri_navali_tosi
+
+			allowed = {
+				original_tag = ITA
+			}
+
+			visible = {
+				NOT = {
+				
+				}
+			}
+
+			available = {
+				controls_State = 849 # PUGLIA (Taranto)
+				
+			}
+						
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			traits = { submarine_manufacturer }
+		}
+
+		ITA_cantieri_navali_tosi_improved = { #SOUTH
+			name = ITA_cantieri_navali_tosi
+
+			picture	= ITA_cantieri_navali_tosi
+
+			allowed = {
+				original_tag = ITA
+			}
+
+			visible = {
+				
+			}
+
+			available = {
+				controls_State = 849 # PUGLIA (Taranto)
+				
+			}
+						
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			traits = { submarine_manufacturer_2 }
+		}
+	}
+	
+	aircraft_manufacturer = {	
+		
+		designer = yes
+		
+		macchi = { #NORTH
+			allowed = {
+				original_tag = ITA
+			}
+
+			visible = {
+				NOT = {
+					
+				}
+			}
+
+			available = {
+				controls_State = 159 #LOMBARDIA
+			
+			}
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { light_aircraft_manufacturer }
+		}
+		
+		ITA_macchi_improved = { #NORTH
+			name = macchi
+
+			picture = macchi
+
+			allowed = {
+				original_tag = ITA
+			}
+
+			visible = {
+				
+			}
+
+			available = {
+				controls_State = 159 #LOMBARDIA
+				
+			}
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { light_aircraft_manufacturer }
+
+			modifier = {
+				air_superiority_efficiency = 0.05
+			}
+		}
+
+		savoia_marchetti = { #NORTH
+			allowed = {
+				original_tag = ITA
+			}
+
+			visible = {
+				NOT = {
+					
+				}
+			}
+
+			available = {
+				controls_State = 159 #LOMBARDIA
+				
+			}
+
+			modifier = {
+				air_equipment_upgrade_xp_cost = -0.1
+			}
+
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { multi_role_aircraft_manufacturer }
+		}
+
+		ITA_savoia_marchetti_improved = { #NORTH
+			name = savoia_marchetti
+
+			picture = savoia_marchetti
+			
+			allowed = {
+				original_tag = ITA
+			}
+
+			visible = {
+			
+			}
+
+			available = {
+				controls_State = 159 #LOMBARDIA
+				
+			}
+
+			modifier = {
+				air_equipment_upgrade_xp_cost = -0.25
+				air_mission_efficiency = 0.03
+			}
+
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { multi_role_aircraft_manufacturer }
+		}
+		
+		caproni = { #NORTH			
+			allowed = {
+				original_tag = ITA
+			}
+
+			visible = {
+				NOT = {
+					
+				}
+			}
+
+			available = {
+				controls_State = 159 #LOMBARDIA
+				
+			}
+						
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { CAS_manufacturer }
+		}
+
+		ITA_caproni_improved = { #NORTH
+			name = caproni
+
+			picture = caproni
+
+			allowed = {
+				original_tag = ITA
+			}
+
+			visible = {
+				
+			}
+
+			available = {
+				controls_State = 159 #LOMBARDIA
+			
+			}
+						
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { CAS_manufacturer }
+
+			modifier = {
+				air_cas_efficiency = 0.1
+			}
+		}
+		
+		piaggio = { #NORTH		
+			allowed = {
+				original_tag = ITA
+			}
+
+			visible = {
+				NOT = {
+				
+				}
+			}
+
+			available = {
+				controls_State = 158 #PIEMONTE
+				
+			}
+						
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+		}
+
+		ITA_piaggio_improved = { #NORTH
+			name = piaggio
+
+			picture = piaggio
+
+			allowed = {
+				original_tag = ITA
+			}
+
+			visible = {
+				
+			}
+
+			available = {
+				controls_State = 158 #PIEMONTE
+				
+			}
+						
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+
+			modifier = {
+				air_strategic_bomber_bombing_factor = 0.1
+			}
+		}
+
+		ITA_imam = { #SOUTH
+			picture	= ITA_imam
+
+			allowed = {
+				original_tag = ITA
+			}
+
+			visible = {
+				
+			}
+
+			available = {
+				controls_State = 117 #CAMPANIA (Napoli)
+				
+			}
+						
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { medium_aircraft_manufacturer }
+		}
+
+		ITA_imam_improved = { #SOUTH
+			name = ITA_imam
+
+			picture	= ITA_imam
+
+			allowed = {
+				original_tag = ITA
+			}
+
+			visible = {
+				
+			}
+
+			available = {
+				controls_State = 117 #CAMPANIA (Napoli)
+				
+			}
+						
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { medium_aircraft_manufacturer }
+
+			modifier = {
+				air_training_xp_gain_factor = 0.15
+				air_ace_bonuses_factor = 0.1
+			}
+		}
+
+		ITA_crda_cant = { #NORTH
+			picture	= ITA_crda_cant
+
+			allowed = {
+				original_tag = ITA
+			}
+
+			visible = {
+				
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = ITA_has_crda_tt
+					OR = {
+						has_idea = crda
+						has_idea = ITA_crda_improved
+					}
+				}
+				controls_State = 736 #LITORALE (Trieste)
+				
+			}
+
+			cost = 75
+						
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { naval_aircraft_manufacturer }
+		}
+
+		ITA_crda_cant_improved = { #NORTH
+			name = ITA_crda_cant
+
+			picture	= ITA_crda_cant
+
+			allowed = {
+				original_tag = ITA
+			}
+
+			visible = {
+				
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = ITA_has_crda_tt
+					OR = {
+						has_idea = crda
+						has_idea = ITA_crda_improved
+					}
+				}
+				controls_State = 736 #LITORALE (Trieste)
+	
+			}
+
+			cost = 75
+						
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { naval_aircraft_manufacturer }
+
+			modifier = {
+				naval_strike_targetting_factor = 0.05
+			}
+		}
+
+		ITA_fiat_aviazione = { #NORTH
+			picture	= ITA_fiat_aviazione
+
+			allowed = {
+				original_tag = ITA
+			}
+
+			visible = {
+				
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = ITA_has_fiat_tt
+					OR = {
+						has_idea = fiat
+						has_idea = ITA_fiat_improved
+					}
+				}
+				controls_State = 158 #PIEDMONT (Torino)
+				
+			}
+
+			cost = 75
+						
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { fuel_efficient_aircraft_manufacturer }
+		}
+
+		ITA_fiat_aviazione_improved = { #NORTH
+			name = ITA_fiat_aviazione
+
+			picture	= ITA_fiat_aviazione
+
+			allowed = {
+				original_tag = ITA
+			}
+
+			visible = {
+			
+			}
+
+			available = {
+				OR = {
+					has_idea = fiat
+					has_idea = ITA_fiat_improved
+				}
+				controls_State = 158 #PIEDMONT (Torino)
+
+			}
+
+			cost = 75
+						
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { fuel_efficient_aircraft_manufacturer }
+
+			modifier = {
+				air_fuel_consumption_factor = -0.05
+			}
+		}
+	}
+
+	materiel_manufacturer = {
+			
+		designer = yes
+		
+		beretta = { #NORTH
+			allowed = {
+				original_tag = ITA
+			}
+
+			visible = {
+				
+			}
+			
+			available = {
+				controls_state = 159 #LOMBARDIA
+				
+			}
+			
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+		}
+
+		ITA_beretta_improved = { #NORTH
+			name = beretta
+
+			picture = beretta
+
+			allowed = {
+				original_tag = ITA
+			}
+
+			visible = {
+			
+			}
+			
+			available = {
+				controls_state = 159 #LOMBARDIA
+				
+			}
+			
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+
+			equipment_bonus = {
+				infantry_equipment = {
+					instant = yes
+					build_cost_ic = -0.1
+				}
+			}
+		}
+		
+		lancia = { #NORTH
+			allowed = {
+				original_tag = ITA
+			}
+
+			visible = {
+				
+			}
+			
+			available = {
+				controls_state = 159 #LOMBARDIA
+				
+			}
+			
+			research_bonus = {
+				motorized_equipment = 0.15
+			}
+			
+			traits = { motorized_equipment_manufacturer }
+		}
+
+		ITA_lancia_improved = { #NORTH
+			name = lancia
+
+			picture =lancia
+
+			allowed = {
+				original_tag = ITA
+			}
+
+			visible = {
+				
+			}
+			
+			available = {
+				controls_state = 159 #LOMBARDIA
+				
+			}
+			
+			research_bonus = {
+				motorized_equipment = 0.15
+			}
+			
+			traits = { motorized_equipment_manufacturer }
+
+			equipment_bonus = {
+				motorized_equipment = {
+					instant = yes
+					build_cost_ic = -0.1
+				}
+				armored_car_equipment = {
+					instant = yes
+					build_cost_ic = -0.1
+				}
+			}
+		}
+		
+		breda = { #NORTH
+			allowed = {
+				original_tag = ITA
+			}
+
+			visible = {
+				
+			}
+			
+			available = {
+				controls_state = 159 #LOMBARDIA
+				
+			}
+			
+			research_bonus = {
+				artillery = 0.15
+			}
+			
+			traits = { artillery_manufacturer }
+		}
+
+		ITA_breda_improved = { #NORTH
+			name = breda
+
+			picture = breda
+
+			allowed = {
+				original_tag = ITA
+			}
+
+			visible = {
+				
+			}
+			
+			available = {
+				controls_state = 159 #LOMBARDIA
+				
+			}
+			
+			research_bonus = {
+				artillery = 0.15
+			}
+			
+			traits = { artillery_manufacturer }
+
+			equipment_bonus = {
+				artillery_equipment = {
+					instant = yes
+					build_cost_ic = -0.1
+				}
+			}
+		}
+
+		ITA_brescia_arsenal = { #NORTH
+			picture = ITA_brescia_arsenal
+			
+			allowed = {
+				original_tag = ITA
+			}
+
+			visible = {
+				
+			}
+			
+			available = {
+				controls_state = 159 #LOMBARDY (Brescia)
+				
+			}
+			
+			research_bonus = {
+				support_tech = 0.10
+			}
+			
+			traits = { support_equipment_manufacturer }
+		}
+
+		ITA_brescia_arsenal_improved = { #NORTH
+			name = ITA_brescia_arsenal
+
+			picture = ITA_brescia_arsenal
+			
+			allowed = {
+				original_tag = ITA
+			}
+
+			visible = {
+				
+			}
+			
+			available = {
+				controls_state = 159 #LOMBARDY (Brescia)
+				
+			}
+			
+			research_bonus = {
+				support_tech = 0.15
+			}
+			
+			traits = { support_equipment_manufacturer }
+
+			equipment_bonus = {
+				support_equipment = {
+					instant = yes
+					build_cost_ic = -0.1
+				}
+			}
+		}
+
+		ITA_officine_meccaniche = { #Could be North (Milano) -> Considered anywhere
+			picture = ITA_officine_meccaniche
+			
+			allowed = {
+				original_tag = ITA
+				has_dlc = "By Blood Alone"
+			}
+			
+			available = {
+			
+			}
+			
+			research_bonus = {
+				motorized_equipment = 0.2
+			}
+
+			equipment_bonus = {
+				motorized_equipment = {
+					instant = yes
+					build_cost_ic = -0.15
+				}
+				train_equipment = {
+					instant = yes
+					build_cost_ic = -0.15
+				}
+			}
+			
+			traits = { motorized_equipment_manufacturer }
+		}
+	}
+
+	industrial_concern = {
+
+		ITA_ferrovie_dello_stato_italiane = {
+
+			picture = ITA_ferrovie_dello_stato_italiane
+			
+			allowed = {
+				original_tag = ITA
+			}
+
+			available = {
+			
+			}
+			
+			cost = 75
+
+			research_bonus = {
+				train_tech = 0.15
+			}
+			
+			traits = { railway_company }
+		}
+
+		ITA_agip = {
+
+			picture = ITA_agip
+			
+			allowed = {
+				original_tag = ITA
+			}
+
+			research_bonus = {
+				synth_resources = 0.1
+				industry = 0.05
+			}
+			
+			traits = { refinery_concern }
+		}		
+	
+		danieli = { #NORTH
+			
+			allowed = {
+				original_tag = ITA
+			}
+
+			visible = {
+				
+			}
+
+			available = {
+				controls_state = 160 #VENETO
+			
+			}
+			
+			research_bonus = {
+				industry = 0.15
+			}
+			
+			traits = { industrial_concern }
+		}
+
+		ITA_danieli_improved = { #NORTH
+			name = danieli
+
+			picture = danieli
+			
+			allowed = {
+				original_tag = ITA
+			}
+
+			visible = {
+				
+			}
+
+			available = {
+				controls_state = 160 #VENETO
+				
+			}
+			
+			research_bonus = {
+				industry = 0.15
+			}
+			
+			traits = { industrial_concern }
+
+			modifier ={
+				industrial_capacity_factory = 0.03
+				industrial_capacity_dockyard = 0.03
+			}
+		}
+
+		ITA_terni_industria_ed_elettricita = { #SOUTH
+
+			picture = ITA_terni_industria_ed_elettricita
+			
+			allowed = {
+				original_tag = ITA
+			}
+
+			visible = {
+				
+			}
+
+			available = {
+				controls_state = 162 #TUSCANY (actually Terni)
+				
+			}
+			
+			research_bonus = {
+				industry = 0.15
+			}
+			
+			traits = { industrial_concern }
+		}
+
+		ITA_terni_industria_ed_elettricita_improved = { #SOUTH
+			name = ITA_terni_industria_ed_elettricita
+
+			picture = ITA_terni_industria_ed_elettricita
+			
+			allowed = {
+				original_tag = ITA
+			}
+
+			visible = {
+				
+			}
+
+			available = {
+				controls_state = 162 #TUSCANY (actually Terni)
+				
+			}
+			
+			research_bonus = {
+				industry = 0.2
+				electronics = 0.1
+			}
+			
+			traits = { industrial_concern }
+		}
+
+		ITA_italcementi = { #NORTH
+
+			picture = ITA_italcementi
+			
+			allowed = {
+				original_tag = ITA
+			}
+
+			visible = {
+				
+			}
+
+			available = {
+				controls_state = 158 #PIEDMONT
+			
+			}
+
+			traits = { construction_company }
+		}
+
+		ITA_italcementi_improved = { #NORTH
+			name = ITA_italcementi
+
+			picture = ITA_italcementi
+			
+			allowed = {
+				original_tag = ITA
+			}
+
+			visible = {
+			
+			}
+
+			available = {
+				controls_state = 158 #PIEDMONT
+				
+			}
+
+			traits = { construction_company }
+
+			modifier = {
+				production_speed_buildings_factor = 0.05
+			}
+		}
+
+		ITA_astaldi = { #SOUTH
+
+			picture = ITA_astaldi
+			
+			allowed = {
+				original_tag = ITA
+			}
+
+			visible = {
+				
+			}
+
+			available = {
+				controls_state = 2 #LATIUM
+				
+			}
+
+			traits = { construction_company }
+		}
+
+		ITA_astaldi_improved = { #SOUTH
+			name = ITA_astaldi
+
+			picture = ITA_astaldi
+			
+			allowed = {
+				original_tag = ITA
+			}
+
+			visible = {
+			
+			}
+
+			available = {
+				controls_state = 2 #LATIUM
+			
+			}
+
+			traits = { construction_company }
+
+			research_bonus = {
+				electronics = 0.1
+			}
+
+			modifier = {
+				production_speed_infrastructure_factor = 0.1
+				production_speed_rail_way_factor = 0.1
+				production_speed_dockyard_factor = 0.1
+			}
+		}
+
+		ITA_ducati_energia = { #NORTH
+
+			picture = ITA_ducati_energia
+			
+			allowed = {
+				original_tag = ITA
+			}
+
+			visible = {
+				
+			}
+
+			available = {
+				controls_state = 161 #EMILIA ROMAGNA
+				
+			}
+
+			research_bonus = {
+				electronics = 0.15
+			}
+			
+			traits = { electronics_concern }
+		}
+
+		ITA_ducati_energia_improved = { #NORTH
+			name = ITA_ducati_energia
+
+			picture = ITA_ducati_energia
+			
+			allowed = {
+				original_tag = ITA
+			}
+
+			visible = {
+	
+			}
+
+			available = {
+				controls_state = 161 #EMILIA ROMAGNA
+			
+			}
+
+			research_bonus = {
+				electronics = 0.2
+			}
+			
+			traits = { electronics_concern }
+
+			modifier = {
+				recon_factor = 0.05
+				coordination_bonus = 0.1
+			}
+		}
+	}
+}

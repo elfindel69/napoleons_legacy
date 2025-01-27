@@ -1,0 +1,547 @@
+ideas = {
+
+	country = { 
+
+																								
+	}	 													
+
+#DESIGNERS
+	tank_manufacturer = { 
+		
+		designer = yes
+		
+		GRE_biamax = {
+			
+			picture = gre_biamax
+
+			allowed = {
+				original_tag = GRE
+				has_dlc = "Battle for the Bosporus"
+			}
+
+			
+			
+			research_bonus = {
+				armor = 0.15
+			}
+			
+			traits = { fast_tank_manufacturer }
+				
+			ai_will_do = {
+				factor = 1
+			}
+
+			modifier = { 
+				motorized_defence_factor = 0.05
+				mechanized_defence_factor = 0.05
+			}
+		}
+
+		GRE_man = {	
+
+			picture = GER_MAN
+
+			allowed = {
+				original_tag = GRE
+				has_dlc = "Battle for the Bosporus"
+			}
+
+			available = {
+				NOT = { has_war_with = GER }
+			}
+
+			cost = 120
+			
+			research_bonus = {
+				armor = 0.1
+			}
+			
+			traits = { heavy_tank_manufacturer }
+				
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		GRE_fiat = {	
+		
+			picture = fiat
+
+			allowed = {
+				original_tag = GRE
+				has_dlc = "Battle for the Bosporus"
+			}
+
+			available = {
+			
+				NOT = { has_war_with = ITA }
+			}
+
+			cost = 120
+			
+			research_bonus = {
+				armor = 0.1
+			}
+			
+			traits = { infantry_tank_manufacturer }
+				
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		GRE_vickers_armstrong = {
+		
+			picture = vickers_armstrong_eng
+
+			allowed = {
+				original_tag = GRE
+				has_dlc = "Battle for the Bosporus"
+			}
+
+			available = {
+				NOT = { has_war_with = ENG }
+			}
+
+			cost = 120
+			
+			research_bonus = {
+				armor = 0.1
+			}
+			
+			traits = { medium_tank_manufacturer }
+				
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	aircraft_manufacturer = { 
+			
+		designer = yes
+		
+		gnaf = {
+			
+			picture = generic_air_manufacturer_3
+
+			
+			allowed = {
+				original_tag = GRE
+			}
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { light_aircraft_manufacturer_2 }
+			
+			# trainers for RAF, great handling
+				
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		GRE_aekkea = {
+			
+			picture = gre_phaliron_aekka
+
+			allowed = {
+				original_tag = GRE
+				has_dlc = "Battle for the Bosporus"
+			}
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { medium_aircraft_manufacturer }
+				
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		GRE_phaliron_aircraft = {
+			
+			picture = gre_phaliron_aircraft
+			
+			allowed = {
+				original_tag = GRE
+				has_dlc = "Battle for the Bosporus"
+			}
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { CAS_manufacturer }
+				
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	naval_manufacturer = { 
+			
+		designer = yes
+		
+		royal_hellenic_naval_shipyard = {
+			
+			picture = generic_naval_manufacturer_1
+			
+			allowed = {
+				original_tag = GRE
+				NOT = { has_dlc = "Battle for the Bosporus" }
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			traits = { naval_manufacturer }
+		}
+
+		GRE_royal_hellenic_naval_shipyard = {
+			
+			picture = gre_royal_hellenic_naval_shipyard
+			
+			allowed = {
+				original_tag = GRE
+				has_dlc = "Battle for the Bosporus"
+			}
+
+			available = {
+				
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			traits = { coastal_defence_naval_manufacturer }
+		}
+
+		GRE_basileiades = {
+			
+			picture = gre_basileiades
+			
+			allowed = {
+				original_tag = GRE
+				has_dlc = "Battle for the Bosporus"
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			traits = { mediterranean_naval_manufacturer }
+		}
+
+		GRE_astilleros_onassis = {
+			
+			picture = gre_astilleros_onassis
+			
+			allowed = {
+				original_tag = GRE
+				has_dlc = "Battle for the Bosporus"
+			}
+
+			available = {
+				OR = {
+					has_country_leader = {
+						character = GRE_aristotle_onassis
+						ruling_only = yes
+					}
+					has_idea = GRE_aristotle_onassis
+				}
+			}
+
+			cost = 75
+			
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			traits = { convoy_escort_naval_manufacturer }
+		}
+	}
+
+	industrial_concern = {
+		
+		GRE_dep = {
+			
+			picture = gre_dep
+		
+			allowed = {
+				original_tag = GRE
+				has_dlc = "Battle for the Bosporus"
+			}
+
+			available = { 
+	
+			}			
+			
+			research_bonus = {
+				synth_resources = 0.1
+			}
+			
+			traits = { refinery_concern }
+			
+			modifier = {
+				fuel_gain_factor_from_states = 0.15
+			}
+		}
+
+		GRE_english_electric = {
+			
+			picture = english_electric
+
+			allowed = {
+				original_tag = GRE
+				has_dlc = "Battle for the Bosporus"
+			}			
+
+			available = { 
+				
+				NOT = { has_war_with = ENG }
+			}
+
+			cost = 120
+			
+			research_bonus = {
+				industry = 0.15
+			}
+			
+			traits = { british_industrial_benefactor }
+			
+		}
+
+		GRE_siemens = {
+			
+			picture = siemens
+
+			allowed = {
+				original_tag = GRE
+				has_dlc = "Battle for the Bosporus"
+			}
+
+			available = { 
+	
+				NOT = { has_war_with = GER }
+			}
+
+			cost = 120
+			
+			research_bonus = {
+				electronics = 0.15
+			}
+			
+			traits = { german_technological_patron }
+
+			modifier = { 
+				min_export = 0.05
+			}
+		}
+
+		GRE_pitsos = {
+			
+			picture = gre_pitsos
+		
+			allowed = {
+				original_tag = GRE
+				has_dlc = "Battle for the Bosporus"
+			}
+
+			available = { 
+				
+			}	
+			
+			research_bonus = {
+				electronics = 0.05
+			}
+			
+			traits = { electronics_developer }
+			
+			modifier = {
+				consumer_goods_factor = -0.20
+			}
+		}
+
+		GRE_aete = {
+			
+			picture = gre_aete
+
+			allowed = {
+				original_tag = GRE
+				has_dlc = "Battle for the Bosporus"
+			}
+
+			available = { 
+	
+			}
+			
+			research_bonus = {
+				electronics = 0.1
+			}
+			
+			traits = { electronics_developer }
+
+			modifier = { 
+				production_speed_radar_station_factor = 0.25
+			}
+		}
+
+		GRE_neorion = {
+			
+			picture = gre_neorion
+		
+			allowed = {
+				original_tag = GRE
+				has_dlc = "Battle for the Bosporus"
+			}
+
+			available = { 
+	
+			}		
+			
+			research_bonus = {
+				industry = 0.1
+			}
+			
+			traits = { construction_company }
+			
+			modifier = {
+				production_speed_arms_factory_factor = 0.15
+			}
+		}
+	}
+
+	materiel_manufacturer = {
+		
+		designer = yes
+		
+		GRE_pyrkal = {
+
+			picture = gre_pyrkal
+			
+			allowed = {
+				original_tag = GRE
+				has_dlc = "Battle for the Bosporus"
+			}
+
+			available = {
+				
+			}
+			
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+			
+			modifier = {
+				army_infantry_attack_factor = 0.05
+			}
+		}
+		
+		GRE_petropoulos = {
+
+			picture = gre_petropoulos
+			
+			allowed = {
+				original_tag = GRE
+				has_dlc = "Battle for the Bosporus"
+			}
+
+			available = {
+			
+			}
+			
+			research_bonus = {
+				motorized_equipment = 0.15
+			}
+			
+			traits = { motorized_equipment_manufacturer }
+
+			modifier = {
+				motorized_defence_factor = 0.1
+			}
+		}
+
+		GRE_rsaf_enfield = {
+
+			picture = rsaf_enfield
+			
+			allowed = {
+				original_tag = GRE
+				has_dlc = "Battle for the Bosporus"
+			}
+
+			available = {
+				NOT = { has_war_with = ENG }
+			}
+
+			cost = 120
+			
+			research_bonus = {
+				infantry_weapons = 0.1
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+		}
+
+		GRE_rheinmetall = {
+
+			picture = rheinmetall
+			
+			allowed = {
+				original_tag = GRE
+				has_dlc = "Battle for the Bosporus"
+			}
+
+			available = {
+				NOT = { has_war_with = GER }
+			}
+
+			cost = 120
+			
+			research_bonus = {
+				artillery = 0.1
+			}
+			
+			traits = { artillery_manufacturer }
+		}
+
+		GRE_ford_motor_company = {
+
+			picture = ford_motor_company
+			
+			allowed = {
+				original_tag = GRE
+				has_dlc = "Battle for the Bosporus"
+			}
+
+			available = {
+				NOT = { has_war_with = USA }
+			}
+
+			cost = 120
+
+			research_bonus = {
+				motorized_equipment = 0.1
+			}
+			
+			traits = { motorized_equipment_manufacturer }
+		}
+
+	}
+
+	hidden_ideas = {
+
+		
+
+	}
+}

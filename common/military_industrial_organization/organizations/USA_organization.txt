@@ -709,7 +709,7 @@ USA_ford_motor_company_organization = {
 		OR = {
 			tag = USA 
 			AND = {
-				tag = PLC # If Poland sets up a local one
+				tag = POL # If Poland sets up a local one
 				OR = {
 					has_dlc = "Poland: United and Ready"
 					has_dlc = "No Step Back"
@@ -718,7 +718,7 @@ USA_ford_motor_company_organization = {
 			
 			tag = MEX # Mexican Ford
 			AND = {
-				tag = BYZ # Greek Ford
+				tag = GRE # Greek Ford
 				has_dlc = "Battle for the Bosporus"
 			}
 			

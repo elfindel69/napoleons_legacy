@@ -13,7 +13,7 @@ GRE_biamax_organization = {
 	include = generic_mobile_tank_organization
 	icon = GFX_idea_gre_biamax
 	allowed = {	
-		tag = BYZ
+		tag = GRE
 		has_dlc = "Battle for the Bosporus"
 	}
 	
@@ -38,7 +38,7 @@ GRE_royal_hellenic_naval_shipyard_organization = {
 	include = generic_task_force_ship_organization
 	icon = GFX_idea_generic_air_manufacturer_1
 	allowed = {	
-		tag = BYZ
+		tag = GRE
 		NOT = { has_dlc = "Battle for the Bosporus" }
 	}
 }
@@ -47,7 +47,7 @@ GRE_royal_hellenic_naval_shipyard_bftb_organization = {
 	include = generic_battle_line_ship_organization
 	icon = GFX_idea_gre_royal_hellenic_naval_shipyard
 	allowed = {	
-		tag = BYZ
+		tag = GRE
 		has_dlc = "Battle for the Bosporus"
 	}
 
@@ -56,7 +56,7 @@ GRE_basileiades_organization = {
 	include = generic_raider_ship_organization
 	icon = GFX_idea_gre_basileiades
 	allowed = {	
-		tag = BYZ
+		tag = GRE
 		has_dlc = "Battle for the Bosporus"
 	}
 }
@@ -64,7 +64,7 @@ GRE_astilleros_onassis_organization = {
 	include = generic_escort_ship_organization
 	icon = GFX_idea_gre_astilleros_onassis
 	allowed = {	
-		tag = BYZ
+		tag = GRE
 		has_dlc = "Battle for the Bosporus"
 	}
 	
@@ -85,14 +85,14 @@ GRE_gnaf_organization = {
 	include = generic_light_aircraft_organization
 	icon = GFX_idea_generic_air_manufacturer_3
 	allowed = {	
-		tag = BYZ
+		tag = GRE
 	}
 }
 GRE_aekkea_organization = {
 	include = generic_medium_aircraft_organization
 	icon = GFX_idea_gre_phaliron_aekka
 	allowed = {	
-		tag = BYZ
+		tag = GRE
 		has_dlc = "Battle for the Bosporus"
 	}
 }
@@ -100,7 +100,7 @@ GRE_phaliron_aircraft_organization = {
 	include = generic_cas_aircraft_organization
 	icon = GFX_idea_gre_phaliron_aircraft
 	allowed = {	
-		tag = BYZ
+		tag = GRE
 		has_dlc = "Battle for the Bosporus"
 	}
 }
@@ -120,7 +120,7 @@ GRE_pyrkal_organization = {
 	include = generic_infantry_equipment_organization
 	icon = GFX_idea_gre_pyrkal
 	allowed = {	
-		tag = BYZ
+		tag = GRE
 		has_dlc = "Battle for the Bosporus"
 	}
 	
@@ -129,7 +129,7 @@ GRE_petropoulos_organization = {
 	include = generic_motorized_mechanized_organization
 	icon = GFX_idea_gre_petropoulos
 	allowed = {	
-		tag = BYZ
+		tag = GRE
 		has_dlc = "Battle for the Bosporus"
 	}
 	

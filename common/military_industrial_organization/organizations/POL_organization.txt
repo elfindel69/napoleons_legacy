@@ -15,7 +15,7 @@ POL_pzinz_organization = {
 	allowed = {	
 		OR = {
 			AND = {
-				tag = PLC
+				tag = POL
 				OR = {
 					has_dlc = "Poland: United and Ready"
 					has_dlc = "No Step Back"
@@ -29,9 +29,9 @@ POL_pzinz_organization = {
 		# When in a Foreign MIO, countries need to be at peace with original country
 		IF = {
 			limit = {
-				FROM = { NOT = { original_tag = PLC } }
+				FROM = { NOT = { original_tag = POL } }
 			}
-			FROM = { NOT = { has_war_with = PLC } }
+			FROM = { NOT = { has_war_with = POL } }
 		}
 	}
 	
@@ -87,7 +87,7 @@ POL_stocznia_gdynia_organization = {
 	include = generic_task_force_ship_organization
 	icon = GFX_idea_POL_stocznia_gdynia
 	allowed = {	
-		tag = PLC
+		tag = POL
 		OR = {
 			has_dlc = "Poland: United and Ready"
 			has_dlc = "No Step Back"
@@ -110,7 +110,7 @@ POL_pws_organization = {
 	include = generic_light_aircraft_organization
 	icon = GFX_idea_POL_pws
 	allowed = {	
-		tag = PLC
+		tag = POL
 		OR = {
 			has_dlc = "Poland: United and Ready"
 			has_dlc = "No Step Back"
@@ -121,7 +121,7 @@ POL_pzl_organization = {
 	include = generic_medium_aircraft_organization
 	icon = GFX_idea_POL_pzl
 	allowed = {	
-		tag = PLC
+		tag = POL
 		OR = {
 			has_dlc = "Poland: United and Ready"
 			has_dlc = "No Step Back"
@@ -144,7 +144,7 @@ POL_fb_organization = {
 	include = generic_infantry_equipment_organization
 	icon = GFX_idea_POL_fb
 	allowed = {	
-		tag = PLC
+		tag = POL
 		OR = {
 			has_dlc = "Poland: United and Ready"
 			has_dlc = "No Step Back"
@@ -155,7 +155,7 @@ POL_lrl_organization = {
 	include = generic_motorized_mechanized_organization
 	icon = GFX_idea_POL_lrl
 	allowed = {	
-		tag = PLC
+		tag = POL
 		OR = {
 			has_dlc = "Poland: United and Ready"
 			has_dlc = "No Step Back"
@@ -166,7 +166,7 @@ POL_smpa_organization = {
 	include = generic_artillery_organization
 	icon = GFX_idea_POL_smpa
 	allowed = {	
-		tag = PLC
+		tag = POL
 		OR = {
 			has_dlc = "Poland: United and Ready"
 			has_dlc = "No Step Back"

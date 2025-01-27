@@ -15,7 +15,7 @@ ENG_vickers_armstrong_eng_organization = {
 		OR = {
 			tag = ENG
 			AND = {
-				tag = BYZ
+				tag = GRE
 				has_dlc = "Battle for the Bosporus"
 			}
 			
@@ -111,7 +111,7 @@ ENG_vauxhall_organization = {
 			tag = ENG
 			tag = SAF
 			AND = {
-				tag = PLC # If Poland sets up a local one
+				tag = POL # If Poland sets up a local one
 				OR = {
 					has_dlc = "Poland: United and Ready"
 					has_dlc = "No Step Back"
@@ -126,7 +126,7 @@ ENG_vauxhall_organization = {
 	visible = {
 		IF = { 
 			limit = {
-				FROM = { original_tag = PLC }
+				FROM = { original_tag = POL }
 			}
 			FROM = {
 				has_country_flag = POL_vauxhall_motors
@@ -527,7 +527,7 @@ ENG_rsaf_enfield_organization = {
 		OR = {
 			tag = ENG 
 			AND = {
-				tag = BYZ
+				tag = GRE
 				has_dlc = "Battle for the Bosporus"
 			}
 			
@@ -586,7 +586,7 @@ ENG_vauxhall_automotive_organization = {
 	allowed = {	
 		OR = {
 			tag = ENG
-			tag = PLC # If Poland sets up a local one
+			tag = POL # If Poland sets up a local one
 			AND = {
 				tag = ROM
 				has_dlc = "Death or Dishonor"
@@ -599,7 +599,7 @@ ENG_vauxhall_automotive_organization = {
 	visible = {
 		IF = { 
 			limit = {
-				FROM = { original_tag = PLC }
+				FROM = { original_tag = POL }
 			}
 			FROM = {
 				has_country_flag = POL_vauxhall_motors

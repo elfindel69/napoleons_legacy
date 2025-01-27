@@ -1,0 +1,172 @@
+ideas = {
+	
+	aircraft_manufacturer = { 
+			
+		designer = yes
+		
+		htk_orlogsvaerftet = {
+			
+			picture = generic_air_manufacturer_3
+
+			
+			allowed = {
+				original_tag = DEN
+			}
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { light_aircraft_manufacturer }
+			
+			# recon and fighter aircraft
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	
+	naval_manufacturer = { 
+		
+		designer = yes
+		
+		burmeister_wain = {
+			
+			picture = generic_naval_manufacturer_1
+
+			
+			allowed = {
+				original_tag = DEN
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			traits = { naval_manufacturer }
+		}
+	}
+
+	materiel_manufacturer = {
+			
+		designer = yes
+		
+		disa = {
+			
+			picture = generic_infantry_equipment_manufacturer_2
+
+			
+			allowed = {
+				original_tag = DEN
+			}
+			
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+			
+			# rifles
+			
+			traits = { infantry_equipment_manufacturer }
+
+		}
+	}
+
+####################
+####################
+#### AAT IDEAS #####
+####################
+#################### 
+
+	industrial_concern = {
+
+		DEN_aalborg_portland = {
+
+			picture = DEN_aalborg_portland 
+			
+			allowed = {
+				original_tag = DEN
+				has_dlc = "Arms Against Tyranny"
+			}
+
+			visible = {
+				NOT = { has_completed_focus = DEN_aalborg_portland_cement_plant }
+			}
+
+			
+			
+			research_bonus = {
+				excavation_tech = 0.15
+			}
+			
+			traits = { construction_company }
+		}
+
+		DEN_aalborg_portland_improved = {
+			name = DEN_aalborg_portland
+
+			picture = DEN_aalborg_portland 
+			
+			allowed = {
+				original_tag = DEN
+				has_dlc = "Arms Against Tyranny"
+			}
+
+			visible = {
+				has_completed_focus = DEN_aalborg_portland_cement_plant
+			}
+
+			
+			
+			research_bonus = {
+				excavation_tech = 0.15
+			}
+			
+			traits = { construction_company }
+
+			modifier = {
+				production_speed_buildings_factor = 0.1
+			}
+		}
+
+		DEN_danske_stalvalsevaerket_ns = {
+
+			picture = idea_DEN_danske_stalvalsevaerket_ns 
+			
+			allowed = {
+				original_tag = DEN
+				has_dlc = "Arms Against Tyranny"
+			}
+
+			available = {
+				has_completed_focus = DEN_danske_stalvalsevaerket
+			}
+			
+			research_bonus = {
+				industry = 0.15
+			}
+			
+			traits = { industrial_concern }
+
+			modifier = {
+				production_lack_of_resource_penalty_factor = -0.1
+			}
+		}
+	}
+
+
+##########################
+##########################
+#### NATIONAL SPIRITS ####
+##########################
+##########################
+
+	country = {
+		
+	}
+
+
+	hidden_ideas = {
+		
+	}
+}

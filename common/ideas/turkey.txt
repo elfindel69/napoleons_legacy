@@ -1,0 +1,508 @@
+ideas = {
+
+	country = { 
+
+		
+
+	}
+	
+	tank_manufacturer = { 
+		
+		designer = yes
+		
+		tulomsas = {
+			
+			picture = tur_tulomsas
+
+			allowed = {
+				original_tag = TUR
+				has_dlc = "Battle for the Bosporus"
+			}
+			
+			research_bonus = {
+				armor = 0.15
+			}
+			
+			traits = { fast_tank_manufacturer }
+				
+			ai_will_do = {
+				factor = 1
+			}
+
+			modifier = { 
+				motorized_defence_factor = 0.05
+				mechanized_defence_factor = 0.05
+			}
+		}
+
+		koc_ticaret_as_armor = {
+			
+			picture = tur_koc_ticaret_as
+
+			
+			allowed = {
+				original_tag = TUR
+				has_dlc = "Battle for the Bosporus"
+			}
+			
+			research_bonus = {
+				armor = 0.1
+			}
+
+			cost = 75
+			
+			traits = { infantry_tank_manufacturer }
+		}
+	}
+
+	aircraft_manufacturer = { 
+		
+		designer = yes
+		
+		thk = {
+			
+			picture = generic_air_manufacturer_2
+
+			
+			allowed = {
+				original_tag = TUR
+				NOT = { has_dlc = "Battle for the Bosporus" }
+			}
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { light_aircraft_manufacturer }
+			
+			equipment_bonus = {
+				# trainers, and air ambulances?
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ktf = {
+			
+			picture = generic_air_manufacturer_1
+
+			
+			allowed = {
+				original_tag = TUR
+				NOT = { has_dlc = "Battle for the Bosporus" }
+			}
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { medium_aircraft_manufacturer }
+			
+			equipment_bonus = {
+				# assembled license aircrafts from across the world 
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		thk_bftb = {
+			
+			picture = man_five_year_plan_air
+
+			
+			allowed = {
+				original_tag = TUR
+				has_dlc = "Battle for the Bosporus"
+			}
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { light_aircraft_manufacturer }
+			
+			equipment_bonus = {
+				
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		gok_okulu = {
+			
+			picture = tur_gok_okulu
+
+			
+			allowed = {
+				original_tag = TUR
+				has_dlc = "Battle for the Bosporus"
+			}
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { fuel_efficient_aircraft_manufacturer }
+			
+			equipment_bonus = {
+
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		nud = {
+			
+			picture = tur_nud
+
+			
+			allowed = {
+				original_tag = TUR
+				has_dlc = "Battle for the Bosporus"
+			}
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { CAS_manufacturer }
+			
+			equipment_bonus = {
+				
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		tomtasch = {
+			
+			picture = tur_tomtasch
+
+			
+			allowed = {
+				original_tag = TUR
+				has_dlc = "Battle for the Bosporus"
+			}
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { medium_aircraft_manufacturer }
+			
+			equipment_bonus = {
+				 
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	naval_manufacturer = {
+			
+		designer = yes
+		
+		golcuk_nsy = {
+			
+			picture = tur_golcuk_naval_base
+
+			
+			allowed = {
+				original_tag = TUR
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			traits = { coastal_defence_naval_manufacturer }
+		}
+
+		cgt = {
+			
+			picture = tur_cgt
+
+			
+			allowed = {
+				original_tag = TUR
+				has_dlc = "Battle for the Bosporus"
+			}
+
+			available = {
+				NOT = { has_war_with = FRA }
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			traits = { battlefleet_designer }
+		}
+
+		koc_ticaret_as_shipyard = {
+			
+			picture = tur_koc_ticaret_as
+
+			
+			allowed = {
+				original_tag = TUR
+				has_dlc = "Battle for the Bosporus"
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.1
+			}
+
+			cost = 75
+			
+			traits = { mediterranean_naval_manufacturer }
+		}
+	}
+	
+	materiel_manufacturer = {
+			
+		designer = yes
+		
+		istanbul_military_industries = {
+			
+			picture = generic_infantry_equipment_manufacturer_3
+
+			
+			allowed = {
+				original_tag = TUR
+			}
+			
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+			
+			equipment_bonus = {
+				# rifles and pistols
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+		}
+
+		killigil_endustrileri = {
+			
+			picture = tur_killigil_endustrileri
+
+			
+			allowed = {
+				original_tag = TUR
+				has_dlc = "Battle for the Bosporus"
+			}
+
+			available = {
+				has_country_flag = TUR_sponsored_killigil_armaments_flag
+			}
+			
+			research_bonus = {
+				artillery = 0.15
+			}
+			
+			equipment_bonus = {
+				
+			}
+			
+			traits = { artillery_manufacturer }
+		}
+
+		koc_ticaret_as_defense_industry = {
+			
+			picture = tur_koc_ticaret_as
+
+			
+			allowed = {
+				original_tag = TUR
+				has_dlc = "Battle for the Bosporus"
+			}
+			
+			research_bonus = {
+				motorized_equipment = 0.1
+			}
+
+			cost = 75
+			
+			traits = { motorized_equipment_manufacturer }
+		}
+	}
+
+	industrial_concern = {
+
+		TUR_debt_council = {
+				
+			picture = tur_odpa
+		
+			allowed = {
+				original_tag = TUR
+				has_dlc = "Battle for the Bosporus"
+			}
+			available = { 
+				NOT = { has_country_flag = TUR_debt_council_reined_in_flag }
+			}	
+			visible = {
+				NOT = { has_country_flag = TUR_debt_council_reined_in_flag }
+			}			
+			
+			research_bonus = {
+				industry = 0.05
+			}
+
+			removal_cost = -1
+			
+			traits = { the_council_on_the_management_of_turkish_debt }
+		}
+
+		TUR_tpda = {
+				
+			picture = tur_tdpa
+		
+			allowed = {
+				original_tag = TUR
+				has_dlc = "Battle for the Bosporus"
+			}
+			available = { 
+				has_country_flag = TUR_debt_council_reined_in_flag
+			}	
+			visible = {
+				has_country_flag = TUR_debt_council_reined_in_flag
+				has_idea = TUR_tpda
+			}		
+			
+			research_bonus = {
+				industry = 0.07
+			}
+
+			removal_cost = -1
+			
+			traits = { turkish_public_debt_administration }
+		}
+
+		koc_ticaret_as_monopoly = {
+			
+			picture = tur_koc_ticaret_as
+
+			
+			allowed = {
+				original_tag = TUR
+				has_dlc = "Battle for the Bosporus"
+			}
+
+			available = {
+				
+				IF = {
+					limit = {
+						has_dlc = "Arms Against Tyranny"
+					}
+					mio:TUR_ticaret_organization = {
+						has_mio_size >4
+					}
+					mio:TUR_koc_ticaret_as_shipyard_organization = {
+						has_mio_size >4
+					}
+					mio:TUR_koc_ticaret_as_defense_industry_organization = {
+						has_mio_size >4
+					}
+				}
+				
+			}
+			
+			research_bonus = {
+				industry = 0.2
+			}
+
+			cost = 250
+			
+			traits = { industrial_monopoly }
+		}
+
+		tcdd = {
+				
+			picture = tur_tcdd
+		
+			allowed = {
+				original_tag = TUR
+				has_dlc = "Battle for the Bosporus"
+			}
+			available = { 
+				T
+			}	
+
+			cost = 75			
+			
+			research_bonus = {
+				industry = 0.15
+			}
+			
+			traits = { linchpin_of_infrastructure }
+		}
+
+		petrol_ofisi = {
+			
+			picture = tur_petrol_ofisi
+		
+			allowed = {
+				original_tag = TUR
+				has_dlc = "Battle for the Bosporus"
+			}
+
+			available = { 
+				
+			}
+
+			visible = {
+			
+			}			
+
+			cost = 75
+			
+			research_bonus = {
+				synth_resources = 0.1
+				industry = 0.05
+			}
+			
+			traits = { refinery_concern }
+			
+			modifier = {
+				production_speed_synthetic_refinery_factor = 0.05
+			}
+		}
+
+		TUR_kamil_tolon = {
+			
+			picture = tur_kamil_tolon
+
+			
+			allowed = {
+				original_tag = TUR
+				has_dlc = "Battle for the Bosporus"
+			}
+
+			available = { 
+				
+			}
+			
+			research_bonus = {
+				electronics = 0.1
+			}
+
+			cost = 75
+			
+			traits = { inventive_genius }
+		}
+
+	}
+}

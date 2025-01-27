@@ -335,7 +335,7 @@ GER_man_organization = {
 		OR = {
 			original_tag = GER 
 			AND = {
-				original_tag = BYZ
+				original_tag = GRE
 				has_dlc = "Battle for the Bosporus"
 			}
 		}
@@ -628,8 +628,8 @@ GER_alkett_organization = {
 			#TODO_Danne fix this with a flag or something! GER should integrate CZE industries or something before doing this
 			FROM = {
 				OR = {
-					NOT= {BOH = {exists = yes}}
-					BOH = {is_puppet_of = GER}
+					NOT= {CZE = {exists = yes}}
+					CZE = {is_puppet_of = GER}
 				}
 			}
 		}
@@ -1716,8 +1716,8 @@ GER_junkers_organization = {
 	}
 
 	add_trait = {
-		token = GER_mio_trait_90_deBYZe_dives
-		name = GER_mio_trait_90_deBYZe_dives
+		token = GER_mio_trait_90_deGREe_dives
+		name = GER_mio_trait_90_deGREe_dives
 
 		icon = GFX_generic_mio_department_icon_plane_cas_quality
 		special_trait_background = yes
@@ -2572,7 +2572,7 @@ GER_rheinmetall_organization = {
 		OR = {
 			original_tag = GER 
 			AND = {
-				original_tag = BYZ
+				original_tag = GRE
 				has_dlc = "Battle for the Bosporus"
 			}
 		}

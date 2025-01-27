@@ -1,0 +1,451 @@
+ideas = {
+	country = {
+
+		
+
+	}
+
+
+	hidden_ideas = {
+		
+	}
+
+	industrial_concern = {
+
+		CHL_compania_general_electricidad = { 
+
+			picture = CHL_cge
+
+			allowed = {
+				original_tag = CHL
+				has_dlc = "Trial of Allegiance"
+			}
+
+			available = {
+				
+			}
+
+			visible = {
+				#has_completed_focus = ETH_soviet-ethiopian_trade_agreement
+			}
+
+			research_bonus = {
+				electronics = 0.15
+			}
+		
+			traits = { electronics_concern } 
+
+			modifier = {
+				
+			}
+		}
+
+		CHL_compania_sudamerica_vapores = { 
+
+			picture = CHL_csav
+
+			allowed = {
+				original_tag = CHL
+				has_dlc = "Trial of Allegiance"
+			}
+
+		
+
+			visible = {
+				#has_completed_focus = ETH_soviet-ethiopian_trade_agreement
+			}
+
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+		
+			traits = { merchant_marine_manufacturer } 
+
+			modifier = {
+				
+			}
+		}
+
+		CHL_via_trans_radio = { 
+
+			picture = CHL_vtr
+
+			allowed = {
+				original_tag = CHL
+				has_dlc = "Trial of Allegiance"
+			}
+
+			
+
+			visible = {
+				#has_completed_focus = ETH_soviet-ethiopian_trade_agreement
+			}
+
+			research_bonus = {
+				electronics = 0.05
+			}
+		
+			traits = { electronics_developer } 
+
+			modifier = {
+				research_speed_factor = 0.05
+			}
+		}
+
+		CHL_banco_central_de_chile = { 
+
+			picture = CHL_bcc
+
+			allowed = {
+				original_tag = CHL
+				has_dlc = "Trial of Allegiance"
+			}
+
+			
+
+			research_bonus = {
+			}
+		
+			traits = { central_bank } 
+
+			modifier = {
+				consumer_goods_factor = -0.15
+			}
+		}
+
+		CHL_banco_central_de_chile_better = { 
+			name = CHL_banco_central_de_chile
+
+			picture = CHL_bcc
+
+			allowed = {
+				original_tag = CHL
+				has_dlc = "Trial of Allegiance"
+			}
+
+			
+			research_bonus = {
+			}
+		
+			traits = { central_bank } 
+
+			modifier = {
+				consumer_goods_factor = -0.25
+			}
+		}
+
+		CHL_compania_electro_industrial_valdivia = { 
+
+			picture = CHL_cesiv
+
+			allowed = {
+				original_tag = CHL
+				has_dlc = "Trial of Allegiance"
+			}
+
+			available = {
+			}
+
+
+			visible = {
+				#has_completed_focus = ETH_soviet-ethiopian_trade_agreement
+			}
+
+			research_bonus = {
+				industry = 0.15
+			}
+		
+			traits = { industrial_concern } 
+
+			modifier = {
+			}
+		}
+
+		CHL_empresa_ferrocarries_del_estado = { 
+
+			picture = CHL_efe
+
+			allowed = {
+				original_tag = CHL
+				has_dlc = "Trial of Allegiance"
+			}
+
+			
+
+
+			visible = {
+				#has_completed_focus = ETH_soviet-ethiopian_trade_agreement
+			}
+
+			research_bonus = {
+			}
+		
+			traits = { railway_company } 
+
+			modifier = {
+			}
+		}
+
+		CHL_compania_manufacura_cartones = { 
+
+			picture = CHL_cmpc
+
+			allowed = {
+				original_tag = CHL
+				has_dlc = "Trial of Allegiance"
+			}
+
+			
+			visible = {
+				#has_completed_focus = ETH_soviet-ethiopian_trade_agreement
+			}
+
+			research_bonus = {
+				industry = 0.05
+			}
+		
+			traits = { forestry_company } 
+
+			modifier = {
+			}
+		}
+
+		CHL_corporacion_fomento_production = { 
+
+			picture = CHL_corfo
+
+			allowed = {
+				original_tag = CHL
+				has_dlc = "Trial of Allegiance"
+			}
+
+		
+
+			cost = 50
+
+			visible = {
+				#has_completed_focus = ETH_soviet-ethiopian_trade_agreement
+			}
+
+			research_bonus = {
+				industry = 0.1
+			}
+		
+			traits = { construction_company } 
+
+			modifier = {
+			}
+		}
+
+	}
+
+	materiel_manufacturer = {
+
+
+		CHL_fabricas_maestranzas_ejercito = { 
+
+			picture = CHL_famae
+
+			allowed = {
+				original_tag = CHL
+				has_dlc = "Trial of Allegiance"
+			}
+
+			
+
+			visible = {
+				#has_completed_focus = ETH_soviet-ethiopian_trade_agreement
+			}
+
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+		
+			traits = { infantry_equipment_manufacturer } 
+
+			modifier = {
+			}
+		}
+
+		CHL_famae_corvo = { 
+
+			picture = CHL_corvo
+
+			allowed = {
+				original_tag = CHL
+				has_dlc = "Trial of Allegiance"
+			}
+
+			
+
+			visible = {
+				#has_completed_focus = ETH_soviet-ethiopian_trade_agreement
+			}
+
+			research_bonus = {
+				motorized_equipment = 0.15
+			}
+		
+			traits = { motorized_equipment_manufacturer } 
+
+			modifier = {
+			}
+		}
+
+		CHL_famae_rama_de_artilleria = { 
+
+			picture = CHL_famae
+
+			allowed = {
+				original_tag = CHL
+				has_dlc = "Trial of Allegiance"
+			}
+
+			
+
+			visible = {
+				#has_completed_focus = ETH_soviet-ethiopian_trade_agreement
+			}
+
+			research_bonus = {
+				artillery = 0.15
+			}
+		
+			traits = { artillery_manufacturer } 
+
+			modifier = {
+			}
+		}
+
+	}
+
+	tank_manufacturer = { 
+		
+		designer = yes
+		CHL_epartamento_de_tanques_del_ejercito = {
+
+			picture = generic_tank_manufacturer_1
+			
+			allowed = {
+				original_tag = CHL
+				has_dlc = "Trial of Allegiance"
+			}
+			
+			research_bonus = {
+				armor = 0.15
+			}
+			
+			traits = { fast_tank_manufacturer }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	naval_manufacturer = { 
+		designer = yes
+
+		CHL_arsenales_de_marina = {
+
+			picture = CHL_asmar
+
+			allowed = {
+				original_tag = CHL
+				has_dlc = "Trial of Allegiance"
+			}
+
+			
+
+			visible = {
+			}
+
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+
+			traits = { coastal_defence_naval_manufacturer }
+
+			modifier = {
+			}
+		}
+
+		CHL_csav = {
+
+			picture = CHL_csav
+
+			allowed = {
+				original_tag = CHL
+				has_dlc = "Trial of Allegiance"
+			}
+
+		
+
+			visible = {
+			}
+
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+
+			traits = { convoy_escort_naval_manufacturer }
+
+			modifier = {
+			}
+		}
+
+	}
+
+	aircraft_manufacturer = {
+		designer = yes
+
+		CHL_fanaero = {
+
+			picture = CHL_fanaero
+
+			allowed = {
+				original_tag = CHL
+			}
+
+			available = {
+			}
+
+			visible = {
+			}
+
+			research_bonus = {
+				air_equipment = 0.15
+			}
+ 
+			traits = { medium_aircraft_manufacturer }
+
+			modifier = {
+			}
+		}
+
+		CHL_enaer = {
+
+			picture = generic_air_manufacturer_2
+
+			allowed = {
+				original_tag = CHL
+			}
+
+			available = {
+			}
+
+			visible = {
+			}
+
+			research_bonus = {
+				air_equipment = 0.15
+			}
+ 
+			traits = { light_aircraft_manufacturer }
+
+			modifier = {
+			}
+		}
+
+	}
+	
+}
