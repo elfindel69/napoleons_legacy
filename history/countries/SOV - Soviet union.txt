@@ -16,146 +16,80 @@ set_party_name = {
 	name = SOV_fascism_party_russian
 }
 
-#COUNTRY LEADERS
-recruit_character = BWR_tsar_michail_II
-recruit_character = BWR_tsar_vsevolod_ivanovich
-recruit_character = BWR_iosif_stalin
-recruit_character = BWR_supreme_soviet #This is a fake character! Proper country leader role is added via focus
-if = {
-	limit = {
-		has_dlc = "No Step Back"
-	}
-	recruit_character = BWR_provisional_government # United Exiles
-	set_country_flag = vlasov_owner_flag
-}
 
-#POLITICAL ADVISORS
-recruit_character = BWR_mikhail_kalinin
-recruit_character = BWR_nikita_khrushchyov
-recruit_character = BWR_nikolay_voznesensky
-recruit_character = BWR_lazar_kaganovich
-recruit_character = BWR_vsevolod_merkulov
-recruit_character = BWR_vyacheslav_molotov
-
-recruit_character = BWR_lev_trotsky
-recruit_character = BWR_ivan_smirnov
-recruit_character = BWR_ivar_smilga
-recruit_character = BWR_karl_radek
-recruit_character = BWR_yevgeny_preobrazhensky
-recruit_character = BWR_aleksandr_shlyapnikov
-recruit_character = BWR_nikolay_bukharin
-recruit_character = BWR_aleksey_rykov
-recruit_character = BWR_mikhail_tomsky
-recruit_character = BWR_grigory_sokolnikov
-recruit_character = BWR_grigory_zinovyev
-recruit_character = BWR_lev_kamenev
-recruit_character = BWR_martemyan_ryutin
-recruit_character = BWR_patriarch_sergy
-recruit_character = BWR_aleksandr_kerensky
-recruit_character = BWR_konstantin_rodzayevsky
-
-
-recruit_character = BWR_aleksandr_vasilevsky
-recruit_character = BWR_aleksandr_golovanov
-recruit_character = BWR_aleksandr_gorbatov
-recruit_character = BWR_aleksandr_yegorov
-recruit_character = BWR_andrey_grechko
-recruit_character = BWR_andrey_vlasov
-recruit_character = BWR_andrey_yeryomenko
-recruit_character = BWR_arseny_golovko
-recruit_character = BWR_boris_shaposhnikov
-recruit_character = BWR_dmitry_lelyushenko
-recruit_character = BWR_filipp_golikov
-recruit_character = BWR_filipp_oktyabrsky
-
-recruit_character = BWR_georgy_zakharov
-recruit_character = BWR_georgy_zhukov
-recruit_character = BWR_gordey_levchenko
-recruit_character = BWR_grigory_kulik
-recruit_character = BWR_igor_kurchatov
-recruit_character = BWR_issa_pliyev
-recruit_character = BWR_ivan_chernyakhovsky
-recruit_character = BWR_ivan_fedyuninsky
-recruit_character = BWR_ivan_konev
-recruit_character = BWR_ivan_yumashev
-recruit_character = BWR_kirill_meretskov
-recruit_character = BWR_kirill_moskalenko
-recruit_character = BWR_kliment_voroshilov
-recruit_character = BWR_konstantin_rokossovsky
-recruit_character = BWR_konstantin_vershinin
-recruit_character = BWR_kuzma_galitsky
-recruit_character = BWR_leonid_govorov
-recruit_character = BWR_maksim_purkayev
-recruit_character = BWR_markian_popov
-recruit_character = BWR_maks_reyter
-recruit_character = BWR_mikhail_frinovsky
-
-recruit_character = BWR_mikhail_tukhachevsky
-recruit_character = BWR_nikandr_chibisov
-
-recruit_character = BWR_nikolay_berzarin
-recruit_character = BWR_nikolay_vatutin
-
-recruit_character = BWR_nikolay_kuznetsov
-
-recruit_character = BWR_pavel_rychagov
-recruit_character = BWR_pavel_zhigarev
-recruit_character = BWR_pyotr_smirnov
-recruit_character = BWR_rodion_malinovsky
-recruit_character = BWR_semyon_budyonny
-recruit_character = BWR_semyon_timoshenko
-recruit_character = BWR_sergey_khudyakov
-recruit_character = BWR_sergey_korolyov
-recruit_character = BWR_sergey_rudenko
-recruit_character = BWR_sergey_gorshkov
-recruit_character = BWR_stepan_krasovsky
-recruit_character = BWR_vasily_blyukher
-recruit_character = BWR_vasily_chuykov
-recruit_character = BWR_vasily_kuznetsov
-recruit_character = BWR_vladimir_kasatonov
-recruit_character = BWR_vladimir_tributs
-
-recruit_character = BWR_yakov_cherevichenko
-recruit_character = BWR_yakov_smushkevich
-
-recruit_character = BWR_vitaly_primakov
-#Not available at game start
-recruit_character = BWR_vasily_korzh
-recruit_character = BWR_sidor_kovpak
-recruit_character = BWR_lev_dovator
-recruit_character = BWR_pavel_rybalko
-
-if = {
-	limit = {
-		has_dlc = "No Step Back"
-	}
-	recruit_character = BWR_anastasy_vonsyatsky
-	# recruit_character = BWR_grigory_semyonov # starts as an advisor to Puyi
-	recruit_character = BWR_metropolitan_anastasy
-	recruit_character = BWR_metropolitan_nikolay
-	recruit_character = BWR_nikolay_ustryalov
-	recruit_character = BWR_aleksandr_kazembek
-	recruit_character = BWR_metropolitan_aleksy
-	recruit_character = BWR_metropolitan_meletius
-	recruit_character = BWR_aleksandr_prokofyev_seversky
-	recruit_character = BWR_vyacheslav_tkachyov
-	recruit_character = BWR_yan_nagursky
-	recruit_character = BWR_vasily_yanchenko
-	recruit_character = BWR_tsar_vladimir_kirillovich
-
-	recruit_character = BWR_pyotr_krasnov
-	recruit_character = BWR_konstantin_nechayev
-	recruit_character = BWR_aleksandr_rodzyanko
-	recruit_character = BWR_vladimir_kosmin
-	recruit_character = BWR_andrey_shkuro
-	recruit_character = BWR_anton_denikin
-}
-
+#SOV_grigory_zinovyev -> Will be aligned with either left or right opposition via focus
+#SOV_lev_kamenev -> Will be aligned with either left or right opposition via focus
+#SOV_martemyan_ryutin -> Will be aligned with either left or right opposition via focus
 
 #Add synthetic refineries tech
 set_technology = {
 	synth_oil_experiments = 1
 }
+
+
+####
+#### VANILLA ####
+####
+
+capital = 219 # Moscow
+
+starting_train_buffer = 3.0
+
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "SOV_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "SOV_1936_nsb"
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "SOV_1936_naval_mtg"
+	else = {
+		set_naval_oob = "SOV_1936_naval_legacy"
+	}
+}
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "SOV_1936_air_bba"
+		set_technology = {
+			iw_small_airframe = 1
+			aa_lmg = 1
+			aa_cannon_1 = 1
+			early_bombs = 1
+			engines_1 = 1
+			engines_2 = 1
+			iw_medium_airframe = 1
+			iw_large_airframe = 1
+			basic_small_airframe = 1
+			basic_medium_airframe = 1
+			aircraft_construction = 1
+			air_torpedoe_1 = 1
+			bba_early_transport_plane = 1
+		}
+	else = {
+		set_air_oob = "SOV_1936_air_legacy"
+		set_technology = {
+			early_fighter = 1
+			fighter1 = 1
+			early_bomber = 1
+			strategic_bomber1 = 1
+			naval_bomber1 = 1
+			early_transport_plane = 1
+		}
+	}
+}
+
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.3
 
 add_breakthrough_progress = {
 	specialization = specialization_land
@@ -172,66 +106,6 @@ add_breakthrough_progress = {
 	value = 0.3
 }
 
-####
-#### VANILLA ####
-####
-
-capital = 219
-
-starting_train_buffer = 3.0
-
-if = {
-	limit = {
-		NOT = {
-			has_dlc = "No Step Back"
-		}
-	}
-	set_oob = "BWR_1936"
-}
-if = {
-	limit = {
-		has_dlc = "No Step Back"
-	}
-	set_oob = "BWR_1936_nsb"
-}
-if = {
-	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "BWR_1936_naval_mtg"
-	else = {
-		set_naval_oob = "BWR_1936_naval_legacy"
-	}
-}
-if = {
-	limit = { has_dlc = "By Blood Alone" }
-		set_air_oob = "BWR_1936_air_bba"
-		set_technology = {
-			iw_small_airframe = 1
-			aa_lmg = 1
-			aa_cannon_1 = 1
-			early_bombs = 1
-			engines_1 = 1
-			engines_2 = 1
-			iw_medium_airframe = 1
-			iw_large_airframe = 1
-			basic_small_airframe = 1
-			basic_medium_airframe = 1
-			aircraft_construction = 1
-		}
-	else = {
-		set_air_oob = "BWR_1936_air_legacy"
-		set_technology = {
-			early_fighter = 1
-			fighter1 = 1
-			early_bomber = 1
-			strategic_bomber1 = 1
-			naval_bomber1 = 1
-		}
-	}
-}
-
-set_research_slots = 3
-set_stability = 0.5
-set_war_support = 0.3
 # Starting tech
 set_technology = { #WARNING: Do not just remove techs from here -> It can impact a lot of stuff. Before removing, double check that content does not count on these techs being researched
 	infantry_weapons = 1
@@ -241,6 +115,7 @@ set_technology = { #WARNING: Do not just remove techs from here -> It can impact
 	tech_engineers = 1
 	tech_military_police = 1
 	tech_mountaineers = 1
+	tech_trucks = 1
 	motorised_infantry = 1
 	paratroopers = 1
 	gw_artillery = 1
@@ -331,11 +206,12 @@ add_ideas = {
 	
 	#DESIGNERS AND LAWS
 	add_ideas = {
-	
+		
 		#laws
 		war_economy
 		extensive_conscription
 	}
+
 
 	IF = {
 		limit = {
@@ -349,7 +225,61 @@ add_ideas = {
 	complete_special_project = {
 		project = sp:sp_naval_cruiser_submarine
 	}
+
+	###################
+	### Purge stuff ###
+	###################
+
 	
+
+	################
+	### M-R PACT ###
+	################
+
+	#MR pact stuff
+	add_opinion_modifier = { target = GER modifier = MR_pact }# pact 
+	set_global_flag = sov_yes_pact
+	add_state_claim = 146 #KARELIA (FIN)
+	#add_state_claim = 147 #SALLA (FIN) # Claim removed from MR pact (AAT)
+	#add_state_claim = 722 #PETSAMO (FIN) # Claim removed from MR pact (AAT)
+	add_state_claim = 13 #PÄRNU (EST)
+	add_state_claim = 191 #TARTU (EST)
+	add_state_claim = 811 #SAAREMAA (EST)
+	add_state_claim = 813 #VIRUMAA (EST)
+	add_state_claim = 812 #TALLIN (EST)
+	add_state_claim = 12 #VIDZEME (LAT)
+	add_state_claim = 190 #KURZEME (LAT)
+	add_state_claim = 808 #RIGA (LAT)
+	add_state_claim = 809 #ZEMGALE (LAT)
+	add_state_claim = 810 #LATGALE (LAT)
+	add_state_claim = 11 #KAUNAS (LIT)
+	add_state_claim = 784 #WILNO (LIT)
+	add_state_claim = 189 #ZEMAITIJA (LIT)
+	add_state_claim = 814 #SUDUVA (LIT)
+	add_state_claim = 815 #AUKSTAITIJA (LIT)
+	add_state_claim = 89 #STANISLAWOW (POL)
+	add_state_claim = 91 #LWOW (POL)
+	add_state_claim = 93 #WOLYN (POL)
+	add_state_claim = 94 #POLESIE (POL)
+	add_state_claim = 95 #NOWOGRODEK (POL)
+	add_state_claim = 96 #WILEJKA (POL)
+	add_state_claim = 97 #BIALYSTOK (POL)
+	add_state_claim = 78 #BESSARABIA (ROM)
+	add_state_claim = 80 #BUCOVINA (ROM)
+	add_state_claim = 766 #SOUTHERN BESSARABIA (ROM
+	#MR pact stuff end
+
+	#Germany soviet treaty (Tank templates unlocked at the bottom of this file)
+	GER = {
+		add_opinion_modifier = {
+			target = SOV
+			modifier = sov_ger_treaty
+		}
+		add_opinion_modifier = {
+			target = SOV
+			modifier = sov_ger_treaty_trade
+		}
+	}
 	if = {
 		limit = {
 			NOT = { has_dlc = "No Step Back" }
@@ -380,12 +310,12 @@ add_ideas = {
 
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
-			set_air_oob = "BWR_1939_air_bba"
+			set_air_oob = "SOV_1939_air_bba"
 			set_technology = {
 				basic_large_airframe = 1
 			}
 		else = {
-			set_air_oob = "BWR_1939_air_legacy"
+			set_air_oob = "SOV_1939_air_legacy"
 			set_technology = {
 				CAS1 = 1
 				tactical_bomber1 = 1
@@ -395,12 +325,11 @@ add_ideas = {
 
 
 	
-	
 	if = {
 		limit = { has_dlc = "Man the Guns" }
-			set_naval_oob = "BWR_1939_naval_mtg"
+			set_naval_oob = "SOV_1939_naval_mtg"
 		else = {
-			set_naval_oob = "BWR_1939_naval_legacy"
+			set_naval_oob = "SOV_1939_naval_legacy"
 		}
 	}
 
@@ -426,7 +355,6 @@ add_ideas = {
 		#electronics
 		electronic_mechanical_engineering = 1
 		radio = 1
-		radio_detection = 1
 		mechanical_computing = 1
 		computing_machine = 1
 		basic_encryption = 1
@@ -446,6 +374,9 @@ add_ideas = {
 		concentrated_industry2 = 1
 		concentrated_industry3 = 1
 	}
+	
+	
+
 	if = {
 		limit = {
 			NOT = { has_dlc = "No Step Back" }
@@ -455,7 +386,7 @@ add_ideas = {
 			basic_heavy_tank = 1    # Should be available in 1936 (T-35)
 			basic_medium_tank = 1 # Should be available in 1936 (T-28)
 		}
-		set_oob = "BWR_1939"
+		set_oob = "SOV_1939"
 	}
 	if = {
 		limit = {
@@ -466,7 +397,7 @@ add_ideas = {
 			basic_heavy_tank_chassis = 1
 			basic_medium_tank_chassis = 1 
 		}
-		set_oob = "BWR_1939_nsb"
+		set_oob = "SOV_1939_nsb"
 	}
 	if = {
 		limit = { not = { has_dlc = "Man the Guns" } }
@@ -490,51 +421,63 @@ add_ideas = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = communism
 	last_election = "1933.7.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 58
+	democratic = 10
 	fascism = 2
-	monarchist = 10
-	neutrality = 20
-	communism = 10
-
+	communism = 88
 }
 
-
+create_faction = Comintern
+add_to_faction = SOV
+add_to_faction = MON
+add_to_faction = TAN
 
 if = {
 	limit = {
 		has_dlc = "La Resistance"
 	}
+
 	create_operative_leader = {
-		name = "Alexander Radó"
+		name = SOV_alexander_rado
 		GFX = GFX_portrait_alexander_rado
 		traits = { operative_natural_orator }
 		bypass_recruitment = no
 		available_to_spy_master = yes
-		nationalities = { BWR HUN }
+		nationalities = { SOV HUN }
 	}
 
 	create_operative_leader = {
-		name = "Kim Philby"
+		name = SOV_kim_philby
 		GFX = GFX_portrait_kim_philby
 		traits = { operative_double_agent operative_infiltrator }
 		bypass_recruitment = no
 		available_to_spy_master = yes
-		nationalities = { BWR ENG }
+		nationalities = { SOV ENG }
 	}
+
 	create_operative_leader = {
-		name = "Richard Sorge"
+		name = SOV_richard_sorge
 		GFX = GFX_portrait_richard_sorge
 		traits = { operative_well_groomed }
 		bypass_recruitment = no
 		available_to_spy_master = yes
-		nationalities = { BWR GER }
+		nationalities = { SOV GER }
 	}
+
+	create_operative_leader = {
+		name = SOV_yan_chernyak
+		GFX = GFX_portrait_SOV_yan_chernyak
+		traits = { operative_linguist operative_infiltrator }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SOV GER HUN ROM CZE SLO }
+	}
+
 }
 
 
@@ -545,7 +488,7 @@ if = {
 	limit = {
 		has_dlc = "By Blood Alone"
 	}
-	create_equipment_variant = {
+	create_equipment_variant = { #Note: There is a copy of this variant in Finnish Scripted Effects file (FIN_purchase_soviet_equipment_for_cw). Any changes here should also be applied there
 		name = "I-15" #
 		type = small_plane_airframe_0
 		modules = {
@@ -568,6 +511,7 @@ if = {
 	create_equipment_variant = {
 		name = "DB-3" #
 		type = medium_plane_airframe_0
+		design_team = mio:SOV_ilyushin_design_bureau_organization
 		modules = {
 			fixed_main_weapon_slot = medium_bomb_bay
 			fixed_auxiliary_weapon_slot_1 = bomb_locks
@@ -604,7 +548,7 @@ if = {
 	limit = {
 		has_dlc = "No Step Back"
 	}
-	create_equipment_variant = {
+	create_equipment_variant = { #Note: There is a copy of this variant in Finnish Scripted Effects file (FIN_purchase_soviet_equipment_for_cw). Any changes here should also be applied there
 		name = "T-27"
 		type = light_tank_chassis_0
 		parent_version = 0
@@ -626,6 +570,7 @@ if = {
 	create_equipment_variant = {
 		name = "T-26TU mod. 1933"
 		type = light_tank_chassis_1
+		design_team = mio:SOV_okmo_organization
 		parent_version = 0
 		modules = {
 			main_armament_slot = tank_small_cannon_2
@@ -641,9 +586,10 @@ if = {
 		}
 		icon = "GFX_SOV_basic_light_tank_medium"
 	}
-	create_equipment_variant = {
+	create_equipment_variant = { #Note: There is a copy of this variant in Finnish National Focus file (FIN_bring_foreign_armor_experts). Any changes here should also be applied there
 		name = "BT-5"
 		type = light_tank_chassis_1
+		design_team = mio:SOV_morozov_design_bureau_organization
 		parent_version = 1
 		modules = {
 			main_armament_slot = tank_small_cannon_2
@@ -656,11 +602,13 @@ if = {
 			tank_nsb_engine_upgrade = 8
 			tank_nsb_armor_upgrade = 1
 		}
-		icon = "GFX_SOV_improved_light_tank_medium"
+		icon = "GFX_SOV_improved_light_tank_medium" #More similar to BT-7 than to T-26
+		model = "SOV_light_armor_entity" #More similar to BT-7 than to T-26
 	}
 	create_equipment_variant = {
 		name = "BT-7"
 		type = light_tank_chassis_2
+		design_team = mio:SOV_morozov_design_bureau_organization
 		parent_version = 0
 		modules = {
 			main_armament_slot = tank_small_cannon_2
@@ -694,11 +642,13 @@ if = {
 			tank_nsb_armor_upgrade = 3
 			tank_nsb_engine_upgrade = 10
 		}
-		icon = "GFX_SOV_basic_heavy_tank_medium"
+		icon = "GFX_SOV_medium_gwtank_medium"
+		model = "SOV_medium_gw_armor_0_entity"
 	}
 	create_equipment_variant = {
 		name = "T-35"
 		type = heavy_tank_chassis_0
+		design_team = mio:SOV_okmo_organization
 		parent_version = 0
 		modules = {
 			main_armament_slot = tank_close_support_gun
@@ -759,7 +709,7 @@ if = {
 	create_equipment_variant = {			
 		name = "AG Class"
 		type = ship_hull_submarine_1
-		name_group = BWR_SS_SHCHUKA
+		name_group = SOV_SS_SHCHUKA
 		parent_version = 0
 		modules = {
 			fixed_ship_torpedo_slot = ship_torpedo_sub_1
@@ -771,7 +721,7 @@ if = {
 	create_equipment_variant = {
 		name = "Series I Debakrist"			# represents Debakrist, B class, L-55 sub
 		type = ship_hull_submarine_1
-		name_group = BWR_SS_SHCHUKA
+		name_group = SOV_SS_SHCHUKA
 		parent_version = 0
 		modules = {
 			fixed_ship_torpedo_slot = ship_torpedo_sub_1
@@ -783,7 +733,7 @@ if = {
 	create_equipment_variant = {
 		name = "Series II Leninets"				# represents Leninets series II, XI
 		type = ship_hull_submarine_2
-		name_group = BWR_SS_LENINETS
+		name_group = SOV_SS_LENINETS
 		parent_version = 0
 		modules = {
 			fixed_ship_torpedo_slot = ship_torpedo_sub_1
@@ -794,7 +744,7 @@ if = {
 	create_equipment_variant = {
 		name = "Series V Shchuka"				# represents Shchuka series III, V, V-bis, V-bis-2
 		type = ship_hull_submarine_1
-		name_group = BWR_SS_SHCHUKA
+		name_group = SOV_SS_SHCHUKA
 		parent_version = 0
 		modules = {
 			fixed_ship_torpedo_slot = ship_torpedo_sub_2
@@ -806,7 +756,7 @@ if = {
 	create_equipment_variant = {
 		name = "Series IX Srednyaya"				# 'Stalinets', series IX, IX-bis, IX-bis-2 and P-class
 		type = ship_hull_submarine_2
-		name_group = BWR_SS_STALINETS
+		name_group = SOV_SS_STALINETS
 		parent_version = 0
 		modules = {
 			fixed_ship_torpedo_slot = ship_torpedo_sub_2
@@ -817,7 +767,7 @@ if = {
 	create_equipment_variant = {
 		name = "Series X Shchuka"				
 		type = ship_hull_submarine_1
-		name_group = BWR_SS_SHCHUKA
+		name_group = SOV_SS_SHCHUKA
 		parent_version = 0
 		modules = {
 			fixed_ship_torpedo_slot = ship_torpedo_sub_2
@@ -829,7 +779,7 @@ if = {
 	create_equipment_variant = {
 		name = "Orfey Class"						# represents Yakov Sverdlov, Frunze, and Orfey classes
 		type = ship_hull_light_1
-		name_group = BWR_DD_HISTORICAL
+		name_group = SOV_DD_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_light_battery_1
@@ -846,7 +796,7 @@ if = {
 	create_equipment_variant = {
 		name = "Fidonisi Class"						# represents Fidonisi and Izyaslav classes
 		type = ship_hull_light_1
-		name_group = BWR_DD_HISTORICAL
+		name_group = SOV_DD_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_light_battery_1
@@ -863,7 +813,7 @@ if = {
 	create_equipment_variant = {
 		name = "Leningrad & Minsk Class"				
 		type = ship_hull_light_2
-		name_group = BWR_DD_HISTORICAL
+		name_group = SOV_DD_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_light_battery_2
@@ -879,7 +829,7 @@ if = {
 	create_equipment_variant = {
 		name = "Bug Class"					# minelayer
 		type = ship_hull_light_1
-		name_group = BWR_MINELAYERS_HISTORICAL
+		name_group = SOV_MINELAYERS_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_light_battery_1
@@ -896,7 +846,7 @@ if = {
 	create_equipment_variant = {
 		name = "Komintern Class"
 		type = ship_hull_cruiser_1
-		name_group = BWR_MINELAYERS_HISTORICAL
+		name_group = SOV_MINELAYERS_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_light_medium_battery_1
@@ -913,7 +863,7 @@ if = {
 	create_equipment_variant = {
 		name = "Chervona Ukraina Class"
 		type = ship_hull_cruiser_1
-		name_group = BWR_CL_HISTORICAL
+		name_group = SOV_CL_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_light_medium_battery_1
@@ -929,8 +879,9 @@ if = {
 	create_equipment_variant = {
 		name = "Marti Class"
 		type = ship_hull_cruiser_1				# minelayer
-		name_group = BWR_MINELAYERS_HISTORICAL
+		name_group = SOV_MINELAYERS_HISTORICAL
 		parent_version = 0
+		role_icon_index = 4
 		modules = {
 			fixed_ship_battery_slot = ship_light_medium_battery_1
 			fixed_ship_anti_air_slot = ship_anti_air_1
@@ -946,7 +897,7 @@ if = {
 		create_equipment_variant = {
 			name = "Kirov Class"
 			type = ship_hull_cruiser_2
-			name_group = BWR_CA_HISTORICAL
+			name_group = SOV_CA_HISTORICAL
 			parent_version = 0
 			modules = {
 				fixed_ship_battery_slot = ship_medium_battery_1
@@ -964,7 +915,7 @@ if = {
 	create_equipment_variant = {
 		name = "Marat Class"					
 		type = ship_hull_heavy_1
-		name_group = BWR_BB_HISTORICAL
+		name_group = SOV_BB_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_heavy_battery_1
@@ -1025,7 +976,7 @@ if = {
 			modules = {
 				fixed_main_weapon_slot = large_bomb_bay
 				fixed_auxiliary_weapon_slot_1 = large_bomb_bay
-				engine_type_slot = engine_2_4x
+				engine_type_slot = engine_3_4x #Increased tier due to thrust/weight issues
 				special_type_slot_1 = lmg_defense_turret
 				special_type_slot_2 = cannon_defense_turret_2x
 			}
@@ -1062,7 +1013,7 @@ if = {
 		create_equipment_variant = {
 			name = "Series XIII Leninets"				
 			type = ship_hull_submarine_2
-			name_group = BWR_SS_LENINETS
+			name_group = SOV_SS_LENINETS
 			parent_version = 0
 			modules = {
 				fixed_ship_torpedo_slot = ship_torpedo_sub_2
@@ -1073,7 +1024,7 @@ if = {
 		create_equipment_variant = {
 			name = "Series XIV K-Class"				
 			type = ship_hull_submarine_3
-			name_group = BWR_SS_SHCHUKA
+			name_group = SOV_SS_SHCHUKA
 			parent_version = 0
 			modules = {
 				fixed_ship_torpedo_slot = ship_torpedo_sub_2
@@ -1087,7 +1038,7 @@ if = {
 		create_equipment_variant = {
 			name = "Gnevnyy Class"				
 			type = ship_hull_light_2
-			name_group = BWR_DD_HISTORICAL
+			name_group = SOV_DD_HISTORICAL
 			parent_version = 0
 			modules = {
 				fixed_ship_battery_slot = ship_light_battery_2
@@ -1104,7 +1055,7 @@ if = {
 		create_equipment_variant = {
 			name = "Soobrazitelnyi Class"				
 			type = ship_hull_light_3
-			name_group = BWR_DD_HISTORICAL
+			name_group = SOV_DD_HISTORICAL
 			parent_version = 0
 			modules = {
 				fixed_ship_battery_slot = ship_light_battery_2
@@ -1120,7 +1071,7 @@ if = {
 		create_equipment_variant = {
 			name = "Tashkent Class"				
 			type = ship_hull_light_3
-			name_group = BWR_DD_HISTORICAL
+			name_group = SOV_DD_HISTORICAL
 			parent_version = 0
 			modules = {
 				fixed_ship_battery_slot = ship_light_battery_2

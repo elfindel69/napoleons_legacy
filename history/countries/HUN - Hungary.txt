@@ -6,16 +6,112 @@ set_research_slots = 3
 set_stability = 0.7
 set_war_support = 0.6
 
+IF = {
+	limit = {
+		has_dlc = "Gotterdammerung"
+	}
+	set_oob = "HUN_wuw_1936"
+	ELSE_IF = {
+		limit = {
+			NOT = {
+				has_dlc = "Gotterdammerung"
+			}
+		}
+		set_oob = "HUN_1936"
+	}
+}
+
+IF = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "HUN_1936_air_bba"
+		set_technology = {
+			iw_small_airframe = 1
+			engines_1 = 1
+			early_bombs = 1
+			photo_reconnaisance = 1
+			aa_lmg = 1
+		}
+	ELSE = {
+		set_air_oob = "HUN_1936_air_legacy"
+		set_technology = {
+			early_fighter = 1
+			CAS1 = 1
+		}
+	}
+}
+
+IF = {
+	limit = { has_dlc = "Man the Guns" }
+		set_technology = {
+			mtg_transport = 1
+		}
+	ELSE = {
+		set_technology = {
+			transport = 1
+		}
+	}
+}
+
+### SETUP THE CORRECT POLITICAL PARTIES ###
+
+IF = {
+	limit = {
+		has_dlc = "Gotterdammerung"
+	}
+	set_party_name = {
+	    ideology = fascism
+	    long_name = HUN_national_socialist_party_long
+	    name = HUN_national_socialist_party
+	}
+}
+
+set_research_slots = 3
+
+### SETUP STABILITY AND WAR SUPPORT ###
+IF = {
+	limit = {
+		NOT = {
+			has_dlc = "Gotterdammerung"
+		}
+	}
+	set_stability = 0.7
+	set_war_support = 0.6
+	ELSE = {
+		set_stability = 0.3
+		set_war_support = 0.4
+	}
+}
+
+
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	tech_support = 1		
 	tech_recon = 1
+	tech_trucks = 1
 	gw_artillery = 1
-	gwtank = 1
-	early_fighter = 1
-	CAS1 = 1
+
 	fuel_silos = 1
+	basic_train = 1
+}
+
+IF = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_technology = {
+		gwtank = 1
+	}
+}
+IF = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+	}
 }
 
 if = {
@@ -24,12 +120,11 @@ if = {
 	}
 	add_ideas = {
 		disarmed_nation
-		HUN_treaty_of_triannon
 	}
 }
 
 1939.1.1 = {
-	remove_ideas = HUN_treaty_of_triannon
+	
 
 	add_political_power = 1198
 
@@ -137,90 +232,138 @@ set_popularities = {
 	monarchist = 4
 }
 
-#Start Horty as neutral if DOD
-if = {
+# RECRUITING HUNGARIAN CHARACTERS
+IF = {
 	limit = {
-		has_dlc = "Death or Dishonor"
-	}
-	create_country_leader = {
-		name = "Miklós Horthy"
-		desc = "POLITICS_MIKLOS_HORTHY_DESC"
-		picture = "Portrait_Hungary_Miklos_Horthy.dds"
-		expire = "1965.1.1"
-		ideology = oligarchism
-		traits = {
-			fascist_sympathies
-			anti_communist
+		NOT = {
+			has_dlc = "Gotterdammerung"
 		}
 	}
-	else = {
-		create_country_leader = {
-			name = "Miklós Horthy"
-			desc = "POLITICS_MIKLOS_HORTHY_DESC"
-			picture = "Portrait_Hungary_Miklos_Horthy.dds"
-			expire = "1965.1.1"
-			ideology = despotism
-		}
-		create_country_leader = {
-			name = "Miklós Horthy"
-			desc = "POLITICS_MIKLOS_HORTHY_DESC"
-			picture = "Portrait_Hungary_Miklos_Horthy.dds"
-			expire = "1965.1.1"
-			ideology = fascism_ideology
-		}
-	}
+	recruit_character = HUN_miklos_horthy
+	recruit_character = HUN_matyas_rakosi
+	recruit_character = HUN_arpad_szakasits
+	recruit_character = HUN_geza_lakatos
+	recruit_character = HUN_ivan_hindy
+	recruit_character = HUN_karoly_beregfy
+	recruit_character = HUN_lajos_veress
+	recruit_character = HUN_ferenc_feketehalmyczeydner
+	recruit_character = HUN_istvan_szechenyi
+	recruit_character = HUN_francois_deak
+	recruit_character = HUN_gyorgy_jendrassik
+	recruit_character = HUN_jeno_ratz
+	recruit_character = HUN_henrik_werth
+	recruit_character = HUN_hugo_sonyi
+	recruit_character = HUN_ferenc_szombathelyi
+	recruit_character = HUN_gusztav_jany
+	recruit_character = HUN_dezso_laszlo
+	recruit_character = HUN_reszo_kastner
+	recruit_character = HUN_shvoy_kalman
+	recruit_character = HUN_sandor_magyarossy
+	recruit_character = HUN_bela_rakosi
+	recruit_character = HUN_kalman_kanya
+	recruit_character = HUN_jozsef_szell
+	recruit_character = HUN_vilmos_roder
+	recruit_character = HUN_zoltan_tildy
+	recruit_character = HUN_laszlo_rajk
+	recruit_character = HUN_kalman_daranyi
+	recruit_character = HUN_lajos_remenyi_schneller
+	recruit_character = HUN_gusztav_gratz
+	recruit_character = HUN_gyula_gombos_de_jakfa
+	recruit_character = HUN_otto_von_habsburg
+	recruit_character = HUN_franz_friedrich
+	recruit_character = HUN_franz_anton_bach
 }
-create_country_leader = {
-	name = "Miklós Horthy"
-	desc = "POLITICS_MIKLOS_HORTHY_DESC"
-	picture = "Portrait_Hungary_Miklos_Horthy.dds"
-	expire = "1965.1.1"
-	ideology = monarchism
-	traits = {
-		
+IF = {
+	limit = {
+		has_dlc = "Gotterdammerung"
 	}
-}
-		
-create_country_leader = {
-	name = "Mátyás Rákosi"
-	desc = "POLITICS_MATYAS_RAKOSKI_DESC"
-	picture = "Portrait_Hungary_Matyas_Rakoski.dds"
-	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {
-		#
-	}
+	recruit_character = HUN_miklos_horthy
+	recruit_character = HUN_matyas_rakosi
+	recruit_character = HUN_arpad_szakasits
+	recruit_character = HUN_geza_lakatos
+	recruit_character = HUN_ivan_hindy
+	recruit_character = HUN_karoly_beregfy
+	recruit_character = HUN_lajos_veress
+	recruit_character = HUN_ferenc_feketehalmyczeydner
+	recruit_character = HUN_gyorgy_jendrassik
+	recruit_character = HUN_jeno_ratz
+	recruit_character = HUN_henrik_werth
+	recruit_character = HUN_hugo_sonyi
+	recruit_character = HUN_ferenc_szombathelyi
+	recruit_character = HUN_gusztav_jany
+	recruit_character = HUN_dezso_laszlo
+	recruit_character = HUN_shvoy_kalman
+	recruit_character = HUN_sandor_magyarossy
+	recruit_character = HUN_kalman_kanya
+	recruit_character = HUN_jozsef_szell
+	recruit_character = HUN_vilmos_roder
+	recruit_character = HUN_zoltan_tildy
+	recruit_character = HUN_laszlo_rajk
+	recruit_character = HUN_kalman_daranyi
+	recruit_character = HUN_lajos_remenyi_schneller
+	recruit_character = HUN_gusztav_gratz
+	recruit_character = HUN_gyula_gombos_de_jakfa
+	recruit_character = HUN_otto_von_habsburg
+	recruit_character = HUN_franz_friedrich
+	recruit_character = HUN_bela_kun
+	recruit_character = HUN_joseph_august_von_habsburg
+	recruit_character = HUN_istvan_horthy
+	recruit_character = HUN_ferenc_szalasi
+	recruit_character = HUN_mihaly_karolyi
+	recruit_character = HUN_janos_zichy
+	recruit_character = HUN_carl_wilhelm
+	recruit_character = HUN_vilmos_nagy
+	recruit_character = HUN_jozsef_bajnoczy
+	recruit_character = HUN_karoly_bartha
+	recruit_character = HUN_dome_sztojay
+	recruit_character = HUN_laszlo_hary
+	recruit_character = HUN_jeno_oszkar_ruszkay
+	recruit_character = HUN_janos_voros
+	recruit_character = HUN_lajos_csatay
+	recruit_character = HUN_sandor_gyorffy_bengyel
+	recruit_character = HUN_zoltan_decleva
+	recruit_character = HUN_elemer_gorondy_novak
+	recruit_character = HUN_bela_miklos
+	recruit_character = HUN_kocsard_janky
+	recruit_character = HUN_antal_freiherr
+	recruit_character = HUN_bela_imredy
+	recruit_character = HUN_pal_teleki
+	recruit_character = HUN_ferenc_fischer
+	recruit_character = HUN_erno_gero
+	recruit_character = HUN_fidel_palffy
+	recruit_character = HUN_istvan_friedrich
+	recruit_character = HUN_magdolna_purgly
+	recruit_character = HUN_sandor_garbai
+	recruit_character = HUN_istvan_bethlen
+	recruit_character = HUN_gyula_kadar
+	recruit_character = HUN_imre_nagy
+	recruit_character = HUN_miklos_horthy_jr
+	recruit_character = HUN_pal_kiraly
+	recruit_character = HUN_janos_kadar
+	recruit_character = HUN_lennart_bernadotte
+	recruit_character = HUN_pal_pronay
+	recruit_character = HUN_imre_kemeri_nagy
+	recruit_character = HUN_jusztinian_seredi
+	recruit_character = HUN_vasyl_vyshyvanyi
+	recruit_character = HUN_jozsef_kelen
+	recruit_character = HUN_hermann_pokorny
+	recruit_character = HUN_dezso_magos
+	recruit_character = HUN_kalman_hardy
+	recruit_character = HUN_franz_anton_bach
+	recruit_character = HUN_hermann_goring
+	recruit_character = HUN_asboth_oszkar # Helis only exist if you have the dlc
 }
 
-create_country_leader = {
-	name = "Árpád Szakasits"
-	desc = "POLITICS_ARPAD_SZAKASITS_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1965.1.1"
-	ideology = socialism
-	traits = {
-		#
-	}
-}
+#Scientists always recruited
+recruit_character = HUN_nicholas_straussler
+recruit_character = HUN_leo_szilard
+recruit_character = HUN_john_von_neumann
+recruit_character = HUN_edward_teller
+recruit_character = HUN_laszlo_varga
+
 
 1939.1.1 = {
-	if = {
-		limit = {
-			has_dlc = "Death or Dishonor"
-		}
-		#Remove neutral Horty add fascist
-		retire_country_leader = yes
-		create_country_leader = {
-			name = "Miklós Horthy"
-			desc = "POLITICS_MIKLOS_HORTHY_DESC"
-			picture = "Portrait_Hungary_Miklos_Horthy.dds"
-			expire = "1965.1.1"
-			ideology = fascism_ideology
-			traits = {
-				anti_communist
-			}
-		}
-	}
+	
 
 	set_politics = {
 		ruling_party = fascism
@@ -237,57 +380,12 @@ create_country_leader = {
 }
 
 
-create_corps_commander = {
-	name = "Géza Lakatos"
-	gfx = GFX_Portrait_hungary_geza_lakatos
-	traits = {  }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 2
+add_breakthrough_progress = {
+	specialization = specialization_land
+	value = 0.2 # Due to Straussler
 }
 
-create_corps_commander = {
-	name = "Iván Hindy"
-	gfx = GFX_Portrait_hungary_ivan_hindy
-	traits = {  trickster }
-	skill = 4
-	attack_skill = 3
-	defense_skill = 4
-	planning_skill = 2
-	logistics_skill = 4
-}
-
-create_corps_commander = {
-	name = "Károly Beregfy"
-	gfx = GFX_Portrait_hungary_karoly_beregfy
-	traits = { }
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Lajos Veress"
-	gfx = GFX_Portrait_hungary_lajos_veress
-	traits = { armor_officer }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_field_marshal = {
-	name = "Ferenc Feketehalmy-Czeydner"
-	gfx = GFX_Portrait_hungary_ferenc_feketehalmy_czeydner
-	traits = { }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 2
-	logistics_skill = 2
+add_breakthrough_progress = {
+	specialization = specialization_air
+	value = 0.2 # Due to Azboth Oskar
 }

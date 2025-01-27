@@ -24,6 +24,8 @@ if = {
 			aa_lmg = 1
 			early_bombs = 1
 			aircraft_construction = 1
+			air_torpedoe_1 = 1
+			bba_early_transport_plane = 1
 		}
 	else = {
 		set_air_oob = "USA_1936_air_legacy"
@@ -35,6 +37,7 @@ if = {
 			naval_bomber1 = 1
 			CAS1 = 1
 			early_bomber = 1
+			early_transport_plane = 1
 		}
 	}
 }
@@ -58,18 +61,12 @@ USA_recalc_congress_icon_frames = yes
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
+	tech_trucks = 1
 	tech_recon = 1
 	tech_support = 1		
 	tech_engineers = 1
 	gw_artillery = 1
 	interwar_antiair = 1
-	early_fighter = 1
-	cv_early_fighter = 1
-	cv_naval_bomber1 = 1
-	cv_CAS1 = 1
-	naval_bomber1 = 1
-	CAS1 = 1
-	early_bomber = 1
 	superior_firepower = 1
 	base_strike = 1
 	motorised_infantry = 1
@@ -77,6 +74,22 @@ set_technology = {
 	fuel_refining = 1
 	marines = 1
 	basic_train = 1
+	engine_tech_1 = 1
+}
+
+add_breakthrough_progress = {
+	specialization = specialization_land
+	value = 0.3
+}
+
+add_breakthrough_progress = {
+	specialization = specialization_naval
+	value = 0.8
+}
+
+add_breakthrough_progress = {
+	specialization = specialization_air
+	value = 0.4
 }
 
 if = {
@@ -136,16 +149,14 @@ if = {
 		basic_torpedo = 1
 		sonar = 1
 		basic_depth_charges = 1
-		
-		
 		basic_cruiser_armor_scheme = 1
 		basic_heavy_armor_scheme = 1
 		mtg_transport = 1
 		improved_airplane_launcher = 1
+		basic_dp_light_battery = 1
 	}
 	add_ideas = MTG_naval_treaty_adherent
 }
-
 
 
 1939.1.1 = {
@@ -195,14 +206,36 @@ if = {
 		}
 	}
 
+	complete_special_project = {
+		project = sp:sp_naval_cruiser_submarine
+		scientist = USA_william_francis_gibbs
+		state = 361 
+	}
+
+	complete_special_project = {
+		project = sp:sp_air_radar
+		scientist = USA_vannevar_bush
+		state = 386
+	}
+
+	IF = {
+		limit = {
+			has_dlc = "Gotterdammerung"
+		}
+		complete_special_project = {
+			project = sp:sp_air_helicopter
+			scientist = USA_edward_curtis_wells
+			state = 386
+		}
+	}
+
+	complete_special_project = {
+		project = sp:sp_land_military_engineering_vehicles
+		scientist = USA_john_walter_christie
+		state = 393
+	}
+
 	set_technology = {
-		fighter1 = 1
-		cv_fighter1 = 1
-		heavy_fighter1 = 1
-		tactical_bomber1 = 1
-		CAS2 = 1
-		strategic_bomber1 = 1
-		basic_light_tank = 1
 		interwar_artillery = 1
 		interwar_antitank = 1
 		infantry_weapons2 = 1
@@ -223,7 +256,6 @@ if = {
 		#electronics
 		electronic_mechanical_engineering = 1
 		radio = 1
-		radio_detection = 1
 		mechanical_computing = 1
 		computing_machine = 1
 		basic_encryption = 1
@@ -262,6 +294,7 @@ if = {
 			improved_sonar = 1
 			improved_ship_torpedo_launcher = 1
 			improved_heavy_battery = 1
+			advanced_dp_light_battery = 3
 		}
 		remove_ideas = MTG_naval_treaty_adherent
 		add_ideas = MTG_naval_treaty_adherent_reduced

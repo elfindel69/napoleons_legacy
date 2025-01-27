@@ -49,6 +49,53 @@ starting_train_buffer = 2
 set_fuel_ratio = 0.8
 
 
+add_breakthrough_progress = {
+	specialization = specialization_land
+	value = 1.0
+}
+
+add_breakthrough_progress = {
+	specialization = specialization_naval
+	value = 0.8
+}
+
+add_breakthrough_progress = {
+	specialization = specialization_air
+	value = 0.3
+}
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "GER_1936_air_bba"
+		set_technology = {
+			aa_lmg = 1
+			aa_cannon_1 = 1
+			engines_1 = 1
+			engines_2 = 1
+			early_bombs = 1
+			aircraft_construction = 1
+			iw_small_airframe = 1
+			basic_small_airframe = 1
+			iw_medium_airframe = 1
+			basic_medium_airframe = 1
+			iw_large_airframe = 1
+			air_torpedoe_1 = 1
+			photo_reconnaisance = 1
+			bba_early_transport_plane = 1
+		}
+	else = {
+		set_air_oob = "GER_1936_air_legacy"
+		set_technology = {
+			early_fighter = 1
+			fighter1 = 1
+			early_bomber = 1
+			tactical_bomber1 = 1
+			strategic_bomber1 = 1
+			CAS1 = 1
+			naval_bomber1 = 1
+			early_transport_plane = 1
+		}
+	}
+}
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -57,16 +104,10 @@ set_technology = {
 	tech_support = 1		
 	tech_engineers = 1
 	tech_mountaineers = 1
+	tech_trucks = 1
 	motorised_infantry = 1
 	gw_artillery = 1
 	interwar_antiair = 1
-	early_fighter = 1
-	fighter1 = 1
-	early_bomber = 1
-	tactical_bomber1 = 1
-	strategic_bomber1 = 1
-	CAS1 = 1
-	naval_bomber1 = 1
 	basic_train = 1
 	mobile_warfare = 1
 	trade_interdiction = 1
@@ -142,8 +183,6 @@ if = {
 		basic_light_battery = 1
 		basic_medium_battery = 1
 		basic_heavy_battery = 1
-		
-		
 		basic_depth_charges = 1
 		sonar = 1
 		basic_cruiser_armor_scheme = 1
@@ -188,9 +227,7 @@ add_to_faction = ITA
 	
 	#adding ministers
 	add_ideas = {
-		henschel
-		ig_faben
-		GER_autarky_idea
+	
 
 		#laws
 		war_economy
@@ -203,29 +240,29 @@ add_to_faction = ITA
 
 
 	
-	unlock_national_focus = GER_rhineland
-	unlock_national_focus = GER_anschluss
-	unlock_national_focus = GER_demand_sudetenland
-	unlock_national_focus = GER_first_vienna_award
-	unlock_national_focus = GER_end_of_czechoslovakia
-	unlock_national_focus = GER_demand_memel
-	unlock_national_focus = GER_four_year_plan
-	unlock_national_focus = GER_autarky
-	unlock_national_focus = GER_synthetic_rubber
 
 	set_global_flag = end_of_czechoslovakia
 	set_global_flag = olympics_1936
-	set_variable = { var = GER_mefo_bill_counter value = 90 }
-	complete_national_focus = GER_autobahn
-	complete_national_focus = GER_west_wall
-	complete_national_focus = GER_army_innovation
-	complete_national_focus = GER_hermann_goring_werke
-	complete_national_focus = GER_kdf_wagen
-	complete_national_focus = GER_coal_liquidization
-	complete_national_focus = GER_extra_tech_slot
-
-	#BUILDINGS
 	
+	
+	#BUILDINGS
+	complete_special_project = {
+		project = sp:sp_naval_midget_submarine
+		scientist = GER_hellmuth_walter
+		state = 56
+	}
+
+	IF = {
+		limit = {
+			has_dlc = "No Step Back"
+		}
+		complete_special_project = {
+			project = sp:sp_land_flamethrower_tank
+			scientist = GER_eduard_grote
+			state = 64
+		}
+	}
+
 
 	set_technology = {
 		CAS2 = 1
@@ -364,14 +401,14 @@ set_popularities = {
 
 
 add_ideas = {
-	sour_loser
-	general_staff
+	
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
 }
 
 
+# Character Recruitment
 recruit_character = GER_wilhelm_pieck
 recruit_character = GER_konrad_adenauer
 recruit_character = GER_adolf_hitler
@@ -446,11 +483,95 @@ recruit_character = GER_joseph_goebbels
 recruit_character = GER_konstantin_von_neurath
 recruit_character = GER_alfred_hugenberg
 recruit_character = GER_kurt_schumacher
-recruit_character = rep_GER_wilhelm_iii
-recruit_character = rep_GER_wilhelm_ii
+recruit_character = GER_wilhelm_ii
+recruit_character = GER_wilhelm_iii
 recruit_character = GER_victoria
 recruit_character = GER_august_von_mackensen
+
 recruit_character = GER_alexander_von_falkenhausen #Not visible unless recalled from China
+
+#NEW PEOPLE WW
+recruit_character = GER_werner_von_blomberg
+recruit_character = GER_oswald_lutz
+recruit_character = GER_walther_nehring
+recruit_character = GER_hans_krebs
+recruit_character = GER_rolf_carls
+recruit_character = GER_helmuth_wilberg
+recruit_character = GER_josef_kammhuber
+recruit_character = GER_robert_knauss
+recruit_character = GER_alfred_becker
+recruit_character = GER_walter_dornberger
+recruit_character = GER_alfred_rosenberg
+recruit_character = GER_reinhard_heydrich
+recruit_character = GER_leni_riefenstahl
+recruit_character = GER_franz_seldte
+recruit_character = GER_hanns_kerrl
+recruit_character = GER_ludwig_erhard
+recruit_character = GER_paul_von_lettow_vorbeck # He is "new"
+recruit_character = GER_carl_friedrich_goerdeler
+recruit_character = GER_wilhelm_iv
+recruit_character = GER_eva_braun
+
+#SCIENTISTS
+recruit_character = GER_peter_adolf_thiessen
+recruit_character = GER_gustav_ludwig_hertz
+recruit_character = GER_eduard_grote
+recruit_character = GER_ferdinand_porsche 
+recruit_character = GER_erwin_aders
+recruit_character = GER_hermann_burkhardt
+recruit_character = GER_ulrich_gabler
+recruit_character = GER_hans_von_ohain
+recruit_character = GER_max_kramer
+recruit_character = GER_kurt_tank
+recruit_character = GER_hellmuth_walter
+recruit_character = GER_manfred_von_ardenne
+recruit_character = GER_konrad_zuse
+
+if = {
+	limit = {
+		has_dlc = "Gotterdammerung"
+	}
+	recruit_character = GER_jurgen_von_blumenthal
+	recruit_character = GER_hans_vogel
+	recruit_character = GER_adolf_friedrich_von_mecklenburg
+	recruit_character = GER_wilhelm_von_gayl
+	recruit_character = GER_andreas_hermes
+	recruit_character = GER_hans_luther
+	recruit_character = GER_hermann_erhardt
+	recruit_character = GER_dietrich_bonhoeffer
+	recruit_character = GER_oberste_heeresleitung_character
+	recruit_character = GER_franz_ritter_von_epp
+	recruit_character = GER_walter_ulbricht
+	if = {
+		limit = {
+			has_dlc = "La Resistance"
+		}
+		recruit_character = GER_wilhelm_zaisser
+	}
+	recruit_character = GER_otto_ruhle
+	recruit_character = GER_hermann_duncker
+	recruit_character = GER_august_thalheimer
+	recruit_character = GER_heinrich_brandler
+	recruit_character = GER_bernhard_bastlein
+	recruit_character = GER_vincenz_muller
+	recruit_character = GER_hans_kahle
+	recruit_character = GER_hans_marchwitza
+	recruit_character = GER_arno_von_lenski
+	recruit_character = GER_otto_strasser
+	recruit_character = GER_otto_grotewohl
+
+	recruit_character = GER_henrich_focke #Heli Scientist
+}
+
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Gotterdammerung"
+			has_dlc = "No Step Back"
+		}
+	}
+	recruit_character = GER_karl_heinrich_emil_becker #Artillery Scientist
+}
 
 if = {
 	limit = {
