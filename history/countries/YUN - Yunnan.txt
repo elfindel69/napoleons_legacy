@@ -10,7 +10,7 @@ if = {
 		has_dlc = "Waking the Tiger"
 	}
 	add_ideas = {
-		PRC_government_corruption
+	
 		CHI_ineffective_bureaucracy_warlord
 	}
 }
@@ -31,17 +31,7 @@ if = {
 			hostility_reason = asked_to_join
 		}
 
-		complete_national_focus = CHI_secure_internal_politics
-		complete_national_focus = CHI_cooperation_with_the_nationalists
-		complete_national_focus = CHI_industrial_investment
-		complete_national_focus = CHI_public_education_reform
-		complete_national_focus = CHI_long_term_economic_planning
-		complete_national_focus = CHI_technological_cooperation
-		complete_national_focus = CHI_local_arms_production
-		complete_national_focus = CHI_new_model_province
-		complete_national_focus = CHI_root_out_corruption
-		complete_national_focus = CHI_land_reform
-		complete_national_focus = CHI_reform_the_administration
+		
 		else = {		
 			#generic focuses
 			complete_national_focus = army_effort

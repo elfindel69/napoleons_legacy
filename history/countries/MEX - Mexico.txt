@@ -48,18 +48,7 @@ set_convoys = 45
 set_stability = 0.2
 set_war_support = 0.1
 
-if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
-	add_ideas = {
-		MEX_callistas
-		MEX_church_power_2
-		MEX_oil_concessions
-		MEX_politicised_army
-		MEX_cedillo_tension_2
-	}
-}
+
 
 1939.1.1 = {
 	add_political_power = 1198
@@ -113,41 +102,7 @@ if = {
 			has_dlc = "Man the Guns"
 		}
 
-		remove_ideas = {
-			MEX_cedillo_tension_2 # Already rebelled by this point
-		}
 		
-		complete_national_focus = MEX_focus_plan_of_agua_prieta
-		# 70
-		complete_national_focus = MEX_focus_exile_calles # Increase Church Power (3)
-		# 140
-		complete_national_focus = MEX_focus_control_the_army
-		# 210
-		complete_national_focus = MEX_focus_repeal_the_calles_law # Increase Church Power (4)
-		# 280
-		complete_national_focus = MEX_focus_peripheral_infrastructure
-		# 350
-		complete_national_focus = MEX_focus_rural_schools # 3rd research slot, decrease Church Power (3)
-		# 420
-		complete_national_focus = MEX_focus_national_bank
-		# 490
-		complete_national_focus = MEX_focus_agricultural_credit_bank
-		# 560
-		complete_national_focus = MEX_focus_rent_freeze
-		# 630
-		complete_national_focus = MEX_focus_confederation_of_mexican_workers # Decrease Church Power (2)
-		# 700
-		complete_national_focus = MEX_focus_ejido_worker_militias # Communist drift
-		# 770
-		complete_national_focus = MEX_focus_oil_field_expansion
-		# 840
-		complete_national_focus = MEX_focus_rural_infrastructure
-		# 910
-		unlock_national_focus = MEX_focus_nationalize_the_oil_fields
-		# 980
-		remove_ideas = {
-			MEX_oil_concessions
-		}
 		
 		ENG = {
 			add_opinion_modifier = {

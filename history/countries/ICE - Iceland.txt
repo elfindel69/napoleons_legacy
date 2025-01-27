@@ -11,7 +11,7 @@ IF = {
 		has_dlc = "Arms Against Tyranny"
 	}
 	add_ideas = {
-		ICE_christian_x
+		
 		disarmed_nation
 		isolation
 	}
@@ -125,15 +125,6 @@ IF = {
 		add_political_power = 1198
 		add_command_power = 100
 
-		complete_national_focus = ICE_expand_the_fishing_industry
-		complete_national_focus = ICE_the_kingdom_of_iceland
-		complete_national_focus = ICE_hydroelectric_power
-		complete_national_focus = ICE_declare_absolute_neutrality
-		complete_national_focus = ICE_infrastructure_projects
-		complete_national_focus = ICE_gardhur_airfield
-		complete_national_focus = ICE_the_icelandic_police_force
-		complete_national_focus = ICE_engineering_projects
-		complete_national_focus = ICE_the_merchant_fleet
 
 		set_oob = "ICE_1939"
 		set_technology = {

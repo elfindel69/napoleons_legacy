@@ -142,19 +142,7 @@ set_variable = { FIN_prioritize_heavy_industry_dec_cost = 50 } #Will be duplicat
 }
 
 # 1936 BoP (1939 BoP set up below)
-if = {
-	limit = {
-		has_start_date < 1936.01.02
-	}
-	set_power_balance = {
-		id = FIN_power_balance
-		left_side = FIN_bad_side
-		right_side = FIN_good_side
-		set_value = -0.45 #Adding FIN_sisu_2 idea below
-	}
-	#SISU NS
-	add_ideas = FIN_sisu_2
-}
+
 
 
 if = {
@@ -523,42 +511,7 @@ set_convoys = 5
 	load_oob = "unlock_motorized"
 	load_oob = "unlock_tanks_mot"
 	
-	### FOCUS TREE ###
-	#1936
-	complete_national_focus = FIN_finnish_neutrality
-	complete_national_focus = FIN_enhance_southern_infrastructure
-	unlock_national_focus = FIN_industrial_development #Timed idea should be gone
-	unlock_national_focus = FIN_vaisala_radiosonde_tests #35 #tech bonus should be consumed
-	complete_national_focus = FIN_increase_military_budget #35
-	complete_national_focus = FIN_suomen_maavoimat
 
-	#1937
-	complete_national_focus = FIN_reach_out_to_scandinavia #35
-	complete_national_focus = FIN_moderate_politics #35
-	complete_national_focus = FIN_mannerheim_line
-	complete_national_focus = FIN_national_unity
-	complete_national_focus = FIN_outokumpu_for_defence_industry
-	complete_national_focus = FIN_industrial_upgrade_in_harjavalta #35
-	complete_national_focus = FIN_janiskoski_power_plant #35 (1938 historically)
-
-	#1938
-	complete_national_focus = FIN_political_unity
-	complete_national_focus = FIN_railways_and_infrastructure
-	complete_national_focus = FIN_repurpose_small_industries
-	complete_national_focus = FIN_extra_refresher_exercises # (ASAP - gated behind WT)
-	complete_national_focus = FIN_weapon_caches #35 (ASAP - gated behind WT)
-	complete_national_focus = FIN_the_cold_front #35
-	
-	#1939 (Nov -> Winter War)
-	complete_national_focus = FIN_defense_in_depth
-	complete_national_focus = FIN_jaeger_movement
-	complete_national_focus = FIN_salvaged_and_retooled
-	complete_national_focus = FIN_motti_tactics #35
-
-	# FOCUS ADJUSTMENTS
-
-	#FIN_industrial_development
-	remove_ideas = FIN_infrastructure_effort #Timed idea should be gone by 1939
 
 	#FIN_vaisala_radiosonde_tests
 	111 = {
@@ -570,14 +523,7 @@ set_convoys = 5
 		}
 	}
 
-	# BOP & COUNTRY LEADER ADJUSTMENTS
-	set_power_balance = {
-		id = FIN_power_balance
-		left_side = FIN_bad_side
-		right_side = FIN_good_side
-		set_value = 0 #Adding FIN_sisu_2 idea below
-	}
-	add_ideas = FIN_sisu_3
+	#
 
 	retire_country_leader = yes
 	#Set Maalaisliitto (Agrarian League) as Non-Aligned party
@@ -654,7 +600,7 @@ if = {
 			fixed_ship_engine_slot = sub_ship_engine_1
 			rear_1_custom_slot = ship_mine_layer_sub
 		}
-		design_team = mio:FIN_crichton_vulcan_organization
+	
 	}
 	create_equipment_variant = {
 		name = "Vesikko Class"								
@@ -666,7 +612,7 @@ if = {
 			fixed_ship_engine_slot = sub_ship_engine_1
 			rear_1_custom_slot = empty
 		}
-		design_team = mio:FIN_crichton_vulcan_organization
+		
 	}
 	# Heavy Cruisers #
 	create_equipment_variant = {
@@ -686,7 +632,7 @@ if = {
 			mid_2_custom_slot = empty
 			rear_1_custom_slot = empty
 		}
-		design_team = mio:FIN_crichton_vulcan_organization
+	
 	}
 }
 

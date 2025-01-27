@@ -54,19 +54,7 @@ if = {
 		}
 	}
 	
-	if = {
-		limit = { has_dlc = "Together for Victory" }
-		complete_national_focus = NZL_army_reforms
-		complete_national_focus = NZL_charlton_automatic_rifle
-		complete_national_focus = NZL_domestic_arms_industry
-		complete_national_focus = NZL_expand_the_nzpaf
-		complete_national_focus = NZL_form_the_rnzaf
-		complete_national_focus = NZL_national_roads_board
-		complete_national_focus = NZL_new_zealand_steel
-		complete_national_focus = NZL_taranaki_oil
-		complete_national_focus = NZL_bureau_of_industry 
-		
-		else = {
+	
 			#generic focuses
 			complete_national_focus = army_effort
 			complete_national_focus = equipment_effort
@@ -77,8 +65,7 @@ if = {
 			complete_national_focus = industrial_effort
 			complete_national_focus = construction_effort
 			complete_national_focus = production_effort
-		}
-	}
+		
 
 	add_ideas = {
 		#laws

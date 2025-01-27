@@ -44,13 +44,13 @@ set_technology = {
 		
 		army_ordnance_department
 		general_electric
-		USA_prepare_intervention
+		
 
 		#laws
 		isolation
 		volunteer_only
 
-		new_deal
+	
 	}
 
 	#focuses
@@ -151,7 +151,7 @@ add_ideas = {
 	civilian_economy
 	limited_conscription
 	free_trade
-	home_of_the_free
+	
 	rep_neutrality_idea
 }
 

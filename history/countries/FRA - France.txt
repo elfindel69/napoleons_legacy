@@ -211,29 +211,13 @@ add_to_faction = TTS
 	add_ideas = {
 		famh
 		renault_fra
-		FRA_full_employment
-	    FRA_political_violence
-	    FRA_inefficient_economy_2
-	    FRA_matignon_agreements
+		
 		#laws
 		partial_economic_mobilisation
 	}
 
-	complete_national_focus = FRA_begin_rearmament
-	complete_national_focus = FRA_form_the_popular_front
-	complete_national_focus = FRA_reform_the_labour_laws
-	complete_national_focus = FRA_the_blum_viollette_proposal
-	complete_national_focus = FRA_review_foreign_policy
-	complete_national_focus = FRA_intervention_in_spain
-	complete_national_focus = FRA_buy_time
-	complete_national_focus = FRA_defensive_focus
-	complete_national_focus = FRA_firepower_kills
-	complete_national_focus = FRA_go_with_britain
-	complete_national_focus = FRA_devalue_the_franc
-	complete_national_focus = FRA_invest_in_the_metropole
 
-	give_guarantee = POL
-	ENG = { add_to_faction = FRA }
+
 
 	
 	if = {
@@ -403,13 +387,9 @@ set_popularities = {
 }
 
 add_ideas = {
-	FRA_victors_of_wwi
-	FRA_disjointed_government
-	FRA_protected_by_the_maginot_line
+	
 	limited_conscription
-	FRA_full_employment
-	FRA_political_violence
-	FRA_inefficient_economy_2
+	
 }
 
 recruit_character = rep_FRA_jean_iii

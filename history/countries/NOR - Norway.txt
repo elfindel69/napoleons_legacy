@@ -77,15 +77,7 @@ if = {
 	recruit_character = NOR_oscar_torp
 	recruit_character = NOR_hans_ystgaard 
 	recruit_character = NOR_birger_eriksen
-	random_list = {
-		1 = { # this campaign has been blessed by Bamse 
-			set_country_flag = NOR_bamse_activated	
-		}
-		1000000 = { # I see what you're doing. Don't cheat. Let Bamse decide if you are blessed or not. You will gain no satisfaction from a message you had to cheat to get.  
-			#Do nothing 
-		}
-	}
-	NOR_character_flag_setup_for_cw = yes 
+	
 }
 
 set_research_slots = 3
@@ -136,11 +128,7 @@ if = {
 		has_aat = yes 
 	}
 	add_ideas = {
-		NOR_complacent_cabinet_ns
-		NOR_obsolete_armed_forces_ns_1
-		NOR_the_hard_thirties_ns
-		NOR_anti_communist_sentiment_ns
-		NOR_crumbling_fortifications_ns
+		
 		NOR_birger_ljungberg
 		NOR_kristian_laake
 	} 
@@ -169,32 +157,7 @@ if = {
 
 	add_political_power = 1198
 	add_command_power = 100
-	if = {
-		limit = {
-			has_aat = yes 
-		}
-		complete_national_focus = NOR_continue_nygaardsvold_government
-		complete_national_focus = NOR_broken_gun_policies
-		complete_national_focus = NOR_leaving_the_hard_thirties_behind
-		complete_national_focus = NOR_cut_military_budget
-		complete_national_focus = NOR_bail_out_towns
-		complete_national_focus = NOR_print_more_money
-		complete_national_focus = NOR_social_incrementalism
-		complete_national_focus = NOR_restart_public_investment
-		complete_national_focus = NOR_restore_public_trust_in_the_storting
-		complete_national_focus = NOR_building_an_independent_norway
-		complete_national_focus = NOR_hurtigruten
-		complete_national_focus = NOR_norwegian_school_of_economics
-		complete_national_focus = NOR_weathering_the_storm_to_come
-		complete_national_focus = NOR_the_neutrality_guard
-		complete_national_focus = NOR_rearm_for_defense
-		complete_national_focus = NOR_patrol_our_coast
-		complete_national_focus = NOR_fortify_norway
-		complete_national_focus = NOR_coastal_defense
-		complete_national_focus = NOR_start_rearmament
-		complete_national_focus = NOR_drobak_coastal_fort
-		complete_national_focus = NOR_kickstart_military_industry
-	}
+	
 	if = {
 		limit = {
 			has_aat = no 
@@ -209,7 +172,7 @@ if = {
 		complete_national_focus = industrial_effort
 		complete_national_focus = construction_effort
 		complete_national_focus = production_effort
-		complete_national_focus = NOR_norges_tekniske_hogskole
+	
 	}
 	
 	oob = "NOR_1939"

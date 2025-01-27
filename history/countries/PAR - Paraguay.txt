@@ -75,17 +75,8 @@ IF = {
 		neutrality = 10
 		fascism = 5
 	}
-	add_timed_idea = {
-		idea = idea_PAR_the_aftershock_of_the_tripple_alliance
-		days = 1780
-	}
-	every_core_state = {
-		add_dynamic_modifier = {
-			modifier = idea_PAR_river_navy
-			#days = <INT> #will be temporary if specified
-			#scope = TAG #optional, state or country tag or a variable
-		}
-	}
+	
+	
 	#recruit_character = PAR_war_industrialist
 	#recruit_character = PAR_captain_of_industry
 	recruit_character = PAR_ivan_belyaev

@@ -148,11 +148,7 @@ if = {
 			export_focus
 			limited_conscription
 			civilian_economy
-			GRE_george_ii
-			GRE_foreign_monopolies
-			GRE_schachtplan
-			GRE_political_instability
-			GRE_agrarian_society
+			
 		}
 
 		
@@ -188,41 +184,18 @@ set_convoys = 10
 
 	if = {
 		limit = { has_dlc = "Battle for the Bosporus" }
-		complete_national_focus = GRE_the_kings_government
-		complete_national_focus = GRE_metaxism_focus
-		complete_national_focus = GRE_four_year_plan
-		complete_national_focus = GRE_open_up_the_country
-		complete_national_focus = GRE_the_hellenic_spirit
-		complete_national_focus = GRE_the_national_youth_organisation
-		complete_national_focus = GRE_crack_down_on_the_republicans
-		complete_national_focus = GRE_use_the_military
-		complete_national_focus = GRE_reevaluating_the_drachma
-		complete_national_focus = GRE_utilize_our_strengths
-		complete_national_focus = GRE_hellenic_armed_forces
+		
 		remove_ideas = {
 			civilian_economy
-			GRE_political_instability
-			GRE_political_instability_metaxas
-			GRE_debt_to_the_ifc
-			GRE_agrarian_society
-			GRE_state_of_the_nation_monarchism
+		
 		}
 		add_ideas = {
 			partial_economic_mobilisation
 			limited_conscription
 			export_focus
-			GRE_george_ii
-			GRE_farmer_culture
-			GRE_state_of_the_nation_metaxism
-			GRE_foreign_monopolies
-			GRE_schachtplan
-			GRE_eon
-			GRE_metaxism_2
+		
 		}
-		add_timed_idea = {
-			idea = GRE_four_year_plan_spirit
-			days = 730
-		}
+		
 		set_popularities = {
 			democratic = 10
 			fascism = 22
@@ -244,13 +217,7 @@ set_convoys = 10
 		set_party_name = { ideology = neutrality long_name = GRE_metaxas_party_long name = GRE_metaxas_party }
 	
 		
-		set_country_flag = GRE_1936_election
-		set_country_flag = GRE_factions_unlocked
-		set_variable = { var = GRE_monarchist_loyalty value = 2 }
-		set_variable = { var = GRE_republican_loyalty value = -2 }
-		set_variable = { var = GRE_communist_loyalty value = -1 }
-		set_variable = { var = GRE_fascist_loyalty value = 0 }
-		GRE_political_instability_update_effect = yes #Apply effects from Loyal Monarchists
+		
 	}
 
 #generic focuses
