@@ -1,533 +1,1228 @@
-characters={
-	COG_francois_tolenga={
-		name="François Tolenga"
-		portraits={
-			civilian={
-				large="gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
+characters = {
+
+
+	COG_pierre_ryckmans = {
+
+		name = COG_pierre_ryckmans
+
+		portraits = {
+			civilian = {
+				large = GFX_portrait_COG_pierre_ryckmans
+				small =GFX_portrait_COG_pierre_ryckmans_small
 			}
-		}
-		country_leader={
-			ideology=despotism
-			traits = {
-				compassionate_gentleman
-			}
-			expire="1965.1.1.1"
-			id=-1
-		}
-	
-	}
-	COG_lumumba_lomendja={
-		name="Lumumba Lomendja"
-		portraits={
-			civilian={
-				large="gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
-			}
-		}
-		country_leader={
-			ideology=marxism
-			traits = {
-				silent_workhorse
-			}
-			expire="1965.1.1.1"
-			id=-1
-		}
-	
-	}
-	COG_david_manera={
-		name="David Manera"
-		portraits={
-			civilian={
-				large="gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
-			}
-		}
-		country_leader={
-			ideology=fascism_ideology
-			traits = {
-				
-			}
-			expire="1965.1.1.1"
-			id=-1
-		}
-	
-	}
-	COG_joseph_boutet={
-		name="Joseph Boutet"
-		portraits={
-			civilian={
-				large="gfx/leaders/Africa/Portrait_Africa_Generic_3.dds"
-			}
-		}
-		country_leader={
-			ideology=centrism
-			traits = {
-				
-			}
-			expire="1965.1.1.1"
-			id=-1
-		}
-	
-	}
-	COG_mabumba_kitanika={
-		name="Mabumba Kitanika"
-		portraits={
-			civilian={
-				large="gfx/leaders/Monarchs/Portrait_KTG_Mabumba_Kitanika.tga"
-			}
-		}
-		country_leader={
-			ideology=absolutism
-			traits = {
-				
-			}
-			expire="1965.1.1.1"
-			id=-1
-		}
-	
-	}
-	COG_martial_ilunga={
-		name="Martial Ilunga"
-		advisor={
-			slot = high_command
-			idea_token = COG_martial_ilunga
-			ledger = army 
-			allowed = {
-				original_tag = COG
-			}
-			traits = {
-				army_armored_2 
-			}
-			ai_will_do = {
-				factor = 1.000
-			}
-				
 		}
 
-		portraits={
-			army={
-				small="GFX_idea_generic_army_african_2"
+		country_leader = {
+			ideology = oligarchism
+			traits = { pro_allied_governor_general }
+			expire = "1959.1.1.1"
+			id = -1
+		}
+
+	}
+
+	COG_joseph_kasa_vubu = {
+
+		name = COG_joseph_kasa_vubu
+
+		portraits = {
+			civilian = {
+				large = GFX_portrait_COG_joseph_kasa_vubu
+				small = GFX_portrait_COG_joseph_kasa_vubu_small
 			}
 		}
+
+		country_leader = {
+			ideology = liberalism
+			traits = { ARG_prominent_centrist }
+			expire = "1969.1.1.1"
+			id = -1
+		}
+
 	}
-	COG_stephane_kasongo={
-		name="Stephane Kasongo"
-		advisor={
+
+	COG_pedro_vii_alfonso = {
+
+		name = COG_pedro_vii_alfonso
+
+		portraits = {
+			civilian = {
+				large = GFX_portrait_COG_pedro_vii_alfonso
+				small = GFX_portrait_COG_pedro_vii_alfonso_small
+			}
+		}
+
+		#country_leader = {
+		#	ideology = despotism
+		#	traits = { manikongo_of_kongo }
+		#	expire = "1969.1.1.1"
+		#	id = -1
+		#}
+
+		field_marshal = {
+			traits = { politically_connected organizer }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1 
+			visible = {
+				has_country_leader = {
+					ruling_only = yes
+					character = COG_pedro_vii_alfonso
+				}	
+			}
+		}
+
+	}
+
+	COG_mbop_mabiinc_mambeky = {
+
+		name = COG_mbop_mabiinc_mambeky
+
+		portraits = {
+			civilian = {
+				large = GFX_portrait_COG_mbop_mabiinc_mambeky
+				small = GFX_portrait_COG_mbop_mabiinc_mambeky_small
+			}
+		}
+
+		#country_leader = {
+		#	ideology = despotism
+		#	traits = { nyim_of_kuba }
+		#	expire = "1969.1.1.1"
+		#	id = -1
+		#}
+
+		field_marshal = {
+			traits = { politically_connected organizer }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 4
+			legacy_id = -1 
+			visible = {
+				has_country_leader = {
+					ruling_only = yes
+					character = COG_mbop_mabiinc_mambeky
+				}	
+			}
+		}
+
+	}
+
+	COG_moe_poaty_iii = {
+
+		name = COG_moe_poaty_iii
+
+		portraits = {
+			civilian = {
+				large = GFX_portrait_COG_moe_poaty_III
+				small = GFX_portrait_COG_moe_poaty_iii_small
+			}
+		}
+
+		#country_leader = {
+		#	ideology = despotism
+		#	traits = { ma_loango }
+		#	expire = "1969.1.1.1"
+		#	id = -1
+		#}
+
+		field_marshal = {
+			traits = { politically_connected organizer }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id = -1 
+			visible = {
+				has_country_leader = {
+					ruling_only = yes
+					character = COG_moe_poaty_iii
+				}	
+			}
+		}
+
+	}
+
+	COG_cyrille_adoula = {
+
+		name = COG_cyrille_adoula
+
+		portraits = {
+			civilian = {
+				large = GFX_portrait_COG_cyrille_adoula
+				small = GFX_portrait_COG_cyrille_adoula_small
+			}
+		}
+
+		country_leader = {
+			ideology = marxism
+			traits = { COG_trade_unionist }
+			expire = "1978.1.1.1"
+			id = -1
+		}
+
+		advisor = {
+
 			slot = political_advisor
-			idea_token = COG_stephane_kasongo
+
+			idea_token = COG_cyrille_adoula
+
 			allowed = {
-				original_tag = COG
-			}
-			traits = {
-				democratic_reformer 
-			}
-			do_effect = {
-				not = {
-					has_government = democratic 
+				OR = {
+					original_tag = COG
+					original_tag = BEL
 				}
 			}
-			ai_will_do = {
-				factor = 0.000
+
+			available = {	
+				NOT = {
+					has_country_leader = {
+						ruling_only = yes
+						character = COG_cyrille_adoula
+					}
+				}
+				
+				is_subject = no
+					
+			}
+
+			traits = {
+				COG_trade_unionist 
+			}
+
+			
+			
+		}
+
+	}
+
+	COG_joris_six = {
+
+		name = COG_joris_six
+
+		portraits = {
+			civilian = {
+				small = "GFX_portrait_COG_joris_six_small"
 			}
 		}
 
-		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_african_1"
-			}
-		}
-	}
-	COG_desire_ntumba={
-		advisor={
-			name = "Désiré Ntumba"
-			slot = air_chief
-			idea_token = COG_desire_ntumba
+		advisor = {
+
+			slot = political_advisor
+
+			idea_token = COG_joris_six
+
 			allowed = {
 				original_tag = COG
 			}
-			traits = {
-				air_chief_ground_support_2 
+
+			available = {	
+				NOT = { has_idea = COG_simon_kimbangu }
 			}
+
+			traits = {
+				apostolic_vicar_of_leopoldville
+			}
+
 			ai_will_do = {
-				factor = 1.000
+				base = 1.000
+			}
+			
+		}
+
+	}
+
+	COG_simon_kimbangu = {
+
+		name = COG_simon_kimbangu
+
+		portraits = {
+			civilian = {
+				small = "GFX_portrait_COG_simon_kimbangu_small"
 			}
 		}
 
-		portraits={
-			army={
-				small="GFX_idea_generic_air_african_3"
-			}
-		}
-	}
-	COG_alfred_kapinga={
-		advisor={
-			name = "Alfred Kapinga"
-			slot = navy_chief
-			idea_token = COG_alfred_kapinga
+		advisor = {
+
+			slot = political_advisor
+
+			idea_token = COG_simon_kimbangu
+
 			allowed = {
 				original_tag = COG
 			}
-			traits = {
-				navy_chief_maneuver_2 
+
+			available = {	
+				NOT = { has_idea = COG_joris_six }
 			}
+
+			traits = {
+				new_religious_independence_activist
+			}
+
 			ai_will_do = {
-				factor = 1.000
+				base = 2.000
+			}
+			
+		}
+
+	}
+
+	COG_marcel_maquet = {
+
+		name = COG_marcel_maquet
+
+		portraits = {
+			civilian = {
+				small = "GFX_portrait_COG_marcel_maquet_small"
 			}
 		}
 
-		portraits={
-			army={
-				small="GFX_idea_generic_navy_african_3"
-			}
-		}
-	}
-	COG_anatole_banza={
-		advisor={
-			name = "Anatole Banza"
-			slot = theorist
-			idea_token = COG_anatole_banza
-			ledger = navy 
+		advisor = {
+
+			slot = political_advisor
+
+			idea_token = COG_marcel_maquet
+
 			allowed = {
 				original_tag = COG
 			}
+
+			visible = {
+				is_subject = yes
+			}
+
+			available = {	
+				is_subject = yes
+			}
+
+			
+
 			traits = {
-				naval_theorist 
+				district_commisioner_of_leopoldville
+			}
+
+			
+		}
+
+	}
+
+	COG_alexandre_safiannikoff = {
+
+		name = COG_alexandre_safiannikoff
+
+		portraits = {
+			civilian = {
+				small = "GFX_portrait_COG_alexandre_safiannikoff_small"
 			}
 		}
 
-		portraits={
-			army={
-				small="GFX_idea_generic_navy_african_3"
+		advisor = {
+
+			slot = political_advisor
+
+			idea_token = COG_alexandre_safiannikoff
+
+			allowed = {
+				original_tag = COG
+			}
+
+			available = {	
+			}
+
+			traits = {
+				congolese_polymath
+			}
+
+			ai_will_do = {
+				base = 2.000
+			}
+			
+		}
+
+	}
+
+	COG_robert_de_muelenaere = {
+
+		name = COG_robert_de_muelenaere
+
+		portraits = {
+			civilian = {
+				small = GFX_portrait_COG_robert_de_muelenaere_small
 			}
 		}
+
+		advisor = {
+
+			slot = political_advisor
+
+			idea_token = COG_robert_de_muelenaere
+
+			allowed = {
+				original_tag = COG
+			}
+
+			visible = {
+				is_subject = yes
+			}
+
+			available = {	
+				is_subject = yes
+			}
+
+			traits = {
+				colonial_lawyer
+			}
+
+			ai_will_do = {
+				base = 1.000
+			}
+			
+		}
+
 	}
-	COG_divin_nkulu={
-		name = "Divin Nkulu"
-		advisor={
+
+	COG_jean_bolikango = {
+
+		name = COG_jean_bolikango
+
+		portraits = {
+			civilian = {
+				small = "GFX_portrait_COG_jean_bolikango_small"
+			}
+		}
+
+		advisor = {
+
+			slot = political_advisor
+
+			idea_token = COG_jean_bolikango
+
+			allowed = {
+				original_tag = COG
+			}
+
+			available = {	
+				
+				is_subject = no
+					
+			}
+
+			traits = {
+				teacher_and_independence_advocate 
+			}
+
+			ai_will_do = {
+				base = 1.000
+			}
+			
+		}
+
+	}
+
+	COG_patrice_lumumba = {
+
+		name = COG_patrice_lumumba
+
+		portraits = {
+			civilian = {
+				small = "GFX_portrait_COG_patrice_lumumba_small"
+			}
+		}
+
+		advisor = {
+
+			slot = political_advisor
+
+			idea_token = COG_patrice_lumumba
+
+			allowed = {
+				original_tag = COG
+			}
+
+			available = {	
+				
+				is_subject = no
+					
+			}
+
+			traits = {
+				anti_imperialist_thinker
+			}
+
+			ai_will_do = {
+				base = 2.000
+			}
+			
+		}
+
+	}
+
+	COG_joseph_ileo = {
+
+		name = COG_joseph_ileo
+
+		portraits = {
+			civilian = {
+				small = "GFX_portrait_COG_joseph_ileo_small"
+			}
+		}
+
+		advisor = {
+
+			slot = political_advisor
+
+			idea_token = COG_joseph_ileo
+
+			allowed = {
+				original_tag = COG
+			}
+
+			available = {	
+				
+				is_subject = no
+					
+			}
+
+			traits = {
+				self_rule_activist
+			}
+
+			
+			
+		}
+
+	}
+
+	COG_isaac_kalonji = {
+
+		name = COG_isaac_kalonji
+
+		portraits = {
+			civilian = {
+				small = "GFX_portrait_COG_isaac_kalonji_small"
+			}
+		}
+
+		advisor = {
+
+			slot = political_advisor
+
+			idea_token = COG_isaac_kalonji
+
+			allowed = {
+				original_tag = COG
+			}
+
+			available = {	
+				
+				is_subject = no
+					
+			}
+
+			traits = {
+				intellectual_evolue_entrepreneur
+			}
+
+			ai_will_do = {
+				base = 3.000
+			}
+			
+		}
+
+	}
+
+	RWA_yuhi_musinga = {
+
+		name = RWA_yuhi_musinga
+
+		portraits = {
+			civilian = {
+				large = GFX_portrait_RWA_yuhi_musinga
+				small = GFX_portrait_RWA_yuhi_musinga_small
+			}
+		}
+
+		#country_leader = {
+		#	ideology = despotism
+		#	traits = { the_rwandan_collaborstionist_king }
+		#	expire = "1969.1.1.1"
+		#	id = -1
+		#}
+
+		advisor = {
+
+			slot = political_advisor
+
+			idea_token = RWA_yuhi_musinga
+
+			allowed = {
+				OR = {
+					original_tag = COG
+					original_tag = RWA
+				}
+			}
+
+			available = {	
+				OR = {
+					AND = {
+						is_subject = no
+						OR = {
+							has_government = fascism
+							has_government = neutrality
+						}
+					}
+					}
+			}
+
+			traits = {
+				exiled_tutsi_king
+			}
+
+			ai_will_do = {
+				base = 1.000
+			}
+			
+		}
+
+		field_marshal = {
+			traits = { politically_connected organizer }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1 
+			visible = {
+				has_country_leader = {
+					ruling_only = yes
+					character = RWA_yuhi_musinga
+				}	
+			}
+		}
+
+	}
+
+	COG_louis_bobozo = {
+		
+		name = COG_louis_bobozo
+
+		portraits = {
+			army = {
+				large = GFX_portrait_COG_louis_bobozo
+				small = GFX_portrait_COG_louis_bobozo_small
+			}
+		}
+		
+		corps_commander = {
+			traits = { jungle_rat }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1 
+			visible = {
+				
+				is_subject = no
+					
+			}
+		}
+
+		advisor = {
 			slot = high_command
-			idea_token = COG_divin_nkulu
-			ledger = air 
+			idea_token = COG_louis_bobozo
 			allowed = {
 				original_tag = COG
 			}
-			traits = {
-				air_close_air_support_2 
+			available = {
+				
+				is_subject = no
+					
 			}
+			traits = {
+				army_commando_2
+			}
+			cost =  100
 			ai_will_do = {
 				factor = 1.000
 			}
 		}
-
-		portraits={
-			army={
-				small="GFX_idea_generic_air_african_2"
-			}
-		}
+		
 	}
-	COG_joseph_mwamba={
-		name = "Joseph Mwamba"
-		advisor={
-			slot = theorist
-			idea_token = COG_joseph_mwamba
-			ledger = air 
-			allowed = {
-				original_tag = COG
-			}
-			traits = {
-				air_warfare_theorist 
-			}
-		}
 
-		portraits={
-			army={
-				small="GFX_idea_generic_air_african_2"
+	COG_justin_kokolo = {
+		
+		name = COG_justin_kokolo
+
+		portraits = {
+			army = {
+				large = GFX_portrait_COG_justin_kokolo
+				small = GFX_portrait_COG_justin_kokolo_small
 			}
 		}
-	}
-	COG_anatole_monga={
-		name = "Anatole Monga"
-		advisor={
-			slot = political_advisor
-			idea_token = COG_anatole_monga
-			allowed = {
-				original_tag = COG
-			}
-			traits = {
-				prince_of_terror 
+		
+		corps_commander = {
+			traits = { infantry_officer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1 
+			visible = {
+				
+					is_subject = no
+					
 			}
 		}
 
-		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_african_2"
-			}
-		}
-	}
-	COG_elisee_umba={
-		name = "Elisée Umba"
-		advisor={
-			slot = political_advisor
-			idea_token = COG_elisee_umba
-			allowed = {
-				original_tag = COG
-			}
-			traits = {
-				smooth_talking_charmer 
-			}
-		}
-
-		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_african_3"
-			}
-		}
-	}
-	COG_wilfied_mputu={
-		name = "Wilfied Mputu"
-		advisor={
+		advisor = {
 			slot = army_chief
-			idea_token = COG_wilfied_mputu
+			idea_token = COG_justin_kokolo
 			allowed = {
 				original_tag = COG
 			}
-			traits = {
-				army_chief_defensive_2 
+			available = {
+				
+				is_subject = no
+					
 			}
+			traits = {
+				army_chief_drill_1
+			}
+			cost = 50
 			ai_will_do = {
 				factor = 1.000
 			}
 		}
+		
+	}
 
-		portraits={
-			army={
-				small="GFX_idea_generic_army_african_1"
+	COG_cristophe_gbenye = {
+		
+		name = COG_cristophe_gbenye
+
+		portraits = {
+			army = {
+				large = GFX_portrait_COG_christophe_gbenye
+				small = GFX_portrait_COG_christophe_gbenye_small
 			}
 		}
-	}
-	COG_joel_mukalay={
-		name = "Joel Mukalay"
-		advisor={
-			slot = political_advisor
-			idea_token = COG_joel_mukalay
-			allowed = {
-				original_tag = COG
-			}
-			traits = {
-				communist_revolutionary 
-			}
-			do_effect = {
-				not = {
-					has_government = communism 
+		
+		corps_commander = {
+			traits = { jungle_rat trickster guerilla_fighter }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1 
+			visible = {
+				AND = {
+					is_subject = no
+					has_government = communism
 				}
 			}
-			ai_will_do = {
-				factor = 0.000
-			}
 		}
 
-		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_african_3"
-			}
-		}
-	}
-	COG_isaie_kazadi={
-		name = "Isaie Kazadi"
-		advisor={
-			slot = army_chief
-			idea_token = COG_isaie_kazadi
+		advisor = {
+			slot = high_command
+			idea_token = COG_cristophe_gbenye
 			allowed = {
 				original_tag = COG
 			}
-			traits = {
-				army_chief_organizational_2 
+			visible = {
+				is_subject = no
 			}
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
-
-		portraits={
-			army={
-				small="GFX_idea_generic_army_african_4"
-			}
-		}
-	}
-	COG_boniface_mutombo={
-		name = "Boniface Mutombo"
-		advisor={
-			slot = political_advisor
-			idea_token = COG_boniface_mutombo
-			allowed = {
-				original_tag = COG
-			}
-			traits = {
-				fascist_demagogue 
-			}
-			do_effect = {
-				not = {
-					has_government = fascism 
+			available = {
+				AND = {
+					is_subject = no
+					has_government = communism
 				}
 			}
-			ai_will_do = {
-				factor = 0.000
-			}
-		}
-
-		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_african_2"
-			}
-		}
-	}
-	COG_remi_tshibola={
-		name = "Rémi Tshibola"
-		advisor={
-			slot = political_advisor
-			idea_token = COG_remi_tshibola
-			allowed = {
-				original_tag = COG
-			}
 			traits = {
-				captain_of_industry 
+				army_concealment_1
 			}
-		}
-
-		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_african_1"
-			}
-		}
-	}
-	COG_joel_nzuzi={
-		name = "Joel Nzuzi"
-		advisor={
-			slot = high_command
-			idea_token = COG_joel_nzuzi
-			ledger = army 
-			allowed = {
-				original_tag = COG
-			}
-			traits = {
-				army_regrouping_2 
-			}
+			cost =  50
 			ai_will_do = {
 				factor = 1.000
 			}
 		}
-
-		portraits={
-			army={
-				small="GFX_idea_generic_army_african_5"
-			}
-		}
+		
 	}
-	COG_isaie_yumba={
-		name = "Isaie Yumba"
-		advisor={
-			slot = navy_chief
-			idea_token = COG_isaie_yumba
-			allowed = {
-				original_tag = COG
-			}
-			traits = {
-				navy_chief_commerce_raiding_2 
-			}
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
 
-		portraits={
-			army={
-				small="GFX_idea_generic_navy_african_2"
-			}
-		}
-	}
-	COG_noel_kabulo={
-		name = "Noel Kabulo"
-		advisor={
-			slot = theorist
-			idea_token = COG_noel_kabulo
-			ledger = army 
-			allowed = {
-				original_tag = COG
-			}
-			traits = {
-				military_theorist 
-			}
-		}
+	COG_gerard_greindl = {
+		
+		name = COG_gerard_greindl
 
-		portraits={
-			army={
-				small="GFX_idea_generic_army_african_6"
+		portraits = {
+			army = {
+				small = "GFX_portrait_COG_gerard_greindl_small"
 			}
 		}
-	}
-	COG_eugene_matondo={
-		name = "Eugene Matondo"
-		advisor={
-			slot = high_command
-			idea_token = COG_eugene_matondo
-			ledger = army 
-			allowed = {
-				original_tag = COG
-			}
-			traits = {
-				army_infantry_2 
-			}
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
+		
+		advisor = {
 
-		portraits={
-			army={
-				small="GFX_idea_generic_army_african_3"
-			}
-		}
-	}
-	COG_jacob_kalala={
-		name = "Jacob Kalala"
-		advisor={
-			slot = high_command
-			idea_token = COG_jacob_kalala
-			ledger = navy 
-			allowed = {
-				original_tag = COG
-			}
-			traits = {
-				navy_capital_ship_2 
-			}
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
-
-		portraits={
-			army={
-				small="GFX_idea_generic_navy_african_2"
-			}
-		}
-	}
-	COG_lilian_kabila={
-		name = "Lilian Kabila"
-		advisor={
 			slot = air_chief
-			idea_token = COG_lilian_kabila
+
+			idea_token = COG_gerard_greindl
+
 			allowed = {
 				original_tag = COG
 			}
-			traits = {
-				air_chief_reform_2 
+
+			available = {
+				is_subject = yes
 			}
+
+			traits = {
+				air_chief_reform_1
+			}
+
+			cost = 50
+
+			ai_will_do = {
+				factor = 5.000
+			}
+
+		}
+		
+	}
+
+	COG_paul_ermens = {
+		
+		name = COG_paul_ermens
+
+		portraits = {
+			army = {
+				large = GFX_portrait_COG_paul_ermens
+				small = GFX_portrait_COG_paul_ermens_small
+			}
+		}
+		
+		corps_commander = {
+			traits = { organizer }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id = -1 
+			visible = {
+				is_subject = yes
+			}
+		}
+
+		advisor = {
+			slot = army_chief
+			idea_token = COG_paul_ermens
+			allowed = {
+				original_tag = COG
+			}
+			available = {
+				
+				is_subject = yes
+					
+			}
+			traits = {
+				army_chief_organizational_2
+			}
+			cost =  100
+			ai_will_do = {
+				factor = 2.000
+			}
+		}
+		
+	}
+
+	COG_auguste_gilliaert = {
+		
+		name = COG_auguste_gilliaert
+
+		portraits = {
+			army = {
+				large = GFX_portrait_COG_auguste_gilliaert
+				small = GFX_portrait_COG_auguste_gilliaert_small
+			}
+		}
+		
+		field_marshal = {
+			traits = { infantry_leader }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id = -1 
+			visible = {
+				
+			}
+		}
+
+		advisor = {
+			slot = high_command
+			idea_token = COG_auguste_gilliaert
+			allowed = {
+				original_tag = COG
+			}
+			available = {
+				
+			}
+			traits = {
+				army_infantry_2
+			}
+			cost =  100
 			ai_will_do = {
 				factor = 1.000
 			}
 		}
+		
+	}
 
-		portraits={
-			army={
-				small="GFX_idea_generic_air_african_3"
+	COG_emile_janssens = {
+		
+		name = COG_emile_janssens
+
+		portraits = {
+			army = {
+				large = GFX_portrait_COG_emile_janssens
+				small = GFX_portrait_COG_emily_janssens_small
 			}
 		}
+		
+		corps_commander = {
+			traits = {  }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id = -1 
+			visible = {
+				
+				is_subject = yes
+					
+			}
+		}
+		
 	}
+
+	COG_frederic_vandewalle = {
+		
+		name = COG_frederic_vandewalle
+
+		portraits = {
+			army = {
+				large = GFX_portrait_COG_frederic_vandewalle
+				small = GFX_portrait_COG_frederic_vandewalle_small
+			}
+		}
+		
+		corps_commander = {
+			traits = { inflexible_strategist }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1 
+			visible = {
+			}
+		}
+
+		advisor = {
+			cost = 100
+			slot = theorist
+			idea_token = COG_frederic_vandewalle
+			ledger = army
+			allowed = {
+				original_tag = COG
+			}
+			
+			traits = {
+				military_theorist
+			}
+
+			ai_will_do = {
+				base = 1.000
+			}
+		}
+		
+	}
+
+	COG_joseph_beernaert = {
+		
+		name = COG_joseph_beernaert
+
+		portraits = {
+			army = {
+				large = GFX_portrait_COG_joseph_beernaert
+				small = GFX_portrrait_COG_joseph_beernaert_small
+			}
+		}
+		
+		corps_commander = {
+			traits = { trickster }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1 
+			visible = {
+			}
+		}
+		
+	}
+
+	COG_armand_huyghe = {
+		
+		name = COG_armand_huyghe
+
+		portraits = {
+			army = {
+				large = GFX_portrait_COG_armand_huyghe
+				small = GFX_portrait_COG_armand_huyghe_small
+			}
+		}
+
+		advisor = {
+
+			slot = political_advisor
+
+			idea_token = COG_armand_huyghe
+
+			allowed = {
+				original_tag = COG
+			}
+
+			available = {	
+				has_completed_focus = CONGO_ccci
+			}
+
+			traits = {
+				corporate_knight
+			}
+
+			ai_will_do = {
+				base = 3.000
+			}
+			
+		}
+		
+		corps_commander = {
+			traits = { cavalry_officer trickster war_hero }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1 
+			visible = {
+				is_subject = yes
+			}
+		}
+		
+	}
+
+	COG_leopold_de_koninck = {
+		
+		name = COG_leopold_de_koninck
+
+		portraits = {
+			army = {
+				large = GFX_portrait_COG_leopold_de_koninck
+				small = GFX_portrait_COG_leopold_de_koninck_small
+			}
+		}
+		
+		corps_commander = {
+			traits = { old_guard war_hero harsh_leader }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1 
+			visible = {
+				is_subject = yes
+			}
+		}
+		
+	}
+
+	COG_charles_tombeur = {
+		
+		name = COG_charles_tombeur
+
+		portraits = {
+			army = {
+				large = GFX_portrait_COG_charles_tombeur
+				small = GFX_portrait_COG_charles_tombeur_small
+			}
+		}
+		
+		corps_commander = {
+			traits = { old_guard war_hero organizer }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1 
+			visible = {
+				is_subject = yes
+			}
+		}
+		
+	}
+
+	COG_fredrik_olsen = {
+		
+		name = COG_fredrik_olsen
+
+		portraits = {
+			army = {
+				large = GFX_portrait_COG_fredrik_olsen
+				small = GFX_portrait_COG_fredrik_olsen_military_small
+			}
+		}
+		
+		corps_commander = {
+			traits = { ranger infantry_officer militias_officer }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id = -1 
+			visible = {
+				is_subject = yes
+			}
+		}
+		
+	}
+
+	COG_eugene_jungers = {
+		
+		name = COG_eugene_jungers
+
+		portraits = {
+			civilian = {
+				small = GFX_portrait_COG_eugene_jungers_small
+			}
+		}
+
+		advisor = {
+
+			slot = political_advisor
+
+			idea_token = COG_eugene_jungers
+
+			allowed = {
+				original_tag = COG
+			}
+
+			available = {	
+				is_subject = yes
+				768 = {
+					is_owned_by = ROOT
+				}
+				769 = {
+					is_owned_by = ROOT
+				}
+			}
+
+			traits = {
+				ruanda_urundi_governor
+			}
+
+			ai_will_do = {
+				base = 5.000
+			}
+			
+		}
+		
+	}
+
+	COG_auguste_tilkens = {
+		
+		name = COG_auguste_tilkens
+
+		portraits = {
+			civilian = {
+				small = GFX_portrait_COG_auguste_tilkens_small
+			}
+		}
+
+		advisor = {
+
+			slot = political_advisor
+
+			idea_token = COG_auguste_tilkens
+
+			allowed = {
+				original_tag = COG
+			}
+
+			available = {	
+				is_subject = yes
+			}
+
+			traits = {
+				head_of_special_committe_for_katanga
+			}
+
+			ai_will_do = {
+				base = 1.000
+			}
+			
+		}
+		
+	}
+
+	BEL_albert_de_vleeschauwer = {
+
+		name = BEL_albert_de_vleeschauwer
+		
+		portraits = {
+			army = {
+				small = GFX_portrait_BEL_albert_de_vleeschauwer_small
+			}
+		}
+
+		advisor = {
+			slot = political_advisor
+			idea_token = BEL_albert_de_vleeschauwer
+			allowed  = {
+				original_tag  = BEL
+			}
+			visible = {
+				is_subject = yes
+				NOT = {
+					has_country_flag = COG_albert_is_gone_flag
+				}
+			}
+			available = {
+				is_subject = yes
+			}
+			traits  = {
+				BEL_minister_of_colonies 
+			}
+			can_be_fired = no
+			ai_will_do = {
+				base = 0
+			}
+		}
+		
+	}
+	
+
 }
