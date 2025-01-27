@@ -30,7 +30,7 @@
 #                                      where you choose the historical division name.
 #           3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
 #                                      the current game version.
-RUS_INF_01 = 
+BWR_INF_01 = 
 {
 	name = "Rifle Division"
 
@@ -41,7 +41,7 @@ RUS_INF_01 =
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { RUS_INF_01 }
+	#link_numbering_with = { BWR_INF_01 }
 
 	fallback_name = "%dya Strelkovaya Diviziya"
 
@@ -465,7 +465,7 @@ RUS_INF_01 =
 	}
 }
 
-RUS_CAV_01 = 
+BWR_CAV_01 = 
 {
 	name = "Cavalry Division"
 
@@ -476,7 +476,7 @@ RUS_CAV_01 =
 	division_types = { "cavalry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { RUS_INF_01 }
+	#link_numbering_with = { BWR_INF_01 }
 
 	fallback_name = "%dya Kavaleriyskaya Diviziya"
 
@@ -602,7 +602,7 @@ RUS_CAV_01 =
 	}
 }
 
-RUS_MOT_01 = 
+BWR_MOT_01 = 
 {
 	name = "Motor Rifle Division"
 
@@ -613,7 +613,7 @@ RUS_MOT_01 =
 	division_types = { "motorized" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { RUS_INF_01 }
+	link_numbering_with = { BWR_INF_01 }
 
 	fallback_name = "%dya Motostrelkovaya Diviziya"
 
@@ -667,7 +667,7 @@ RUS_MOT_01 =
 	}
 }
 
-RUS_MEC_01 = 
+BWR_MEC_01 = 
 {
 	name = "Mechanized Division"
 
@@ -678,7 +678,7 @@ RUS_MEC_01 =
 	division_types = { "mechanized" "motorized" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { RUS_INF_01 }
+	link_numbering_with = { BWR_INF_01 }
 
 	fallback_name = "%dya Mekhanizirovanaya Diviziya"
 
@@ -720,7 +720,7 @@ RUS_MEC_01 =
 	}
 }
 
-RUS_ARM_01 = 
+BWR_ARM_01 = 
 {
 	name = "Tank Division"
 
@@ -731,7 +731,7 @@ RUS_ARM_01 =
 	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { RUS_INF_01 }
+	#link_numbering_with = { BWR_INF_01 }
 
 	fallback_name = "%dya Tankovaya Diviziya"
 
@@ -813,7 +813,7 @@ RUS_ARM_01 =
 	}
 }
 
-RUS_ARM_02 = 
+BWR_ARM_02 = 
 {
 	name = "Tank Corps"
 
@@ -824,7 +824,7 @@ RUS_ARM_02 =
 	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { RUS_INF_01 }
+	#link_numbering_with = { BWR_INF_01 }
 
 	fallback_name = "%dya Tankovaya Korpus"
 
@@ -906,7 +906,7 @@ RUS_ARM_02 =
 	}
 }
 
-RUS_ARM_03 = 
+BWR_ARM_03 = 
 {
 	name = "Guard Tank Corps"
 
@@ -917,7 +917,7 @@ RUS_ARM_03 =
 	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { RUS_INF_01 }
+	#link_numbering_with = { BWR_INF_01 }
 
 	fallback_name = "%dya Gvardeiskaya Tankovaya Korpus"
 
@@ -999,7 +999,7 @@ RUS_ARM_03 =
 	}
 }
 
-RUS_ARM_04 = 
+BWR_ARM_04 = 
 {
 	name = "Tank Brigade"
 
@@ -1010,7 +1010,7 @@ RUS_ARM_04 =
 	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { RUS_INF_01 }
+	#link_numbering_with = { BWR_INF_01 }
 
 	fallback_name = "%dya Tankovaya Brigada"
 
@@ -1092,7 +1092,7 @@ RUS_ARM_04 =
 	}
 }
 
-RUS_PAR_01 = 
+BWR_PAR_01 = 
 {
 	name = "Paratrooper Division"
 
@@ -1103,7 +1103,7 @@ RUS_PAR_01 =
 	division_types = { "paratrooper" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { RUS_INF_01 }
+	#link_numbering_with = { BWR_INF_01 }
 
 	fallback_name = "%dya Vozdushno-Desantnaya Div."
 
@@ -1150,7 +1150,7 @@ RUS_PAR_01 =
 	}
 }
 
-RUS_MAR_01 = 
+BWR_MAR_01 = 
 {
 	name = "Marine Division"
 
@@ -1161,7 +1161,7 @@ RUS_MAR_01 =
 	division_types = { "marine" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { RUS_INF_01 }
+	#link_numbering_with = { BWR_INF_01 }
 
 	fallback_name = "%dya Diviziya Morskoi Pekhoty"
 
@@ -1182,7 +1182,7 @@ RUS_MAR_01 =
 	}
 }
 
-RUS_MNT_01 = 
+BWR_MNT_01 = 
 {
 	name = "Mountain Rifle Division"
 
@@ -1193,7 +1193,7 @@ RUS_MNT_01 =
 	division_types = { "mountaineers" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { RUS_INF_01 }
+	link_numbering_with = { BWR_INF_01 }
 
 	fallback_name = "%dya Gornostrelkovaya Diviziya"
 
@@ -1226,7 +1226,7 @@ RUS_MNT_01 =
 	}
 }
 
-RUS_GAR_01 = 
+BWR_GAR_01 = 
 {
 	name = "Garrison Division"
 
@@ -1237,7 +1237,7 @@ RUS_GAR_01 =
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { RUS_INF_01 }
+	#link_numbering_with = { BWR_INF_01 }
 
 	fallback_name = "%dya NKVD Pogranichnaya Diviziya"
 
@@ -1327,7 +1327,7 @@ RUS_GAR_01 =
 	}
 }
 
-RUS_GRD_01 = 
+BWR_GRD_01 = 
 {
 	name = "Guards Rifles"
 
@@ -1338,7 +1338,7 @@ RUS_GRD_01 =
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { RUS_INF_01 }
+	#link_numbering_with = { BWR_INF_01 }
 
 	fallback_name = "%dya Gvardyeiskaya Strelk. Div."
 
@@ -1478,7 +1478,7 @@ RUS_GRD_01 =
 	}
 }
 
-RUS_GMC_01 = 
+BWR_GMC_01 = 
 {
 	name = "Guards Mechanized"
 
@@ -1489,7 +1489,7 @@ RUS_GMC_01 =
 	division_types = { "mechanized" "motorized" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { RUS_INF_01 }
+	#link_numbering_with = { BWR_INF_01 }
 
 	fallback_name = "%dya Gvds. Mekhanizirovanaya Korpus"
 
@@ -1509,7 +1509,7 @@ RUS_GMC_01 =
 	}
 }
 
-RUS_GTC_01 = 
+BWR_GTC_01 = 
 {
 	name = "Guards Tanks"
 
@@ -1520,7 +1520,7 @@ RUS_GTC_01 =
 	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { RUS_INF_01 }
+	#link_numbering_with = { BWR_INF_01 }
 
 	fallback_name = "%dya Gvds. Tankovaya Korpus"
 
@@ -1544,7 +1544,7 @@ RUS_GTC_01 =
 }
 
 
-RUS_CAV_02 = 
+BWR_CAV_02 = 
 {
 	name = "Cossack Cavalry Division"
 
@@ -1554,7 +1554,7 @@ RUS_CAV_02 =
 		OR = {
 			AND = {
 				tag = BWR
-				has_completed_focus = RUS_restore_cossack_units
+				has_completed_focus = BWR_restore_cossack_units
 			}
 			tag = UKR
 		}
@@ -1563,7 +1563,7 @@ RUS_CAV_02 =
 	division_types = { "cavalry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { RUS_INF_01 }
+	#link_numbering_with = { BWR_INF_01 }
 
 	fallback_name = "%dya Kazachya Kavaleriyskaya Diviziya"
 
@@ -1680,7 +1680,7 @@ RUS_CAV_02 =
 }
 
 
-RUS_INF_02 = 
+BWR_INF_02 = 
 {
 	name = "Trotskyist Revolutionary Militias"
 
@@ -1693,7 +1693,7 @@ RUS_INF_02 =
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { RUS_INF_01 }
+	#link_numbering_with = { BWR_INF_01 }
 
 	fallback_name = "%dya Diviziya Narodnogo Opolcheniya"
 
@@ -1706,19 +1706,19 @@ RUS_INF_02 =
 }
 
 
-RUS_JAP_INF = {
+BWR_JAP_INF = {
 	name = "Japanese Expeditionary Force"
 
 	for_countries = { BWR }
 
 	can_use = { 
-		ROOT = { has_country_flag = RUS_CSW_transfer_vladivostok_flag }
+		ROOT = { has_country_flag = BWR_CSW_transfer_vladivostok_flag }
 	}
 
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { RUS_INF_01 }
+	#link_numbering_with = { BWR_INF_01 }
 
 	fallback_name = "%d Japanese Expeditionary Division"
 
