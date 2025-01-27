@@ -6,4 +6,4 @@ tags={
 	"National Focuses"
 }
 name="Napoleon's Legacy"
-supported_version="1.14.3"
+supported_version="1.15.*"
