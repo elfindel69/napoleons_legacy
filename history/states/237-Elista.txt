@@ -7,11 +7,11 @@ state={
 	state_category = rural
 
 	history={
-		owner = RUS
+		owner = BWR
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = RUS
+		add_core_of = BWR
 		add_core_of = KAL
 		victory_points = {
 			11724 1

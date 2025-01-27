@@ -7,9 +7,9 @@ state = {
 	state_category = large_town
 	
 	history = {
-		owner = RUS
+		owner = BWR
 		add_core_of = FIN
-		add_core_of = RUS
+		add_core_of = BWR
 		victory_points = { #Helsinki
 			11105 15 
 		}

@@ -10,11 +10,11 @@ characters = {
    #       #    #  #    #  #  # #    #    #####     #        #       #       ######  #    #  #       #####        # 
    #    #  #    #  #    #  #   ##    #    #   #     #        #       #       #    #  #    #  #       #   #   #    # 
 	####    ####    ####   #    #    #    #    #    #        ######  ######  #    #  #####   ######  #    #   ####  
-	RUS_tsar_michail_II = {
+	BWR_tsar_michail_II = {
 		name = "Michail II Romanov"
 		portraits = { 
 			civilian = {
-				large = "gfx/leaders/RUS/doi_portrait_m_mikhail_ii.dds"
+				large = "gfx/leaders/BWR/doi_portrait_m_mikhail_ii.dds"
 			}
 		}	
 		country_leader={
@@ -30,7 +30,7 @@ characters = {
  
 	# Kerensky and Rodzaevsky moved to the bottom of the file
 
-	RUS_tsar_vladimir_kirillovich = {
+	BWR_tsar_vladimir_kirillovich = {
 		name =  SOV_tsar_vladimir_kirillovich
 		portraits = { civilian = {
 			large = "GFX_portrait_SOV_vladimir_kirillovich"
@@ -46,7 +46,7 @@ characters = {
 		}	
 	}
 
-	RUS_tsar_vsevolod_ivanovich = {
+	BWR_tsar_vsevolod_ivanovich = {
 		name =  SOV_tsar_vsevolod_ivanovich
 		
 		portraits = { 
@@ -62,7 +62,7 @@ characters = {
 		}
 	}																									
   
-	RUS_iosif_stalin = {
+	BWR_iosif_stalin = {
 		name = SOV_iosif_stalin
 		portraits = {
 			civilian = {
@@ -82,7 +82,7 @@ characters = {
 	}
   
 	  #TODO: This should be a country leader token added to Stalin in the appropriate event/focus/whatever
-	RUS_tsar_iosif_stalin = {
+	BWR_tsar_iosif_stalin = {
 		name = "Tsar Joseph I"
 		portraits = {
 			civilian = {
@@ -98,7 +98,7 @@ characters = {
 
 	# Kerensky and Rodzaevsky moved to the bottom of the file
 
-	RUS_metropolitan_meletius = {
+	BWR_metropolitan_meletius = {
 		name = SOV_metropolitan_meletius
 		portraits = {
 			civilian = {
@@ -118,9 +118,9 @@ characters = {
 		}
 		advisor = {
 			slot = political_advisor
-			idea_token = RUS_patriarch_meletius
+			idea_token = BWR_patriarch_meletius
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 			visible = {
 				
@@ -140,7 +140,7 @@ characters = {
 		}	
 	}
   
-	RUS_supreme_soviet = { #Country Leader role added via focus
+	BWR_supreme_soviet = { #Country Leader role added via focus
 		name = SOV_supreme_soviet
 
 		portraits = {
@@ -150,7 +150,7 @@ characters = {
 		}
 	}
   
-	RUS_provisional_government = {
+	BWR_provisional_government = {
 		name = SOV_provisional_government
 
 		portraits = {
@@ -177,7 +177,7 @@ characters = {
    #     #  #    #  #    #    #        #######  ######  #    #  #####   ######  #    #   ####  
 																							   
   
-	RUS_georgy_zhukov = {
+	BWR_georgy_zhukov = {
 		name = SOV_georgy_zhukov
 
 		portraits = {
@@ -200,10 +200,10 @@ characters = {
 		advisor = {
 			cost = 150
 			slot = theorist
-			idea_token = RUS_georgy_zhukov
+			idea_token = BWR_georgy_zhukov
 			ledger = army
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 			available = {
 				
@@ -214,7 +214,7 @@ characters = {
 		}		
 	}
 
-	RUS_konstantin_rokossovsky = {
+	BWR_konstantin_rokossovsky = {
 		name = SOV_konstantin_rokossovsky
 
 		portraits = {
@@ -236,10 +236,10 @@ characters = {
 
 		advisor = {
 			slot = high_command
-			idea_token = RUS_konstantin_rokossovsky
+			idea_token = BWR_konstantin_rokossovsky
 			ledger = army
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 			
 			traits = {
@@ -252,7 +252,7 @@ characters = {
 		}		
 	}
   
-	RUS_aleksandr_vasilevsky = {
+	BWR_aleksandr_vasilevsky = {
 		name = SOV_aleksandr_vasilevsky
 		portraits = {
 			army = {
@@ -272,10 +272,10 @@ characters = {
 
 		advisor = {
 			slot = high_command
-			idea_token = RUS_aleksandr_vasilevsky
+			idea_token = BWR_aleksandr_vasilevsky
 			ledger = army
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 			traits = {
 				army_regrouping_2
@@ -287,7 +287,7 @@ characters = {
 		}	
 	}
 
-	RUS_boris_shaposhnikov = {
+	BWR_boris_shaposhnikov = {
 		name = SOV_boris_shaposhnikov
 		portraits = {
 			army = {
@@ -298,10 +298,10 @@ characters = {
 		advisor = {
 			cost = 100
 			slot = theorist
-			idea_token = RUS_boris_shaposhnikov
+			idea_token = BWR_boris_shaposhnikov
 			ledger = army
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 			traits = {
 				military_theorist
@@ -319,7 +319,7 @@ characters = {
 		}
 	}
 
-	RUS_nikolay_vatutin = {
+	BWR_nikolay_vatutin = {
 		name = SOV_nikolay_vatutin
 		portraits = {
 			army = {
@@ -339,7 +339,7 @@ characters = {
 		}
 	}
 
-	RUS_ivan_konev = {
+	BWR_ivan_konev = {
 		name = SOV_ivan_konev
 		portraits = {
 			army = {
@@ -349,7 +349,7 @@ characters = {
 		}
 		advisor = {
 			slot = high_command
-			idea_token = RUS_ivan_konev
+			idea_token = BWR_ivan_konev
 			ledger = army
 			allowed = {
 				original_tag = SOV
@@ -374,7 +374,7 @@ characters = {
 		}
 	}
   
-	RUS_semyon_timoshenko = {
+	BWR_semyon_timoshenko = {
 		name = SOV_semyon_timoshenko
 		portraits = {
 			army = {
@@ -384,9 +384,9 @@ characters = {
 		}
 		advisor = {
 			slot = army_chief
-			idea_token = RUS_semyon_timoshenko
+			idea_token = BWR_semyon_timoshenko
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 			traits = {
 				army_chief_reform_2
@@ -408,7 +408,7 @@ characters = {
 		}
 	}
 
-	RUS_kliment_voroshilov = {
+	BWR_kliment_voroshilov = {
 		name = SOV_kliment_voroshilov
 
 		portraits = {
@@ -419,7 +419,7 @@ characters = {
 		}
 		advisor = {
 			slot = army_chief
-			idea_token = RUS_kliment_voroshilov
+			idea_token = BWR_kliment_voroshilov
 			allowed = {
 				original_tag = SOV
 			}
@@ -443,7 +443,7 @@ characters = {
 		}
 	}
 
-	RUS_mikhail_tukhachevsky = {
+	BWR_mikhail_tukhachevsky = {
 		name = SOV_mikhail_tukhachevsky
 		portraits = {
 			army = {
@@ -454,10 +454,10 @@ characters = {
 		advisor = {
 			cost = 150
 			slot = theorist
-			idea_token = RUS_mikhail_tukhachevsky
+			idea_token = BWR_mikhail_tukhachevsky
 			ledger = army
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 			traits = {
 				mass_assault_expert
@@ -475,7 +475,7 @@ characters = {
 		}
 	}
 
-	RUS_semyon_budyonny = {
+	BWR_semyon_budyonny = {
 		name = SOV_semyon_budyonny
 		portraits = {
 			army = {
@@ -494,7 +494,7 @@ characters = {
 		}
 	}
 
-	RUS_ivan_chernyakhovsky = {
+	BWR_ivan_chernyakhovsky = {
 		name = SOV_ivan_chernyakhovsky
 		portraits = {
 			army = {
@@ -513,7 +513,7 @@ characters = {
 		}
 	}
 
-	RUS_issa_pliyev = {
+	BWR_issa_pliyev = {
 		name = SOV_issa_pliyev
 		portraits = {
 			army = {
@@ -532,7 +532,7 @@ characters = {
 		}
 	}
 
-	RUS_leonid_govorov = {
+	BWR_leonid_govorov = {
 		name = SOV_leonid_govorov
 		portraits = {
 			army = {
@@ -550,7 +550,7 @@ characters = {
 		}
 	}
 
-	RUS_grigory_kulik = {
+	BWR_grigory_kulik = {
 		name = SOV_grigory_kulik
 		portraits = {
 			army = {
@@ -569,7 +569,7 @@ characters = {
 		}
 	}
 
-	RUS_kirill_meretskov = {
+	BWR_kirill_meretskov = {
 		name = SOV_kirill_meretskov
 		portraits = {
 			army = {
@@ -588,7 +588,7 @@ characters = {
 		}
 	}
 
-	RUS_filipp_golikov = {
+	BWR_filipp_golikov = {
 		name = SOV_filipp_golikov
 		portraits = {
 			army = {
@@ -607,7 +607,7 @@ characters = {
 		}
 	}
 
-	RUS_andrey_yeryomenko = {
+	BWR_andrey_yeryomenko = {
 		name = SOV_andrey_yeryomenko
 		portraits = {
 			army = {
@@ -626,7 +626,7 @@ characters = {
 		}
 	}
 
-	RUS_georgy_zakharov = {
+	BWR_georgy_zakharov = {
 		name = SOV_georgy_zakharov
 		portraits = {
 			army = {
@@ -645,7 +645,7 @@ characters = {
 		}
 	}
 
-	RUS_yakov_cherevichenko = {
+	BWR_yakov_cherevichenko = {
 		name = SOV_yakov_cherevichenko
 		portraits = {
 			army = {
@@ -664,7 +664,7 @@ characters = {
 		}
 	}
   
-	RUS_maks_reyter = {
+	BWR_maks_reyter = {
 		name = SOV_maks_reyter
 		portraits = {
 			army = {
@@ -684,7 +684,7 @@ characters = {
 		}
 	}
 
-	RUS_nikandr_chibisov = {
+	BWR_nikandr_chibisov = {
 		name = SOV_nikandr_chibisov
 		portraits = {
 			army = {
@@ -703,7 +703,7 @@ characters = {
 		}
 	}
 
-	RUS_vasily_kuznetsov = {
+	BWR_vasily_kuznetsov = {
 		name = SOV_vasily_kuznetsov
 		portraits = {
 			army = {
@@ -722,7 +722,7 @@ characters = {
 		}
 	}
 
-	RUS_andrey_vlasov = {
+	BWR_andrey_vlasov = {
 		name = SOV_andrey_vlasov
 		portraits = {
 			army = {
@@ -741,7 +741,7 @@ characters = {
 		}
 	}
   
-	RUS_ivan_fedyuninsky = {
+	BWR_ivan_fedyuninsky = {
 		name = SOV_ivan_fedyuninsky
 		portraits = {
 			army = {
@@ -760,7 +760,7 @@ characters = {
 		}
 	}
 
-	RUS_maksim_purkayev = {
+	BWR_maksim_purkayev = {
 		name = SOV_maksim_purkayev
 		portraits = {
 			army = {
@@ -779,7 +779,7 @@ characters = {
 		}
 	}
   
-	RUS_kuzma_galitsky = {
+	BWR_kuzma_galitsky = {
 		name = SOV_kuzma_galitsky
 		portraits = {
 			army = {
@@ -798,7 +798,7 @@ characters = {
 		}
 	}
   
-	RUS_markian_popov = {
+	BWR_markian_popov = {
 		name = SOV_markian_popov
 		portraits = {
 			army = {
@@ -817,7 +817,7 @@ characters = {
 		}
 	}
   
-	RUS_nikolay_berzarin = {
+	BWR_nikolay_berzarin = {
 		name = SOV_nikolay_berzarin
 		portraits = {
 			army = {
@@ -836,7 +836,7 @@ characters = {
 		}
 	}
   
-	RUS_aleksandr_gorbatov = {
+	BWR_aleksandr_gorbatov = {
 		name = SOV_aleksandr_gorbatov
 		portraits = {
 			army = {
@@ -855,7 +855,7 @@ characters = {
 		}
 	}
   
-	RUS_kirill_moskalenko = {
+	BWR_kirill_moskalenko = {
 		name = SOV_kirill_moskalenko
 		portraits = {
 			army = {
@@ -874,7 +874,7 @@ characters = {
 		}
 	}
   
-	RUS_dmitry_lelyushenko = {
+	BWR_dmitry_lelyushenko = {
 		name = SOV_dmitry_lelyushenko
 		portraits = {
 			army = {
@@ -893,7 +893,7 @@ characters = {
 		}
 	}
   
-	RUS_andrey_grechko = {
+	BWR_andrey_grechko = {
 		name = SOV_andrey_grechko
 		portraits = {
 			army = {
@@ -912,7 +912,7 @@ characters = {
 		}
 	}
   
-	RUS_rodion_malinovsky = {
+	BWR_rodion_malinovsky = {
 		name = SOV_rodion_malinovsky
 		portraits = {
 			army = {
@@ -931,7 +931,7 @@ characters = {
 		}
 	}
   
-	RUS_vasily_chuykov = {
+	BWR_vasily_chuykov = {
 		name = SOV_vasily_chuykov
 		portraits = {
 			army = {
@@ -954,7 +954,7 @@ characters = {
   #### NAVY LEADRES ####
   ######################
   
-	RUS_filipp_oktyabrsky = {
+	BWR_filipp_oktyabrsky = {
 		name = SOV_filipp_oktyabrsky
 		portraits = {
 			army = {
@@ -973,7 +973,7 @@ characters = {
 		}
 	}
   
-	RUS_sergey_gorshkov = {
+	BWR_sergey_gorshkov = {
 		name = SOV_sergey_gorshkov
 		portraits = {
 			navy = {
@@ -986,10 +986,10 @@ characters = {
 		advisor = {
 			cost = 100
 			slot = theorist
-			idea_token = RUS_sergey_gorshkov
+			idea_token = BWR_sergey_gorshkov
 			ledger = navy
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 			traits = { naval_theorist }
 		}
@@ -1005,7 +1005,7 @@ characters = {
 		}
 	}
   
-	RUS_gordey_levchenko = {
+	BWR_gordey_levchenko = {
 		name = SOV_gordey_levchenko
 		portraits = {
 			navy = {
@@ -1017,10 +1017,10 @@ characters = {
 		}
 		advisor = {
 			slot = high_command
-			idea_token = RUS_gordey_levchenko
+			idea_token = BWR_gordey_levchenko
 			ledger = navy
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 			traits = {
 				navy_capital_ship_2
@@ -1042,7 +1042,7 @@ characters = {
 		}
 	}
   
-	RUS_arseny_golovko = {
+	BWR_arseny_golovko = {
 		name = SOV_arseny_golovko
 		portraits = {
 			navy = {
@@ -1054,7 +1054,7 @@ characters = {
 		}
 		advisor = {
 			slot = high_command
-			idea_token = RUS_arseniy_golovko
+			idea_token = BWR_arseniy_golovko
 			ledger = navy
 			allowed = {
 				original_tag = SOV
@@ -1079,7 +1079,7 @@ characters = {
 		}
 	}
   
-	RUS_vladimir_kasatonov = {
+	BWR_vladimir_kasatonov = {
 		name = SOV_vladimir_kasatonov
 		portraits = {
 			navy = {
@@ -1091,7 +1091,7 @@ characters = {
 		}
 		advisor = {
 			slot = high_command
-			idea_token = RUS_vladimir_kasatonov
+			idea_token = BWR_vladimir_kasatonov
 			ledger = navy
 			allowed = {
 				original_tag = SOV
@@ -1116,7 +1116,7 @@ characters = {
 		}
 	}
 
-	RUS_stepan_krasovsky = {
+	BWR_stepan_krasovsky = {
 		name = SOV_stepan_krasovsky
 		portraits = {
 			army = {
@@ -1126,10 +1126,10 @@ characters = {
 
 		advisor = {
 			slot = high_command
-			idea_token = RUS_stepan_krasovsky
+			idea_token = BWR_stepan_krasovsky
 			ledger = air
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 			traits = {
 				air_air_combat_training_2
@@ -1141,7 +1141,7 @@ characters = {
 		}
 	}
   
-	RUS_vladimir_tributs = {
+	BWR_vladimir_tributs = {
 		name = SOV_vladimir_tributs
 		portraits = {
 			army = {
@@ -1152,10 +1152,10 @@ characters = {
 		advisor = {
 			cost = 150
 			slot = theorist
-			idea_token = RUS_vladimir_tributs
+			idea_token = BWR_vladimir_tributs
 			ledger = navy
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 			traits = {
 				grand_fleet_proponent
@@ -1163,7 +1163,7 @@ characters = {
 		}
 	}
   
-	RUS_sergey_khudyakov = {
+	BWR_sergey_khudyakov = {
 		name = SOV_sergey_khudyakov
 		portraits = {
 			army = {
@@ -1173,10 +1173,10 @@ characters = {
 
 		advisor = {
 			slot = high_command
-			idea_token = RUS_sergei_khudyakov
+			idea_token = BWR_sergei_khudyakov
 			ledger = air
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 			traits = {
 				air_close_air_support_2
@@ -1188,7 +1188,7 @@ characters = {
 		}		
 	}
   
-	RUS_konstantin_vershinin = {
+	BWR_konstantin_vershinin = {
 		name = SOV_konstantin_vershinin
 		portraits = {
 			army = {
@@ -1198,9 +1198,9 @@ characters = {
 
 		advisor = {	
 			slot = air_chief
-			idea_token = RUS_konstantin_vershinin
+			idea_token = BWR_konstantin_vershinin
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 			traits = {
 				air_chief_ground_support_2
@@ -1212,7 +1212,7 @@ characters = {
 		}
 	}
   
-	RUS_sergey_rudenko = {
+	BWR_sergey_rudenko = {
 		name = SOV_sergey_rudenko
 		portraits = {
 			army = {
@@ -1224,10 +1224,10 @@ characters = {
 			cost = 150
 			
 			slot = theorist
-			idea_token = RUS_sergei_rudenko
+			idea_token = BWR_sergei_rudenko
 			ledger = air
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 			
 			traits = {
@@ -1236,7 +1236,7 @@ characters = {
 		}		
 	}
   
-	RUS_ivan_yumashev = {
+	BWR_ivan_yumashev = {
 		name = SOV_ivan_yumashev
 		portraits = {
 			army = {
@@ -1246,9 +1246,9 @@ characters = {
 
 		advisor = {
 			slot = navy_chief
-			idea_token = RUS_ivan_yumashev
+			idea_token = BWR_ivan_yumashev
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 			traits = {
 				navy_chief_decisive_battle_2
@@ -1260,7 +1260,7 @@ characters = {
 		}
 	}
   
-	RUS_nikolay_kuznetsov = {
+	BWR_nikolay_kuznetsov = {
 		name = SOV_nikolay_kuznetsov
 		portraits = {
 			army = {
@@ -1270,9 +1270,9 @@ characters = {
 
 		advisor = {
 			slot = navy_chief
-			idea_token = RUS_nikolay_kuznetsov
+			idea_token = BWR_nikolay_kuznetsov
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 			traits = {
 				navy_chief_reform_2
@@ -1284,7 +1284,7 @@ characters = {
 		}		
 	}
   
-	RUS_yakov_smushkevich = {
+	BWR_yakov_smushkevich = {
 		name = SOV_yakov_smushkevich
 		portraits = {
 			army = {
@@ -1294,9 +1294,9 @@ characters = {
 
 		advisor = {	
 			slot = air_chief
-			idea_token = RUS_yakov_smushkevich
+			idea_token = BWR_yakov_smushkevich
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 			traits = {
 				air_chief_safety_2
@@ -1308,7 +1308,7 @@ characters = {
 		}	
 	}
   
-	RUS_pavel_rychagov = {
+	BWR_pavel_rychagov = {
 		name = SOV_pavel_rychagov
 		portraits = {
 			army = {
@@ -1318,9 +1318,9 @@ characters = {
 
 		advisor = {
 			slot = air_chief
-			idea_token = RUS_pavel_rychagov
+			idea_token = BWR_pavel_rychagov
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 			traits = {
 				air_chief_all_weather_2
@@ -1332,7 +1332,7 @@ characters = {
 		}		
 	}
   
-	RUS_aleksandr_golovanov = {
+	BWR_aleksandr_golovanov = {
 		name = SOV_aleksandr_golovanov
 		portraits = {
 			army = {
@@ -1343,16 +1343,16 @@ characters = {
 		advisor = {
 			cost = 100
 			slot = theorist
-			idea_token = RUS_alexander_golovanov
+			idea_token = BWR_alexander_golovanov
 			ledger = air
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 			traits = { air_warfare_theorist }
 		}		
 	}
   
-	RUS_mikhail_frinovsky = {
+	BWR_mikhail_frinovsky = {
 		name = SOV_mikhail_frinovsky
 		portraits = {
 			army = {
@@ -1362,9 +1362,9 @@ characters = {
 
 		advisor = {
 			slot = navy_chief
-			idea_token = RUS_mikhail_frinovsky
+			idea_token = BWR_mikhail_frinovsky
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 			traits = {
 				navy_chief_commerce_raiding_1
@@ -1376,7 +1376,7 @@ characters = {
 		}
 	}
   
-	RUS_igor_kurchatov = {
+	BWR_igor_kurchatov = {
 		name = SOV_igor_kurchatov
 		portraits = {
 			army = {
@@ -1387,10 +1387,10 @@ characters = {
 		advisor = {
 			cost = 100
 			slot = theorist
-			idea_token = RUS_igor_kurchatov
+			idea_token = BWR_igor_kurchatov
 			ledger = army
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 			research_bonus = {
 				nuclear = 0.150
@@ -1401,7 +1401,7 @@ characters = {
 		}		
 	}
   
-	RUS_sergey_korolyov = {
+	BWR_sergey_korolyov = {
 		name = SOV_sergey_korolyov
 		portraits = {
 			army = {
@@ -1412,10 +1412,10 @@ characters = {
 		advisor = {
 			cost = 100
 			slot = theorist
-			idea_token = RUS_sergei_korolev
+			idea_token = BWR_sergei_korolev
 			ledger = air
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 			research_bonus = {
 				rocketry = 0.150
@@ -1426,7 +1426,7 @@ characters = {
 		}		
 	}
   
-	RUS_pavel_zhigarev = {
+	BWR_pavel_zhigarev = {
 		name = SOV_pavel_zhigarev
 		portraits = {
 			army = {
@@ -1436,10 +1436,10 @@ characters = {
 
 		advisor = {
 			slot = high_command
-			idea_token = RUS_pavel_zhigarev
+			idea_token = BWR_pavel_zhigarev
 			ledger = air
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 			traits = {
 				air_airborne_1
@@ -1451,7 +1451,7 @@ characters = {
 		}
 	}
   
-	RUS_pyotr_smirnov = {
+	BWR_pyotr_smirnov = {
 		name = SOV_pyotr_smirnov
 		portraits = {
 			army = {
@@ -1461,9 +1461,9 @@ characters = {
 
 		advisor = {
 			slot = navy_chief
-			idea_token = RUS_pyotr_smirnov
+			idea_token = BWR_pyotr_smirnov
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 			traits = {
 				navy_chief_naval_aviation_1
@@ -1475,7 +1475,7 @@ characters = {
 		}		
 	}
   
-	RUS_aleksandr_yegorov = {
+	BWR_aleksandr_yegorov = {
 		name = SOV_aleksandr_yegorov
 		portraits = {
 			army = {
@@ -1485,7 +1485,7 @@ characters = {
 		}
 		advisor = {
 			slot = army_chief
-			idea_token = RUS_aleksandr_yegorov
+			idea_token = BWR_aleksandr_yegorov
 			allowed = {
 				original_tag = SOV
 			}
@@ -1509,7 +1509,7 @@ characters = {
 		}	
 	}
   
-	RUS_vasily_blyukher = {
+	BWR_vasily_blyukher = {
 		name = SOV_vasily_blyukher
 		portraits = {
 			army = {
@@ -1519,9 +1519,9 @@ characters = {
 		}
 		advisor = {
 			slot = army_chief
-			idea_token = RUS_vasily_blyukher
+			idea_token = BWR_vasily_blyukher
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 			traits = {
 				army_chief_maneuver_2
@@ -1546,7 +1546,7 @@ characters = {
   
 	##### NSB #####
 
-	RUS_vitaly_primakov = {
+	BWR_vitaly_primakov = {
 		name = SOV_vitaly_primakov
 
 		portraits = {
@@ -1567,7 +1567,7 @@ characters = {
 		}
 	}
   
-	RUS_vasily_korzh = {
+	BWR_vasily_korzh = {
 		name = SOV_vasily_korzh
 		portraits = {
 			army = {
@@ -1587,7 +1587,7 @@ characters = {
 		}
 	}
   
-	RUS_sidor_kovpak = {
+	BWR_sidor_kovpak = {
 		name = SOV_sidor_kovpak
 		portraits = {
 			army = {
@@ -1607,7 +1607,7 @@ characters = {
 		}
 	}
   
-	RUS_lev_dovator = {
+	BWR_lev_dovator = {
 		name = SOV_lev_dovator
 		portraits = {
 			army = {
@@ -1627,7 +1627,7 @@ characters = {
 		}
 	}
   
-	RUS_pavel_rybalko = {
+	BWR_pavel_rybalko = {
 		name = SOV_pavel_rybalko
 		portraits = {
 			army = {
@@ -1657,7 +1657,7 @@ characters = {
 	##  ####  #  #     #   #   #      #### ###  # # #   #    ( Y )  
 	#   #  #   # #  #  #    #  #      #  # #  # #   #   #   ()~*~() 
 	#   #  # ##   ##  ### ##   #      #  # #  # #   #   #   (_)-(_) 
-	RUS_anton_denikin = {
+	BWR_anton_denikin = {
 		name = SOV_anton_denikin
 		portraits = {
 			army = {
@@ -1696,7 +1696,7 @@ characters = {
   
   
   
-	RUS_pyotr_krasnov = {
+	BWR_pyotr_krasnov = {
 		name = SOV_pyotr_krasnov
 		portraits = {
 			army = {
@@ -1714,7 +1714,7 @@ characters = {
 		}
 	}
   
-	RUS_konstantin_nechayev = {
+	BWR_konstantin_nechayev = {
 		name = SOV_konstantin_nechayev
 		portraits = {
 			army = {
@@ -1732,7 +1732,7 @@ characters = {
 		}
 	}
   
-	RUS_vladimir_kosmin = {
+	BWR_vladimir_kosmin = {
 		name = SOV_vladimir_kosmin
 		portraits = {
 			army = {
@@ -1754,7 +1754,7 @@ characters = {
 		}
 	}
   
-	RUS_aleksandr_rodzyanko = {
+	BWR_aleksandr_rodzyanko = {
 		name = SOV_aleksandr_rodzyanko
 		portraits = {
 			army = {
@@ -1772,7 +1772,7 @@ characters = {
 		}
 	}
   
-	RUS_andrey_shkuro = {
+	BWR_andrey_shkuro = {
 		name = SOV_andrey_shkuro
 		portraits = {
 			army = {
@@ -1798,7 +1798,7 @@ characters = {
 	#     ##  ### ###  #  ###  ##  #  # ###     #  # ###    #   ### ##   ##  #  # ##  
 
 
-	RUS_mikhail_kalinin = {
+	BWR_mikhail_kalinin = {
 		name = SOV_mikhail_kalinin
 		portraits = {
 			army = {
@@ -1811,9 +1811,9 @@ characters = {
 
 		advisor = {
 			slot = political_advisor
-			idea_token = RUS_mikhail_kalinin
+			idea_token = BWR_mikhail_kalinin
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 			
 			traits = {
@@ -1822,7 +1822,7 @@ characters = {
 		}
 	}
 	  
-	RUS_nikita_khrushchyov = {
+	BWR_nikita_khrushchyov = {
 		name = SOV_nikita_khrushchyov
 		portraits = {
 			army = {
@@ -1835,9 +1835,9 @@ characters = {
 
 		advisor = {
 			slot = political_advisor
-			idea_token = RUS_nikita_khrushchyov
+			idea_token = BWR_nikita_khrushchyov
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 			
 			available = {
@@ -1856,7 +1856,7 @@ characters = {
 		}
 	}
   
-	RUS_nikolay_voznesensky = {
+	BWR_nikolay_voznesensky = {
 		name = SOV_nikolay_voznesensky
 
 		portraits = {
@@ -1870,10 +1870,10 @@ characters = {
 
 		advisor = {
 			slot = political_advisor
-			idea_token = RUS_nikolay_voznesensky
+			idea_token = BWR_nikolay_voznesensky
 			name = SOV_nikolay_voznesensky 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 			
 			traits = {
@@ -1882,7 +1882,7 @@ characters = {
 		}
 	}
 
-	RUS_lazar_kaganovich = {
+	BWR_lazar_kaganovich = {
 		name = SOV_lazar_kaganovich
 		portraits = {
 			army = {
@@ -1895,9 +1895,9 @@ characters = {
 
 		advisor = {
 			slot = political_advisor
-			idea_token = RUS_lazar_kaganovich
+			idea_token = BWR_lazar_kaganovich
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 			
 			traits = {
@@ -1907,7 +1907,7 @@ characters = {
 	}
   
 	 
-	RUS_vsevolod_merkulov = {
+	BWR_vsevolod_merkulov = {
 		name = SOV_vsevolod_merkulov
 		portraits = {
 			army = {
@@ -1921,9 +1921,9 @@ characters = {
 
 		advisor = {
 			slot = political_advisor
-			idea_token = RUS_vsevolod_merkulov
+			idea_token = BWR_vsevolod_merkulov
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 				has_dlc = "La Resistance"
 			}
 			available = {
@@ -1935,7 +1935,7 @@ characters = {
 		}
 	}
   
-	RUS_vyacheslav_molotov = {
+	BWR_vyacheslav_molotov = {
 		name = SOV_vyacheslav_molotov
 		portraits = {
 			army = {
@@ -1948,14 +1948,14 @@ characters = {
 
 		advisor = {
 			slot = political_advisor
-			idea_token = RUS_vyacheslav_molotov
+			idea_token = BWR_vyacheslav_molotov
 			traits = {
 				pc_for_foreign_affairs_molotov 
 			}
 		}
 	}
   
-	RUS_lev_trotsky = {
+	BWR_lev_trotsky = {
 		name = SOV_lev_trotsky
 		portraits = {
 			civilian = {
@@ -1968,7 +1968,7 @@ characters = {
 		allowed_civil_war = { 
 			
 			AND = {
-				tag = RUS 
+				tag = BWR 
 				has_government = communism
 			}
 				
@@ -1976,9 +1976,9 @@ characters = {
 
 		advisor = {
 			slot = political_advisor
-			idea_token = RUS_lev_trotsky
+			idea_token = BWR_lev_trotsky
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 			
 			visible = {
@@ -1992,7 +1992,7 @@ characters = {
 		}
 	}
   
-	RUS_ivan_smirnov = {
+	BWR_ivan_smirnov = {
 		name = SOV_ivan_smirnov
 		portraits = {
 			civilian = {
@@ -2005,7 +2005,7 @@ characters = {
 		allowed_civil_war = { 
 			
 			AND = {
-				tag = RUS 
+				tag = BWR 
 				has_government = communism
 			}
 				
@@ -2013,9 +2013,9 @@ characters = {
 
 		advisor = {
 			slot = political_advisor
-			idea_token = RUS_ivan_smirnov
+			idea_token = BWR_ivan_smirnov
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 			traits = {
 				head_directorate_of_new_buildings 
@@ -2023,7 +2023,7 @@ characters = {
 		}
 	}
   
-	RUS_ivar_smilga = {
+	BWR_ivar_smilga = {
 		name = SOV_ivar_smilga
 		portraits = {
 			army = {
@@ -2045,9 +2045,9 @@ characters = {
 
 		advisor = {
 			slot = political_advisor
-			idea_token = RUS_ivar_smilga
+			idea_token = BWR_ivar_smilga
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 			traits = {
 				soviet_economist
@@ -2056,7 +2056,7 @@ characters = {
 	}
   
   
-	RUS_karl_radek = {
+	BWR_karl_radek = {
 		name = SOV_karl_radek
 
 		portraits = {
@@ -2071,9 +2071,9 @@ characters = {
 
 		advisor = {
 			slot = political_advisor
-			idea_token = RUS_karl_radek
+			idea_token = BWR_karl_radek
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 			traits = {
 				international_revolutionary 
@@ -2081,7 +2081,7 @@ characters = {
 		}
 	}
   
-	RUS_yevgeny_preobrazhensky = {
+	BWR_yevgeny_preobrazhensky = {
 		name = SOV_yevgeny_preobrazhensky
 		portraits = {
 			army = {
@@ -2097,9 +2097,9 @@ characters = {
 
 		advisor = {
 			slot = political_advisor
-			idea_token = RUS_yevgeny_preobrazhensky
+			idea_token = BWR_yevgeny_preobrazhensky
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 			traits = {
 				ecomonist_publicist 
@@ -2107,7 +2107,7 @@ characters = {
 		}
 	}
   
-	RUS_aleksandr_shlyapnikov = {
+	BWR_aleksandr_shlyapnikov = {
 		name = SOV_aleksandr_shlyapnikov
 		portraits = {
 			army = {
@@ -2121,9 +2121,9 @@ characters = {
 
 		advisor = {
 			slot = political_advisor
-			idea_token = RUS_aleksandr_shlyapnikov
+			idea_token = BWR_aleksandr_shlyapnikov
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 			traits = {
 				left_trade_unionist
@@ -2131,7 +2131,7 @@ characters = {
 		}
 	}
   
-	RUS_nikolay_bukharin = {
+	BWR_nikolay_bukharin = {
 		name = SOV_nikolay_bukharin
 		portraits = {
 			civilian = {
@@ -2148,9 +2148,9 @@ characters = {
 
 		advisor = {
 			slot = political_advisor
-			idea_token = RUS_nikolay_bukharin
+			idea_token = BWR_nikolay_bukharin
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 			
 			traits = {
@@ -2159,7 +2159,7 @@ characters = {
 		}
 	}
 	  
-	RUS_aleksey_rykov = {
+	BWR_aleksey_rykov = {
 		name = SOV_aleksey_rykov
 
 		portraits = {
@@ -2177,9 +2177,9 @@ characters = {
 
 		advisor = {
 			slot = political_advisor
-			idea_token = RUS_aleksey_rykov
+			idea_token = BWR_aleksey_rykov
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 			traits = {
 				peoples_commissar_for_posts_and_telegraphs 
@@ -2187,7 +2187,7 @@ characters = {
 		}
 	}
   
-	RUS_mikhail_tomsky = {
+	BWR_mikhail_tomsky = {
 		name = SOV_mikhail_tomsky
 		portraits = {
 			army = {
@@ -2200,9 +2200,9 @@ characters = {
 
 		advisor = {
 			slot = political_advisor
-			idea_token = RUS_mikhail_tomsky
+			idea_token = BWR_mikhail_tomsky
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 			traits = {
 				right_trade_unionist 
@@ -2210,7 +2210,7 @@ characters = {
 		}
 	}
   
-	RUS_grigory_sokolnikov = {
+	BWR_grigory_sokolnikov = {
 		name = SOV_grigory_sokolnikov
 		portraits = {
 			army = {
@@ -2223,9 +2223,9 @@ characters = {
 
 		advisor = {
 			slot = political_advisor
-			idea_token = RUS_grigory_sokolnikov
+			idea_token = BWR_grigory_sokolnikov
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 			traits = {
 				peoples_commissar_of_finance 
@@ -2233,7 +2233,7 @@ characters = {
 		}
 	}
   
-	RUS_grigory_zinovyev = {
+	BWR_grigory_zinovyev = {
 		name = SOV_grigory_zinovyev
 		portraits = {
 			civilian = {
@@ -2249,9 +2249,9 @@ characters = {
 
 		advisor = {
 			slot = political_advisor
-			idea_token = RUS_grigory_zinovyev
+			idea_token = BWR_grigory_zinovyev
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 			traits = {
 				communist_theorist
@@ -2259,7 +2259,7 @@ characters = {
 		}		
 	}
 	  
-	RUS_lev_kamenev = {
+	BWR_lev_kamenev = {
 		name = SOV_lev_kamenev
 		portraits = {
 			civilian = {
@@ -2276,9 +2276,9 @@ characters = {
 
 		advisor = {
 			slot = political_advisor
-			idea_token = RUS_lev_kamenev
+			idea_token = BWR_lev_kamenev
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 			traits = {
 				appeasing_technocrat 
@@ -2286,7 +2286,7 @@ characters = {
 		}
 	}
   
-	RUS_martemyan_ryutin = {
+	BWR_martemyan_ryutin = {
 		name = SOV_martemyan_ryutin
 		portraits = {
 			army = {
@@ -2299,9 +2299,9 @@ characters = {
 		}
 		advisor = {
 			slot = political_advisor
-			idea_token = RUS_martemyan_ryutin
+			idea_token = BWR_martemyan_ryutin
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 			traits = {
 				anti_stalinist_propagandist 
@@ -2309,7 +2309,7 @@ characters = {
 		}
 	}
 	  
-	RUS_patriarch_sergy = {
+	BWR_patriarch_sergy = {
 		name = SOV_patriarch_sergy
 		portraits = {
 			army = {
@@ -2325,9 +2325,9 @@ characters = {
 
 		advisor = {
 			slot = political_advisor
-			idea_token = RUS_patriarch_sergy
+			idea_token = BWR_patriarch_sergy
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 			traits = {
 				patriarch_of_moscow_and_all_russia 
@@ -2335,7 +2335,7 @@ characters = {
 		}
 	}
 	  
-	RUS_metropolitan_anastasy = {
+	BWR_metropolitan_anastasy = {
 		name = SOV_metropolitan_anastasy
 		portraits = {
 			army = {
@@ -2350,9 +2350,9 @@ characters = {
 		}
 		advisor = {
 			slot = political_advisor
-			idea_token = RUS_metropolitan_anastasy
+			idea_token = BWR_metropolitan_anastasy
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 			traits = {
 				orthodox_rabblerouser
@@ -2360,7 +2360,7 @@ characters = {
 		}		
 	}
   
-	RUS_metropolitan_nikolay = {
+	BWR_metropolitan_nikolay = {
 		name = SOV_metropolitan_nikolay
 		portraits = {
 			army = {
@@ -2376,9 +2376,9 @@ characters = {
 
 		advisor = {
 			slot = political_advisor
-			idea_token = RUS_metropolitan_nikolay
+			idea_token = BWR_metropolitan_nikolay
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 			traits = {
 				theocratic_diplomat
@@ -2386,7 +2386,7 @@ characters = {
 		}
 	}
   
-	RUS_metropolitan_aleksy = {
+	BWR_metropolitan_aleksy = {
 		name = SOV_metropolitan_aleksy
 		portraits = {
 			army = {
@@ -2402,9 +2402,9 @@ characters = {
 
 		advisor = {
 			slot = political_advisor
-			idea_token = RUS_metropolitan_aleksy
+			idea_token = BWR_metropolitan_aleksy
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 			traits = {
 				driver_of_the_faithful
@@ -2412,7 +2412,7 @@ characters = {
 		}		
 	}
   
-	RUS_anastasy_vonsyatsky = {
+	BWR_anastasy_vonsyatsky = {
 		name = SOV_anastasy_vonsyatsky
 		portraits = {
 			army = {
@@ -2428,9 +2428,9 @@ characters = {
 
 		advisor = {
 			slot = political_advisor
-			idea_token = RUS_anastasy_vonsyatsky
+			idea_token = BWR_anastasy_vonsyatsky
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 			traits = {
 				the_foreign_connection
@@ -2438,7 +2438,7 @@ characters = {
 		}		
 	}
   
-	RUS_grigory_semyonov = {
+	BWR_grigory_semyonov = {
 		name = SOV_grigory_semyonov
 		portraits = {
 			army = {
@@ -2459,9 +2459,9 @@ characters = {
 
 		advisor = {
 			slot = political_advisor
-			idea_token = RUS_grigory_semyonov
+			idea_token = BWR_grigory_semyonov
 			allowed = {
-				original_tag = RUS	
+				original_tag = BWR	
 			}
 			traits = {
 				ataman_transbaikal_host
@@ -2469,7 +2469,7 @@ characters = {
 		}		
 	}
   
-	RUS_nikolay_ustryalov = {
+	BWR_nikolay_ustryalov = {
 		name = SOV_nikolay_ustryalov
 		portraits = {
 			army = {
@@ -2485,9 +2485,9 @@ characters = {
 
 		advisor = {
 			slot = political_advisor
-			idea_token = RUS_nikolay_ustryalov
+			idea_token = BWR_nikolay_ustryalov
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 			available = {
 				has_completed_focus = SOV_consolidate_power
@@ -2498,7 +2498,7 @@ characters = {
 		}		
 	}
   
-	RUS_aleksandr_kazembek = {
+	BWR_aleksandr_kazembek = {
 		name = SOV_aleksandr_kazembek
 		portraits = {
 			army = {
@@ -2514,9 +2514,9 @@ characters = {
 
 		advisor = {
 			slot = political_advisor
-			idea_token = RUS_aleksandr_kazembek
+			idea_token = BWR_aleksandr_kazembek
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 			traits = {
 				mladorossi_theorist
@@ -2534,7 +2534,7 @@ characters = {
    #######  #    #  #  ######  ######   ####       #     #  #  ######  #    #    #    #  #    #    #        #     #  #####     ##    #   ####    ####   #    #   ####  
 																																									   
 	#THEORIST - AIR
-	RUS_aleksandr_prokofyev_seversky = {
+	BWR_aleksandr_prokofyev_seversky = {
 		name = SOV_aleksandr_prokofyev_seversky
 		portraits = {
 			army = {
@@ -2550,17 +2550,17 @@ characters = {
 		advisor = {
 			cost = 100
 			slot = theorist
-			idea_token = RUS_aleksandr_prokofyev_seversky
+			idea_token = BWR_aleksandr_prokofyev_seversky
 			ledger = air
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 			traits = { victory_through_airpower }
 		}
 	}
   
 	#CHIEF OF AIRFORCE
-	RUS_vyacheslav_tkachyov = {
+	BWR_vyacheslav_tkachyov = {
 		name = SOV_vyacheslav_tkachyov
 
 		portraits = {
@@ -2578,16 +2578,16 @@ characters = {
 		advisor = {
 			cost = 100
 			slot = air_chief
-			idea_token = RUS_vyacheslav_tkachyov
+			idea_token = BWR_vyacheslav_tkachyov
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 			traits = { air_chief_reform_2 }
 		}
 	}
   
 	#CHIEF OF AIRFORCE
-	RUS_yan_nagursky = {
+	BWR_yan_nagursky = {
 		name = SOV_yan_nagursky
 
 		portraits = {
@@ -2607,14 +2607,14 @@ characters = {
 			slot = air_chief
 			idea_token = SOV_yan_nagursky
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 			traits = { air_chief_all_weather_2 }
 		}
 	}
   
 	#MHC - Air
-	RUS_vasily_yanchenko = {
+	BWR_vasily_yanchenko = {
 		name = SOV_vasily_yanchenko
 
 		portraits = {
@@ -2635,7 +2635,7 @@ characters = {
 			idea_token = SOV_vasily_yanchenko
 			ledger = air
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 			traits = { air_air_superiority_2 }
 		}
@@ -2649,7 +2649,7 @@ characters = {
    #    #  #    #  #    #  #   ##    #    #   #     #        #       #       #    #  #    #  #       #   #   #    # 
 	####    ####    ####   #    #    #    #    #    #        ######  ######  #    #  #####   ######  #    #   ####  
   
-	RUS_konstantin_rodzayevsky = {
+	BWR_konstantin_rodzayevsky = {
 		instance = {
 			allowed = {
 				has_dlc = "No Step Back"
@@ -2687,7 +2687,7 @@ characters = {
 				slot = political_advisor
 				idea_token = konstantin_rodzaevsky
 				allowed = {
-					original_tag = RUS
+					original_tag = BWR
 				}
 				available = {
 					if = {
@@ -2714,7 +2714,7 @@ characters = {
 		}
 	}
   
-	RUS_aleksandr_kerensky = {
+	BWR_aleksandr_kerensky = {
 		name = SOV_aleksandr_kerensky
 
 		portraits = {
@@ -2730,7 +2730,7 @@ characters = {
 			expire = "1953.3.1.1"
 			
 		}
-		allowed_civil_war = { tag = RUS}
+		allowed_civil_war = { tag = BWR}
 
 		advisor = {
 			slot = political_advisor

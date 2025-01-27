@@ -20,7 +20,7 @@ focus_tree = {
 		
 		modifier = {
 			add = 10
-			tag = RUS
+			tag = BWR
 		}
 	}
 	
@@ -3175,7 +3175,7 @@ focus_tree = {
 				add_equipment_production = {
 					equipment = {
 						type = ship_hull_heavy_2
-						creator = "RUS"
+						creator = "BWR"
 						version_name = "Kronshtadt Class"
 					}
 					requested_factories = 1
@@ -3187,7 +3187,7 @@ focus_tree = {
 				add_equipment_production = {
 					equipment = {
 						type = ship_hull_heavy_2
-						creator = "RUS"
+						creator = "BWR"
 						version_name = "Kronshtadt Class"
 					}
 					requested_factories = 1
@@ -3282,7 +3282,7 @@ focus_tree = {
 				add_equipment_production = {
 					equipment = {
 						type = ship_hull_super_heavy_1
-						creator = "RUS"
+						creator = "BWR"
 						version_name = "Sovetsky Soyuz Class"
 					}
 					requested_factories = 1
@@ -3292,7 +3292,7 @@ focus_tree = {
 				add_equipment_production = {
 					equipment = {
 						type = ship_hull_super_heavy_1
-						creator = "RUS"
+						creator = "BWR"
 						version_name = "Sovetsky Soyuz Class"
 					}
 					requested_factories = 1
@@ -3302,7 +3302,7 @@ focus_tree = {
 				add_equipment_production = {
 					equipment = {
 						type = ship_hull_super_heavy_1
-						creator = "RUS"
+						creator = "BWR"
 						version_name = "Sovetsky Soyuz Class"
 					}
 					requested_factories = 1
@@ -3416,7 +3416,7 @@ focus_tree = {
 				add_equipment_production = {
 					equipment = {
 						type = ship_hull_cruiser_submarine
-						creator = "RUS"
+						creator = "BWR"
 						version_name = "K Class"
 					}
 					name = "K-1"
@@ -3427,7 +3427,7 @@ focus_tree = {
 				add_equipment_production = {
 					equipment = {
 						type = ship_hull_cruiser_submarine
-						creator = "RUS"
+						creator = "BWR"
 						version_name = "K Class"
 					}
 					name = "K-2"
@@ -3459,7 +3459,7 @@ focus_tree = {
 					add_equipment_production = {
 						equipment = {
 							type = submarine_3
-							creator = "RUS"
+							creator = "BWR"
 							version_name = "K Class"
 						}
 						requested_factories = 1
@@ -3469,7 +3469,7 @@ focus_tree = {
 					add_equipment_production = {
 						equipment = {
 							type = submarine_3
-							creator = "RUS"
+							creator = "BWR"
 							version_name = "K Class"
 						}
 						requested_factories = 1
@@ -3492,7 +3492,7 @@ focus_tree = {
 					add_equipment_production = {
 						equipment = {
 							type = submarine_2
-							creator = "RUS"
+							creator = "BWR"
 							version_name = "K Class"
 						}
 						requested_factories = 1
@@ -3502,7 +3502,7 @@ focus_tree = {
 					add_equipment_production = {
 						equipment = {
 							type = submarine_2
-							creator = "RUS"
+							creator = "BWR"
 							version_name = "K Class"
 						}
 						requested_factories = 1
@@ -3601,7 +3601,7 @@ focus_tree = {
 					add_equipment_production = {
 						equipment = {
 							type = ship_hull_carrier_3
-							creator = "RUS"
+							creator = "BWR"
 							version_name = "Project 71 Class"
 						}
 						name = "Siberia"
@@ -3635,7 +3635,7 @@ focus_tree = {
 					add_equipment_production = {
 						equipment = {
 							type = ship_hull_carrier_2
-							creator = "RUS"
+							creator = "BWR"
 							version_name = "Project 71 Class"
 						}
 						name = "Siberia"
@@ -3669,7 +3669,7 @@ focus_tree = {
 					add_equipment_production = {
 						equipment = {
 							type = ship_hull_carrier_1
-							creator = "RUS"
+							creator = "BWR"
 							version_name = "Project 71 Class"
 						}
 						name = "Siberia"
@@ -3705,7 +3705,7 @@ focus_tree = {
 					add_equipment_production = {
 						equipment = {
 							type = ship_hull_carrier_conversion_ca
-							creator = "RUS"
+							creator = "BWR"
 							version_name = "Project 71 Class"
 						}
 						name = "Siberia"
@@ -3738,7 +3738,7 @@ focus_tree = {
 					add_equipment_production = {
 						equipment = {
 							type = carrier_4
-							creator = "RUS"
+							creator = "BWR"
 							version_name = "Project 71 Class"
 						}
 						requested_factories = 1
@@ -3764,7 +3764,7 @@ focus_tree = {
 					add_equipment_production = {
 						equipment = {
 							type = carrier_3
-							creator = "RUS"
+							creator = "BWR"
 							version_name = "Project 71 Class"
 						}
 						requested_factories = 1
@@ -3790,7 +3790,7 @@ focus_tree = {
 					add_equipment_production = {
 						equipment = {
 							type = carrier_2
-							creator = "RUS"
+							creator = "BWR"
 							version_name = "Project 71 Class"
 						}
 						requested_factories = 1
@@ -3819,7 +3819,7 @@ focus_tree = {
 					add_equipment_production = {
 						equipment = {
 							type = carrier_1
-							creator = "RUS"
+							creator = "BWR"
 							version_name = "Project 71 Class"
 						}
 						requested_factories = 1
@@ -4512,8 +4512,8 @@ focus_tree = {
 							instant_build = yes
 						}
 						set_state_flag = RUS_development_of_tankograd_flag
-						add_to_temp_variable = { RUS.temp_targets_index = 1 }
-						#log = "Round [?RUS.temp_targets_index]"
+						add_to_temp_variable = { BWR.temp_targets_index = 1 }
+						#log = "Round [?BWR.temp_targets_index]"
 					}
 				}
 			}
@@ -4633,7 +4633,7 @@ focus_tree = {
 					traits = { operative_safe_cracker operative_infiltrator }
 					bypass_recruitment = no
 					available_to_spy_master = yes
-					nationalities = { RUS GER }
+					nationalities = { BWR GER }
 				}
 				add_ideas = RUS_soviet_atomic_bomb_project_ns
 			}
@@ -4668,7 +4668,7 @@ focus_tree = {
 			add_equipment_to_stockpile = {
 				type = train_equipment
 				amount = RUS_industrial_relocation_trains_focus_negative
-				producer = RUS
+				producer = BWR
 			}
 			#Factories are removed immediately to keep consistency with how decisions work
 			219 = { #Moscow
@@ -4720,7 +4720,7 @@ focus_tree = {
 				add_equipment_to_stockpile = {
 					type = train_equipment
 					amount = RUS_industrial_relocation_trains_focus
-					producer = RUS
+					producer = BWR
 				}
 			}
 			custom_effect_tooltip = RUS_focus_select_effect_tt
@@ -5309,7 +5309,7 @@ focus_tree = {
 						NOT = { is_controlled_by = ROOT }
 					}
 
-					RUS = { surrender_progress > 0.1 } #Keep an eye on this, might be too cheesy
+					BWR = { surrender_progress > 0.1 } #Keep an eye on this, might be too cheesy
 				}
 			}
 		}
@@ -6093,7 +6093,7 @@ focus_tree = {
 						traits = { operative_demolition_expert operative_commando }
 						bypass_recruitment = no
 						available_to_spy_master = yes
-						nationalities = { RUS }
+						nationalities = { BWR }
 					}
 				}
 
@@ -6523,7 +6523,7 @@ focus_tree = {
 						id = ROOT
 						value = -200
 					}
-					RUS = {
+					BWR = {
 						add_ai_strategy = {
 							type = befriend
 							id = PREV
@@ -6562,7 +6562,7 @@ focus_tree = {
 						id = ROOT
 						value = -200
 					}
-					RUS = {
+					BWR = {
 						add_ai_strategy = {
 							type = befriend
 							id = PREV
@@ -6634,11 +6634,11 @@ focus_tree = {
 				prioritize = { 88 } #Krakow
 				create_unit = {
 					division = "name = \"Imperial Guards\" division_template = \"Imperial Guards\" start_experience_factor = 1.0" 
-					owner = RUS
+					owner = BWR
 				}
 				create_unit = {
 					division = "name = \"Imperial Guards\" division_template = \"Imperial Guards\" start_experience_factor = 1.0" 
-					owner = RUS
+					owner = BWR
 				}
 			}
 		}
@@ -9277,7 +9277,7 @@ focus_tree = {
 					}
 					NOT = { has_war_with = ROOT }
 				}
-				add_opinion_modifier = { target = RUS modifier = SOV_anti_fascist_policies_good } 
+				add_opinion_modifier = { target = BWR modifier = SOV_anti_fascist_policies_good } 
 			}
 
 			every_other_country = {
@@ -9285,7 +9285,7 @@ focus_tree = {
 					is_major = yes
 					has_government = fascism
 				}
-				add_opinion_modifier = { target = RUS modifier = SOV_anti_fascist_policies_bad } 
+				add_opinion_modifier = { target = BWR modifier = SOV_anti_fascist_policies_bad } 
 			}
 
 			
@@ -9622,7 +9622,7 @@ focus_tree = {
 					add_equipment_production = {
 						equipment = {
 							type = ship_hull_cruiser_2
-							creator = "RUS"
+							creator = "BWR"
 							version_name = "Hipper Class"
 						}
 						name = "Petropavlovsk"
@@ -9677,7 +9677,7 @@ focus_tree = {
 					add_equipment_production = {
 						equipment = {
 							type = heavy_cruiser_2
-							creator = "RUS"
+							creator = "BWR"
 						}
 						requested_factories = 1
 						progress = 0.5
@@ -9798,7 +9798,7 @@ focus_tree = {
 					}
 					NOT = { has_war_with = ROOT }
 				}
-				add_opinion_modifier = { target = RUS modifier = SOV_anti_capitalist_policies_good } 
+				add_opinion_modifier = { target = BWR modifier = SOV_anti_capitalist_policies_good } 
 			}
 
 			every_other_country = {
@@ -9806,7 +9806,7 @@ focus_tree = {
 					is_major = yes
 					has_government = democratic
 				}
-				add_opinion_modifier = { target = RUS modifier = SOV_anti_capitalist_policies_bad } 
+				add_opinion_modifier = { target = BWR modifier = SOV_anti_capitalist_policies_bad } 
 			}
 
 			
@@ -10332,7 +10332,7 @@ focus_tree = {
 						owns_state = 207
 					}
 				}
-				add_opinion_modifier = { target = RUS modifier = claimed_eastern_poland }
+				add_opinion_modifier = { target = BWR modifier = claimed_eastern_poland }
 			}
 		}
 	}
@@ -10409,7 +10409,7 @@ focus_tree = {
 				custom_effect_tooltip = needs_approval
 			}
 			effect_tooltip = {
-				RUS = {
+				BWR = {
 					if = {
 						limit = { POL = { owns_state = 96 controls_state = 96 } }
 						transfer_state = 96
@@ -10529,7 +10529,7 @@ focus_tree = {
 				}
 			}
 			effect_tooltip = {
-				RUS = {
+				BWR = {
 					if = {
 						limit = { POL = { owns_state = 96 controls_state = 96 } }
 						transfer_state = 96
@@ -10828,13 +10828,13 @@ focus_tree = {
 				}
 			}
 			ENG = {
-				add_opinion_modifier = { target = RUS modifier = middle_east_expansionism }
+				add_opinion_modifier = { target = BWR modifier = middle_east_expansionism }
 			}
 			FRA = {
-				add_opinion_modifier = { target = RUS modifier = middle_east_expansionism }
+				add_opinion_modifier = { target = BWR modifier = middle_east_expansionism }
 			}
 			USA = {
-				add_opinion_modifier = { target = RUS modifier = middle_east_expansionism }
+				add_opinion_modifier = { target = BWR modifier = middle_east_expansionism }
 			}
 		}
 	}
@@ -10910,7 +10910,7 @@ focus_tree = {
 		search_filters = {}
 
 		completion_reward = {
-			JAP = { add_opinion_modifier = { target = RUS modifier = SOV_supported_china_bad } }
+			JAP = { add_opinion_modifier = { target = BWR modifier = SOV_supported_china_bad } }
 			every_other_country = {
 				limit = {
 					SOV_is_free_chinese_tag = yes
@@ -10945,7 +10945,7 @@ focus_tree = {
 					}
 					add_ideas = RUS_support_in_china_monarchist
 				}
-				add_opinion_modifier = { target = RUS modifier = SOV_supported_china_good }
+				add_opinion_modifier = { target = BWR modifier = SOV_supported_china_good }
 			}
 		}
 	}
@@ -11288,10 +11288,10 @@ focus_tree = {
 				country_event = { id = NSB_soviet_foreign_politics_events.262 hours = 12 random_hours = 6 }
 				custom_effect_tooltip = if_they_accept
 				effect_tooltip = {
-					add_opinion_modifier = { target = RUS modifier = border_conflict_reconciled }
+					add_opinion_modifier = { target = BWR modifier = border_conflict_reconciled }
 					transfer_state = 655
 					diplomatic_relation = {
-						country = RUS
+						country = BWR
 						relation = non_aggression_pact
 						active = yes
 					}
@@ -11379,29 +11379,29 @@ focus_tree = {
 				if = {
 					limit = {
 						JAP = {	has_war_with = USA }
-						NOT = { RUS = { has_war_with = USA } }
+						NOT = { BWR = { has_war_with = USA } }
 					}
-					RUS = { add_to_war = { targeted_alliance = JAP enemy = USA hostility_reason = asked_to_join } }
+					BWR = { add_to_war = { targeted_alliance = JAP enemy = USA hostility_reason = asked_to_join } }
 				}
 				else_if = {
 					limit = {
-						RUS = { has_war_with = USA }
+						BWR = { has_war_with = USA }
 						NOT = { JAP = {	has_war_with = USA } }
 					}
-					JAP = { add_to_war = { targeted_alliance = RUS enemy = USA hostility_reason = asked_to_join } }
+					JAP = { add_to_war = { targeted_alliance = BWR enemy = USA hostility_reason = asked_to_join } }
 				}
 				else_if = {
 					limit = {
-						NOT = { RUS = { has_war_with = USA } }
+						NOT = { BWR = { has_war_with = USA } }
 						NOT = { JAP = {	has_war_with = USA } }
 					}
-					RUS = {
+					BWR = {
 						declare_war_on = {
 							target = USA
 							type = annex_everything
 						}
 					}
-					JAP = { add_to_war = { targeted_alliance = RUS enemy = USA hostility_reason = asked_to_join } }
+					JAP = { add_to_war = { targeted_alliance = BWR enemy = USA hostility_reason = asked_to_join } }
 				}
 
 				#Diplo stuff
@@ -11409,11 +11409,11 @@ focus_tree = {
 					if = {
 						limit = {
 							NOT = {
-								has_non_aggression_pact_with = RUS
+								has_non_aggression_pact_with = BWR
 							}
 						}
 						diplomatic_relation = {
-							country = RUS
+							country = BWR
 							relation = non_aggression_pact
 							active = yes
 						}
@@ -11421,8 +11421,8 @@ focus_tree = {
 				}
 
 				#Claims
-				463 = { add_claim_by = RUS } #Alaska
-				650 = { add_claim_by = RUS } #Atu Island
+				463 = { add_claim_by = BWR } #Alaska
+				650 = { add_claim_by = BWR } #Atu Island
 				632 = { add_claim_by = JAP } #Wake Island
 				631 = { add_claim_by = JAP } #Midway Island
 				629 = { add_claim_by = JAP } #Hawaii
@@ -11433,11 +11433,11 @@ focus_tree = {
 
 				#Relations stuff
 				JAP = {
-					add_opinion_modifier = { target = RUS modifier = SOV_soviet_japanese_pact_against_usa }
+					add_opinion_modifier = { target = BWR modifier = SOV_soviet_japanese_pact_against_usa }
 				}
 
 				#Targeted NS
-				RUS = {
+				BWR = {
 					add_timed_idea = { idea = RUS_soviet_japanese_anti_usa_pact days = 365 }
 				}
 				JAP = {

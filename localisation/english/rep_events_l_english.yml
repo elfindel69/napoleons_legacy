@@ -15,14 +15,14 @@
  RUS_royals_events.2.d:0 "Our government has agreed to host the exiled Polish Royal Family. It is our duty to welcome them and to make them feel safe in our country."
  RUS_royals_events.2.a:0 "They are welcome here."
  
- RUS_royals_news_events.1.t:0 "[RUS.GetName] Banishes Royal Family"
- RUS_royals_news_events.1.desc:0 "In what it called a 'merciful' decision, theSaxon entire [RUS.GetAdjective] Royal Family has been banished from the country. No further comments were given by government spokesmen, or by representatives of the Royal Family themselves. Earlier today, they arrived in [FRA.GetNameDef] and asked asylum there, which has been accepted."
+ RUS_royals_news_events.1.t:0 "[BWR.GetName] Banishes Royal Family"
+ RUS_royals_news_events.1.desc:0 "In what it called a 'merciful' decision, theSaxon entire [BWR.GetAdjective] Royal Family has been banished from the country. No further comments were given by government spokesmen, or by representatives of the Royal Family themselves. Earlier today, they arrived in [FRA.GetNameDef] and asked asylum there, which has been accepted."
  RUS_royals_news_events.1.a:0 "Good riddance."
  RUS_royals_news_events.1.b:0 "The socialist tyranny is laid bare for all to see."
  RUS_royals_news_events.1.c:0 "A victory for the class struggle!"
  
- RUS_royals_news_events.2.t:0 "Disappearance of [RUS.GetAdjective] Royal Family"
- RUS_royals_news_events.2.desc:0 "As yet another week has passed since the last public appearance of any member of the [RUS.GetAdjective] Royal Family, rumors abound about their likely fate. The government has refused to comment on the matter entirely, and has begun cracking down on any media reports that would bring attention to the issue.\n\nThe government's silence is only more noticeable in light of anonymous accounts by certain individuals who claim to have been members of the Royal Family's household, speaking of "seeing the Royal Family be forcibly removed from Royal Palace by masked men" some weeks ago."
+ RUS_royals_news_events.2.t:0 "Disappearance of [BWR.GetAdjective] Royal Family"
+ RUS_royals_news_events.2.desc:0 "As yet another week has passed since the last public appearance of any member of the [BWR.GetAdjective] Royal Family, rumors abound about their likely fate. The government has refused to comment on the matter entirely, and has begun cracking down on any media reports that would bring attention to the issue.\n\nThe government's silence is only more noticeable in light of anonymous accounts by certain individuals who claim to have been members of the Royal Family's household, speaking of "seeing the Royal Family be forcibly removed from Royal Palace by masked men" some weeks ago."
  RUS_royals_news_events.2.a:0 "It had to be done."
  RUS_royals_news_events.2.b:0 "The socialists have no respect for human life!"
  RUS_royals_news_events.2.c:0 "They got their due."

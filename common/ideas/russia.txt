@@ -97,7 +97,7 @@ ideas = {
 		RUS_militarism_focus = {
 				
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 				always = no
 			}
 
@@ -118,7 +118,7 @@ ideas = {
 		RUS_authoritarianism_focus = {
 				
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 				always = no
 			}
 
@@ -145,7 +145,7 @@ ideas = {
 		RUS_internationalism_focus = {
 		
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 				always = no
 			}
 
@@ -204,7 +204,7 @@ ideas = {
 		RUS_neutrality_government = {
 				
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 				always = no
 			}
 
@@ -225,7 +225,7 @@ ideas = {
 		RUS_fascist_government = {
 				
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 				always = no
 			}
 
@@ -246,7 +246,7 @@ ideas = {
 		RUS_communist_government = {
 				
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 				always = no
 			}
 
@@ -340,7 +340,7 @@ ideas = {
 		RUS_monarchism_focus = {
 				
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 				always = no
 			}
 
@@ -368,7 +368,7 @@ ideas = {
 		RUS_king_rules_focus = {
 				
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 				always = no
 			}
 
@@ -391,7 +391,7 @@ ideas = {
 		RUS_polish_deal = {
 				
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 				always = no
 			}
 
@@ -415,7 +415,7 @@ ideas = {
 		RUS_baltic_deal = {
 				
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 				always = no
 			}
 
@@ -441,7 +441,7 @@ ideas = {
 		RUS_monarchist_science = {
 				
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 				always = no
 			}
 
@@ -463,7 +463,7 @@ ideas = {
 		RUS_a_strong_army = {
 				
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 				always = no
 			}
 
@@ -484,7 +484,7 @@ ideas = {
 		RUS_army_doctrine = {
 				
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 				always = no
 			}
 
@@ -506,7 +506,7 @@ ideas = {
 		RUS_government_doctrine = {
 				
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 				always = no
 			}
 
@@ -530,7 +530,7 @@ ideas = {
 		RUS_approach_germany = {
 				
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 				always = no
 			}
 
@@ -554,7 +554,7 @@ ideas = {
 		}
 		RUS_approach_italy = {
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 				always = no
 			}
 
@@ -575,7 +575,7 @@ ideas = {
 		}
 		RUS_for_the_motherland = {
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 				always = no
 			}
 
@@ -680,7 +680,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				tag = RUS
+				tag = BWR
 			}
 
 			picture = generic_exploit_mines
@@ -700,7 +700,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				tag = RUS
+				tag = BWR
 			}
 
 			picture = usa_magic
@@ -721,7 +721,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				tag = RUS
+				tag = BWR
 			}
 
 			picture = SOV_transformation_of_nature
@@ -743,15 +743,15 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				tag = RUS
+				tag = BWR
 			}
 
 			cancel = {
 				OR = {
-					has_war_with = RUS
+					has_war_with = BWR
 					AND = {
 						is_subject = yes
-						NOT = { is_subject_of = RUS }
+						NOT = { is_subject_of = BWR }
 					}
 				}
 			}
@@ -773,15 +773,15 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				tag = RUS
+				tag = BWR
 			}
 
 			cancel = {
 				OR = {
-					has_war_with = RUS
+					has_war_with = BWR
 					AND = {
 						is_subject = yes
-						NOT = { is_subject_of = RUS }
+						NOT = { is_subject_of = BWR }
 					}
 				}
 			}
@@ -803,15 +803,15 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				tag = RUS
+				tag = BWR
 			}
 
 			cancel = {
 				OR = {
-					has_war_with = RUS
+					has_war_with = BWR
 					AND = {
 						is_subject = yes
-						NOT = { is_subject_of = RUS }
+						NOT = { is_subject_of = BWR }
 					}
 				}
 			}
@@ -833,15 +833,15 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				tag = RUS
+				tag = BWR
 			}
 
 			cancel = {
 				OR = {
-					has_war_with = RUS
+					has_war_with = BWR
 					AND = {
 						is_subject = yes
-						NOT = { is_subject_of = RUS }
+						NOT = { is_subject_of = BWR }
 					}
 				}
 			}
@@ -863,15 +863,15 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				tag = RUS
+				tag = BWR
 			}
 
 			cancel = {
 				OR = {
-					has_war_with = RUS
+					has_war_with = BWR
 					AND = {
 						is_subject = yes
-						NOT = { is_subject_of = RUS }
+						NOT = { is_subject_of = BWR }
 					}
 				}
 			}
@@ -891,7 +891,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				tag = RUS
+				tag = BWR
 			}
 
 			picture = CZE_planning_bonus
@@ -927,7 +927,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				tag = RUS
+				tag = BWR
 			}
 
 			picture = generic_japanese_conflict
@@ -969,7 +969,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				tag = RUS
+				tag = BWR
 			}
 
 			picture = generic_usa_conflict
@@ -992,7 +992,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				original_tag = RUS #Every RUS has this
+				original_tag = BWR #Every BWR has this
 			}
 
 			equipment_bonus = {
@@ -1019,7 +1019,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				tag = RUS #Main RUS
+				tag = BWR #Main BWR
 			}
 
 			modifier = {
@@ -1041,7 +1041,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				tag = RUS #Main RUS
+				tag = BWR #Main BWR
 			}
 
 			modifier = {
@@ -1202,7 +1202,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				tag = RUS
+				tag = BWR
 			}
 
 			modifier = {
@@ -1220,7 +1220,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				tag = RUS
+				tag = BWR
 			}
 
 			modifier = {
@@ -1238,7 +1238,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				tag = RUS
+				tag = BWR
 			}
 
 			modifier = {
@@ -1261,7 +1261,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				tag = RUS
+				tag = BWR
 			}
 
 			modifier = {
@@ -1559,7 +1559,7 @@ ideas = {
 			}
 
 			cancel = {
-				has_war_with = RUS
+				has_war_with = BWR
 			}
 
 			on_remove = {
@@ -1589,7 +1589,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				tag = RUS
+				tag = BWR
 			}
 
 			targeted_modifier = {
@@ -1669,7 +1669,7 @@ ideas = {
 			}
 		}
 
-		RUS_expanded_exploitation_of_gold_mines = { #NS for Sinkiang, when prospecting for resources in Dzungaria and granting resource rights to RUS
+		RUS_expanded_exploitation_of_gold_mines = { #NS for Sinkiang, when prospecting for resources in Dzungaria and granting resource rights to BWR
 
 			picture = SPR_seize_the_gold_reserves
 
@@ -1814,7 +1814,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				original_tag = RUS #Every RUS has this
+				original_tag = BWR #Every BWR has this
 			}
 
 			modifier = {
@@ -1832,7 +1832,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				original_tag = RUS #Every RUS has this
+				original_tag = BWR #Every BWR has this
 			}
 
 			equipment_bonus = {
@@ -1853,7 +1853,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				original_tag = RUS #Every RUS has this
+				original_tag = BWR #Every BWR has this
 			}
 
 			equipment_bonus = {
@@ -1878,7 +1878,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				original_tag = RUS #Every RUS has this
+				original_tag = BWR #Every BWR has this
 			}
 
 			equipment_bonus = {
@@ -1899,7 +1899,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				original_tag = RUS #Every RUS has this
+				original_tag = BWR #Every BWR has this
 			}
 
 			equipment_bonus = {
@@ -2159,7 +2159,7 @@ ideas = {
 
 			allowed = {
 				OR = {
-					original_tag = RUS
+					original_tag = BWR
 					AND = {
 						OR = {
 							is_literally_china = yes
@@ -2188,7 +2188,7 @@ ideas = {
 					}
 					has_completed_focus = CHI_hire_soviet_designer
 					NOT = {
-						has_war_with = RUS
+						has_war_with = BWR
 					}
 				}
 			}
@@ -2209,7 +2209,7 @@ ideas = {
 			picture = morozov_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -2239,7 +2239,7 @@ ideas = {
 			picture = morozov_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -2272,7 +2272,7 @@ ideas = {
 			picture = morozov_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -2302,7 +2302,7 @@ ideas = {
 			picture = morozov_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -2333,7 +2333,7 @@ ideas = {
 			picture = morozov_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -2364,7 +2364,7 @@ ideas = {
 			picture = morozov_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -2395,7 +2395,7 @@ ideas = {
 			picture = morozov_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -2436,7 +2436,7 @@ ideas = {
 			picture = astrov_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -2463,7 +2463,7 @@ ideas = {
 			picture = astrov_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -2493,7 +2493,7 @@ ideas = {
 			picture = astrov_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -2526,7 +2526,7 @@ ideas = {
 			picture = astrov_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -2556,7 +2556,7 @@ ideas = {
 			picture = astrov_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -2587,7 +2587,7 @@ ideas = {
 			picture = astrov_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -2618,7 +2618,7 @@ ideas = {
 			picture = astrov_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -2649,7 +2649,7 @@ ideas = {
 			picture = astrov_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -2690,7 +2690,7 @@ ideas = {
 			picture = okmo
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -2717,7 +2717,7 @@ ideas = {
 			picture = okmo
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -2747,7 +2747,7 @@ ideas = {
 			picture = okmo
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -2780,7 +2780,7 @@ ideas = {
 			picture = okmo
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -2810,7 +2810,7 @@ ideas = {
 			picture = okmo
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -2841,7 +2841,7 @@ ideas = {
 			picture = okmo
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -2872,7 +2872,7 @@ ideas = {
 			picture = okmo
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -2903,7 +2903,7 @@ ideas = {
 			picture = okmo
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -2943,7 +2943,7 @@ ideas = {
 			picture = SOV_mytishchy_machine_building_plant
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -2973,7 +2973,7 @@ ideas = {
 			picture = SOV_mytishchy_machine_building_plant
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -3009,7 +3009,7 @@ ideas = {
 			picture = SOV_mytishchy_machine_building_plant
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -3045,7 +3045,7 @@ ideas = {
 			picture = SOV_mytishchy_machine_building_plant
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -3081,7 +3081,7 @@ ideas = {
 			picture = SOV_mytishchy_machine_building_plant
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -3118,7 +3118,7 @@ ideas = {
 			picture = SOV_mytishchy_machine_building_plant
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -3155,7 +3155,7 @@ ideas = {
 			picture = SOV_mytishchy_machine_building_plant
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -3192,7 +3192,7 @@ ideas = {
 			picture = SOV_mytishchy_machine_building_plant
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -3239,7 +3239,7 @@ ideas = {
 			picture = SOV_kirov
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -3266,7 +3266,7 @@ ideas = {
 			picture = SOV_kirov
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -3296,7 +3296,7 @@ ideas = {
 			picture = SOV_kirov
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -3329,7 +3329,7 @@ ideas = {
 			picture = SOV_kirov
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -3359,7 +3359,7 @@ ideas = {
 			picture = SOV_kirov
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -3390,7 +3390,7 @@ ideas = {
 			picture = SOV_kirov
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -3421,7 +3421,7 @@ ideas = {
 			picture = SOV_kirov
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -3452,7 +3452,7 @@ ideas = {
 			picture = SOV_kirov
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -3501,7 +3501,7 @@ ideas = {
 			picture = nevskoye_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -3530,7 +3530,7 @@ ideas = {
 			picture = nevskoye_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -3565,7 +3565,7 @@ ideas = {
 			picture = nevskoye_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -3600,7 +3600,7 @@ ideas = {
 			picture = nevskoye_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -3635,7 +3635,7 @@ ideas = {
 			picture = nevskoye_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -3666,7 +3666,7 @@ ideas = {
 			picture = nevskoye_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -3704,7 +3704,7 @@ ideas = {
 			picture = nevskoye_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -3742,7 +3742,7 @@ ideas = {
 			picture = nevskoye_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -3779,7 +3779,7 @@ ideas = {
 			picture = nevskoye_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -3816,7 +3816,7 @@ ideas = {
 			picture = nevskoye_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -3853,7 +3853,7 @@ ideas = {
 			picture = nevskoye_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -3893,7 +3893,7 @@ ideas = {
 			picture = nevskoye_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -3942,7 +3942,7 @@ ideas = {
 			picture = SOV_rubin_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -3970,7 +3970,7 @@ ideas = {
 			picture = SOV_rubin_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -4004,7 +4004,7 @@ ideas = {
 			picture = SOV_rubin_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -4038,7 +4038,7 @@ ideas = {
 			picture = SOV_rubin_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -4072,7 +4072,7 @@ ideas = {
 			picture = SOV_rubin_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -4102,7 +4102,7 @@ ideas = {
 			picture = SOV_rubin_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -4139,7 +4139,7 @@ ideas = {
 			picture = SOV_rubin_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -4176,7 +4176,7 @@ ideas = {
 			picture = SOV_rubin_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -4212,7 +4212,7 @@ ideas = {
 			picture = SOV_rubin_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -4248,7 +4248,7 @@ ideas = {
 			picture = SOV_rubin_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -4284,7 +4284,7 @@ ideas = {
 			picture = SOV_rubin_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -4323,7 +4323,7 @@ ideas = {
 			picture = SOV_rubin_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -4371,7 +4371,7 @@ ideas = {
 			picture = SOV_black_sea_shipyard
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -4399,7 +4399,7 @@ ideas = {
 			picture = SOV_black_sea_shipyard
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -4433,7 +4433,7 @@ ideas = {
 			picture = SOV_black_sea_shipyard
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -4467,7 +4467,7 @@ ideas = {
 			picture = SOV_black_sea_shipyard
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -4501,7 +4501,7 @@ ideas = {
 			picture = SOV_black_sea_shipyard
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -4531,7 +4531,7 @@ ideas = {
 			picture = SOV_black_sea_shipyard
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -4568,7 +4568,7 @@ ideas = {
 			picture = SOV_black_sea_shipyard
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -4602,7 +4602,7 @@ ideas = {
 			picture = SOV_black_sea_shipyard
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -4638,7 +4638,7 @@ ideas = {
 			picture = SOV_black_sea_shipyard
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -4674,7 +4674,7 @@ ideas = {
 			picture = SOV_black_sea_shipyard
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -4710,7 +4710,7 @@ ideas = {
 			picture = SOV_black_sea_shipyard
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -4749,7 +4749,7 @@ ideas = {
 			picture = SOV_black_sea_shipyard
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -4797,7 +4797,7 @@ ideas = {
 			picture = SOV_sevastopol_marine_plant
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -4829,7 +4829,7 @@ ideas = {
 			picture = SOV_sevastopol_marine_plant
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -4867,7 +4867,7 @@ ideas = {
 			picture = SOV_sevastopol_marine_plant
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -4905,7 +4905,7 @@ ideas = {
 			picture = SOV_sevastopol_marine_plant
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -4943,7 +4943,7 @@ ideas = {
 			picture = SOV_sevastopol_marine_plant
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -4976,7 +4976,7 @@ ideas = {
 			picture = SOV_sevastopol_marine_plant
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -5017,7 +5017,7 @@ ideas = {
 			picture = SOV_sevastopol_marine_plant
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -5058,7 +5058,7 @@ ideas = {
 			picture = SOV_sevastopol_marine_plant
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -5097,7 +5097,7 @@ ideas = {
 			picture = SOV_sevastopol_marine_plant
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -5136,7 +5136,7 @@ ideas = {
 			picture = SOV_sevastopol_marine_plant
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -5175,7 +5175,7 @@ ideas = {
 			picture = SOV_sevastopol_marine_plant
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -5217,7 +5217,7 @@ ideas = {
 			picture = SOV_sevastopol_marine_plant
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -5275,7 +5275,7 @@ ideas = {
 			picture = mig_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -5306,7 +5306,7 @@ ideas = {
 			picture = mig_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -5343,7 +5343,7 @@ ideas = {
 			picture = mig_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -5375,7 +5375,7 @@ ideas = {
 			picture = mig_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -5408,7 +5408,7 @@ ideas = {
 			picture = mig_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -5446,7 +5446,7 @@ ideas = {
 			picture = mig_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -5485,7 +5485,7 @@ ideas = {
 			picture = mig_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -5519,7 +5519,7 @@ ideas = {
 			picture = mig_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -5569,7 +5569,7 @@ ideas = {
 			picture = ilyushin_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -5600,7 +5600,7 @@ ideas = {
 			picture = ilyushin_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -5637,7 +5637,7 @@ ideas = {
 			picture = ilyushin_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -5669,7 +5669,7 @@ ideas = {
 			picture = ilyushin_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -5702,7 +5702,7 @@ ideas = {
 			picture = ilyushin_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -5740,7 +5740,7 @@ ideas = {
 			picture = ilyushin_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -5779,7 +5779,7 @@ ideas = {
 			picture = ilyushin_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -5813,7 +5813,7 @@ ideas = {
 			picture = ilyushin_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -5864,7 +5864,7 @@ ideas = {
 			picture = tupolev_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -5895,7 +5895,7 @@ ideas = {
 			picture = tupolev_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -5932,7 +5932,7 @@ ideas = {
 			picture = tupolev_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -5964,7 +5964,7 @@ ideas = {
 			picture = tupolev_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -5997,7 +5997,7 @@ ideas = {
 			picture = tupolev_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -6035,7 +6035,7 @@ ideas = {
 			picture = tupolev_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -6074,7 +6074,7 @@ ideas = {
 			picture = tupolev_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -6108,7 +6108,7 @@ ideas = {
 			picture = tupolev_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -6158,7 +6158,7 @@ ideas = {
 			picture = yakovlev_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -6189,7 +6189,7 @@ ideas = {
 			picture = yakovlev_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -6226,7 +6226,7 @@ ideas = {
 			picture = yakovlev_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -6258,7 +6258,7 @@ ideas = {
 			picture = yakovlev_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -6291,7 +6291,7 @@ ideas = {
 			picture = yakovlev_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -6329,7 +6329,7 @@ ideas = {
 			picture = yakovlev_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -6368,7 +6368,7 @@ ideas = {
 			picture = yakovlev_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -6402,7 +6402,7 @@ ideas = {
 			picture = yakovlev_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -6458,7 +6458,7 @@ ideas = {
 			picture = grabin_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -6485,7 +6485,7 @@ ideas = {
 			picture = grabin_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -6518,7 +6518,7 @@ ideas = {
 			picture = grabin_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -6546,7 +6546,7 @@ ideas = {
 			picture = grabin_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -6574,7 +6574,7 @@ ideas = {
 			picture = grabin_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -6608,7 +6608,7 @@ ideas = {
 			picture = grabin_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -6642,7 +6642,7 @@ ideas = {
 			picture = grabin_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -6671,7 +6671,7 @@ ideas = {
 			picture = grabin_design_bureau
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -6716,7 +6716,7 @@ ideas = {
 			picture = tula_arms_plant
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -6743,7 +6743,7 @@ ideas = {
 			picture = tula_arms_plant
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -6776,7 +6776,7 @@ ideas = {
 			picture = tula_arms_plant
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -6804,7 +6804,7 @@ ideas = {
 			picture = tula_arms_plant
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -6832,7 +6832,7 @@ ideas = {
 			picture = tula_arms_plant
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -6866,7 +6866,7 @@ ideas = {
 			picture = tula_arms_plant
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -6900,7 +6900,7 @@ ideas = {
 			picture = tula_arms_plant
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -6929,7 +6929,7 @@ ideas = {
 			picture = tula_arms_plant
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -6973,7 +6973,7 @@ ideas = {
 			picture = gaz
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -7001,7 +7001,7 @@ ideas = {
 			picture = gaz
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -7035,7 +7035,7 @@ ideas = {
 			picture = gaz
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -7064,7 +7064,7 @@ ideas = {
 			picture = gaz
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -7093,7 +7093,7 @@ ideas = {
 			picture = gaz
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -7129,7 +7129,7 @@ ideas = {
 			picture = gaz
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -7164,7 +7164,7 @@ ideas = {
 			picture = gaz
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -7194,7 +7194,7 @@ ideas = {
 			picture = gaz
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -7239,7 +7239,7 @@ ideas = {
 		RUS_stalingrad_tractor_factory = {
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -7263,7 +7263,7 @@ ideas = {
 			picture = stalingrad_tractor_factory
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -7294,7 +7294,7 @@ ideas = {
 		leningrad_politechnical_institute = {
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -7318,7 +7318,7 @@ ideas = {
 			picture = leningrad_politechnical_institute
 
 			allowed = {
-				original_tag = RUS
+				original_tag = BWR
 			}
 
 			visible = {
@@ -7351,7 +7351,7 @@ ideas = {
 			picture = SOV_soviet_railways
 
 			allowed = {
-				original_TAG = RUS
+				original_TAG = BWR
 
 			}
 
@@ -7382,7 +7382,7 @@ ideas = {
 			picture = SOV_soviet_railways
 
 			allowed = {
-				original_TAG = RUS
+				original_TAG = BWR
 
 			}
 

@@ -10,7 +10,7 @@ state={
 	}
 
 	history={
-		owner = RUS
+		owner = BWR
 		victory_points = {
 			6380 50 
 		}
@@ -20,7 +20,7 @@ state={
 			industrial_complex = 3
 			air_base = 10
 		}
-		add_core_of = RUS
+		add_core_of = BWR
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 4

@@ -25,7 +25,7 @@ country_event = {
 	option = {
 		name = poland.1.b
 		ai_chance = { factor = 10 }
-		add_opinion_modifier = { target = RUS modifier = medium_increase }
+		add_opinion_modifier = { target = BWR modifier = medium_increase }
 	}
 }
 
@@ -57,7 +57,7 @@ country_event = {
 			}
 		}
 		effect_tooltip = {
-			RUS = {
+			BWR = {
 				if = {
 					limit = { POL = { owns_state = 96 controls_state = 96 } }
 					transfer_state = 96
@@ -108,14 +108,14 @@ country_event = {
 				}
 			}
 		}
-		RUS = {country_event = { id = poland.3} }
+		BWR = {country_event = { id = poland.3} }
 	}
 
 	option = {
 		name = poland.2.b
 		ai_chance = { factor = 70 }
 		effect_tooltip = {
-			RUS = {
+			BWR = {
 				create_wargoal = {
 					type = take_state_focus
 					target = POL
@@ -123,7 +123,7 @@ country_event = {
 				}
 			}
 		}
-		RUS = { country_event = { id = poland.4 } }
+		BWR = { country_event = { id = poland.4 } }
 	}
 }
 
@@ -255,7 +255,7 @@ country_event = {
 			add_state_claim = 66
 			add_state_claim = 67
 			custom_effect_tooltip = SOV_offer_poland_protection_tt
-			RUS = {
+			BWR = {
 				if = {
 					limit = { POL = { owns_state = 96 controls_state = 96 } }
 					transfer_state = 96
@@ -286,14 +286,14 @@ country_event = {
 				}
 			}
 		}
-		RUS = { country_event = { id = poland.6 } }
+		BWR = { country_event = { id = poland.6 } }
 	}
 
 	option = {
 		name = poland.5.b
 		ai_chance = { factor = 60 }
 		effect_tooltip = {
-			RUS = {
+			BWR = {
 				create_wargoal = {
 					type = take_state_focus
 					target = POL
@@ -301,7 +301,7 @@ country_event = {
 				}
 			}
 		}
-		RUS = { country_event = { id = poland.7 } }
+		BWR = { country_event = { id = poland.7 } }
 	}
 }
 
@@ -388,7 +388,7 @@ country_event = {
 	trigger = {
 		POL = { has_country_flag = POL_accepted_soviet_protection }
 		tag = POL
-		RUS = {
+		BWR = {
 			OR = {
 				owns_state = 5
 				owns_state = 63
@@ -412,26 +412,26 @@ country_event = {
 	option = {
 		name = poland.8.a
 		if = {
-			limit = { RUS = { owns_state = 5 } }
+			limit = { BWR = { owns_state = 5 } }
 			transfer_state = 5
 		}
 		if = {
-			limit = { RUS = { owns_state = 63 } }
+			limit = { BWR = { owns_state = 63 } }
 			transfer_state = 63
 		}
 		if = {
-			limit = { RUS = { owns_state = 68 } }
+			limit = { BWR = { owns_state = 68 } }
 			transfer_state = 68
 		}
 		if = {
-			limit = { RUS = { owns_state = 66 } }
+			limit = { BWR = { owns_state = 66 } }
 			transfer_state = 66
 		}
 		if = {
-			limit = { RUS = { owns_state = 67 } }
+			limit = { BWR = { owns_state = 67 } }
 			transfer_state = 67
 		}
-		RUS = { country_event = { id = poland.9 } }
+		BWR = { country_event = { id = poland.9 } }
 	}
 }
 
@@ -449,7 +449,7 @@ country_event = {
 			if = {
 				limit = {
 					OR = {
-						RUS = { owns_state = 5 }
+						BWR = { owns_state = 5 }
 						POL = { owns_state = 5 }
 					}
 				}
@@ -458,7 +458,7 @@ country_event = {
 			if = {
 				limit = {
 					OR = {
-						RUS = { owns_state = 63 }
+						BWR = { owns_state = 63 }
 						POL = { owns_state = 63 }
 					}
 				}
@@ -467,7 +467,7 @@ country_event = {
 			if = {
 				limit = {
 					OR = {
-						RUS = { owns_state = 68 }
+						BWR = { owns_state = 68 }
 						POL = { owns_state = 68 }
 					}
 				}
@@ -476,7 +476,7 @@ country_event = {
 			if = {
 				limit = {
 					OR = {
-						RUS = { owns_state = 66 }
+						BWR = { owns_state = 66 }
 						POL = { owns_state = 66 }
 					}
 				}
@@ -485,7 +485,7 @@ country_event = {
 			if = {
 				limit = {
 					OR = {
-						RUS = { owns_state = 67 }
+						BWR = { owns_state = 67 }
 						POL = { owns_state = 67 }
 					}
 				}
@@ -544,7 +544,7 @@ country_event = {
 			has_government = monarchist
 		}
 		has_war_with = ITA
-		NOT = { is_in_faction_with = RUS }
+		NOT = { is_in_faction_with = BWR }
 		417 = {
 			controller = {
 				OR = {

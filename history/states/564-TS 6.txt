@@ -12,7 +12,7 @@ state={
 	}
 
 	history={
-		owner = RUS
+		owner = BWR
 		victory_points = {
 			7835 2 
 		}
@@ -23,7 +23,7 @@ state={
 			infrastructure = 2
 
 		}
-		add_core_of = RUS
+		add_core_of = BWR
 		add_core_of = BYA
 	}
 

@@ -34,7 +34,7 @@ RUS_INF_01 =
 {
 	name = "Rifle Division"
 
-	for_countries = { RUS }
+	for_countries = { BWR }
 
 	can_use = { always = yes }
 
@@ -469,7 +469,7 @@ RUS_CAV_01 =
 {
 	name = "Cavalry Division"
 
-	for_countries = { RUS }
+	for_countries = { BWR }
 
 	can_use = { always = yes }
 
@@ -606,7 +606,7 @@ RUS_MOT_01 =
 {
 	name = "Motor Rifle Division"
 
-	for_countries = { RUS }
+	for_countries = { BWR }
 
 	can_use = { always = yes }
 
@@ -671,7 +671,7 @@ RUS_MEC_01 =
 {
 	name = "Mechanized Division"
 
-	for_countries = { RUS }
+	for_countries = { BWR }
 
 	can_use = { always = yes }
 
@@ -724,7 +724,7 @@ RUS_ARM_01 =
 {
 	name = "Tank Division"
 
-	for_countries = { RUS }
+	for_countries = { BWR }
 
 	can_use = { always = yes }
 
@@ -817,7 +817,7 @@ RUS_ARM_02 =
 {
 	name = "Tank Corps"
 
-	for_countries = { RUS }
+	for_countries = { BWR }
 
 	can_use = { always = yes }
 
@@ -910,7 +910,7 @@ RUS_ARM_03 =
 {
 	name = "Guard Tank Corps"
 
-	for_countries = { RUS }
+	for_countries = { BWR }
 
 	can_use = { has_war = yes }
 
@@ -1003,7 +1003,7 @@ RUS_ARM_04 =
 {
 	name = "Tank Brigade"
 
-	for_countries = { RUS }
+	for_countries = { BWR }
 
 	can_use = { always = yes }
 
@@ -1096,7 +1096,7 @@ RUS_PAR_01 =
 {
 	name = "Paratrooper Division"
 
-	for_countries = { RUS }
+	for_countries = { BWR }
 
 	can_use = { always = yes }
 
@@ -1154,7 +1154,7 @@ RUS_MAR_01 =
 {
 	name = "Marine Division"
 
-	for_countries = { RUS }
+	for_countries = { BWR }
 
 	can_use = { always = yes }
 
@@ -1186,7 +1186,7 @@ RUS_MNT_01 =
 {
 	name = "Mountain Rifle Division"
 
-	for_countries = { RUS }
+	for_countries = { BWR }
 
 	can_use = { always = yes }
 
@@ -1230,7 +1230,7 @@ RUS_GAR_01 =
 {
 	name = "Garrison Division"
 
-	for_countries = { RUS }
+	for_countries = { BWR }
 
 	can_use = { always = yes }
 
@@ -1331,7 +1331,7 @@ RUS_GRD_01 =
 {
 	name = "Guards Rifles"
 
-	for_countries = { RUS }
+	for_countries = { BWR }
 
 	can_use = { always = yes }
 
@@ -1482,7 +1482,7 @@ RUS_GMC_01 =
 {
 	name = "Guards Mechanized"
 
-	for_countries = { RUS }
+	for_countries = { BWR }
 
 	can_use = { always = yes }
 
@@ -1513,7 +1513,7 @@ RUS_GTC_01 =
 {
 	name = "Guards Tanks"
 
-	for_countries = { RUS }
+	for_countries = { BWR }
 
 	can_use = { always = yes }
 
@@ -1548,12 +1548,12 @@ RUS_CAV_02 =
 {
 	name = "Cossack Cavalry Division"
 
-	for_countries = { RUS UKR }
+	for_countries = { BWR UKR }
 
 	can_use = {
 		OR = {
 			AND = {
-				tag = RUS
+				tag = BWR
 				has_completed_focus = RUS_restore_cossack_units
 			}
 			tag = UKR
@@ -1684,7 +1684,7 @@ RUS_INF_02 =
 {
 	name = "Trotskyist Revolutionary Militias"
 
-	for_countries = { RUS }
+	for_countries = { BWR }
 
 	can_use = { 
 		always = yes
@@ -1709,7 +1709,7 @@ RUS_INF_02 =
 RUS_JAP_INF = {
 	name = "Japanese Expeditionary Force"
 
-	for_countries = { RUS }
+	for_countries = { BWR }
 
 	can_use = { 
 		ROOT = { has_country_flag = RUS_CSW_transfer_vladivostok_flag }

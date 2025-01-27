@@ -103,7 +103,7 @@ bookmarks = {
 				JAP_strike_on_the_southern_resource_area
 			}		
 		}
-		RUS = {
+		BWR = {
 			history = SOV_BLITZKRIEG_DESC
 			ideology = democratic
 			ideas = {

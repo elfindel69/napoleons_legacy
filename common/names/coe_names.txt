@@ -13,7 +13,7 @@
 # After this, a first and second will be randomly picked from the default pool
 # The prefix must be provided for all pools
 
-RUS = {
+BWR = {
 	male = {
 		names = { 
 			Aleksandr Aleksey Andrey Anton Boris Dmitry Fyodor Gennady 

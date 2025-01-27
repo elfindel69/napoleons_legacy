@@ -234,7 +234,7 @@ units = {
 		}
 		location = 6174
 		division_template = "Pogranichnaya Diviziya"		#  -- older equipment, training
-		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "BWR" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -246,7 +246,7 @@ units = {
 		}
 		location = 6174
 		division_template = "Pogranichnaya Diviziya"		#  -- older equipment, training
-		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "BWR" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -386,7 +386,7 @@ units = {
 		}
 		location = 11202
 		division_template = "Pogranichnaya Diviziya"		#  -- older equipment, training
-		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "BWR" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -398,7 +398,7 @@ units = {
 		}
 		location = 306
 		division_template = "Pogranichnaya Diviziya"		#  -- older equipment, training
-		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "BWR" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -492,7 +492,7 @@ units = {
 		}
 		location = 6380
 		division_template = "Pogranichnaya Diviziya"		#  -- older equipment, training
-		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "BWR" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -504,7 +504,7 @@ units = {
 		}
 		location = 6380
 		division_template = "Pogranichnaya Diviziya"		#  -- older equipment, training
-		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "BWR" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -657,7 +657,7 @@ units = {
 		}
 		location = 9288
 		division_template = "Pogranichnaya Diviziya"		#  -- older equipment, training
-		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "BWR" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -781,7 +781,7 @@ units = {
 		}
 		location = 9355
 		division_template = "Pogranichnaya Diviziya"		#  -- older equipment, training
-		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "BWR" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -793,7 +793,7 @@ units = {
 		}
 		location = 413
 		division_template = "Pogranichnaya Diviziya"		#  -- older equipment, training
-		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "BWR" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -805,7 +805,7 @@ units = {
 		}
 		location = 413
 		division_template = "Pogranichnaya Diviziya"		#  -- older equipment, training
-		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "BWR" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -1022,7 +1022,7 @@ units = {
 		}
 		location = 6481
 		division_template = "Pogranichnaya Diviziya"		#  -- older equipment, training
-		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "BWR" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -1040,7 +1040,7 @@ units = {
 		}
 		location = 3653
 		division_template = "Kavaleriyskaya Diviziya"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "BWR" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.85
 
@@ -1052,7 +1052,7 @@ units = {
 		}
 		location = 3653
 		division_template = "Kavaleriyskaya Diviziya"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "BWR" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.85
 
@@ -1102,7 +1102,7 @@ units = {
 		}
 		location = 3564
 		division_template = "Gornostrelkovaya Diviziya"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "BWR" } }
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
 
@@ -1114,7 +1114,7 @@ units = {
 		}
 		location = 6997
 		division_template = "Gornostrelkovaya Diviziya"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "BWR" } }
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
 
@@ -1126,7 +1126,7 @@ units = {
 		}
 		location = 4660
 		division_template = "Gornostrelkovaya Diviziya"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "BWR" } }
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
 
@@ -1140,7 +1140,7 @@ units = {
 		}
 		location = 1599
 		division_template = "Pogranichnaya Diviziya"		#  -- older equipment, training
-		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "BWR" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -1188,7 +1188,7 @@ units = {
 		}
 		location = 3734
 		division_template = "Strelkovaya Diviziya"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "BWR" } }
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
 
@@ -1213,7 +1213,7 @@ units = {
 		}
 		location = 6330
 		division_template = "Kavaleriyskaya Diviziya"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "BWR" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.85
 
@@ -1225,7 +1225,7 @@ units = {
 		}
 		location = 6330
 		division_template = "Kavaleriyskaya Diviziya"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "BWR" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.85
 
@@ -1237,7 +1237,7 @@ units = {
 		}
 		location = 6330
 		division_template = "Kavaleriyskaya Diviziya"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "BWR" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.85
 
@@ -1249,7 +1249,7 @@ units = {
 		}
 		location = 6330
 		division_template = "Kavaleriyskaya Diviziya"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "BWR" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.85
 
@@ -1274,7 +1274,7 @@ units = {
 		}
 		location = 9417
 		division_template = "Pogranichnaya Diviziya"		#  -- older equipment, training
-		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "BWR" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -1289,7 +1289,7 @@ units = {
 		}
 		location = 12370
 		division_template = "Kavaleriyskaya Diviziya"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "BWR" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -1301,7 +1301,7 @@ units = {
 		}
 		location = 5062
 		division_template = "Kavaleriyskaya Diviziya"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "BWR" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -1313,7 +1313,7 @@ units = {
 		}
 		location = 4768
 		division_template = "Kavaleriyskaya Diviziya"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "BWR" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -1327,7 +1327,7 @@ units = {
 		}
 		location = 1459
 		division_template = "Kavaleriyskaya Diviziya"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "BWR" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -1339,7 +1339,7 @@ units = {
 		}
 		location = 4923
 		division_template = "Gornostrelkovaya Diviziya"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "BWR" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -1351,7 +1351,7 @@ units = {
 		}
 		location = 12805
 		division_template = "Gornostrelkovaya Diviziya"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "BWR" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -1365,7 +1365,7 @@ units = {
 		}
 		location = 1459
 		division_template = "Pogranichnaya Diviziya"		#  -- older equipment, training
-		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "BWR" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -1439,7 +1439,7 @@ units = {
 		}
 		location = 6838
 		division_template = "Strelkovaya Diviziya"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "BWR" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -1451,7 +1451,7 @@ units = {
 		}
 		location = 3977
 		division_template = "Strelkovaya Diviziya"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "BWR" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -1463,7 +1463,7 @@ units = {
 		}
 		location = 11879
 		division_template = "Strelkovaya Diviziya"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "BWR" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -1478,7 +1478,7 @@ units = {
 		}
 		location = 12189
 		division_template = "Strelkovaya Diviziya"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "BWR" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -1490,7 +1490,7 @@ units = {
 		}
 		location = 10466
 		division_template = "Strelkovaya Diviziya"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "BWR" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -1502,7 +1502,7 @@ units = {
 		}
 		location = 11643
 		division_template = "Strelkovaya Diviziya"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "BWR" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -1514,7 +1514,7 @@ units = {
 		}
 		location = 6686
 		division_template = "Kavaleriyskaya Diviziya"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "BWR" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -1536,7 +1536,7 @@ units = {
 		}
 		location = 957
 		division_template = "Pogranichnaya Diviziya"		#  -- older equipment, training
-		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "BWR" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -1552,7 +1552,7 @@ units = {
 		}
 		location = 4719
 		division_template = "Strelkovaya Diviziya"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "BWR" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -1564,7 +1564,7 @@ units = {
 		}
 		location = 12622
 		division_template = "Strelkovaya Diviziya"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "BWR" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -1576,7 +1576,7 @@ units = {
 		}
 		location = 10559
 		division_template = "Strelkovaya Diviziya"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "BWR" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -1590,7 +1590,7 @@ units = {
 		}
 		location = 12641
 		division_template = "Pogranichnaya Diviziya"		#  -- older equipment, training
-		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "BWR" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -1605,7 +1605,7 @@ units = {
 		}
 		location = 10610
 		division_template = "Strelkovaya Diviziya"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "BWR" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -1617,7 +1617,7 @@ units = {
 		}
 		location = 1749
 		division_template = "Strelkovaya Diviziya"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "BWR" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -1629,7 +1629,7 @@ units = {
 		}
 		location = 12529
 		division_template = "Strelkovaya Diviziya"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "BWR" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -1641,7 +1641,7 @@ units = {
 		}
 		location = 12662
 		division_template = "Strelkovaya Diviziya"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "BWR" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -1653,7 +1653,7 @@ units = {
 		}
 		location = 1287
 		division_template = "Pogranichnaya Diviziya"		#  -- older equipment, training
-		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "BWR" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -1672,7 +1672,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_1
-			creator = "RUS"
+			creator = "BWR"
 		}
 		requested_factories = 7
 		progress = 0.1
@@ -1682,7 +1682,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = support_equipment_1
-			creator = "RUS" 
+			creator = "BWR" 
 		}
 		requested_factories = 2
 		progress = 0.3
@@ -1692,7 +1692,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = artillery_equipment_1
-			creator = "RUS" 
+			creator = "BWR" 
 		}
 		requested_factories = 1
 		progress = 0.3
@@ -1702,7 +1702,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = light_tank_equipment_1
-			creator = "RUS" 
+			creator = "BWR" 
 		}
 		requested_factories = 3
 		progress = 0.4
@@ -1712,7 +1712,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = motorized_equipment_1
-			creator = "RUS" 
+			creator = "BWR" 
 		}
 		requested_factories = 3
 		progress = 0.4

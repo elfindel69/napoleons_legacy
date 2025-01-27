@@ -899,7 +899,7 @@
  RUS_autonomy_wtt_imperial_protectorate_DEF:0 "the Imperial Protectorate of Russia"
  RUS_autonomy_supervised_state:0 "$OVERLORDADJ$ Mandate of Russia"
  RUS_autonomy_supervised_state_DEF:0 "the $OVERLORDADJ$ Mandate of Russia"
- RUS:0 "Russia"
+ BWR:0 "Russia"
  RUS_DEF:0 "Russia"
  RUS_ADJ:0 "Russian"
 
