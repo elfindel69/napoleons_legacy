@@ -1,0 +1,70 @@
+AUS_dont_ally_germany = {
+	allowed = { 
+		original_tag = AUS 
+		has_dlc = "Gotterdammerung" 
+	}
+	
+
+	abort = {
+		GER = {
+			OR = {
+				NOT = {
+					has_government = fascism
+				}
+				is_in_faction_with = AUS #If they somehow end up in the same faction, like the Central Powers, then STAY THERE and don't cause weirdness
+			}
+			
+		}
+	}
+
+	ai_strategy = {
+		type = alliance
+		id = "GER"
+		value = -1000
+	}
+}
+
+AUS_dont_ally_japan = {
+	allowed = { 
+		original_tag = AUS 
+		has_dlc = "Gotterdammerung" 
+	}
+	
+
+	abort = {
+		JAP = {
+			is_in_faction_with = AUS #If they somehow end up in the same faction then STAY THERE and don't cause weirdness
+		}
+	}
+
+	ai_strategy = {
+		type = alliance
+		id = "JAP"
+		value = -1000
+	}
+}
+
+AUS_no_historical_ai_austria_in_the_allies = { #aka don't ruin the German players fun
+	allowed = {
+		original_tag = AUS 
+		has_dlc = "Gotterdammerung" 
+	}
+	enable = {
+	
+		has_government = fascism
+	}
+
+	abort = {
+		has_government = democratic
+	}
+
+	ai_strategy = {
+		type = alliance
+		id = "ENG"
+		value = -1000
+	}
+}
+
+
+
+
