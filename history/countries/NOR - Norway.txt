@@ -65,7 +65,6 @@ if = {
 	recruit_character = NOR_axel_aubert
 	recruit_character = NOR_peder_furubotn
 	recruit_character = NOR_jeanette_olsen
-	recruit_character = NOR_lev_trotsky
 	recruit_character = NOR_sverre_riisnaes
 	recruit_character = NOR_birger_meidell
 	recruit_character = NOR_ragnar_skancke

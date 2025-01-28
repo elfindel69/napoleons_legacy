@@ -748,7 +748,6 @@ if = {
 	recruit_character = SWE_carl_ehrensvard
 	recruit_character = SWE_frans_severin
 	recruit_character = SWE_exiled_revolutionaries
-	recruit_character = SWE_nordic_defense_council_leader
 	recruit_character = SWE_raoul_wallenberg
 	recruit_character = SWE_natanael_beskow
 	recruit_character = SWE_olof_thornell

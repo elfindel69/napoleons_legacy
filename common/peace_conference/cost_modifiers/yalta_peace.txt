@@ -5,13 +5,13 @@ peace_action_modifiers = {
 
     ### Yalta Conference
 
-    yalta_pls_PLCand_into_space = {
+    yalta_pls_poland_into_space = {
         category = treaties_or_conferences
         peace_action_type = { take_states }
         enable = {
             has_global_flag = yalta_agreed_flag
-            ROOT = { tag = PLC }
-            FROM.FROM.FROM = { has_state_flag = yalta_PLC }
+            ROOT = { tag = POL }
+            FROM.FROM.FROM = { has_state_flag = yalta_pol }
             GER = {
                 pc_is_loser = yes
                 has_government = fascism
@@ -21,16 +21,16 @@ peace_action_modifiers = {
     }
 
 
-    yalta_pls_leave_PLCand_alone = {
+    yalta_pls_leave_poland_alone = {
         category = treaties_or_conferences
         peace_action_type = { take_states puppet liberate force_government }
         enable = {
             has_global_flag = yalta_agreed_flag
             ROOT = {
-                NOT = { tag = PLC }
+                NOT = { tag = POL }
                 OR = {
-                    tag = SOV
-                    is_in_faction_with = SOV
+                    tag = BWR
+                    is_in_faction_with = BWR
                     OR = {
                         has_country_flag = yalta_signatory_faction_leader
                         any_allied_country = {
@@ -39,8 +39,8 @@ peace_action_modifiers = {
                     }
                 }
             }
-            FROM.FROM.FROM = { has_state_flag = yalta_PLC }
-            PLC = {
+            FROM.FROM.FROM = { has_state_flag = yalta_pol }
+            POL = {
                 pc_is_puppeted = no
                 is_subject = no
             }
@@ -60,8 +60,8 @@ peace_action_modifiers = {
             has_global_flag = yalta_agreed_flag
             ROOT = {
                 OR = {
-                    tag = SOV
-                    is_in_faction_with = SOV
+                    tag = BWR
+                    is_in_faction_with = BWR
                     AND = {
                         NOT = { has_country_flag = yalta_signatory_faction_leader }
                         NOT = { any_allied_country = {
@@ -78,7 +78,7 @@ peace_action_modifiers = {
                 }
                 NOT = {
                     OR = {
-                        has_state_flag = yalta_PLC
+                        has_state_flag = yalta_pol
                         has_state_flag = yalta_ddr
                         has_state_flag = yalta_aus
                     }
@@ -101,8 +101,8 @@ peace_action_modifiers = {
             ROOT = {
                 OR = {
                     AND = {
-                        NOT = { tag = SOV }
-                        is_in_faction_with = SOV
+                        NOT = { tag = BWR }
+                        is_in_faction_with = BWR
                     }
                     OR = {
                         has_country_flag = yalta_signatory_faction_leader
@@ -116,7 +116,7 @@ peace_action_modifiers = {
                 has_state_flag = yalta_ddr
                 NOT = {
                     OR = {
-                        has_state_flag = yalta_PLC
+                        has_state_flag = yalta_pol
                         has_state_flag = yalta_wgr
                         has_state_flag = yalta_aus
                     }
@@ -139,7 +139,7 @@ peace_action_modifiers = {
             ROOT = { has_country_flag = yalta_signatory_faction_leader }
             FROM.FROM.FROM = {
                 has_state_flag = yalta_wgr
-                NOT = { has_state_flag = yalta_PLC }
+                NOT = { has_state_flag = yalta_pol }
             }
             GER = {
                 pc_is_loser = yes
@@ -160,7 +160,7 @@ peace_action_modifiers = {
             }
             FROM.FROM.FROM = {
                 has_state_flag = yalta_wgr
-                NOT = { has_state_flag = yalta_PLC }
+                NOT = { has_state_flag = yalta_pol }
             }
             GER = {
                 pc_is_loser = yes
@@ -183,7 +183,7 @@ peace_action_modifiers = {
             }
             FROM.FROM.FROM = {
                 has_state_flag = yalta_wgr
-                NOT = { has_state_flag = yalta_PLC }
+                NOT = { has_state_flag = yalta_pol }
             }
             GER = {
                 pc_is_loser = yes
@@ -199,10 +199,10 @@ peace_action_modifiers = {
         peace_action_type = { puppet }
         enable = {
             has_global_flag = yalta_agreed_flag
-            ROOT = { tag = SOV }
+            ROOT = { tag = BWR }
             FROM.FROM.FROM = {
                 has_state_flag = yalta_ddr
-                NOT = { has_state_flag = yalta_PLC }
+                NOT = { has_state_flag = yalta_pol }
             }
             GER = {
                 pc_is_loser = yes
@@ -217,10 +217,10 @@ peace_action_modifiers = {
         peace_action_type = { force_government }
         enable = {
             has_global_flag = yalta_agreed_flag
-            ROOT = { tag = SOV }
+            ROOT = { tag = BWR }
             FROM.FROM.FROM = {
                 has_state_flag = yalta_ddr
-                NOT = { has_state_flag = yalta_PLC }
+                NOT = { has_state_flag = yalta_pol }
             }
             GER = {
                 pc_is_loser = yes

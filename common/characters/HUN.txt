@@ -1718,10 +1718,7 @@ characters = {
 					original_tag = HUN
 				}
 
-				available = {
-					wuw_HUN_does_not_have_trianon = yes
-				}
-
+				
 				traits = {
 					army_chief_offensive_2
 				}

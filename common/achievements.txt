@@ -641,7 +641,6 @@ big_entente = {
 	
 	happened = {
 		is_faction_leader = yes
-		has_completed_focus = FRA_strengthen_the_little_entente		
 		all_state = {
 			OR = {
 				NOT = { is_core_of = GER }
@@ -718,9 +717,7 @@ brains = {
 		tag = CAN
 	}
 	
-	happened = {
-		has_completed_focus = CAN_send_in_the_zombies
-	}
+	
 }
 
 district_9 = {
@@ -791,12 +788,7 @@ crusader_kings_2 = {
 	}
 	
 	happened = {
-		has_completed_focus = SAF_anti_colonialist_crusade
-		has_country_flag = SAF_released_ANG
-		has_country_flag = SAF_released_MZB
-		has_country_flag = SAF_released_ZIM
-		has_country_flag = SAF_released_KEN
-		has_country_flag = SAF_released_COG
+	
 		is_faction_leader = yes
 		any_country = {
 			OR = {
@@ -1056,10 +1048,7 @@ death_or_dishonor_or_cake = {
 			tooltip = achievement_carol_II_is_leader
 			has_country_leader = { id = 550 }			
 		}		
-		NOT = { has_completed_focus = ROM_force_abdication }
-		NOT = { has_completed_focus = ROM_handle_the_king }
-		NOT = { has_completed_focus = ROM_all_parties_must_end }
-
+		
 		any_state = {
 			is_core_of = BUL
 			is_owned_by = ROOT
@@ -1509,9 +1498,7 @@ hail_to_the_qing = {
 		game_rules_allow_achievements = yes
 	}
 	
-	happened = {
-		has_completed_focus = MAN_claim_the_mandate_of_heaven
-	}
+	
 }
 
 the_good_the_bad_and_the_weird = {
@@ -1894,9 +1881,7 @@ last_for_a_thousand_years = {
 		game_rules_allow_achievements = yes
 	}
 	
-	happened = {
-		has_completed_focus = ENG_imperial_federation
-	}
+	
 }
 
 britzkrieg = {
@@ -1912,7 +1897,6 @@ britzkrieg = {
 	}
 	
 	happened = {
-		has_completed_focus = ENG_the_kings_party
 		is_in_faction_with = GER
 		OR = {
 			FRA = { has_capitulated = yes }
@@ -1955,14 +1939,13 @@ william_wallis = {
 	}
 	
 	happened = {
-		has_completed_focus = ENG_the_kings_party
 		SCO = {
 			is_subject_of = ENG
 		}
 		USA = {
 			is_subject_of = ENG
 		}
-		has_country_flag = created_american_monarchy
+		
 	}
 }
 
@@ -1980,7 +1963,6 @@ crush_the_dream = {
 	
 	happened = {
 		has_government = communism
-		has_completed_focus = ENG_crush_the_dream
 		USA = {
 			is_subject_of = ENG
 		}
@@ -2000,9 +1982,7 @@ treading_the_narrow_path = {
 	}
 	
 	happened = {
-		NOT = { has_completed_focus = HOL_cave_to_the_germans }
-		has_completed_focus = HOL_the_zuiderzee_works
-		NOT = { has_country_flag = HOL_lost_starting_state }
+		
 		date > 1945.01.01
 	}
 }
@@ -2049,7 +2029,7 @@ bevrijding = {
 	
 	happened = {
 		has_government = democratic
-		has_completed_focus = HOL_liberation
+	
 	}
 }
 
@@ -2849,9 +2829,7 @@ nobodys_business_but_the_turks = {
 		original_tag = TUR
 	}
 	
-	happened = {
-		has_completed_focus = TUR_return_of_the_sultan
-	}
+	
 }
 
 kurdish_achievement = {
@@ -3027,7 +3005,6 @@ balkan_problem_solved = {
 	happened = {
 		has_government = communism
 		is_faction_leader = yes
-		has_completed_focus = BUL_the_unification_of_the_balkans
 		custom_trigger_tooltip = {
 			tooltip = balkan_problem_solved_tt
 			all_state = {
@@ -3055,7 +3032,6 @@ bad_romeance = {
 	happened = {
 		custom_trigger_tooltip = {
 			tooltip = bad_romeance_tt
-			has_any_byz_cosmetic_tag = yes 
 			has_subject = SOV
 			has_subject = ROM
 			has_subject = ITA
@@ -3207,7 +3183,7 @@ master_puppeteer = {
 	}
 	
 	happened = {
-		has_completed_focus = BUL_the_fate_of_the_balkans
+		
 		count_triggers = {
 			amount = 6
 			ROM = { is_subject_of = ROOT }
@@ -3507,7 +3483,7 @@ this_achievement_is_cheesy = {
 	
 	happened = {
 		controls_state = 666
-		has_completed_focus = LAT_ostland
+		
 	}
 }
 
@@ -3907,7 +3883,7 @@ poland_peasant_revolution = {
 	
 	happened = {
 		POL = { 
-			has_completed_focus = POL_organize_the_peasants_strike
+			
 			has_civil_war = no
 			OR = {
 				has_government = democratic
@@ -4027,7 +4003,7 @@ the_lion_king = {
 	}
 	
 	happened = {
-		has_completed_focus = ETH_the_king_of_kings
+		
 		has_country_leader = { ruling_only = yes character = ETH_haile_selassie }
 		controls_state = 546
 		controls_state = 905
@@ -4050,7 +4026,7 @@ this_time_for_africa = {
 	}
 	
 	happened = {
-		has_completed_focus = ETH_the_african_union
+		
 		count_triggers = {
 			amount = 13
 			is_in_faction_with = SAF
@@ -4261,7 +4237,7 @@ not_today = {
 	happened = {
 		has_government = communism
 		has_country_leader = { ruling_only = yes character = ITA_antonio_gramsci }
-		has_completed_focus = ITA_il_sol_dell_avvenire
+		
 	}
 }
 
@@ -4610,7 +4586,7 @@ lone_wolf = {
 	happened = {
 		tag = FIN
 		NOT = { has_global_flag = achievement_FIN_has_joined_a_faction }
-		FIN = { has_completed_focus = FIN_greater_finland }
+		
 		213 = { #MURMANSK
 			is_owned_and_controlled_by = FIN
 		}
@@ -4667,16 +4643,7 @@ no_one_crosses_the_finnish_line = { #works
 		date > 1944.09.19 #Fin-Sov Armastice
 		NOT = { has_global_flag = achievement_fin_has_lost_one_starting_core }
 
-		NOT = {
-			FIN = {
-				has_completed_focus = FIN_right_wing_policies
-				has_completed_focus = FIN_suomalainen_sosialismi
-			}
-
-			SOV = {
-				has_completed_focus = SOV_beaten_but_not_defeated
-			}
-		}
+		
 		
 	}
 }
@@ -5048,7 +5015,6 @@ the_merry_band = {
 		tag = BRA
 	}
 	happened = {
-		has_completed_focus = BRA_cangaco_coup
 		controls_State = 129
 		has_government = communism
 	}
@@ -5350,7 +5316,7 @@ king_of_what = {
 	}
 	happened = {
 		has_government = neutrality
-		has_completed_focus = CHL_crown_antoine_as_sovereign_king
+	
 		controls_state = 16
 	}
 }
@@ -5478,16 +5444,7 @@ reconquistadors = {
 		}
 	}
 	happened = {
-		OR = {
-			AND = {
-				tag = ARG
-				has_completed_focus = ARG_union_nacional_fascista
-			}
-			AND = {
-				tag = CHL
-				has_completed_focus = CHL_restore_the_old_kingdom
-			}
-		}
+	
 		controls_state = 171
 		controls_state = 790
 		controls_state = 174
@@ -5522,7 +5479,7 @@ hispanics_of_the_world_unite = {
 		tag = CHL
 	}
 	happened = {
-		has_completed_focus = CHL_the_hispanic_alliance
+		
 		is_faction_leader = yes
 		set_temp_variable = { t_count = 0 }
 		if = { 
@@ -6193,7 +6150,6 @@ brentry = {
 				original_tag = HOL
 				HOL = {
 					is_faction_leader = yes
-					has_completed_focus = HOL_foundations_for_a_european_union
 					ENG = { is_in_faction_with = ROOT }
 				}
 			}
@@ -6549,7 +6505,6 @@ tsar_bomba = {
 
 	happened = {
 		SOV = {
-			has_completed_focus = SOV_romanov_reconstruction
 			has_tech = thermonuclear_bombs
 		}
 		

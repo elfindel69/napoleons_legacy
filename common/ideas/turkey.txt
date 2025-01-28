@@ -388,24 +388,7 @@ ideas = {
 				has_dlc = "Battle for the Bosporus"
 			}
 
-			available = {
-				
-				IF = {
-					limit = {
-						has_dlc = "Arms Against Tyranny"
-					}
-					mio:TUR_ticaret_organization = {
-						has_mio_size >4
-					}
-					mio:TUR_koc_ticaret_as_shipyard_organization = {
-						has_mio_size >4
-					}
-					mio:TUR_koc_ticaret_as_defense_industry_organization = {
-						has_mio_size >4
-					}
-				}
-				
-			}
+			
 			
 			research_bonus = {
 				industry = 0.2

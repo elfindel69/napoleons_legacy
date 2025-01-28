@@ -174,7 +174,6 @@ recruit_character = MEX_gilberto_limon
 recruit_character = MEX_pablo_macias
 recruit_character = MEX_jose_gonzalo_escobar
 recruit_character = MEX_agustin_olachea
-recruit_character = MEX_leon_trotsky
 recruit_character = MEX_saturnino_cedillo
 recruit_character = MEX_hector_meixueiro
 recruit_character = MEX_matias_santos_ramos

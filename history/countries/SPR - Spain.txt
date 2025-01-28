@@ -151,22 +151,18 @@ if = {
 	recruit_character = SPR_nicolas_molero
 	recruit_character = SPR_felipe_diaz_sandino
 	recruit_character = SPR_andres_nin
-	recruit_character = SPR_council_of_theorists
+
 	recruit_character = SPR_domenec_batet
 	recruit_character = SPR_etelvino_vega
 	recruit_character = SPR_mate_zalka
-	recruit_character = SPR_defensive_military_council
-	recruit_character = SPR_offensive_military_council
-	recruit_character = SPR_organizational_military_council
+	
 	recruit_character = SPR_ignacio_hidalgo_de_cisneros
 	recruit_character = SPR_andres_garcia_la_calle
 	recruit_character = SPR_alberto_bayo
-	recruit_character = SPR_air_safety_aviation_council
-	recruit_character = SPR_all_weather_aviation_council
+	
 	recruit_character = SPR_luis_gonzalez_de_ubieta
 	recruit_character = SPR_joakin_egia_unzueta
-	recruit_character = SPR_commerce_raiding_naval_council
-	recruit_character = SPR_reform_naval_council
+
 	recruit_character = SPR_toribio_martinez_cabrera
 	recruit_character = SPR_francisco_ciutat_de_miguel
 	recruit_character = SPR_antonio_ortega_gutierrez
@@ -176,12 +172,7 @@ if = {
 	recruit_character = SPR_wilhelm_zaisser
 	recruit_character = SPR_antonio_escobar_huerta
 	recruit_character = SPR_infantry_military_council
-	recruit_character = SPR_army_regrouping_military_council
-	recruit_character = SPR_concealment_military_council
-	recruit_character = SPR_naval_strike_aviation_council
-	recruit_character = SPR_close_air_support_aviation_council
-	recruit_character = SPR_logistics_naval_council
-	recruit_character = SPR_anti_submarine_naval_council
+
 	recruit_character = SPR_juan_negrin
 	recruit_character = SPR_juan_lopez_sanchez
 	recruit_character = SPR_juan_garcia_oliver
@@ -189,7 +180,7 @@ if = {
 	recruit_character = SPR_juan_andrade
 	recruit_character = SPR_antonia_adroher_i_pascual
 	recruit_character = SPR_jesus_hernandez_tomas
-	recruit_character = SPR_alexander_orlov
+
 	recruit_character = SPR_indalecio_prieto
 	recruit_character = SPR_dolores_ibarruri
 	recruit_character = SPR_diego_martinez_barrio
