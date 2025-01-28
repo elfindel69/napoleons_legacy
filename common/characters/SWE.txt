@@ -23,22 +23,6 @@ characters={
 		}
 	}
 
-	SWE_nordic_defense_council_leader={
-		name=SWE_nordic_defense_council_leader
-		portraits={
-			civilian={
-				large=GFX_portrait_SWE_nordic_defense_council
-				#small = "GFX_portrait_SWE_tage_erlander_small"
-			}
-		}
-
-		country_leader={
-			ideology=socialism
-			expire="1965.1.1.1"
-			id=-1
-			traits = { SWE_high_defense_budget }
-		}
-	}
 
 	SWE_sven_olov_lindholm={
 		name=SWE_sven_olov_lindholm
@@ -61,25 +45,7 @@ characters={
 						original_tag  = SWE
 					}
 
-					on_add = {
-						if = {
-							limit = {
-								FIN = {
-									NOT = { has_completed_focus = FIN_approach_the_soviets }
-								}
-							}
-							SWE = { add_ideas =  SWE_committee_against_the_finnish_white_terror_idea } 
-						}
-					}
-
-					on_remove = {  
-						if = {
-							limit = {
-								SWE = { has_idea = SWE_committee_against_the_finnish_white_terror_idea }
-							}
-							SWE = { remove_ideas =  SWE_committee_against_the_finnish_white_terror_idea }
-						}
-					}
+					
 
 					traits = { SWE_committee_against_the_finnish_white_terror }
 				}
@@ -160,14 +126,10 @@ characters={
 			}
 			visible = { 
 				has_government = communism 
-				NOT = {
-					has_country_leader = { character = SWE_sven_linderot }
- 				}
+			
 			}
 			available = {
-				NOT = {
-					has_country_leader = { character = SWE_sven_linderot }
- 				}
+				
 				is_country_leader = no
 				has_government = communism 
 			}
@@ -291,12 +253,7 @@ characters={
 			traits  = {
 				SWE_minister_of_transport
 			}
-			available = {
-				has_completed_focus = SWE_infrastructure
-			}
-			visible = {
-				has_completed_focus = SWE_infrastructure
-			}
+			
 		}
 		name=SWE_frans_severin
 		portraits={
@@ -391,7 +348,7 @@ characters={
 			defense_skill=1
 			maneuvering_skill=1
 			coordination_skill=1
-			visible = { has_character_flag = has_rikard_persson }
+			
 		}
 
 	}
@@ -411,12 +368,7 @@ characters={
 			allowed = {
 				original_tag = SWE
 			}
-			visible = {
-				has_completed_focus = SWE_refuge_for_revolutionaries
-			}
-			available = {
-				has_completed_focus = SWE_refuge_for_revolutionaries
-			}
+			
 			traits = { SWE_exiled_revolutionaries }
 		}
 	}
@@ -1392,12 +1344,10 @@ characters={
 		advisor = {
 			slot = political_advisor
 			idea_token = SWE_arne_beurling
-			visible = {
-				has_country_flag = SWE_spying_on_GER
-			}
+			
 			available  = {
 					original_tag  = SWE
-					has_country_flag = SWE_spying_on_GER
+					
 					has_intelligence_agency  = yes 
 					custom_trigger_tooltip  = {
 						tooltip  = cyptology_tooltip_tt
@@ -1440,9 +1390,7 @@ characters={
 			}
 			available = { 
 				is_country_leader = no
-				NOT = {
-					has_completed_focus = SWE_liquidate_the_monarchy
-				}
+				
 			}
 			allowed  = {
 				original_tag  = SWE
@@ -1520,13 +1468,7 @@ characters={
 				SWE_minister_of_trade 
 			}
 
-			on_add = {
-				set_character_flag = is_hired
-			}
-
-			on_remove = {
-				clr_character_flag = is_hired
-			}
+		
 		}
 		name=SWE_herman_eriksson
 		portraits={
@@ -1554,52 +1496,7 @@ characters={
 			traits  = {
 				SWE_suffragette 
 			}
-			on_add = {
-				SWE = {
-					if = {
-						limit = {
-							SWE_ebba_palmstierna = {
-								NOT = { has_character_flag = is_hired }
-							}
-						}
-
-						unlock_decision_tooltip = {
-						 	decision = SWE_ebba_add_research
-						 	show_effect_tooltip = yes # default is no
-						 	show_modifiers = yes # default is no
-						 }
-
-						unlock_decision_tooltip = {
-						 	decision = SWE_ebba_add_production
-						 	show_effect_tooltip = yes # default is no
-						 	show_modifiers = yes # default is no
-						 }
-						unlock_decision_tooltip = {
-						 	decision = SWE_ebba_political_clout
-						 	show_effect_tooltip = yes # default is no
-						 	show_modifiers = yes # default is no
-						 } 
-					}
-					else = {
-						unlock_decision_tooltip = {
-						 	decision = SWE_ebba_add_research
-						 }
-
-						unlock_decision_tooltip = {
-						 	decision = SWE_ebba_add_production
-						 }
-						unlock_decision_tooltip = {
-						 	decision = SWE_ebba_political_clout
-						 } 
-					}
-
-				}
-				set_character_flag = is_hired
-			}
-
-			on_remove = {
-				clr_character_flag = is_hired
-			}
+			
 		}
 		name=SWE_ebba_palmstierna
 		portraits={
@@ -1671,24 +1568,7 @@ characters={
 				NOT = { has_war_with = FIN }
 			}
 			traits = { SWE_interventionist_firebrand }
-			on_add = {
-				SWE = {
-					set_rule = { 
-						can_send_volunteers = yes 
-					}
-					if = {
-						limit = { has_idea = neutrality_idea }
-						remove_ideas = neutrality_idea
-					}
-				}
-
-				custom_effect_tooltip = SWE_the_cross_we_bear_tt_3
-				SWE_increase_the_cross_we_bear = yes
-			}
-
-			on_remove = {
-				SWE_reduce_the_cross_we_bear = yes
-			}
+			
 
 			ai_will_do = {
 				factor = 0
@@ -1712,19 +1592,9 @@ characters={
 			allowed  = {
 				original_tag  = SWE
 			}
-			available = { 
-				has_completed_focus = SWE_education_reform
-				#OR = {
-				#	has_government = democratic
-				#	has_government = communism
-				#}
-			}
+			
 
-			visible = {
-				has_completed_focus = SWE_education_reform
-				#NOT = { has_completed_focus = SWE_reject_saltsjobaden }
-				#NOT = { has_completed_focus = SWE_prevent_a_red_dictatorship }
-			}
+		
 			traits = { SWE_family_oriented_sociologist }
 			on_add = {
 				SWE_gunnar_myrdal = {
@@ -1760,19 +1630,7 @@ characters={
 			allowed  = {
 				original_tag  = SWE
 			}
-			available = { 
-				has_completed_focus = SWE_education_reform
-				#OR = {
-				#	has_government = democratic
-				#	has_government = communism
-				#}
-			}
-
-			visible = {
-				has_completed_focus = SWE_education_reform
-				#NOT = { has_completed_focus = SWE_reject_saltsjobaden }
-				#NOT = { has_completed_focus = SWE_prevent_a_red_dictatorship }
-			}
+			
 			traits = { SWE_anti_nazi_interdisciplinary_social_scientist }
 			on_add = {
 				SWE_alva_myrdal = {
@@ -1910,8 +1768,7 @@ characters={
 				OR = {
 					has_government = fascism
 					has_government = neutrality
-					has_completed_focus = SWE_the_old_enemy_stirs
-				}
+					}
 			}
 			traits = { harsh_propagandist }
 			ai_will_do = {
@@ -1966,20 +1823,18 @@ characters={
 			available = { 
 				OR = {
 					has_government = communism
-					AND = {
-						has_completed_focus = SWE_align_more_closely_with_the_landsorganisationen
-						has_government = democratic
-					}
+					
+					has_government = democratic
+					
 				}
 			}
 
 			visible = {
 				OR = {
 					has_government = communism
-					AND = {
-						has_completed_focus = SWE_align_more_closely_with_the_landsorganisationen
-						has_government = democratic
-					}
+					
+					has_government = democratic
+					
 				}
 			}
 
@@ -2015,20 +1870,18 @@ characters={
 			available = { 
 				OR = {
 					has_government = communism
-					AND = {
-						has_completed_focus = SWE_align_more_closely_with_the_landsorganisationen
+					
 						has_government = democratic
-					}
+					
 				}
 			}
 
 			visible = {
 				OR = {
 					has_government = communism
-					AND = {
-						has_completed_focus = SWE_align_more_closely_with_the_landsorganisationen
+					
 						has_government = democratic
-					}
+					
 				}
 			}
 			traits = { protector_of_cultural_heritage }
@@ -2056,20 +1909,18 @@ characters={
 			available = {
 				OR = {
 					has_government = communism
-					AND = {
-						has_completed_focus = SWE_align_more_closely_with_the_landsorganisationen
+					
 						has_government = democratic
-					}
+					
 				}
 			}
 
 			visible = {
 				OR = {
 					has_government = communism
-					AND = {
-						has_completed_focus = SWE_align_more_closely_with_the_landsorganisationen
+					
 						has_government = democratic
-					}
+					
 				}
 			}
 			traits = { marxist_philosopher }

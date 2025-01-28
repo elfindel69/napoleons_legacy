@@ -122,18 +122,8 @@ characters = {
 			allowed = {
 				original_tag = BWR
 			}
-			visible = {
-				
-				NOT = {
-					has_completed_focus = SOV_the_third_rome
-				}
-			}
-			available = {
-				
-				NOT = {
-					has_completed_focus = SOV_the_third_rome
-				}
-			}
+			
+			
 			traits = {
 				the_masses_opium
 			}
@@ -1644,10 +1634,7 @@ characters = {
 			planning_skill = 2
 			logistics_skill = 3
 			
-			visible = {
-				NOT = { has_character_flag = SOV_exiled_flag }
-				has_completed_focus = SOV_the_glory_of_the_red_army
-			}
+			
 		}
 	}
   
@@ -1687,10 +1674,7 @@ characters = {
 			defense_skill = 1
 			planning_skill = 1
 			logistics_skill = 1
-			visible = {
-				NOT = { has_character_flag = SOV_exiled_flag }
-				ROOT = { has_completed_focus = SOV_beaten_but_not_defeated }
-			}
+			
 		}
 	}
   
@@ -1747,10 +1731,7 @@ characters = {
 			defense_skill = 1
 			planning_skill = 1
 			logistics_skill = 1
-			visible = {
-				NOT = { has_character_flag = SOV_exiled_flag }
-				ROOT = { has_completed_focus = SOV_beaten_but_not_defeated }
-			}
+			
 		}
 	}
   
@@ -2030,18 +2011,7 @@ characters = {
 				small = "GFX_idea_SOV_ivar_smilga"
 			}
 		}
-		allowed_civil_war = { 
-			OR = {
-				AND = {
-					tag = SOV 
-					has_government = communism
-				}
-				AND = {
-					SOV_is_exiles = yes 
-					has_government = communism 
-				}
-			}
-		}
+		
 
 		advisor = {
 			slot = political_advisor

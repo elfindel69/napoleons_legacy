@@ -16,9 +16,7 @@ characters={
 					large=GFX_portrait_Johan_Nygaardsvold
 				}
 			}
-			allowed_civil_war = {
-				NOR_char_cw_democratic = yes
-			}
+			
 			country_leader={
 				ideology=socialism
 				expire="1965.1.1.1"
@@ -34,9 +32,7 @@ characters={
 					small=GFX_portrait_NOR_martin_tranmael_small
 				}
 			}
-			allowed_civil_war = {
-				NOR_char_cw_democratic = yes
-			}
+			
 			country_leader={
 				ideology=socialism
 				expire="1965.1.1.1"
@@ -45,19 +41,11 @@ characters={
 			advisor={
 				slot = political_advisor
 				idea_token = NOR_martin_tranmael
-				allowed  = {
-					NOR_AAT = yes 
-				}
+				
 				traits  = {
 					 NOR_democratic_powerhouse
 				}	
-				ai_will_do = {
-					factor = 1
-					modifier = {
-						add = 20
-						NOR_is_historical_ai = yes 
-					}
-				}
+				
 			}
 		}
 	
@@ -69,9 +57,7 @@ characters={
 					small=GFX_portrait_NOR_johan_h_andresen_small
 				}
 			}
-			allowed_civil_war = {
-				NOR_char_cw_democratic = yes
-			}
+			
 			country_leader={
 				ideology=conservatism
 				expire="1965.1.1.1"
@@ -80,9 +66,7 @@ characters={
 			advisor={
 				slot = political_advisor
 				idea_token = NOR_johan_h_andresen
-				allowed  = {
-					NOR_AAT = yes
-				}
+				
 				available = {
 					is_country_leader = no
 				}
@@ -94,9 +78,7 @@ characters={
 	
 		NOR_adam_egede_nissen={ # Stalinist Communist
 			name=NOR_adam_egede_nissen
-			allowed_civil_war = {
-				NOR_char_cw_stalinist = yes 
-			}
+			
 			portraits={
 				civilian={
 					large=GFX_portrait_NOR_adam_egede_nissen
@@ -119,12 +101,7 @@ characters={
 					small=GFX_portrait_NOR_olav_scheflo_small
 				}
 			}
-			allowed_civil_war = {
-				OR = {
-					NOR_char_cw_labor_only = yes 
-					NOR_char_cw_trotskyist = yes 
-				}
-			}
+			
 			country_leader={
 				ideology=marxism
 				expire="1965.1.1.1"
@@ -134,9 +111,7 @@ characters={
 			advisor={
 				slot = political_advisor
 				idea_token = NOR_olav_scheflo
-				allowed  = {
-					NOR_AAT = yes
-				}
+				
 				available = {
 					has_government = democratic			
 				}
@@ -154,9 +129,7 @@ characters={
 					small=GFX_portrait_NOR_peder_anker_wedel_jarlsberg_small
 				}
 			}
-			allowed_civil_war = {
-				NOR_char_cw_loyalist = yes
-			}
+			
 			country_leader={
 				ideology=despotism
 				expire="1965.1.1.1"
@@ -166,24 +139,11 @@ characters={
 			advisor={
 				slot = political_advisor
 				idea_token = NOR_peder_anker_wedel_jarlsberg
-				allowed  = {
-					NOR_AAT = yes
-				}
+				
 				traits  = {
 					 NOR_royal_chamberlain
 				}
-				available = {
-					NOT = {
-						has_completed_focus = NOR_send_the_king_back_to_denmark
-					}
-				}
-				ai_will_do = {
-					base = 0
-					modifier = {
-						add = 200
-						NOR_is_monarchist_ai = yes
-					}
-				}
+				
 			}
 		}
 	
@@ -193,9 +153,7 @@ characters={
 					large=GFX_portrait_NOR_queen_mathilde_i
 				}
 			}
-			allowed_civil_war = {
-				NOR_char_cw_loyalist = yes
-			}		
+					
 			country_leader={
 				ideology=despotism
 				expire="1965.1.1.1"
@@ -211,9 +169,7 @@ characters={
 					large=GFX_portrait_NOR_king_haakon_vii
 				}
 			}
-			allowed_civil_war = {
-				NOR_char_cw_loyalist = yes
-			}
+			
 			country_leader={
 				ideology=despotism
 				expire="1965.1.1.1"
@@ -228,15 +184,7 @@ characters={
 				coordination_skill=4
 				legacy_id=-1
 				
-				visible = {
-					OR = {
-						has_completed_focus = NOR_the_kingdom_of_norway
-						has_completed_focus = NOR_preparing_the_return_to_norway
-					}
-					NOT = {
-						has_global_flag = NOR_the_norwegian_king_is_dead
-					}
-				}
+				
 			}
 	
 		}	
@@ -251,9 +199,7 @@ characters={
 					large=GFX_portrait_NOR_prince_olav
 				}
 			}
-			allowed_civil_war = {
-				NOR_char_cw_loyalist = yes
-			}
+			
 			country_leader={
 				ideology=despotism
 				expire="1965.1.1.1"
@@ -300,9 +246,7 @@ characters={
 				}
 			}
 			
-			allowed_civil_war = {
-				NOR_char_cw_fascist = yes 
-			}
+			
 	
 			country_leader={
 				ideology=fascism_ideology
@@ -313,9 +257,7 @@ characters={
 			advisor={
 				slot = political_advisor
 				idea_token = NOR_vidkun_quisling
-				allowed  = {
-					NOR_AAT = yes
-				}
+				
 				available = {				
 					
 					is_country_leader = no
@@ -323,23 +265,15 @@ characters={
 				traits  = {
 					 NOR_fascist_lackey
 				}
-				ai_will_do = {
-					base = 0
-					modifier = {
-						add = 200
-						NOR_is_fascist_ai = yes
-					}
-				}
+				
 			}
 			advisor={
 				slot = army_chief
 				idea_token = NOR_vidkun_quisling
-				allowed = {
-					NOR_AAT = yes
-				}
+				
 				available = {
 					has_government = fascism 
-					NOT = { has_completed_focus = NOR_jonas_lie_coup }
+				
 				}
 				traits = {
 					army_chief_reform_1
@@ -353,9 +287,7 @@ characters={
 				slot = high_command
 				idea_token = NOR_vidkun_quisling
 				ledger = army
-				allowed = {
-					NOR_AAT = yes
-				}
+				
 				traits = {
 					army_entrenchment_1
 				}
@@ -375,9 +307,7 @@ characters={
 				}
 			}
 			
-			allowed_civil_war = {
-				NOR_char_cw_fascist = yes 
-			}
+			
 	
 			country_leader={
 				ideology=nazism
@@ -400,9 +330,7 @@ characters={
 				}
 			}
 	
-			allowed_civil_war = {
-				NOR_char_cw_fascist = yes 
-			}
+			
 	
 			country_leader={
 				ideology=gen_nazism
@@ -413,14 +341,11 @@ characters={
 			advisor={
 				slot = political_advisor
 				idea_token = NOR_jonas_lie
-				allowed  = {
-					NOR_AAT = yes
-				}
+				
 				available = {
-					OR = {
-						has_completed_focus = NOR_squash_dissent
-						has_government = fascism 
-					}
+					
+					has_government = fascism 
+					
 				}
 				traits  = { NOR_ruthless_police_captain }
 			}
@@ -432,7 +357,6 @@ characters={
 				}
 				available = {
 					has_government = fascism 
-					NOT = { has_completed_focus = NOR_bring_back_quisling }
 				}
 				traits = {
 					army_chief_drill_2
@@ -460,15 +384,11 @@ characters={
 				}
 			}
 	
-			allowed_civil_war = {
-				NOR_char_cw_loyalist = yes 			
-			}
+			
 			advisor={
 				slot = political_advisor
 				idea_token = NOR_axel_aubert
-				allowed  = {
-					NOR_aat = yes 
-				}
+				
 				available = {
 					has_government = neutrality
 				}
@@ -485,40 +405,20 @@ characters={
 					small=GFX_portrait_NOR_johan_ludwig_mowinckel_small
 				}
 			}
-			allowed_civil_war = {
-				NOR_char_cw_loyalist = yes 
-			}
+			
 			advisor={
 				slot = political_advisor
 				idea_token = NOR_johan_ludwig_mowinckel
-				allowed  = {
-					NOR_AAT = yes
-				}
+				
 				available = {
 					has_government = democratic
-					OR = {
-						has_completed_focus = NOR_vote_of_no_confidence
-						has_completed_focus = NOR_continue_nygaardsvold_government
-					}
+					
 				}
 				traits  = {
 					 NOR_shipping_capitalist
 				}
-				on_add = { 
-					mio:NOR_akers_mekaniske_verksted_organization = {
-						unlock_mio_trait_tooltip = {
-							trait = NOR_mio_trait_convoy_production
-							show_modifiers = yes 
-						}
-					}
-				}
-				ai_will_do = {
-					base = 0
-					modifier = {
-						add = 50
-						NOR_is_stalinist_ai = yes
-					}
-				}
+				
+				
 			}
 		}
 	
@@ -530,16 +430,12 @@ characters={
 				}
 			}
 	
-			allowed_civil_war = {
-				NOR_char_cw_stalinist = yes 
-			}
+			
 	
 			advisor={
 				slot = political_advisor
 				idea_token = NOR_peder_furubotn
-				allowed  = {
-					NOR_AAT = yes
-				}
+				
 				traits  = {
 					NOR_communist_agitator
 				}
@@ -554,85 +450,20 @@ characters={
 				}
 			}
 			
-			allowed_civil_war = {
-				NOR_char_cw_trotskyist = yes 
-			}
+			
 			
 			advisor={
 				slot = political_advisor
 				idea_token = NOR_jeanette_olsen
-				allowed  = {
-					NOR_AAT = yes
-				}
-				available = {
-					has_completed_focus = NOR_prosecute_the_nkp
-				}
+				
+				
 				traits  = {
 					NOR_radical_trade_unionist
 				}
 			}
 		}
 	
-		NOR_lev_trotsky={
-			name=NOR_lev_trotsky
-			portraits={
-				civilian={
-					large=GFX_portrait_SOV_lev_trotsky
-					small="GFX_idea_SOV_lev_trotsky"
-				}
-				army={
-					large=GFX_portrait_NOR_lev_trotskij
-					small="GFX_idea_SOV_lev_trotsky"
-				}
-			}
-	
-					
-			allowed_civil_war = {
-				NOR_char_cw_trotskyist = yes 
-			}
-	
-			advisor={
-				slot = political_advisor
-				idea_token = NOR_lev_trotsky
-				allowed  = {
-					NOR_AAT = yes
-				}	
-				ai_will_do = {
-					factor = 1
-					modifier = {
-						add = 100
-						NOR_is_trotskyist_ai = yes 
-					}
-				}
-				available = {
-					has_country_flag = NOR_trotsky_embraced
-					NOT = { has_completed_focus = NOR_compromise_with_the_nkp } 
-					NOT = { has_government = fascism } 
-					NOT = { has_government = neutrality }
-					NOR_trotsky_not_in_sov = yes 
-					NOR_trotsky_not_in_mex = yes #Yes, I know this is bullshit but it's all for the tooltip
-				}
-				traits  = {
-					NOR_permanent_revolutionary
-				}
-			}
-			corps_commander={
-				visible = {
-					has_completed_focus = NOR_a_resurgent_labor_movement
-					has_country_flag = NOR_trotsky_embraced
-					NOT = {	
-						has_completed_focus = NOR_compromise_with_the_nkp 
-					}
-				}
-				traits={  }
-				skill=3
-				attack_skill=4
-				defense_skill=2
-				planning_skill=3
-				logistics_skill=1
-				legacy_id=-1
-			}
-		}
+		
 		
 		NOR_sverre_riisnaes={
 			name=NOR_sverre_riisnaes
@@ -643,16 +474,12 @@ characters={
 			}
 	
 	
-			allowed_civil_war = {
-				NOR_char_cw_fascist = yes 
-			}
+			
 	
 			advisor={
 				slot = political_advisor
 				idea_token = NOR_sverre_riisnaes
-				allowed  = {
-					NOR_AAT = yes
-				}
+				
 				available = {
 					has_government = fascism 
 				}
@@ -670,21 +497,16 @@ characters={
 				}
 			}
 	
-			allowed_civil_war = {
-				NOR_char_cw_fascist = yes 
-			}
+			
 	
 			advisor={
 				slot = political_advisor
 				idea_token = NOR_birger_meidell
-				allowed  = {
-					NOR_AAT = yes
-				}
+				
 				available = {
-					OR = {
+					
 						has_government = fascism 
-						has_completed_focus = NOR_nasjonal_samling
-					}
+						
 				}
 				traits  = {
 					NOR_fascist_advocate
@@ -700,16 +522,12 @@ characters={
 				}
 			}
 			
-			allowed_civil_war = {
-				NOR_char_cw_fascist = yes 
-			}
+			
 			
 			advisor={
 				slot = political_advisor
 				idea_token = NOR_ragnar_skancke
-				allowed  = {
-					NOR_AAT = yes
-				}
+				
 				available = {
 					has_government = fascism 
 				}
@@ -728,22 +546,13 @@ characters={
 			}
 	
 	
-			allowed_civil_war = {
-				OR = {
-					NOR_char_cw_fascist = yes 
-					NOR_char_cw_conservative = yes 
-				}
-			}
+			
 			
 			advisor={
 				slot = political_advisor
 				idea_token = NOR_joakim_lehmkuhl
-				allowed  = {
-					NOR_AAT = yes
-				}
-				available = {
-					has_completed_focus = NOR_approach_the_fatherland_league 
-				}
+				
+				
 				traits  = {
 					NOR_conservative_businessman
 				}
@@ -758,16 +567,11 @@ characters={
 				}
 			}
 	
-			allowed_civil_war = {
-				NOR_char_cw_labor_only = yes 
-			}
 	
 			advisor = {
 				slot = political_advisor 
 				idea_token = NOR_hans_ystgaard
-				allowed = {
-					NOR_AAT = yes 
-				}
+				
 				available = { has_government = democratic }
 				traits = {
 					NOR_minister_of_agriculture 
@@ -792,9 +596,7 @@ characters={
 				}
 			}
 	
-			allowed_civil_war = {
-				NOR_char_cw_loyalist = yes 
-			}
+			
 	
 			corps_commander={
 				visible = {
@@ -837,9 +639,7 @@ characters={
 				}
 			}
 	
-			allowed_civil_war = {
-				NOR_char_cw_fascist = yes 
-			}
+			
 	
 			corps_commander={
 				traits={ trait_reckless }
@@ -947,9 +747,7 @@ characters={
 				}
 			}
 	
-			allowed_civil_war = {
-				NOR_char_cw_loyalist = yes 
-			}
+			
 	
 			navy_leader={
 				traits={ inshore_fighter seawolf }
@@ -965,9 +763,7 @@ characters={
 		NOR_wilhelm_von_tangen_hansteen={
 			name=NOR_wilhelm_von_tangen_hansteen
 	
-			allowed_civil_war = {
-				NOR_char_cw_loyalist = yes 
-			}
+			
 					
 			advisor={
 				slot = army_chief
@@ -1022,9 +818,7 @@ characters={
 		NOR_skule_storheil={
 			name=NOR_skule_storheil
 		
-			allowed_civil_war = {
-				NOR_char_cw_loyalist = yes 
-			}
+			
 			
 			advisor={
 				cost = 100
@@ -1073,9 +867,7 @@ characters={
 		NOR_tryggve_gran={
 			name=NOR_tryggve_gran
 			
-			allowed_civil_war = {
-				NOR_char_cw_fascist = yes 
-			}
+			
 			
 			advisor={
 				cost = 100
@@ -1216,9 +1008,7 @@ characters={
 		NOR_birger_eriksen={
 			name=NOR_birger_eriksen
 		
-			allowed_civil_war = {
-				NOR_char_cw_loyalist = yes 
-			}
+			
 		
 			advisor={
 				cost = 100
@@ -1231,9 +1021,7 @@ characters={
 				}
 	
 				ledger = army
-					allowed = {
-						NOR_AAT = yes 
-					}
+				
 					
 					traits = {
 						NOR_vigilant_fort_commander
@@ -1254,9 +1042,7 @@ characters={
 				}
 				name=NOR_alfred_roscher_lund 
 				
-				allowed_civil_war = {
-					NOR_char_cw_labor_only = yes 
-				}
+			
 				
 				advisor={
 					slot = high_command
@@ -1343,9 +1129,7 @@ characters={
 				}
 				name=NOR_konrad_sundlo
 				
-				allowed_civil_war = {
-					NOR_char_cw_labor_only = yes 
-				}
+				
 	
 				advisor={
 					cost = 100
@@ -1405,9 +1189,7 @@ characters={
 		NOR_otto_ruge={
 			name=NOR_otto_ruge
 				
-			allowed_civil_war = {
-				NOR_char_cw_loyalist = yes 
-			}		
+					
 	
 			advisor={
 				slot = army_chief
@@ -1442,9 +1224,7 @@ characters={
 		NOR_rasmus_hatledal={
 			name=NOR_rasmus_hatledal
 			
-			allowed_civil_war = {
-				NOR_char_cw_loyalist = yes 
-			}		
+					
 	
 			advisor={
 				slot = high_command
@@ -1471,9 +1251,7 @@ characters={
 		NOR_bjorn_christophersen = {
 			name=NOR_bjorn_christophersen
 			
-			allowed_civil_war = {
-				NOR_char_cw_loyalist = yes 
-			}		
+					
 			
 			advisor = {
 				slot = high_command
@@ -1504,9 +1282,7 @@ characters={
 				}
 				name=NOR_kristian_laake
 				
-				allowed_civil_war = {
-					NOR_char_cw_loyalist = yes 
-				}					
+							
 				
 				advisor={
 					slot = army_chief
@@ -1579,9 +1355,7 @@ characters={
 			}
 			name="Hjalmar Riiser-Larsen"
 			
-			allowed_civil_war = {
-				NOR_char_cw_conservative = yes 
-			}				
+						
 			
 			portraits={
 				army={
@@ -1627,9 +1401,7 @@ characters={
 			}
 			name="Adolf Indrebø"
 	
-			allowed_civil_war = {
-				NOR_char_cw_democratic = yes 
-			}
+			
 	
 			portraits={
 				army={
@@ -1644,9 +1416,7 @@ characters={
 				}
 				name=NOR_halvdan_koht
 	
-				allowed_civil_war = {
-					NOR_char_cw_labor_only = yes 
-				}
+				
 	
 				advisor={
 					slot = political_advisor
@@ -1656,10 +1426,7 @@ characters={
 					}
 					available = {
 						has_government = democratic
-						OR = {
-							has_completed_focus = NOR_vote_of_no_confidence
-							has_completed_focus = NOR_continue_nygaardsvold_government
-						}
+					
 					}
 					traits  = {
 						NOR_pacifist_diplomat 
@@ -1701,9 +1468,7 @@ characters={
 				}
 				name=NOR_trygve_halvdan_lie
 	
-				allowed_civil_war = {
-					NOR_char_cw_labor_only = yes 
-				}
+				
 				
 				advisor={
 					slot = political_advisor

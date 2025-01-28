@@ -43,16 +43,7 @@ DEN_thorvald_stauning = {
 			ai_will_do = {
 				base = 5
 			}
-			on_add = {
-				owner = {
-					DEN_advisor_medium_BOP_decrease_effect = yes
-				}
-			}
-			on_remove = {
-				owner = {
-					DEN_advisor_medium_BOP_increase_effect = yes
-				}
-			}
+			
 		}
 	}
 	instance = {
@@ -110,47 +101,24 @@ DEN_thorvald_stauning = {
 								ruling_only = yes
 								character = DEN_christian_x
 							}
-							AND = {
+							
 								has_country_leader = {
 									ruling_only = yes
 									character = DEN_frits_clausen
 								}
-								has_completed_focus = DEN_ask_for_support
-							}
-							AND = {
+								
 								has_country_leader = {
 									ruling_only = yes
 									character = DEN_cay_lembcke
 								}
-								has_completed_focus = DEN_seize_power
-							}
+								
 						}
 					}
 				}
 				traits = {
 					landbrugsminister 
 				}
-				ai_will_do = {
-					base = 5
-					modifier = {
-						factor = 0
-						DEN_historical_ai = yes
-					}
-					modifier = {
-						factor = 10
-						DEN_royal_ai = yes
-					}
-				}
-				on_add = {
-					owner = {
-						DEN_advisor_medium_BOP_increase_effect = yes
-					}
-				}
-				on_remove = {
-					owner = {
-						DEN_advisor_medium_BOP_decrease_effect = yes
-					}
-				}
+				
 			}
 		}
 		instance = {
@@ -208,27 +176,7 @@ DEN_thorvald_stauning = {
 				traits = {
 					landbrugsminister 
 				}
-				ai_will_do = {
-					base = 5
-					modifier = {
-						factor = 0
-						DEN_historical_ai = yes
-					}
-					modifier = {
-						factor = 10
-						DEN_royal_ai = yes
-					}
-				}
-				on_add = {
-					owner = {
-						DEN_advisor_medium_BOP_increase_effect = yes
-					}
-				}
-				on_remove = {
-					owner = {
-						DEN_advisor_medium_BOP_decrease_effect = yes
-					}
-				}
+				
 			}
 		}
 		instance = {
@@ -279,42 +227,23 @@ DEN_thorvald_stauning = {
 				}
 				visible = {
 					OR = {
-						AND = {
+					
 							has_country_leader = {
 								ruling_only = yes
 								character = DEN_frits_clausen
 							}
-							has_completed_focus = DEN_ask_for_support
-						}
-						AND = {
+							
 							has_country_leader = {
 								ruling_only = yes
 								character = DEN_cay_lembcke
 							}
-							has_completed_focus = DEN_seize_power
-						}
+							
 					}
 				}
 				traits = {
 					landbrugsminister 
 				}
-				ai_will_do = {
-					base = 5
-					modifier = {
-						factor = 0
-						DEN_historical_ai = yes
-					}
-				}
-				on_add = {
-					owner = {
-						DEN_advisor_medium_BOP_increase_effect = yes
-					}
-				}
-				on_remove = {
-					owner = {
-						DEN_advisor_medium_BOP_decrease_effect = yes
-					}
-				}
+				
 			}
 		}
 		instance = {
@@ -402,38 +331,14 @@ DEN_thorvald_stauning = {
 					is_country_leader = no
 					NOT = {
 						has_government = fascism
-						has_character_flag = DEN_political_agitator_flag
-						has_country_flag = DEN_banned_communism_flag
+						
 					}
 				}
-				ai_will_do = {
-					base = 5
-					modifier = {
-						factor = 0
-						DEN_historical_ai = yes
-					}
-					modifier = {
-						factor = 0
-						OR = {
-							DEN_rearming_ai = yes
-							DEN_royal_ai = yes					
-							DEN_fascist_ai = yes
-						}
-					}
-				}
+				
 				traits = {
 					communist_revolutionary 
 				}
-				on_add = {
-					owner = {
-						DEN_advisor_low_BOP_decrease_effect = yes
-					}
-				}
-				on_remove = {
-					owner = {
-						DEN_advisor_low_BOP_increase_effect = yes
-					}
-				}
+				
 			}
 		}
 		instance = {
@@ -485,38 +390,13 @@ DEN_thorvald_stauning = {
 				is_country_leader = no
 				NOT = {
 					has_government = communism
-					has_character_flag = DEN_political_agitator_flag
-					has_country_flag = DEN_banned_fascism_flag
+					
 				}
 				}
 				traits = {
 					fascist_demagogue 
 				}
-				ai_will_do = {
-					base = 5
-					modifier = {
-						factor = 0
-						OR = {
-							DEN_historical_ai = yes
-							DEN_rearming_ai = yes
-							DEN_royal_ai = yes
-						}
-					}
-					modifier = {
-						factor = 10
-						DEN_fascist_ai = yes
-					}
-				}
-				on_add = {
-					owner = {
-						DEN_advisor_medium_BOP_increase_effect = yes
-					}
-				}
-				on_remove = {
-					owner = {
-						DEN_advisor_medium_BOP_decrease_effect = yes
-					}
-				}
+				
 			}
 		}
 		instance = {
@@ -607,9 +487,7 @@ DEN_thorvald_stauning = {
 					original_tag = DEN
 					#Already checked for DLC in the instance
 				}
-				available = {
-					has_completed_focus = DEN_sign_forsvarsforliget
-				}
+			
 				traits = {
 					army_chief_drill_2
 				}
@@ -696,12 +574,7 @@ DEN_thorvald_stauning = {
 					original_tag = DEN
 					#Already checked for DLC in the instance
 				}
-				available = {
-					OR = {
-						has_completed_focus = DEN_haeren_reorganization
-						has_completed_focus = DEN_collaboration_government 
-					}
-				}
+				
 				traits = {
 					army_chief_organizational_1
 				}
@@ -804,7 +677,7 @@ DEN_thorvald_stauning = {
 			legacy_id = -1
 			visible = { 
 				OR = {
-					has_completed_focus = DEN_strengthen_the_officer_corp
+					
 					AND = {
 						is_subject = yes
 						OVERLORD = {
@@ -813,7 +686,7 @@ DEN_thorvald_stauning = {
 								has_government = neutrality
 							}
 						}
-						has_completed_focus = DEN_contribute_to_the_war
+						
 					}
 				}
 			}
@@ -855,7 +728,7 @@ DEN_thorvald_stauning = {
 			planning_skill = 3
 			logistics_skill = 2
 			legacy_id = -1
-			visible = { has_completed_focus = DEN_seek_independence }
+			
 		}
 	}
 
@@ -918,8 +791,8 @@ DEN_thorvald_stauning = {
 				logistics_skill = 1
 				legacy_id = -1
 				visible = { 
-					OR = {
-						has_completed_focus = DEN_strengthen_the_officer_corp
+				
+					
 						AND = {
 							is_subject = yes
 							OVERLORD = {
@@ -928,9 +801,9 @@ DEN_thorvald_stauning = {
 									has_government = neutrality
 								}
 							}
-							has_completed_focus = DEN_contribute_to_the_war
+						
 						}
-					}
+					
 				}
 			}
 		}
@@ -1045,12 +918,7 @@ DEN_thorvald_stauning = {
 					original_tag = DEN
 					#Already checked for DLC in the instance
 				}
-				available = {
-					OR = {
-						has_completed_focus = DEN_expand_ubadsvabnet
-						has_completed_focus = DEN_collaboration_government 
-					}
-				}
+				
 				traits = {
 					navy_chief_maneuver_2
 				}
@@ -1283,9 +1151,7 @@ DEN_thorvald_stauning = {
 			ai_will_do = {
 				base = 1.000
 			}
-			available = { 
-				has_completed_focus = DEN_konge_og_faedreland 
-			}
+			
 
 			visible = {
 				has_character = DEN_christian_x
@@ -1324,9 +1190,7 @@ DEN_thorvald_stauning = {
 			ai_will_do = {
 				base = 1.000
 			}
-			available = { 
-				has_completed_focus = DEN_konge_og_faedreland 
-			}
+			
 			visible = {
 				NOT = { has_character = DEN_christian_x }
 			}
@@ -1696,39 +1560,13 @@ DEN_thorvald_stauning = {
 			}
 			available = {
 				is_subject = no
-				NOT = { has_completed_focus = DEN_start_the_rearmament }
+				
 				NOT = { DEN_christmas_moller = { is_hired_as_advisor = yes }}
 				}
 				traits = {
 					disarmament_proponent
 				}
-				ai_will_do = {
-					base = 5
-				modifier = {
-					factor = 10
-					DEN_historical_ai = yes
-				}
-				modifier = {
-					factor = 0
-					OR = {
-						is_subject = yes
-						has_country_flag = DEN_has_occupation_flag
-						DEN_rearming_ai = yes
-						DEN_royal_ai = yes					
-						DEN_fascist_ai = yes
-					}
-				}
-			}
-			on_add = {
-				owner = {
-					DEN_advisor_medium_BOP_decrease_effect = yes
-				}
-			}
-			on_remove = {
-				owner = {
-					DEN_advisor_medium_BOP_increase_effect = yes
-				}
-			}
+				
 		}
 	}
 
@@ -1749,42 +1587,13 @@ DEN_thorvald_stauning = {
 			}
 			available = {
 				is_country_leader = no
-				NOT = { has_character_flag = DEN_political_agitator_flag }
-				NOT = { has_completed_focus = DEN_policy_of_disarmament }
+				
 				NOT = { DEN_peter_rochegune_munch = { is_hired_as_advisor = yes }}
 			}
 			traits = {
 				rearmament_proponent 
 			}
-			ai_will_do = {
-				base = 5
-				modifier = {
-					factor = 0.5
-					DEN_historical_ai = yes
-				}
-				modifier = {
-					factor = 5
-					is_subject = yes
-				}
-				modifier = {
-					factor = 10
-					OR = {
-						DEN_rearming_ai = yes
-						DEN_royal_ai = yes					
-						DEN_fascist_ai = yes
-					}
-				}
-			}
-			on_add = {
-				owner = {
-					DEN_advisor_medium_BOP_increase_effect = yes
-				}
-			}
-			on_remove = {
-				owner = {
-					DEN_advisor_medium_BOP_decrease_effect = yes
-				}
-			}
+			
 		}
 	}
 
@@ -1809,30 +1618,7 @@ DEN_thorvald_stauning = {
 			traits = {
 				finansminister 
 			}
-			ai_will_do = {
-				base = 5
-				modifier = {
-					factor = 10
-					DEN_historical_ai = yes
-				}
-				modifier = {
-					factor = 10
-					OR = {
-						DEN_rearming_ai = yes
-						DEN_royal_ai = yes					
-					}
-				}
-			}
-			on_add = {
-				owner = {
-					DEN_advisor_low_BOP_decrease_effect = yes
-				}
-			}
-			on_remove = {
-				owner = {
-					DEN_advisor_low_BOP_increase_effect = yes
-				}
-			}
+			
 		}
 	}
 
@@ -1857,26 +1643,7 @@ DEN_thorvald_stauning = {
 			traits = {
 				udenrigsminister 
 			}
-			ai_will_do = {
-				base = 5
-				modifier = {
-					factor = 5
-					OR = {
-						DEN_historical_ai = yes
-						is_subject = yes
-					}
-				}
-			}
-			on_add = {
-				owner = {
-					DEN_advisor_low_BOP_decrease_effect = yes
-				}
-			}
-			on_remove = {
-				owner = {
-					DEN_advisor_low_BOP_increase_effect = yes
-				}
-			}
+			
 		}
 	}
 
@@ -1900,23 +1667,7 @@ DEN_thorvald_stauning = {
 			traits = {
 				undervisningsminister 
 			}
-			ai_will_do = {
-				base = 5
-				modifier = {
-					factor = 10
-					DEN_historical_ai = yes
-				}
-			}
-			on_add = {
-				owner = {
-					DEN_advisor_low_BOP_decrease_effect = yes
-				}
-			}
-			on_remove = {
-				owner = {
-					DEN_advisor_low_BOP_increase_effect = yes
-				}
-			}
+			
 		}
 	}
 
@@ -1944,16 +1695,7 @@ DEN_thorvald_stauning = {
 				ai_will_do = {
 					base = 5
 				}
-				on_add = {
-					owner = {
-						DEN_advisor_low_BOP_decrease_effect = yes
-					}
-				}
-				on_remove = {
-					owner = {
-						DEN_advisor_low_BOP_increase_effect = yes
-					}
-				}
+			
 			}
 		}
 		instance = {
@@ -1999,40 +1741,7 @@ DEN_thorvald_stauning = {
 		traits = {
 				industry_magnate 
 			}
-			ai_will_do = {
-				base = 5
-				modifier = {
-					factor = 5
-						DEN_historical_ai = yes
-				}
-				modifier = {
-					factor = 10
-					OR = {
-						is_subject = yes
-						has_country_flag = DEN_has_occupation_flag
-						DEN_rearming_ai = yes
-						DEN_royal_ai = yes					
-						DEN_fascist_ai = yes
-					}
-				}
-				modifier = {
-					factor = 5
-					OR = {
-						is_subject = yes
-						has_country_flag = DEN_has_occupation_flag
-					}
-				}
-			}
-			on_add = {
-				owner = {
-					DEN_advisor_low_BOP_increase_effect = yes
-				}
-			}
-			on_remove = {
-				owner = {
-					DEN_advisor_low_BOP_decrease_effect = yes
-				}
-			}
+			
 		}
 	}
 
@@ -2057,16 +1766,7 @@ DEN_thorvald_stauning = {
 			ai_will_do = {
 				base = 10
 			}
-			on_add = {
-				owner = {
-					DEN_advisor_low_BOP_increase_effect = yes
-				}
-			}
-			on_remove = {
-				owner = {
-					DEN_advisor_low_BOP_decrease_effect = yes
-				}
-			}
+			
 		}
 	}
 
@@ -2084,38 +1784,9 @@ DEN_thorvald_stauning = {
 				original_tag  = DEN
 				has_dlc = "Arms Against Tyranny"
 			}
-			available = {
-				has_completed_focus = DEN_fortify_our_borders
-			}
+			
 			traits  = {
 				forsvarsminister 
-			}
-			ai_will_do = {
-				base = 5
-				modifier = {
-					factor = 5
-					DEN_historical_ai = yes
-				}
-				modifier = {
-					factor = 10
-					OR = {
-						is_subject = yes
-						has_country_flag = DEN_has_occupation_flag
-						DEN_rearming_ai = yes
-						DEN_royal_ai = yes					
-						DEN_fascist_ai = yes
-					}
-				}
-			}
-			on_add = {
-				owner = {
-					DEN_advisor_medium_BOP_increase_effect = yes
-				}
-			}
-			on_remove = {
-				owner = {
-					DEN_advisor_medium_BOP_decrease_effect = yes
-				}
 			}
 		}
 	}
@@ -2134,29 +1805,12 @@ DEN_thorvald_stauning = {
 				original_tag  = DEN
 				has_dlc = "Arms Against Tyranny"
 			}
-			available = {
-				has_completed_focus = DEN_kanslergadeforliget
-			}
+			
 			traits = {
 				welfare_architect 
 			}
-			ai_will_do = {
-				base = 5
-				modifier = {
-					factor = 10
-					DEN_historical_ai = yes
-				}
-			}
-			on_add = {
-				owner = {
-					DEN_advisor_medium_BOP_decrease_effect = yes
-				}
-			}
-			on_remove = {
-				owner = {
-					DEN_advisor_medium_BOP_increase_effect = yes
-				}
-			}
+			
+			
 		}
 	}
 
@@ -2174,35 +1828,14 @@ DEN_thorvald_stauning = {
 				original_tag  = DEN
 				has_dlc = "Arms Against Tyranny"
 			}
-			available = {
-				has_completed_focus = DEN_expand_institut_for_teoretisk_fysik
-			}
+			
 			research_bonus = {
 				nuclear = 0.150
 			}
 			traits = {
 				nuclear_scientist
 			}
-			ai_will_do = {
-				base = 5
-				modifier = {
-					factor = 0.5
-					OR = {
-						DEN_historical_ai = yes
-						DEN_rearming_ai = yes
-					}
-				}
-			}
-			on_add = {
-				owner = {
-					DEN_advisor_low_BOP_increase_effect = yes
-				}
-			}
-			on_remove = {
-				owner = {
-					DEN_advisor_low_BOP_decrease_effect = yes
-				}
-			}
+			
 		}
 	}
 
@@ -2229,15 +1862,10 @@ DEN_thorvald_stauning = {
 			}
 			available = {
 				is_country_leader = no
-				OR = {
-					has_completed_focus = DEN_strengthen_the_officer_corp
-					has_government = fascism
-				}	
-				NOT = {
-					has_government = communism
-					has_character_flag = DEN_political_agitator_flag
-					has_country_flag = DEN_banned_fascism_flag
-				}
+				
+				has_government = fascism
+				
+				
 			}
 			traits = {
 				prince_of_terror 
@@ -2245,16 +1873,7 @@ DEN_thorvald_stauning = {
 			ai_will_do = {
 				base = 0
 			}
-			on_add = {
-				owner = {
-					DEN_advisor_low_BOP_increase_effect = yes
-				}
-			}
-			on_remove = {
-				owner = {
-					DEN_advisor_low_BOP_decrease_effect = yes
-				}
-			}
+			
 		}
 	}
 
@@ -2273,29 +1892,11 @@ DEN_thorvald_stauning = {
 				has_dlc = "Arms Against Tyranny"
 				has_dlc = "La Resistance"
 			}
-			available = {
-				has_completed_focus = DEN_sikkerhedspolitiet
-			}
+			
 			traits = {
 				head_of_intelligence	 
 			}
-			ai_will_do = {
-				base = 5
-				modifier = {
-					factor = 0.5
-					DEN_historical_ai = yes
-				}
-			}
-			on_add = {
-				#owner = {
-				#	DEN_advisor_low_BOP_increase_effect = yes
-				#}
-			}
-			on_remove = {
-				#owner = {
-				#	DEN_advisor_low_BOP_decrease_effect = yes
-				#}
-			}
+			
 		}
 	}
 

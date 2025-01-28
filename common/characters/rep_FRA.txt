@@ -52,7 +52,7 @@ characters={
 				original_tag  = FRA
 			}
 			available  = {
-				has_completed_focus  = FRA_integralism 
+				
 				or  = {
 					has_government  = fascism 
 					has_government  = neutrality 

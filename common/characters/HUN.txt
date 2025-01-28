@@ -965,9 +965,7 @@ characters = {
 					original_tag = HUN
 				}
 
-				available = {
-					has_completed_focus = wuw_HUN_make_the_magyar_legiero_known
-				}
+				
 
 				traits = {
 					air_chief_ground_support_2
@@ -1763,9 +1761,7 @@ characters = {
 				original_tag = HUN
 			}
 
-			available = {
-				has_completed_focus = wuw_HUN_sailing_the_danube
-			}
+			
 
 			traits = {
 				navy_chief_commerce_raiding_2
@@ -2329,13 +2325,7 @@ characters = {
 				planning_skill = 3
 				logistics_skill = 2
 				legacy_id = -1
-				visible = {
-					OR = {
-						has_completed_focus = wuw_HUN_integrate_the_volksbund
-						has_completed_focus = wuw_HUN_invite_german_investors
-						has_completed_focus = wuw_HUN_volksbund_der_deutschen_in_ungarn
-					}
-				}
+				
 			}
 
 			advisor = {
@@ -2692,17 +2682,7 @@ characters = {
 				has_dlc = "Death or Dishonor"
 			}
 
-			visible = {
-				NOT = {
-					OR = {
-						has_completed_focus = wuw_HUN_continue_the_regency
-						has_completed_focus = wuw_HUN_end_the_white_terror
-					}
-				}
-				NOT = {
-					has_cosmetic_tag = vojvodina
-				}
-			}
+			
 
 			available = {
 				IF = {

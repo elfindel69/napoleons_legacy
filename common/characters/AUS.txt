@@ -116,8 +116,7 @@ characters = {
 			}
 
 			available = {
-				has_completed_focus = AUS_repeal_the_adelsaufhebungsgesetz
-				NOT = {
+			NOT = {
 					has_country_leader = {
 						ruling_only = yes
 						character = AUS_ernst_rudiger_starhemberg
@@ -147,10 +146,7 @@ characters = {
 						has_government = fascism
 						has_government = neutrality
 					}
-					OR = {
-						has_completed_focus = AUS_heimwehr_support	
-						has_completed_focus = AUS_sturmscharen_support
-					}
+					
 					NOT = {
 						has_country_leader = {
 							ruling_only = yes
@@ -2524,10 +2520,7 @@ characters = {
 					has_government = communism
 					has_government = democratic
 				}
-				OR = {
-					has_completed_focus = AUS_schutzbund_support
-					has_completed_focus = AUS_properly_trained_militias
-				}
+				
 				
 			}
 		}
@@ -2581,12 +2574,7 @@ characters = {
 			}
 
 			visible = {
-				owner = { #Yes, this is needed, otherwise you get a scope error as the game checks if the scientist have completed the focus... they haven't :D
-					OR = {
-						has_completed_focus = AUS_royal_scientific_grants
-						has_completed_focus = AUS_recruiting_the_graduates
-					}
-				}
+				
 			}
 		}
 	}
@@ -2606,9 +2594,7 @@ characters = {
 			}
 
 			visible = {
-				owner = { #Yes, this is needed, otherwise you get a scope error as the game checks if the scientist have completed the focus... they haven't :D
-					has_completed_focus = AUS_recruiting_the_graduates
-				}
+				
 			}
 		}
 	}
@@ -2628,9 +2614,7 @@ characters = {
 			}
 
 			visible = {
-				owner = { #Yes, this is needed, otherwise you get a scope error as the game checks if the scientist have completed the focus... they haven't :D
-					has_completed_focus = AUS_womens_education_initiative
-				}
+				
 			}
 		}
 	}
@@ -2650,9 +2634,7 @@ characters = {
 			}
 
 			visible = {
-				owner = { #Yes, this is needed, otherwise you get a scope error as the game checks if the scientist have completed the focus... they haven't :D
-					has_completed_focus = AUS_recruiting_the_graduates
-				}
+				
 			}
 		}
 	}
@@ -2672,9 +2654,7 @@ characters = {
 			}
 
 			visible = {
-				owner = { #Yes, this is needed, otherwise you get a scope error as the game checks if the scientist have completed the focus... they haven't :D
-					has_completed_focus = AUS_royal_scientific_grants
-				}
+				
 			}
 		}
 	}

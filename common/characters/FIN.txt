@@ -305,7 +305,7 @@ characters = {
 			  logistics_skill = 2
 			  legacy_id = -1
 			  visible = {
-				  has_completed_focus = FIN_patriotic_peoples_movement
+				
 				  NOT = { has_government = communism }
 			  }
 		  }
@@ -328,7 +328,7 @@ characters = {
 			  logistics_skill = 3
 			  legacy_id = -1
 			  visible = {
-				  has_completed_focus = FIN_arm_the_lotta_svard
+				 
 				  NOT = { has_government = communism }
 			  }
 		  }
@@ -351,7 +351,7 @@ characters = {
 			  logistics_skill = 1
 			  legacy_id = -1
 			  visible = {
-				  has_completed_focus = FIN_union_of_finnish_brothers_in_arms
+			
 				  NOT = { has_government = communism }
 			  }
 		  }
@@ -373,7 +373,7 @@ characters = {
 			  planning_skill = 1
 			  logistics_skill = 1
 			  legacy_id = -1
-			  visible = { has_completed_focus = FIN_jaeger_movement }
+			  
 		  }
 	  }
   
@@ -393,7 +393,7 @@ characters = {
 			  planning_skill = 1
 			  logistics_skill = 2
 			  legacy_id = -1
-			  visible = { has_completed_focus = FIN_jaeger_movement }
+			 
 		  }
 	  }
   
@@ -413,7 +413,7 @@ characters = {
 			  planning_skill = 2
 			  logistics_skill = 1
 			  legacy_id = -1
-			  visible = { has_completed_focus = FIN_jaeger_movement }
+			  
 		  }
 	  }
   
@@ -433,7 +433,7 @@ characters = {
 			  planning_skill = 1
 			  logistics_skill = 2
 			  legacy_id = -1
-			  visible = { has_completed_focus = FIN_motti_tactics }
+			  
 		  }
 	  }
   
@@ -453,7 +453,7 @@ characters = {
 			  planning_skill = 1
 			  logistics_skill = 2
 			  legacy_id = -1
-			  visible = { has_completed_focus = FIN_national_armor_focus }
+			  
 		  }
 	  }
   
@@ -474,7 +474,7 @@ characters = {
 			  logistics_skill = 1
 			  legacy_id = -1
 			  visible = {
-				  has_completed_focus = FIN_military_promotions
+				
 				  NOT = { has_government = communism }
 			  }
 		  }
@@ -496,7 +496,7 @@ characters = {
 			  planning_skill = 2
 			  logistics_skill = 2
 			  legacy_id = -1
-			  visible = { has_completed_focus = FIN_sissi }
+			 
 		  }
 	  }
   
@@ -519,11 +519,7 @@ characters = {
 			  logistics_skill = 2
 			  legacy_id = -1
 			  visible = {
-				  OR = {
-					  has_completed_focus = FIN_social_democracy
-					  has_completed_focus = FIN_political_unity
-					  has_completed_focus = FIN_cooperate_with_social_democrats
-				  }
+				  
 				  NOT = { has_government = fascism }
 			  }
 		  }
@@ -545,9 +541,7 @@ characters = {
 			  planning_skill = 3
 			  logistics_skill = 2
 			  legacy_id = -1
-			  visible = {
-				  has_completed_focus = FIN_the_second_finnish_civil_war
-			  }
+			 
 		  }
 		  advisor = {
 			  cost = 100
@@ -558,9 +552,7 @@ characters = {
 				  original_tag = FIN
 			  }
   
-			  available = {
-				  has_completed_focus = FIN_the_second_finnish_civil_war
-			  }
+			 
 			  
 			  traits = {
 				  military_theorist
@@ -636,12 +628,7 @@ characters = {
 			  logistics_skill = 3
 			  legacy_id = -1
 			  visible = {
-				  OR = {
-					  has_completed_focus = FIN_approach_the_soviets
-					  has_completed_focus = FIN_confederated_finno_russian_republics
-				  }
-				  has_completed_focus = FIN_the_second_finnish_civil_war #So the character is available once the Civil War starts
-				  has_government = communism
+				 has_government = communism
 			  }
 		  }
 	  }
@@ -663,11 +650,6 @@ characters = {
 			  logistics_skill = 3
 			  legacy_id = -1
 			  visible = {
-				  OR = {
-					  has_completed_focus = FIN_approach_the_soviets
-					  has_completed_focus = FIN_confederated_finno_russian_republics
-				  }
-				  has_completed_focus = FIN_the_second_finnish_civil_war #So the character is available once the Civil War starts
 				  has_government = communism
 			  }
 		  }
@@ -690,11 +672,6 @@ characters = {
 			  logistics_skill = 1
 			  legacy_id = -1
 			  visible = {
-				  OR = {
-					  has_completed_focus = FIN_approach_the_soviets
-					  has_completed_focus = FIN_confederated_finno_russian_republics
-				  }
-				  has_completed_focus = FIN_the_second_finnish_civil_war #So the character is available once the Civil War starts
 				  has_government = communism
 			  }
 		  }
@@ -706,12 +683,7 @@ characters = {
 			  }
 			  available = {
 				  has_government = communism
-				  OR = {
-					  has_completed_focus = FIN_approach_the_soviets
-					  has_completed_focus = FIN_confederated_finno_russian_republics
-				  }
-				  has_completed_focus = FIN_the_second_finnish_civil_war #So the character is available once the Civil War starts
-			  }
+				 }
 			  traits = {
 				  army_chief_planning_1
 			  }
@@ -768,7 +740,7 @@ characters = {
 			  maneuvering_skill = 1
 			  coordination_skill = 2
 			  legacy_id = 0
-			  visible = { has_completed_focus = FIN_coastal_defense }
+			 
 		  }
 	  }
   
@@ -1244,7 +1216,6 @@ characters = {
 				  original_tag = FIN
 			  }
 			  available = {
-				  has_completed_focus = FIN_finnish_radio_intelligence
 				  NOT = { has_government = communism }
 			  }
 			  traits = {
@@ -1274,9 +1245,7 @@ characters = {
 			  allowed = {
 				  original_tag = FIN
 			  }
-			  available = {
-				  has_completed_focus = FIN_jaeger_movement
-			  }
+			  
 			  traits = {
 				  army_infantry_2
 			  }
@@ -1359,8 +1328,7 @@ characters = {
 					  NOT = {
 						  has_government = communism
 						  has_government = democratic
-						  has_completed_focus = FIN_suomalainen_sosialismi
-					  }
+						  }
 				  }
 				  else = {
 					  NOT = {
@@ -1435,9 +1403,7 @@ characters = {
 			  allowed = {
 				  original_tag = FIN
 			  }
-			  available = {
-				  has_completed_focus = FIN_align_the_agrarian_league
-			  }
+			  
 			  cost = 70
 			  traits = {
 				  agrarian_nationalist 
@@ -1458,9 +1424,7 @@ characters = {
 			  allowed = {
 				  original_tag = FIN
 			  }
-			  available = {
-				  has_completed_focus = FIN_the_finnish_swedish_peoples_party
-			  }
+			 
 			  cost = 70
 			  traits = {
 				  ideological_crusader 
@@ -1481,21 +1445,13 @@ characters = {
 			  allowed = {
 				  original_tag = FIN
 			  }
-			  available = {
-				  has_completed_focus = FIN_the_finnish_swedish_peoples_party
-			  }
+			 
 			  cost = 70
 			  traits = {
 				  traditionalist_theorist 
 			  }
   
-			  ai_will_do = {
-				  base = 1.000
-				  modifier = {
-					  factor = 100
-					  FIN_is_historical_ai = yes
-				  }
-			  }
+			 
 		  }
 	  }
   
@@ -1521,19 +1477,12 @@ characters = {
 			  }
 			  available = {
 				  is_country_leader = no
-				  has_completed_focus = FIN_finnish_neutrality
-			  }
+				  }
 			  cost = 100
 			  traits = {
 				  white_liberal 
 			  }
-			  ai_will_do = {
-				  base = 1.000
-				  modifier = {
-					  factor = 10
-					  FIN_is_historical_ai = yes
-				  }
-			  }
+			 
 		  }
 	  }
   
@@ -1551,7 +1500,7 @@ characters = {
 				  original_tag = FIN
 			  }
 			  available = {
-				  has_completed_focus = FIN_arm_the_lotta_svard
+				  
 				  NOT = {
 					  has_government = communism
 					  has_government = democratic
@@ -1561,13 +1510,7 @@ characters = {
 			  traits = {
 				  hurja_hilja
 			  }
-			  ai_will_do = {
-				  base = 1.000
-				  modifier = {
-					  factor = 0.100
-					  FIN_is_historical_ai = yes
-				  }
-			  }
+			  
 		  }
 	  }
   
@@ -1600,13 +1543,7 @@ characters = {
 			  traits = {
 				  head_of_intelligence #Watchdog of White Finland?
 			  }
-			  ai_will_do = {
-				  base = 1.000
-				  modifier = {
-					  factor = 0.5
-					  FIN_is_historical_ai = yes
-				  }
-			  }
+			  
 		  }
 	  }
   
@@ -1636,25 +1573,13 @@ characters = {
 				  }
 				  available = {
 					  is_country_leader = no
-					  has_completed_focus = FIN_national_unity
 					  NOT = { has_government = communism }
 				  }
 				  cost = 70
 				  traits = {
 					  fascist_corporatist 
 				  }
-				  ai_will_do = {
-					  base = 1.000
-					  modifier = {
-						  factor = 0.100
-						  FIN_is_historical_ai = yes
-					  }
-					  modifier = {
-						  factor = 10
-						  FIN_is_fascist_ai = yes
-						  date < 1937.10.01 #He will become country leader after completing the focus A Fascist Regime at the end of 1937
-					  }
-				  }
+				  
 			  }
 		  }
 		  instance = {
@@ -1683,7 +1608,6 @@ characters = {
 				  }
 				  available = {
 					  is_country_leader = no
-					  has_completed_focus = FIN_national_unity
 					  NOT = { has_government = communism }
 				  }
 				  cost = 70
@@ -1721,7 +1645,6 @@ characters = {
 				  logistics_skill = 2
 				  legacy_id = -1
 				  visible = {
-					  has_completed_focus = FIN_military_promotions
 					  NOT = { has_government = communism }
 				  }
 			  }
@@ -1732,25 +1655,13 @@ characters = {
 					  original_tag = FIN
 				  }
 				  available = {
-					  has_completed_focus = FIN_right_wing_policies
 					  NOT = { has_government = communism }
 				  }
 				  cost = 100
 				  traits = {
 					  fascist_demagogue 
 				  }
-				  ai_will_do = {
-					  base = 1
-					  modifier = {
-						  factor = 200
-						  FIN_is_fascist_ai = yes
-						  NOT = { has_completed_focus = FIN_a_fascist_regime }
-					  }
-					  modifier = {
-						  factor = 0
-						  FIN_is_historical_ai = yes
-					  }
-				  }
+				
 			  }
 		  }
 		  instance = {
@@ -1793,18 +1704,7 @@ characters = {
 				  original_tag = FIN
 			  }
 			  available = {
-				  if= {
-					  limit = {
-						  has_dlc = "Arms Against Tyranny"
-					  }
-					  OR = {
-						  has_completed_focus = FIN_political_unity
-						  has_completed_focus = FIN_patriotic_peoples_movement
-					  }
-				  }
-				  else = {
-					  has_completed_focus = FIN_political_unity
-				  }
+				 
 				  NOT = { has_government = communism }
 			  }
 			  cost = 70
@@ -1812,17 +1712,7 @@ characters = {
 				  nationalist_lutheran_priest 
 			  }
   
-			  ai_will_do = {
-				  base = 1.000
-				  modifier = {
-					  factor = 0.01
-					  FIN_is_historical_ai = yes
-				  }
-				  modifier = {
-					  factor = 100
-					  FIN_is_fascist_ai = yes
-				  }
-			  }
+			 
 		  }
 	  }
   
@@ -1841,7 +1731,6 @@ characters = {
 				  has_dlc = "Arms Against Tyranny"
 			  }
 			  available = {
-				  has_completed_focus = FIN_maan_turva
 				  NOT = { has_government = communism }
 			  }
 			  cost = 70
@@ -1866,7 +1755,6 @@ characters = {
 				  has_dlc = "Arms Against Tyranny"
 			  }
 			  available = {
-				  has_completed_focus = FIN_sotilaalliset_kappalaiset
 				  NOT = { has_government = communism }
 			  }
 			  cost = 70
@@ -1889,21 +1777,7 @@ characters = {
 			  allowed = {
 				  original_tag = FIN
 			  }
-			  available = {
-				  if = {
-					  limit = {
-						  has_dlc = "Arms Against Tyranny"
-					  }
-					  OR = {
-						  has_completed_focus = FIN_political_unity
-						  has_completed_focus = FIN_finnish_irredentism
-						  has_completed_focus = FIN_intellectual_elite
-					  }
-				  }
-				  else = {
-					  has_completed_focus = FIN_political_unity
-				  }
-			  }
+			 
 			  cost = 70
 			  traits = {
 				  karelian_irredentist_writer #Korpikirjailijana?
@@ -1937,11 +1811,7 @@ characters = {
 				  }
 				  available = {
 					  is_country_leader = no
-					  OR = {
-						  has_completed_focus = FIN_social_democracy
-						  has_completed_focus = FIN_cooperate_with_social_democrats
-						  has_completed_focus = FIN_collaboration_with_the_left
-					  }
+					  
 				  }
 				  cost = 70
 				  traits = {
@@ -1974,7 +1844,7 @@ characters = {
 				  }
 				  available = {
 					  is_country_leader = no
-					  has_completed_focus = FIN_collaboration_with_the_left
+					 
 				  }
 				  traits = {
 					  appeaser 
@@ -2000,28 +1870,12 @@ characters = {
 				  allowed = {
 					  original_tag = FIN
 				  }
-				  available = {
-					  OR = {
-						  has_completed_focus = FIN_social_democracy
-						  has_completed_focus = FIN_cooperate_with_social_democrats
-						  has_completed_focus = FIN_collaboration_with_the_left
-					  }
-				  }
+				 
 				  cost = 70
 				  traits = {
 					  FIN_champion_of_equality_sillanpaa 
 				  }
-				  ai_will_do = {
-					  base = 1.000
-					  modifier = {
-						  factor = 10
-						  FIN_is_democratic_ai = yes
-					  }
-					  modifier = {
-						  factor = 0
-						  FIN_is_historical_ai = yes
-					  }
-				  }
+				  
 			  }
 		  }
 		  instance = {
@@ -2040,9 +1894,7 @@ characters = {
 				  allowed = {
 					  original_tag = FIN
 				  }
-				  available = {
-					  has_completed_focus = FIN_collaboration_with_the_left
-				  }
+				
 				  traits = {
 					  champion_of_equality
 				  }
@@ -2070,24 +1922,12 @@ characters = {
 				  allowed = {
 					  original_tag = FIN
 				  }
-				  available = {
-					  has_completed_focus = FIN_suomalainen_sosialismi
-				  }
+				 
 				  cost = 100
 				  traits = {
 					  FIN_democratic_reformer_fagerholm 
 				  }
-				  ai_will_do = {
-					  base = 0.01
-					  modifier = {
-						  add = 10
-						  FIN_is_democratic_ai = yes
-					  }
-					  modifier = {
-						  factor = 0
-						  FIN_is_communist_ai = yes
-					  }
-				  }
+				 
 			  }
 		  }
 		  instance = {
@@ -2130,9 +1970,7 @@ characters = {
 				  original_tag = FIN
 				  has_dlc = "Arms Against Tyranny"
 			  }
-			  available = {
-				  has_completed_focus = FIN_social_democratic_womens_union
-			  }
+			 
 			  cost = 70
 			  traits = {
 				  womens_rights_activist
@@ -2195,7 +2033,7 @@ characters = {
 				  }
 				  available = {
 					  is_country_leader = no
-					  has_completed_focus = FIN_approach_the_soviets
+					
 				  }
 				  cost = 70
 				  traits = {
@@ -2229,7 +2067,7 @@ characters = {
 				  }
 				  available = {
 					  is_country_leader = no
-					  has_completed_focus = FIN_approach_the_soviets
+					  
 				  }
 				  cost = 70
 				  traits = {
@@ -2280,20 +2118,12 @@ characters = {
 				  allowed = {
 					  original_tag = FIN
 				  }
-				  available = {
-					  has_completed_focus = FIN_suomalainen_sosialismi
-				  }
+				  
 				  cost = 100
 				  traits = {
 					  FIN_communist_revolutionary_leino
 				  }
-				  ai_will_do = {
-					  base = 0
-					  modifier = {
-						  add = 100
-						  FIN_is_communist_ai = yes
-					  }
-				  }
+				  
 			  }
 		  }
 		  instance = {
@@ -2345,19 +2175,13 @@ characters = {
 			  }
 			  available = {
 				  is_country_leader = no
-				  has_completed_focus = FIN_towards_a_red_government
+				 
 			  }
 			  cost = 70
 			  traits = {
 				  FIN_patriotic_socialist_kuusinen 
 			  }
-			  ai_will_do = {
-				  base = 1
-				  modifier = {
-					  add = 10
-					  NOT = { has_completed_focus = FIN_the_second_finnish_civil_war }
-				  }
-			  }
+			
 		  }
 	  }
   
@@ -2375,9 +2199,7 @@ characters = {
 				  original_tag = FIN
 				  has_dlc = "Arms Against Tyranny"
 			  }
-			  available = {
-				  has_completed_focus = FIN_towards_a_red_government
-			  }
+			  
 			  cost = 70
 			  traits = {
 				  FIN_technocrat_saarinen 
@@ -2402,23 +2224,12 @@ characters = {
 				  original_tag = FIN
 				  has_dlc = "Arms Against Tyranny"
 			  }
-			  available = {
-				  OR = {
-					  has_completed_focus = FIN_the_peoples_democratic_league
-					  has_completed_focus = FIN_sosialistinen_eduskuntaryhma
-				  }
-			  }
+			  
 			  cost = 70
 			  traits = {
 				  kautskyian_socialist 
 			  }
-			  ai_will_do = {
-				  base = 1.000
-				  modifier = {
-					  factor = 0.5
-					  FIN_is_democratic_ai = yes
-				  }
-			  }
+			 
 		  }
 	  }
   
@@ -2436,23 +2247,12 @@ characters = {
 				  original_tag = FIN
 				  has_dlc = "Arms Against Tyranny"
 			  }
-			  available = {
-				  OR = {
-					  has_completed_focus = FIN_the_peoples_democratic_league
-					  has_completed_focus = FIN_sosialistinen_eduskuntaryhma
-				  }
-			  }
+			 
 			  cost = 70
 			  traits = {
 				   socialist_journalist
 			  }
-			  ai_will_do = {
-				  base = 1.000
-				  modifier = {
-					  factor = 0.5
-					  FIN_is_democratic_ai = yes
-				  }
-			  }
+			 
 		  }
 	  }
   
@@ -2470,12 +2270,7 @@ characters = {
 				  original_tag = FIN
 				  has_dlc = "Arms Against Tyranny"
 			  }
-			  available = {
-				  OR = {
-					  has_completed_focus = FIN_the_workers_state
-					  has_completed_focus = FIN_social_democratic_womens_union
-				  }
-			  }
+			  
 			  cost = 70
 			  traits = {
 				  veteran_trade_unionist 
@@ -2527,7 +2322,7 @@ characters = {
 				  has_dlc = "Arms Against Tyranny"
 			  }
 			  available = {
-				  has_completed_focus = FIN_antagonize_the_soviets
+				
 				  OR = {
 					  has_government = democratic
 					  has_government = communism
