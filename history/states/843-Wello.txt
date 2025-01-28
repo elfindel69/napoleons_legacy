@@ -1,26 +1,19 @@
 
 state={
-	id=842
-	name="STATE_842"
+	id=843
+	name="STATE_843"
 
 	history={
-		
+	
 		buildings = {
 
 		}
 		victory_points = {
-			2072 2 
-		}
-		victory_points = {
-			13237 1 
-		}
-		victory_points = {
-			13238 1 
+			5097 1 
 		}
 		owner = ETH
 		add_core_of = ETH
-		add_core_of = TIG
-		add_claim_by = ERI
+		add_core_of = AFA
 		1936.6.1 = {
 			owner = ITA
 			controller = ITA
@@ -30,9 +23,9 @@ state={
 	}
 
 	provinces={
-		2072 13237 13238 
+		5097 7944 
 	}
-	manpower=1000000
+	manpower=650000
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

@@ -45,17 +45,7 @@ if = {
 set_research_slots = 4
 set_stability = 0.75
 set_war_support = 0
-set_variable = { var = senators_support value = 18 }
-set_variable = { var = senators_total value = 34 }
-set_variable = { var = representatives_support value = 101 }
-set_variable = { var = representatives_total value = 200 }
-set_variable = { var = senate_quorum_low value = 10 }
-set_variable = { var = senate_quorum_medium value = 18 }
-set_variable = { var = senate_quorum_high value = 25 }
-set_variable = { var = house_quorum_low value = 80 }
-set_variable = { var = house_quorum_medium value = 101 }
-set_variable = { var = house_quorum_high value = 120 }
-USA_recalc_congress_icon_frames = yes
+
 
 # Starting tech
 set_technology = {
