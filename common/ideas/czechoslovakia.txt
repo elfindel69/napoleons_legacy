@@ -808,9 +808,7 @@ ideas = {
 				}
 			}
 
-			available = {
-				has_completed_focus = CZE_industrial_legacy
-			}
+			
 
 			visible = {
 			}

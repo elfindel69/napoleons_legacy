@@ -30,9 +30,7 @@ ideas = {
 		
 			picture = generic_tank_manufacturer_2
 
-			available = {
-				has_completed_focus = FRA_army_reform
-			}
+			
 						
 			allowed = {
 				original_tag = FRA

@@ -267,14 +267,7 @@ characters = {
 			slot = air_chief
 			idea_token = italo_balbo
 			
-			available = {
-				if =  {
-					limit = { 
-						has_dlc = "By Blood Alone"
-					}
-					ITA_is_advisor_available = yes
-				}
-			}
+			
 			
 			traits = {
 				air_chief_all_weather_2
@@ -293,9 +286,7 @@ characters = {
 			planning_skill = 1
 			logistics_skill = 1
 			legacy_id = 0
-			visible = {
-				ITA_is_advisor_available = yes
-			}
+			
 		}
 	}
 

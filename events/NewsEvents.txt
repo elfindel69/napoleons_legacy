@@ -743,7 +743,7 @@ news_event = {
 			NOT = {
 				TAG = GER
 				TAG = ENG
-				TAG = BOH
+				TAG = CZE
 			}
 		}
 	}
@@ -757,7 +757,7 @@ news_event = {
 	}
 	option = {
 		name = news.56.e
-		trigger = { TAG = BOH }
+		trigger = { TAG = CZE }
 	}
 }
 
@@ -779,7 +779,7 @@ news_event = {
 				TAG = GER
 				TAG = ENG
 				TAG = FRA
-				TAG = BOH
+				TAG = CZE
 			}
 		}
 	}
@@ -798,7 +798,7 @@ news_event = {
 	}
 	option = {
 		name = news.57.e
-		trigger = { TAG = BOH }
+		trigger = { TAG = CZE }
 	}
 }
 
@@ -820,7 +820,7 @@ news_event = {
 				TAG = GER
 				TAG = ENG
 				TAG = FRA
-				TAG = BOH
+				TAG = CZE
 			}
 		}
 	}
@@ -834,7 +834,7 @@ news_event = {
 	}
 	option = {
 		name = news.58.e
-		trigger = { TAG = BOH }
+		trigger = { TAG = CZE }
 	}
 	option = {
 		name = news.58.f
@@ -842,7 +842,7 @@ news_event = {
 	}
 }
 
-# Munich ABYZement (BOHchs Resist)
+# Munich ABYZement (CZEchs Resist)
 news_event = {
 	id = news.59
 	title = news.59.t
@@ -858,7 +858,7 @@ news_event = {
 		trigger = {
 			NOT = {
 				TAG = GER
-				TAG = BOH
+				TAG = CZE
 			}
 		}
 	}
@@ -868,21 +868,21 @@ news_event = {
 	}
 	option = {
 		name = news.59.c
-		trigger = { TAG = BOH }
+		trigger = { TAG = CZE }
 	}
 }
 
-# End of BOHchoslovakia
+# End of CZEchoslovakia
 news_event = {
 	id = news.60
 	title = news.60.t
 	desc = {
 		text = news.60.d
-		trigger = { has_global_flag = end_of_BOHchoslovakia }
+		trigger = { has_global_flag = end_of_CZEchoslovakia }
 	}
 	desc = {
 		text = news.60.d_2
-		trigger = { NOT = { has_global_flag = end_of_BOHchoslovakia } }
+		trigger = { NOT = { has_global_flag = end_of_CZEchoslovakia } }
 	}
 	picture = GFX_news_event_german_inspect_troops
 
@@ -915,17 +915,17 @@ news_event = {
 	}
 }
 
-# End of BOHchoslovakia (Hungary Annexes Slovakia)
+# End of CZEchoslovakia (Hungary Annexes Slovakia)
 news_event = {
 	id = news.61
 	title = news.60.t
 	desc = {
 		text = news.61.d
-		trigger = { has_global_flag = end_of_BOHchoslovakia }
+		trigger = { has_global_flag = end_of_CZEchoslovakia }
 	}
 	desc = {
 		text = news.61.d_2
-		trigger = { NOT = { has_global_flag = end_of_BOHchoslovakia } }
+		trigger = { NOT = { has_global_flag = end_of_CZEchoslovakia } }
 	}
 	picture = GFX_news_event_german_inspect_troops
 
@@ -963,17 +963,17 @@ news_event = {
 	}
 }
 
-# End of BOHchoslovakia (Germany annexes everything)
+# End of CZEchoslovakia (Germany annexes everything)
 news_event = {
 	id = news.62
 	title = news.60.t
 	desc = {
 		text = news.62.d
-		trigger = { has_global_flag = end_of_BOHchoslovakia }
+		trigger = { has_global_flag = end_of_CZEchoslovakia }
 	}
 	desc = {
 		text = news.62.d_2
-		trigger = { NOT = { has_global_flag = end_of_BOHchoslovakia } }
+		trigger = { NOT = { has_global_flag = end_of_CZEchoslovakia } }
 	}
 	picture = GFX_news_event_german_inspect_troops
 
@@ -1254,8 +1254,8 @@ news_event = {
 	
 	trigger = {
 		10 = { is_controlled_by = GER }
-		10 = { is_owned_by = PLC }
-		GER = { has_war_with = PLC }
+		10 = { is_owned_by = POL }
+		GER = { has_war_with = POL }
 		NOT = { has_global_flag = fall_of_warsaw_ger }
 	}
 	
@@ -1272,7 +1272,7 @@ news_event = {
 		trigger = {
 			NOT = {
 				TAG = GER
-				TAG = PLC
+				TAG = POL
 			}
 		}
 	}
@@ -1282,7 +1282,7 @@ news_event = {
 	}
 	option = {
 		name = news.100.c
-		trigger = { TAG = PLC }
+		trigger = { TAG = POL }
 	}
 }
 
@@ -2670,9 +2670,9 @@ news_event = {
 	major = yes
 	
 	trigger = {
-		64 = { is_controlled_by = PLC }
+		64 = { is_controlled_by = POL }
 		64 = { is_owned_by = GER }
-		PLC = { has_war_with = GER }
+		POL = { has_war_with = GER }
 		NOT = { has_global_flag = fall_of_berlin_PLC }
 	}
 	
@@ -2688,14 +2688,14 @@ news_event = {
 		name = news.145.a
 		trigger = {
 			NOT = {
-				TAG = PLC
+				TAG = POL
 				TAG = GER
 			}
 		}
 	}
 	option = {
 		name = news.131.b
-		trigger = { TAG = PLC }
+		trigger = { TAG = POL }
 	}
 	option = {
 		name = news.100.c
@@ -3020,8 +3020,8 @@ news_event = {
 	
 	trigger = {
 		10 = { is_controlled_by = SOV }
-		10 = { is_owned_by = PLC }
-		SOV = { has_war_with = PLC }
+		10 = { is_owned_by = POL }
+		SOV = { has_war_with = POL }
 		NOT = { has_global_flag = fall_of_warsaw_sov }
 	}
 	
@@ -3038,7 +3038,7 @@ news_event = {
 		trigger = {
 			NOT = {
 				TAG = SOV
-				TAG = PLC
+				TAG = POL
 			}
 		}
 	}
@@ -3048,7 +3048,7 @@ news_event = {
 	}
 	option = {
 		name = news.100.c
-		trigger = { TAG = PLC }
+		trigger = { TAG = POL }
 	}
 }
 
@@ -4304,7 +4304,7 @@ news_event = {
 			NOT = { TAG = GER }
 			NOT = { is_in_faction_with = GER }
 			is_in_faction = yes
-			NOT = { tag = BYZ }
+			NOT = { tag = GRE }
 		}
 	}
 	option = {
@@ -4312,13 +4312,13 @@ news_event = {
 		trigger = {
 			NOT = { TAG = GER }
 			is_in_faction = no
-			NOT = { tag = BYZ }
+			NOT = { tag = GRE }
 		}
 	}
 	option = {
 		name = news.171.f
 		trigger = {
-			tag = BYZ
+			tag = GRE
 		}
 	}
 }
@@ -4344,7 +4344,7 @@ news_event = {
 		name = news.172.b
 		trigger = {
 			NOT = { TAG = GER }
-			NOT = { TAG = BYZ }
+			NOT = { TAG = GRE }
 			is_in_faction_with = GER
 		}		
 	}
@@ -4354,7 +4354,7 @@ news_event = {
 			NOT = { TAG = GER }
 			NOT = { is_in_faction_with = GER }
 			is_in_faction = yes
-			NOT = { tag = BYZ }
+			NOT = { tag = GRE }
 		}
 	}
 	option = {
@@ -4362,13 +4362,13 @@ news_event = {
 		trigger = {
 			NOT = { TAG = GER }
 			is_in_faction = no
-			NOT = { tag = BYZ }
+			NOT = { tag = GRE }
 		}
 	}
 	option = {
 		name = news.172.f
 		trigger = {
-			tag = BYZ
+			tag = GRE
 		}
 	}
 }
@@ -5051,7 +5051,7 @@ news_event = {
 	fire_for_sender = no
 
 	immediate = {
-		BYZ = {
+		GRE = {
 			save_event_target_as = BYZece
 		}
 	}
@@ -5087,7 +5087,7 @@ news_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		BYZ = {
+		GRE = {
 			save_event_target_as = BYZece
 		}
 	}
@@ -5117,7 +5117,7 @@ news_event = {
 			NOT = {
 				is_in_faction_with = ITA
 			}
-			tag = BYZ
+			tag = GRE
 		}
 	}
 }
@@ -5319,7 +5319,7 @@ news_event = {
 	fire_for_sender = no
 
 	immediate = {
-		PLC = {
+		POL = {
 			save_event_target_as = PLCand
 		}
 	}
@@ -5536,7 +5536,7 @@ news_event = {
 			}
 			has_war_with = SOV
 			NOT = {
-				is_in_faction_with = BYZ
+				is_in_faction_with = GRE
 			}
 		}
 	}
@@ -5550,7 +5550,7 @@ news_event = {
 				has_war_with = SOV
 			}
 			NOT = {
-				is_in_faction_with = BYZ
+				is_in_faction_with = GRE
 			}
 		}
 	}
@@ -5559,7 +5559,7 @@ news_event = {
 	option = {
 		name = news.198.e
 		trigger = {
-			is_in_faction_with = BYZ
+			is_in_faction_with = GRE
 		}
 	}
 }
@@ -5614,7 +5614,7 @@ news_event = {
 	}
 }
 
-#Germany Exerts Influence Over BOHchoslovakia
+#Germany Exerts Influence Over CZEchoslovakia
 news_event = {
 	id = news.200
 	title = news.200.t
@@ -5626,8 +5626,8 @@ news_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		BOH = {
-			save_event_target_as = BOHch
+		CZE = {
+			save_event_target_as = CZEch
 		}
 	}
 
@@ -5635,11 +5635,11 @@ news_event = {
 	option = {
 		name = news.200.a
 		trigger = {
-			tag = BOH
+			tag = CZE
 		}
 	}
 
-	#The BOHch have always been friends of the Germans.
+	#The CZEch have always been friends of the Germans.
 	option = {
 		name = news.200.b
 		trigger = {
@@ -5658,7 +5658,7 @@ news_event = {
 			NOT = {
 				OR = {
 					tag = GER
-					tag = BOH
+					tag = CZE
 					tag = ENG
 				}
 			}
@@ -5678,7 +5678,7 @@ news_event = {
 			NOT = {
 				OR = {
 					tag = GER
-					tag = BOH
+					tag = CZE
 					tag = ENG
 				}
 			}
@@ -5714,7 +5714,7 @@ news_event = {
 	fire_for_sender = no
 
 	immediate = {
-		PLC = {
+		POL = {
 			save_event_target_as = PLCand
 		}
 	}
@@ -5731,7 +5731,7 @@ news_event = {
 	option = {
 		name = news.202.b
 		trigger = {
-			is_in_faction_with = PLC
+			is_in_faction_with = POL
 			NOT = {
 				is_in_faction_with = GER 
 			}
@@ -5760,7 +5760,7 @@ news_event = {
 				}
 			}
 			NOT = {
-				is_in_faction_with = PLC
+				is_in_faction_with = POL
 			}
 			NOT = {
 				is_in_faction_with = GER
@@ -5843,7 +5843,7 @@ news_event = {
 				is_in_faction_with = GER
 			}
 			NOT = {
-				is_in_faction_with = PLC
+				is_in_faction_with = POL
 			}
 		}
 	}
@@ -5860,7 +5860,7 @@ news_event = {
 	option = {
 		name = news.204.c
 		trigger = {
-			is_in_faction_with = PLC
+			is_in_faction_with = POL
 		}
 	}
 
@@ -6932,7 +6932,7 @@ news_event = {
 	option = {
 		name = news.226.a
 		trigger = {
-			tag = BYZ
+			tag = GRE
 		}
 	}
 
@@ -6940,7 +6940,7 @@ news_event = {
 		name = news.226.b
 		trigger = {
 			NOT = {
-				tag = BYZ
+				tag = GRE
 			}
 			OR = {
 				has_government = fascism
@@ -6954,7 +6954,7 @@ news_event = {
 		trigger = {
 			NOT = {
 				OR = {
-					tag = BYZ
+					tag = GRE
 					has_government = fascism
 					has_government = communism
 				}
@@ -7019,7 +7019,7 @@ news_event = {
 		trigger = {
 			OR = {
 				tag = YUG
-				tag = BYZ
+				tag = GRE
 				tag = ROM
 			}
 			NOT = {
@@ -7065,7 +7065,7 @@ news_event = {
 			NOT = {
 				OR = {
 					tag = YUG
-					tag = BYZ
+					tag = GRE
 					tag = ROM
 				}
 			}
@@ -7079,7 +7079,7 @@ news_event = {
 				OR = {
 					tag = YUG
 					tag = HUN
-					tag = BYZ
+					tag = GRE
 					tag = ROM
 					
 					tag = GER
@@ -7122,7 +7122,7 @@ news_event = {
 		trigger = {
 			OR = {
 				is_in_faction_with = GER
-				has_war_with = BYZ
+				has_war_with = GRE
 			}
 		}
 	}
@@ -7136,7 +7136,7 @@ news_event = {
 					has_war_with = GER
 					is_in_faction_with = ENG
 					is_in_faction_with = GER
-					has_war_with = BYZ
+					has_war_with = GRE
 				}
 			}
 		}
@@ -8946,10 +8946,10 @@ news_event = {
 			NOT = {
 				TAG = HUN
 				TAG = GER
-				TAG = BOH
+				TAG = CZE
 				TAG = ROM
 				TAG = YUG
-				TAG = PLC
+				TAG = POL
 				TAG = ITA
 			}
 		}
@@ -8958,10 +8958,10 @@ news_event = {
 		name = news.295.e
 		trigger = { 
 			OR = {
-				TAG = BOH
+				TAG = CZE
 				TAG = ROM
 				TAG = YUG
-				TAG = PLC
+				TAG = POL
 				TAG = ITA
 			}
 		}
@@ -9226,7 +9226,7 @@ news_event = {
 	option = {
 		name = news.303.b
 		trigger = { 
-			TAG = BOH
+			TAG = CZE
 		}
 	}
 	option = {
@@ -9234,13 +9234,13 @@ news_event = {
 		trigger = { 
 			NOT = {
 				TAG = HUN
-				TAG = BOH
+				TAG = CZE
 			}
 		}
 	}
 }
 
-#BOHchoslovakia folds and gives up Southern Slovakia
+#CZEchoslovakia folds and gives up Southern Slovakia
 news_event = {
 	id = news.304
 	title = news.304.t
@@ -9260,7 +9260,7 @@ news_event = {
 	option = {
 		name = news.301.b
 		trigger = { 
-			TAG = BOH
+			TAG = CZE
 		}
 	}
 	option = {
@@ -9268,13 +9268,13 @@ news_event = {
 		trigger = { 
 			NOT = {
 				TAG = HUN
-				TAG = BOH
+				TAG = CZE
 			}
 		}
 	}
 }
 
-#Hungary and BOHchoslovakia unable to find solution, war looms
+#Hungary and CZEchoslovakia unable to find solution, war looms
 news_event = {
 	id = news.305
 	title = news.305.t
@@ -9294,7 +9294,7 @@ news_event = {
 	option = {
 		name = news.302.b
 		trigger = { 
-			TAG = BOH
+			TAG = CZE
 		}
 	}
 	option = {
@@ -9302,7 +9302,7 @@ news_event = {
 		trigger = { 
 			NOT = {
 				TAG = HUN
-				TAG = BOH
+				TAG = CZE
 			}
 		}
 	}
@@ -9437,14 +9437,14 @@ news_event = {
 		trigger = { 
 			NOT = {
 				TAG = HUN
-				TAG = BOH
+				TAG = CZE
 				
 			}
 		}
 	}
 }
 
-#BOH/SLO folds and gives up Slovakia
+#CZE/SLO folds and gives up Slovakia
 news_event = {
 	id = news.310
 	title = news.310.t
@@ -9467,7 +9467,7 @@ news_event = {
 	option = {
 		name = news.310.b
 		trigger = { 
-			TAG = BOH
+			TAG = CZE
 		}
 	}
 	option = {
@@ -9475,13 +9475,13 @@ news_event = {
 		trigger = { 
 			NOT = {
 				TAG = HUN
-				TAG = BOH
+				TAG = CZE
 			}
 		}
 	}
 }
 
-#Hungary and BOH/SLO unable to find solution, war looms
+#Hungary and CZE/SLO unable to find solution, war looms
 news_event = {
 	id = news.311
 	title = news.311.t
@@ -9502,7 +9502,7 @@ news_event = {
 		name = news.311.b
 		trigger = { 
 			
-			TAG = BOH
+			TAG = CZE
 				
 		}
 	}
@@ -9511,7 +9511,7 @@ news_event = {
 		trigger = { 
 			NOT = {
 				TAG = HUN
-				TAG = BOH
+				TAG = CZE
 			}
 		}
 	}
@@ -9607,7 +9607,7 @@ news_event = {
 		trigger = {
 			OR = {
 				TAG = ROM
-				TAG = PLC
+				TAG = POL
 			}
 		}
 	}
@@ -9625,7 +9625,7 @@ news_event = {
 		trigger = { 
 			NOT = {
 				TAG = ROM
-				TAG = PLC
+				TAG = POL
 				TAG = GER
 				TAG = SOV
 			}
@@ -9655,11 +9655,11 @@ news_event = {
 		trigger = { 
 			OR = {
 				AND = {
-					TAG = PLC
+					TAG = POL
 					is_in_faction_with = ROM
 				}
 				AND = {
-					TAG = BOH
+					TAG = CZE
 					is_in_faction_with = ROM
 				}
 			}
@@ -9680,8 +9680,8 @@ news_event = {
 			OR = {
 				NOT = {
 					TAG = ROM
-					TAG = PLC
-					TAG = BOH
+					TAG = POL
+					TAG = CZE
 					TAG = GER
 					TAG = SOV
 					has_government = communism
@@ -9689,8 +9689,8 @@ news_event = {
 				}
 				AND = { 
 					OR = {
-						TAG = PLC
-						TAG = BOH
+						TAG = POL
+						TAG = CZE
 					}
 					NOT = { has_government = communism }
 					NOT = { has_government = fascism }
@@ -9706,8 +9706,8 @@ news_event = {
 				AND = {
 					NOT = {
 						TAG = ROM
-						TAG = PLC
-						TAG = BOH
+						TAG = POL
+						TAG = CZE
 						TAG = GER
 						TAG = SOV
 					}
@@ -9718,8 +9718,8 @@ news_event = {
 				}
 				AND = { 
 					OR = {
-						TAG = PLC
-						TAG = BOH
+						TAG = POL
+						TAG = CZE
 					}
 					OR = {
 						has_government = communism
@@ -9844,7 +9844,7 @@ news_event = {
 				NOT = {
 					TAG = ROM
 					TAG = YUG
-					TAG = PLC
+					TAG = POL
 					TAG = GER
 					TAG = ITA
 				}
@@ -9866,7 +9866,7 @@ news_event = {
 	option = {
 		name = news.321.e
 		trigger = { 
-			TAG = PLC
+			TAG = POL
 		}
 	}
 }

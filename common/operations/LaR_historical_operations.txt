@@ -19,7 +19,7 @@ heavy_water_raid = { ### 1/50
 				value > 50
 			}
 			network_strength = {
-				target = SCA
+				target = SWE
 				state = 110
 				value > 50
 			}
@@ -31,7 +31,7 @@ heavy_water_raid = { ### 1/50
 			OR = {
 				original_tag = GER
 				AND = {
-					original_tag = SCA 
+					original_tag = SWE 
 					is_subject_of = GER
 				}
 			}
@@ -45,9 +45,9 @@ heavy_water_raid = { ### 1/50
 				}
 			}
 			AND = {
-				SCA = { controls_state = 110 }
+				SWE = { controls_state = 110 }
 				network_national_coverage = {
-					target = SCA
+					target = SWE
 					value > 0
 				}
 			}

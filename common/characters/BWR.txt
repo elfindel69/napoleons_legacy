@@ -2459,9 +2459,7 @@ characters = {
 			allowed = {
 				original_tag = BWR
 			}
-			available = {
-				has_completed_focus = SOV_consolidate_power
-			}
+			
 			traits = {
 				political_chameleon
 			}

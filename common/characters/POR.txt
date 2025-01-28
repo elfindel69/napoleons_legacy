@@ -1105,9 +1105,7 @@ characters = {
 				original_tag = POR
 				has_dlc = "La Resistance"
 			}
-			available = {
-				has_completed_focus = POR_concordat_with_the_holy_see 
-			}
+			
 			traits = {
 				appeaser 
 			}

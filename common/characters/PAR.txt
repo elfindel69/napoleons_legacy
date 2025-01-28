@@ -216,11 +216,7 @@ characters = {
 				army_chief_reform_2
 			}
 
-			available = {
-				NOT = {
-					has_completed_focus = PAR_get_rid_of_colonel_peredes
-				}
-			}
+			
 
 			cost = 100
 

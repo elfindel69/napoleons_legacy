@@ -486,22 +486,7 @@ characters={
 				has_dlc = "La Resistance"
 				original_tag = SPR
 			}
-			visible = {
-				NOT = {
-					tag = SPA
-					tag = SPB
-				}
-			}
-			available = {
-				has_completed_focus = SPR_demand_ministerial_positions
-				NOT = {
-					has_completed_focus = SPR_crush_the_revolution
-				}
-				custom_trigger_tooltip = {
-					tooltip = SPR_not_nationalist_spain_tt
-					NOT = { tag = SPA }
-				}
-			}
+			
 			traits = { army_logistics_1 }
 			cost =  50
 		}
@@ -663,23 +648,7 @@ characters={
 					original_tag = SPR
 				}
 	
-				visible = {
-					NOT = {
-						tag = SPD
-						tag = SPC
-					}
-				}
-	
-				available = {
-					NOT = {
-						has_completed_focus = SPR_masters_of_our_own_fate
-						has_completed_focus = SPA_no_compromise_on_carlist_ideals
-					}
-					custom_trigger_tooltip = {
-						tooltip = SPA_not_republican_spain_tt
-						NOT = { tag = SPD }
-					}
-				}
+				
 				traits = {
 					army_infantry_2
 				}
@@ -758,21 +727,7 @@ characters={
 						original_tag = CHL
 					}
 				}
-				visible = {
-					NOT = {
-						tag = SPD
-						tag = SPC
-					}
-				}
-				available = {
-					NOT = {
-						has_completed_focus = SPA_no_compromise_on_carlist_ideals
-					}
-					custom_trigger_tooltip = {
-						tooltip = SPA_not_republican_spain_tt
-						NOT = { tag = SPD }
-					}
-				}
+				
 				traits = {
 					army_chief_offensive_2
 				}
@@ -885,19 +840,7 @@ characters={
 						original_tag = CHL
 					}
 				}
-				visible = {
-					NOT = {
-						tag = SPD
-						tag = SPC
-					}
-				}
-				available = {
-					NOT = { has_completed_focus = SPA_supremacy_of_the_communion }
-					custom_trigger_tooltip = {
-						tooltip = SPA_not_republican_spain_tt
-						NOT = { tag = SPD }
-					}
-				}
+				
 				traits = {
 					mobile_warfare_expert
 				}

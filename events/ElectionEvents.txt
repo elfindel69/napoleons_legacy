@@ -166,7 +166,7 @@ country_event = {
 				date < 1949.1.1
 			} 
 			AND = { 
-				tag = BYZ 
+				tag = GRE 
 				#has_dlc = "Battle for the Bosporus"
 			} 
 			AND = {
@@ -235,7 +235,7 @@ country_event = {
 				date < 1949.1.1
 			} 
 			AND = { 
-				tag = BYZ 
+				tag = GRE 
 				#has_dlc = "Battle for the Bosporus"
 			} 
 			AND = { 
@@ -331,7 +331,7 @@ country_event = {
 			}
 			
 			AND = { 
-				tag = BYZ 
+				tag = GRE 
 				#has_dlc = "Battle for the Bosporus"
 			} 
 			AND = {
@@ -416,7 +416,7 @@ country_event = {
 				date < 1949.1.1
 			} 
 			AND = { 
-				tag = BYZ 
+				tag = GRE 
 				#has_dlc = "Battle for the Bosporus"
 			} 
 			AND = {
@@ -498,7 +498,7 @@ country_event = {
 				date < 1949.1.1
 			} 
 			AND = { 
-				tag = BYZ 
+				tag = GRE 
 				#has_dlc = "Battle for the Bosporus"
 			} 
 			AND = {
@@ -583,7 +583,7 @@ country_event = {
 				has_dlc = "La Resistance"
 			}
 			AND = {
-				original_tag = BYZ
+				original_tag = GRE
 				has_dlc = "Battle for the Bosporus"
 			}
 			
@@ -638,7 +638,7 @@ country_event = {
 		
 		NOT = {
 			AND = {
-				original_tag = BYZ
+				original_tag = GRE
 				has_dlc = "Battle for the Bosporus"
 			}
 		

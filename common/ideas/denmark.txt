@@ -89,9 +89,7 @@ ideas = {
 				has_dlc = "Arms Against Tyranny"
 			}
 
-			visible = {
-				NOT = { has_completed_focus = DEN_aalborg_portland_cement_plant }
-			}
+			
 
 			
 			
@@ -112,11 +110,7 @@ ideas = {
 				has_dlc = "Arms Against Tyranny"
 			}
 
-			visible = {
-				has_completed_focus = DEN_aalborg_portland_cement_plant
-			}
-
-			
+						
 			
 			research_bonus = {
 				excavation_tech = 0.15
@@ -138,9 +132,7 @@ ideas = {
 				has_dlc = "Arms Against Tyranny"
 			}
 
-			available = {
-				has_completed_focus = DEN_danske_stalvalsevaerket
-			}
+			
 			
 			research_bonus = {
 				industry = 0.15

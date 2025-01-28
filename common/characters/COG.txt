@@ -1003,9 +1003,7 @@ characters = {
 				original_tag = COG
 			}
 
-			available = {	
-				has_completed_focus = CONGO_ccci
-			}
+			
 
 			traits = {
 				corporate_knight

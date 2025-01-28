@@ -1835,9 +1835,7 @@ characters={
 			allowed  = {
 				original_tag  = SWI
 			}
-			available = {
-				SWI_can_be_councilor = yes
-			}
+			
 			traits  = {
 				SWI_trade_unionist 
 			}

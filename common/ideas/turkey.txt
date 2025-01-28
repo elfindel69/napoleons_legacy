@@ -305,9 +305,7 @@ ideas = {
 				has_dlc = "Battle for the Bosporus"
 			}
 
-			available = {
-				has_country_flag = TUR_sponsored_killigil_armaments_flag
-			}
+			
 			
 			research_bonus = {
 				artillery = 0.15
@@ -350,12 +348,7 @@ ideas = {
 				original_tag = TUR
 				has_dlc = "Battle for the Bosporus"
 			}
-			available = { 
-				NOT = { has_country_flag = TUR_debt_council_reined_in_flag }
-			}	
-			visible = {
-				NOT = { has_country_flag = TUR_debt_council_reined_in_flag }
-			}			
+			
 			
 			research_bonus = {
 				industry = 0.05
@@ -374,13 +367,7 @@ ideas = {
 				original_tag = TUR
 				has_dlc = "Battle for the Bosporus"
 			}
-			available = { 
-				has_country_flag = TUR_debt_council_reined_in_flag
-			}	
-			visible = {
-				has_country_flag = TUR_debt_council_reined_in_flag
-				has_idea = TUR_tpda
-			}		
+			
 			
 			research_bonus = {
 				industry = 0.07
@@ -438,7 +425,7 @@ ideas = {
 				has_dlc = "Battle for the Bosporus"
 			}
 			available = { 
-				T
+				
 			}	
 
 			cost = 75			

@@ -671,7 +671,7 @@ technologies = {
 				factor = 10
 				tag = GER
 
-				PLC = { has_capitulated = yes }
+				POL = { has_capitulated = yes }
 				GER = { has_war = yes }
 			}
 			

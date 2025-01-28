@@ -1551,13 +1551,9 @@ BWR_CAV_02 =
 	for_countries = { BWR UKR }
 
 	can_use = {
-		OR = {
-			AND = {
+		
 				tag = BWR
-				has_completed_focus = BWR_restore_cossack_units
-			}
-			tag = UKR
-		}
+		
 	}
 
 	division_types = { "cavalry" }

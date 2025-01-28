@@ -80,13 +80,7 @@ characters = {
 					}
 				}
 
-				ai_will_do = {
-					factor = 1.000
-					modifier = {
-						add = 200
-						has_completed_focus = CHL_denounce_the_anarchy
-					}
-				}
+				
 
 				traits  = {
 					JUNO_el_jefe_advisor_trait 
@@ -1291,7 +1285,7 @@ characters = {
 				visible = {
 					NOT = {
 						OR = {
-							has_completed_focus = CHL_address_the_mapuche_conflict
+							
 							has_government = communism
 							has_government = fascism
 						}
@@ -2337,10 +2331,9 @@ characters = {
 			logistics_skill = 1
 			legacy_id = -1 
 			visible = {
-				OR = {
-					has_country_flag = CHL_mapuche_commuist_cultural_cross_pollination
+				
 					has_government = communism
-				}
+				
 			}
 		}
 	}
@@ -2985,15 +2978,7 @@ characters = {
 				
 			}
 
-			visible = {
-				NOT = {
-					OR = {
-						has_completed_focus = CHL_address_the_mapuche_conflict
-						has_completed_focus = CHL_the_future_of_Chile
-						has_completed_focus = CHL_denounce_the_anarchy
-					}
-				}
-			}
+			
 
 			traits  = {
 				agricultural_capitalist 
@@ -4091,12 +4076,7 @@ characters = {
 			planning_skill = 4
 			logistics_skill = 4
 			legacy_id = -1 
-			visible = {
-				OR = {
-					has_completed_focus = CHL_union_of_american_indigenous_peoples
-					has_completed_focus = CHL_establish_the_royal_mountaineers
-				}
-			}
+			
 		}
 	}
 
