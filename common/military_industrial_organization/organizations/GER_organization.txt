@@ -26,6 +26,7 @@ GER_porsche_organization = {
 				original_tag = MEX 
 				has_dlc = "Man the Guns"
 			}
+			
 		}
 	}
 
@@ -44,6 +45,7 @@ GER_porsche_organization = {
 			}
 			FROM = { is_in_faction_with = GER }
 		}
+		
 	}
 
 	tree_header_text = {
@@ -246,18 +248,44 @@ GER_porsche_organization = {
 }
 
 GER_henschel_organization = {
-	include = generic_mobile_tank_organization
+	include = generic_infantry_tank_organization
 	icon = GFX_idea_henschel
 	
 	allowed = {	
 		
 		original_tag = GER 
+			
+			
 		
 	}
 	
 	
 
 	
+
+	override_trait = {
+		token = generic_mio_trait_light_tank_specialization
+
+		position = { x=-1 y=1 }
+		relative_position_id = GER_mio_trait_technical_superiority
+		any_parent = { GER_mio_trait_technical_superiority }
+	}
+
+	override_trait = {
+		token = generic_mio_trait_medium_tank_specialization
+
+		position = { x=0 y=1 }
+		relative_position_id = GER_mio_trait_technical_superiority
+		any_parent = { GER_mio_trait_technical_superiority }
+	}
+
+	override_trait = {
+		token = generic_mio_trait_heavy_tank_specialization
+
+		position = { x=1 y=1 }
+		relative_position_id = GER_mio_trait_technical_superiority
+		any_parent = { GER_mio_trait_technical_superiority }
+	}
 
 	add_trait = {
 		token = GER_mio_trait_hoesch_facilities
@@ -299,8 +327,7 @@ GER_henschel_organization = {
 		icon = GFX_generic_mio_department_icon_facilities
 		special_trait_background = yes
 
-		position = { x=0 y=1 }
-		relative_position_id = GER_mio_trait_hoesch_facilities
+		position = { x=8 y=0 }
 
 		visible = {
 			FROM = { original_tag = GER }
@@ -323,6 +350,88 @@ GER_henschel_organization = {
 
 		ai_will_do = {
 			base = 2
+		}
+	}
+
+	add_trait = {
+		token = GER_mio_trait_steel_wheel_design
+		name = GER_mio_trait_steel_wheel_design
+		icon = GFX_generic_mio_department_icon_tank_heavy_tank_quality
+		special_trait_background = yes
+
+		limit_to_equipment_type = { mio_cat_eq_all_heavy_tank }
+
+		position = { x=1 y=1 }
+		relative_position_id = generic_mio_trait_interleaved_track_wheels
+
+		any_parent = { generic_mio_trait_interleaved_track_wheels generic_mio_trait_overlapped_track_wheels }
+
+		visible = {
+			FROM = { original_tag = GER }
+		}
+
+		equipment_bonus = {
+			reliability = 0.03
+			breakthrough = 0.05
+			armor_value = 0.05
+		}
+
+		production_bonus = {
+			production_cost_factor = 0.03
+		}
+	}
+
+	add_trait = {
+		token = GER_mio_trait_telescopic_sight
+		name = GER_mio_trait_telescopic_sight
+		icon = GFX_generic_mio_trait_icon_hard_attack
+		special_trait_background = yes
+
+		limit_to_equipment_type = { mio_cat_eq_all_heavy_tank }
+
+		position = { x=-0 y=1 }
+		relative_position_id = generic_mio_trait_turret_sights
+
+		any_parent = { generic_mio_trait_turret_sights }
+
+		visible = {
+			FROM = { original_tag = GER }
+		}
+
+		equipment_bonus = {
+			hard_attack = 0.05
+			ap_attack = 0.05
+			breakthrough = 0.05
+		}
+
+		production_bonus = {
+			production_cost_factor = 0.03
+		}
+	}
+
+	add_trait = {
+		token = GER_mio_trait_technical_superiority
+		name = GER_mio_trait_technical_superiority
+		icon = GFX_generic_mio_department_icon_tank_general_quality
+		special_trait_background = yes
+
+		position = { x=0 y=1 }
+		relative_position_id = generic_mio_trait_adaptable_chassis
+
+		any_parent = { generic_mio_trait_adaptable_chassis }
+
+		visible = {
+			FROM = { original_tag = GER }
+		}
+
+		equipment_bonus = {
+			defense = 0.05
+			soft_attack = 0.05
+			armor_value = 0.05
+		}
+
+		production_bonus = {
+			production_cost_factor = 0.03
 		}
 	}
 }
@@ -435,7 +544,7 @@ GER_man_organization = {
 	add_trait = {
 		token = GER_mio_trait_schachtellaufwerk 
 		name = GER_mio_trait_schachtellaufwerk 
-		icon = GFX_generic_mio_department_icon_tank_medium_tank_quality
+		icon = GFX_generic_mio_department_icon_tank_heavy_tank_quality
 		special_trait_background = yes
 
 		position = { x=-1 y=1 }
@@ -509,6 +618,7 @@ GER_alkett_organization = {
 	override_trait = {
 		token = generic_mio_medium_assault_gun_rocket_tubes
 
+		mutually_exclusive = { GER_mio_trait_panzerjager }	
 	}
 
 	#override_trait = {
@@ -626,12 +736,7 @@ GER_alkett_organization = {
 
 		available = {
 			#TODO_Danne fix this with a flag or something! GER should integrate CZE industries or something before doing this
-			FROM = {
-				OR = {
-					NOT= {CZE = {exists = yes}}
-					CZE = {is_puppet_of = GER}
-				}
-			}
+			
 		}
 
 		limit_to_equipment_type = { medium_tank_artillery_chassis heavy_tank_artillery_chassis }
@@ -656,9 +761,8 @@ GER_daimler_benz_organization = {
 	
 	allowed = {	
 		
-			original_tag = GER 
-		
-		
+		original_tag = GER 
+			
 	}
 
 	
@@ -1019,6 +1123,7 @@ GER_germaniawerft_organization = {
 		position = { x=0 y=1 }  
 
 		
+
       	equipment_bonus = {
 			hg_attack = 0.05
 			lg_attack = 0.05
@@ -1115,7 +1220,7 @@ GER_blohm_und_voss_organization = {
 
 		position = { x=0 y=1 }  
 
-	
+		
 
         limit_to_equipment_type = { mio_cat_eq_all_cruiser }
 
@@ -1465,7 +1570,7 @@ GER_kriegsmarinewerft_wilhelmshaven_organization = {
 
 		position = { x=8 y=0 }
 		
-		
+	
 
 		production_bonus = {
 			production_capacity_factor = 0.07
@@ -1550,7 +1655,8 @@ GER_messerschmitt_organization = {
 	
 	allowed = {	
 		
-		original_tag = GER
+			original_tag = GER
+		
 	}
 
 	
@@ -1645,7 +1751,12 @@ GER_messerschmitt_organization = {
 			FROM = { original_tag = GER }
 		}
 
-		
+		available = {
+			FROM = {
+				
+				NOT = { has_country_flag = GER_mio_trait_aerodynamic_research_insitute_taken_flag }
+			}
+		}
 
 		on_complete = {
 			custom_effect_tooltip = generic_trait_will_not_be_available_in_other_organizations
@@ -1677,7 +1788,12 @@ GER_messerschmitt_organization = {
 			has_dlc = "Gotterdammerung"
 		}
 
-		
+		available = {
+			owner = {
+				
+				has_country_flag = GER_amerikabomber_messerschmitt_flag
+			}
+		}
 
 		limit_to_equipment_type = { mio_cat_eq_only_light_fighter }
 
@@ -1692,13 +1808,38 @@ GER_junkers_organization = {
 	icon = GFX_idea_junkers
 	
 	allowed = {	 
-		
+		OR = {
 			original_tag = GER 
-			
-		
+			AND = {
+				original_tag = ETH
+				has_dlc = "By Blood Alone"
+			}
+		}
 	}
 	
 	
+
+	available = {
+		# When in a Foreign MIO, countries need to be at peace with original country
+		IF = {
+			limit = {
+				FROM = { NOT = { original_tag = GER } }
+			}
+			FROM = { NOT = { has_war_with = GER } }
+		}
+
+		IF = {
+			limit = {
+				FROM = { NOT  = { original_tag = GER } }
+			}
+			custom_trigger_tooltip = {
+				tooltip = has_invited_mio_tt
+				FROM = {
+					has_country_flag = has_invited_GER_junkers_organization_flag
+				}
+			}
+		}
+	}
 
 	add_trait = {
 		token = GER_mio_trait_psychological_warfare
@@ -1716,8 +1857,8 @@ GER_junkers_organization = {
 	}
 
 	add_trait = {
-		token = GER_mio_trait_90_deGREe_dives
-		name = GER_mio_trait_90_deGREe_dives
+		token = GER_mio_trait_90_degree_dives
+		name = GER_mio_trait_90_degree_dives
 
 		icon = GFX_generic_mio_department_icon_plane_cas_quality
 		special_trait_background = yes
@@ -1782,7 +1923,12 @@ GER_junkers_organization = {
 			FROM = { original_tag = GER }
 		}
 
-		
+		available = {
+			FROM = {
+				
+				NOT = { has_country_flag = GER_mio_trait_aerodynamic_research_insitute_taken_flag }
+			}
+		}
 
 		on_complete = {
 			custom_effect_tooltip = generic_trait_will_not_be_available_in_other_organizations
@@ -1814,7 +1960,11 @@ GER_junkers_organization = {
 			has_dlc = "Gotterdammerung"
 		}
 
-		
+		available = {
+			owner = {
+				has_country_flag = GER_amerikabomber_junkers_flag
+			}
+		}
 
 		limit_to_equipment_type = { small_plane_cas_airframe }
 
@@ -1869,6 +2019,13 @@ GER_focke_wulf_organization = {
 		
 		visible = {
 			FROM = { original_tag = GER }
+		}
+
+		available = {
+			FROM = {
+				
+				NOT = { has_country_flag = GER_mio_trait_aerodynamic_research_insitute_taken_flag }
+			}
 		}
 
 		on_complete = {
@@ -1995,7 +2152,12 @@ GER_focke_wulf_organization = {
 			has_dlc = "Gotterdammerung"
 		}
 
-		
+		available = {
+			owner = {
+			
+				has_country_flag = GER_amerikabomber_focke_wulf_flag
+			}
+		}
 
 		limit_to_equipment_type = { mio_cat_eq_all_medium_plane }
 
@@ -2010,12 +2172,12 @@ GER_heinkel_organization = {
 	icon = GFX_idea_heinkel
 	
 	allowed = {	
-		
+	
 		original_tag = GER 
 			
 	}
 
-	
+
 
 	tree_header_text = {
 		text = mio_header_design_department
@@ -2142,7 +2304,11 @@ GER_heinkel_organization = {
 			FROM = { original_tag = GER }
 		}
 
-		
+		available = {
+			FROM = {
+				NOT = { has_country_flag = GER_mio_trait_aerodynamic_research_insitute_taken_flag }
+			}
+		}
 
 		on_complete = {
 			custom_effect_tooltip = generic_trait_will_not_be_available_in_other_organizations
@@ -2174,7 +2340,12 @@ GER_heinkel_organization = {
 			has_dlc = "Gotterdammerung"
 		}
 
-		
+		available = {
+			owner = {
+			
+				has_country_flag = GER_amerikabomber_heinkel_flag
+			}
+		}
 
 		limit_to_equipment_type = { large_plane_airframe }
 
@@ -2279,7 +2450,12 @@ GER_dornier_organization = {
 			FROM = { original_tag = GER }
 		}
 
-		
+		available = {
+			FROM = {
+				
+				NOT = { has_country_flag = GER_mio_trait_aerodynamic_research_insitute_taken_flag }
+			}
+		}
 
 		on_complete = {
 			custom_effect_tooltip = generic_trait_will_not_be_available_in_other_organizations
@@ -2315,7 +2491,11 @@ GER_arado_flugzeugwerke_organization = {
 		position = { x=0 y=1 }
 		relative_position_id = GER_mio_trait_hamburger_flugzeugbau
 
-	
+		available = {
+			FROM = {
+				is_special_project_completed = sp:sp_air_jet_engine
+			}
+		}
 
 		limit_to_equipment_type = { mio_cat_eq_all_medium_plane }
 
@@ -2375,7 +2555,11 @@ GER_arado_flugzeugwerke_organization = {
 			FROM = { original_tag = GER }
 		}
 
-		
+		available = {
+			FROM = {
+				NOT = { has_country_flag = GER_mio_trait_aerodynamic_research_insitute_taken_flag }
+			}
+		}
 
 		on_complete = {
 			custom_effect_tooltip = generic_trait_will_not_be_available_in_other_organizations
@@ -2453,7 +2637,11 @@ GER_fieseler_organization = {
 			FROM = { original_tag = GER }
 		}
 
-		
+		available = {
+			FROM = {
+				NOT = { has_country_flag = GER_mio_trait_aerodynamic_research_insitute_taken_flag }
+			}
+		}
 
 		on_complete = {
 			custom_effect_tooltip = generic_trait_will_not_be_available_in_other_organizations
@@ -2533,7 +2721,11 @@ GER_focke_achgelis_organization = {
 			FROM = { original_tag = GER }
 		}
 
-		
+		available = {
+			FROM = {
+				NOT = { has_country_flag = GER_mio_trait_aerodynamic_research_insitute_taken_flag }
+			}
+		}
 
 		on_complete = {
 			custom_effect_tooltip = generic_trait_will_not_be_available_in_other_organizations
@@ -2575,11 +2767,24 @@ GER_rheinmetall_organization = {
 				original_tag = GRE
 				has_dlc = "Battle for the Bosporus"
 			}
+			AND = {
+				original_tag = HUN
+				has_dlc = "Gotterdammerung"
+			}
+		}
+	}
+
+	available = {
+		# When in a Foreign MIO, countries need to be at peace with original country
+		IF = {
+			limit = {
+				FROM = { NOT = { original_tag = GER } }
+			}
+			FROM = { NOT = { has_war_with = GER } }
 		}
 	}
 
 	
-
 	add_trait = { 
 		token = GER_mio_trait_3_7_cm_pak
 		name = GER_mio_trait_3_7_cm_pak
@@ -2709,15 +2914,38 @@ GER_mauser_organization = {
 	}
 	
 	allowed = {	 
-	
+		OR = {
 			original_tag = GER 
-			
-		
+			AND = {
+				original_tag = ETH
+				has_dlc = "By Blood Alone"
+			}
+		}
 	}
 	
+
 	
-	
-	
+	available = {
+		# When in a Foreign MIO, countries need to be at peace with original country
+		IF = {
+			limit = {
+				FROM = { NOT = { original_tag = GER } }
+			}
+			FROM = { NOT = { has_war_with = GER } }
+		}
+
+		IF = {
+			limit = {
+				FROM = { NOT  = { original_tag = GER } }
+			}
+			custom_trigger_tooltip = {
+				tooltip = has_invited_mio_tt
+				FROM = {
+					has_country_flag = has_invited_GER_mauser_organization_flag
+				}
+			}
+		}
+	}
 
 	add_trait = {
 		token = GER_mio_trait_experienced_manufacturer
@@ -2835,9 +3063,10 @@ GER_opel_organization = {
 	allowed = {	
 		OR = {
 			original_tag = GER
+			
 			AND = {
-				original_tag = ROM
-				has_dlc = "Death or Dishonor"
+				original_tag = BUL
+				has_dlc = "Battle for the Bosporus"
 			}
 		}
 	}
@@ -2851,7 +3080,7 @@ GER_opel_organization = {
 			FROM = { NOT = { has_war_with = GER } }
 		}
 
-		
+	
 		IF = {
 			limit = { FROM = { original_tag = ROM } }
 			FROM = { has_country_flag = GER_mot_chosen }
@@ -2870,7 +3099,8 @@ GER_opel_organization = {
 			FROM = { original_tag = GER }
 		}
 
-		
+	
+
 		equipment_bonus = {
 			reliability = 0.05
 			build_cost_ic = -0.02
@@ -2894,7 +3124,6 @@ GER_opel_organization = {
 		}
 
 		
-
 		production_bonus = {
 			production_capacity_factor = 0.05
 		}

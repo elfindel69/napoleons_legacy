@@ -105,13 +105,7 @@ materiel_manufacturer = {
 		modifier = {
 		}
 
-		ai_will_do = {
-			base = 5
-			modifier = {
-				add = 10
-				SWI_is_historical_ai = yes 
-			}
-		}
+		
 	}
 	SWI_oerlikon = {
 		

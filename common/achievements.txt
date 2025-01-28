@@ -425,11 +425,11 @@ the_revolution_triumphant = {
 		has_start_date < 1936.01.02
 		has_any_custom_difficulty_setting = no
 		game_rules_allow_achievements = yes
-		tag = SOV
+		tag = BWR
 	}
 	
 	happened = {
-		GER = { is_puppet_of = SOV } 
+		GER = { is_puppet_of = BWR } 
 	}
 }
 
@@ -1054,7 +1054,7 @@ death_or_dishonor_or_cake = {
 			is_owned_by = ROOT
 		}
 		any_state = {
-			is_core_of = SOV
+			is_core_of = BWR
 			is_owned_by = ROOT
 		}
 		any_state = {
@@ -1274,7 +1274,7 @@ lethal_straight = {
 			ENG = { is_licensing_any_to = ROOT }
 			GER = { is_licensing_any_to = ROOT }
 			USA = { is_licensing_any_to = ROOT }
-			SOV = { is_licensing_any_to = ROOT }
+			BWR = { is_licensing_any_to = ROOT }
 			JAP = { is_licensing_any_to = ROOT }
 			FRA = { is_licensing_any_to = ROOT }
 			ITA = { is_licensing_any_to = ROOT }
@@ -2068,7 +2068,7 @@ the_new_home_of_the_revolution = {
 		has_country_leader = {
  			character = MEX_leon_trotsky
  		}
-		SOV = { is_subject_of = MEX }
+		BWR = { is_subject_of = MEX }
 	}
 }
 
@@ -2088,7 +2088,7 @@ assuming_direct_control = {
 				tag = GER
 				tag = ITA
 				tag = FRA
-				tag = SOV
+				tag = BWR
 				tag = JAP
 				tag = CHI
 			}
@@ -3032,7 +3032,7 @@ bad_romeance = {
 	happened = {
 		custom_trigger_tooltip = {
 			tooltip = bad_romeance_tt
-			has_subject = SOV
+			has_subject = BWR
 			has_subject = ROM
 			has_subject = ITA
 		}
@@ -3328,7 +3328,7 @@ no_more_partitions = {
 				is_in_faction_with = POL
 			}
 		}
-		SOV = {
+		BWR = {
 			OR = {
 				exists = no
 				is_in_faction_with = POL
@@ -3381,11 +3381,11 @@ the_pope_how_many_divisions_does_he_have = {
 		has_start_date < 1936.01.02
 		has_any_custom_difficulty_setting = no
 		game_rules_allow_achievements = yes
-		original_tag = SOV
+		original_tag = BWR
 	}
 	
 	happened = {
-		SOV = {
+		BWR = {
 			controls_state = 2
 		}
 	}
@@ -3616,12 +3616,12 @@ not_a_step_back = {
 		has_start_date < 1936.01.02
 		has_any_custom_difficulty_setting = no
 		game_rules_allow_achievements = yes			
-		original_tag = SOV
+		original_tag = BWR
 	}
 	
 	happened = {
 		date > 1945.1.1
-		SOV = {
+		BWR = {
 			NOT = {
 				has_country_flag = achievement_lost_state #flag set if a state changes control away from Soviets
 			}
@@ -3638,11 +3638,11 @@ one_step_forward = {
 		has_start_date < 1936.01.02
 		has_any_custom_difficulty_setting = no
 		game_rules_allow_achievements = yes			
-		original_tag = SOV
+		original_tag = BWR
 	}
 	
 	happened = {
-		SOV = {
+		BWR = {
 			has_War_with = POL
 			has_war_with = GER
 			NOT = { has_country_flag = achievement_GER_attacked_POL_first }
@@ -3659,13 +3659,13 @@ the_soviet_onion = {
 		has_start_date < 1936.01.02
 		has_any_custom_difficulty_setting = no
 		game_rules_allow_achievements = yes			
-		original_tag = SOV
+		original_tag = BWR
 	}
 	
 	happened = {
-		SOV = {
+		BWR = {
 			all_neighbor_country = {
-				is_subject_of = SOV
+				is_subject_of = BWR
 			}
 		}
 	}
@@ -3700,15 +3700,15 @@ the_romanovs_laugh_last = {
 		has_start_date < 1936.01.02
 		has_any_custom_difficulty_setting = no
 		game_rules_allow_achievements = yes			
-		original_tag = SOV
+		original_tag = BWR
 	}
 	
 	happened = {
-		SOV = {
+		BWR = {
 			OR = {
-				has_idea = SOV_tsar_vladimir_i
+				has_idea = BWR_tsar_vladimir_i
 				has_country_leader = {
-					character = SOV_tsar_vladimir_kirillovich
+					character = BWR_tsar_vladimir_kirillovich
 					ruling_only = yes
 				}
 			}
@@ -3716,48 +3716,48 @@ the_romanovs_laugh_last = {
 		64 = {
 			CONTROLLER = {
 				OR = {
-					Original_tag = SOV
-					is_subject_of = SOV
+					Original_tag = BWR
+					is_subject_of = BWR
 				}
 			}
 		}
 		9 = {
 			CONTROLLER = {
 				OR = {
-					Original_tag = SOV
-					is_subject_of = SOV
+					Original_tag = BWR
+					is_subject_of = BWR
 				}
 			}
 		}
 		4 = {
 			CONTROLLER = {
 				OR = {
-					Original_tag = SOV
-					is_subject_of = SOV
+					Original_tag = BWR
+					is_subject_of = BWR
 				}
 			}
 		}
 		43 = {
 			CONTROLLER = {
 				OR = {
-					Original_tag = SOV
-					is_subject_of = SOV
+					Original_tag = BWR
+					is_subject_of = BWR
 				}
 			}
 		}
 		48 = {
 			CONTROLLER = {
 				OR = {
-					Original_tag = SOV
-					is_subject_of = SOV
+					Original_tag = BWR
+					is_subject_of = BWR
 				}
 			}
 		}
 		49 = {
 			CONTROLLER = {
 				OR = {
-					Original_tag = SOV
-					is_subject_of = SOV
+					Original_tag = BWR
+					is_subject_of = BWR
 				}
 			}
 		}
@@ -3773,13 +3773,13 @@ we_dont_really_like_statistics = {
 		has_start_date < 1936.01.02
 		has_any_custom_difficulty_setting = no
 		game_rules_allow_achievements = yes			
-		original_tag = SOV
+		original_tag = BWR
 	}
 	
 	happened = {
-		SOV = {
+		BWR = {
 			has_country_leader = {
-				character = SOV_iosif_stalin
+				character = BWR_iosif_stalin
 			}
 			has_country_flag = achievement_no_statistics
 		}
@@ -3795,11 +3795,11 @@ race_for_germany = {
 		has_start_date < 1936.01.02
 		has_any_custom_difficulty_setting = no
 		game_rules_allow_achievements = yes			
-		original_tag = SOV
+		original_tag = BWR
 	}
 	
 	happened = {
-		SOV = {
+		BWR = {
 			has_country_flag = achievement_race_for_germany
 		}
 	}
@@ -3836,13 +3836,13 @@ just_proper_gander = {
 		has_start_date < 1936.01.02
 		has_any_custom_difficulty_setting = no
 		game_rules_allow_achievements = yes			
-		original_tag = SOV
+		original_tag = BWR
 	}
 	
 	happened = {
 		custom_trigger_tooltip = {
 			tooltip = just_proper_gander_tt
-			SOV = {
+			BWR = {
 				check_variable = { propaganda_counter > 29 }
 			}
 			date < 1945.1.1
@@ -4453,10 +4453,7 @@ everything_is_awesome = { #works
 		date > 1941.01.01
 		NOT = { has_global_flag = achievement_den_has_never_been_puppeted }
 		NOT = { has_global_flag = achievement_den_has_never_been_capitulated } 
-		is_power_balance_in_range = {
-			id = DEN_balance_of_power
-			range = DEN_welfare_max_range
-		}
+		
 	}
 }
 
@@ -6495,7 +6492,7 @@ american_prometheus = {
 tsar_bomba = {
 	id = 227
 	possible = {
-		tag = SOV
+		tag = BWR
 		is_ironman = yes
 		difficulty > 1
 		has_start_date < 1936.01.02
@@ -6504,7 +6501,7 @@ tsar_bomba = {
 	}
 
 	happened = {
-		SOV = {
+		BWR = {
 			has_tech = thermonuclear_bombs
 		}
 		
