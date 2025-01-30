@@ -562,10 +562,6 @@ set_popularities = {
 }
 add_stability = -0.1
 
-#Event for Svinhufvud's Term Ending
-country_event = { id = AAT_finland_political.02 days = 426 }
-
-
 1939.1.1 = {
 	set_politics = {
 		ruling_party = neutrality
