@@ -1018,53 +1018,8 @@ characters={
 		}
 	}
 
-	JAP_yoshio_nishina={
-		name=JAP_yoshio_nishina
-		portraits={
-			army={
-				small="GFX_idea_yoshio_nishina"
-			}
-		}
-		advisor={
-			cost = 100
-			slot = theorist
-			idea_token = yoshio_nishina
-			ledger = army
-			allowed = {
-				original_tag = JAP
-			}
-			research_bonus = {
-				nuclear = 0.150
-			}
-			traits = {
-				nuclear_scientist
-			}
-		}
-	}
 
-	JAP_hideo_itokawa={
-		name="Hideo Itokawa"
-		portraits={
-			army={
-				small="GFX_idea_hideo_itokawa"
-			}
-		}
-		advisor={
-			cost = 100
-			slot = theorist
-			idea_token = hideo_itokawa
-			ledger = air
-			allowed = {
-				original_tag = JAP
-			}
-			research_bonus = {
-				rocketry = 0.150
-			}
-			traits = {
-				rocket_scientist
-			}
-		}
-	}
+	
 
 
 	### ARMY CHIEFS ###
@@ -1706,11 +1661,7 @@ characters={
 				specialization_air = 2
 			}
 
-			visible = {
-				owner = {
-					has_completed_focus = JAP_agility_focus
-				}
-			}
+			
 		}
 	}
 

@@ -600,15 +600,4 @@ characters={
 	}
 
 
-	#Characters added elsewhere 
-
-	CRO_nikola_mandic = {
-		name=CRO_nikola_mandic
-		portraits={
-			civilian={
-				large="gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
-			}
-		}
-
-	}
 }

@@ -174,7 +174,7 @@ IF = {
 		armored_car1 = 1
 	}
 
-	JAP_create_john_farnsworth_operative = yes
+
 
 	create_operative_leader = {
 		name = JAP_yoshiko_kawashima

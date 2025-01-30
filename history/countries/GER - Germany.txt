@@ -294,7 +294,7 @@ add_to_faction = ITA
 		electronic_mechanical_engineering = 1
 		radio = 1
 		radio_detection = 1
-		decimetric_radar = 1
+		
 		mechanical_computing = 1
 		computing_machine = 1
 		basic_encryption = 1
