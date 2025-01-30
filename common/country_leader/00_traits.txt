@@ -457,7 +457,7 @@ leader_traits = {
 		random = no
 		ai_strategy = {
 			type = antagonize
-			id = "SOV"
+			id = "BWR"
 			value = 200
 		}
 

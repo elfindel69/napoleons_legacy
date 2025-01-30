@@ -111,14 +111,14 @@
  SOV_POL_faction.1.b:0 "Niet!"
  
  SOV_POL_faction_news.1.t:0 "[POL.GetName] dołącza do frakcji - [From.GetFactionName] ma nowego członka!"
- SOV_POL_faction_news.1.d:0 "[SOV.GetLeader] ogłosił publicznie, że [POL.GetName] zażądał przyłączenia się do Kominternu. Kontynuował, że żądanie to zostało przyjęte z radością, ponieważ [POL.GetName] jest zagorzałym obrońcą wartości komunistcznych."
+ SOV_POL_faction_news.1.d:0 "[BWR.GetLeader] ogłosił publicznie, że [POL.GetName] zażądał przyłączenia się do Kominternu. Kontynuował, że żądanie to zostało przyjęte z radością, ponieważ [POL.GetName] jest zagorzałym obrońcą wartości komunistcznych."
  SOV_POL_faction_news.1.a:0 "Nasz sojusz rośnie w siłę!"
  SOV_POL_faction_news.1.b:0 "Kolejny krok do wojny."
- SOV_POL_faction_news.1.c:0 "[SOV.GetName] ma nowego przyjaciela."
+ SOV_POL_faction_news.1.c:0 "[BWR.GetName] ma nowego przyjaciela."
  SOV_POL_faction_news.1.e:0 "Witany sojusznik."
  
  SOV_POL_faction_news.2.t:0 "[From.GetName] odrzuca sojusz z Polską!"
- SOV_POL_faction_news.2.d:0 "[SOV.GetLeader] odrzucił polską prośbę o wstąpienie do Kominternu \n Mówi, że czas jeszcze nie nadszedł z takiej potrzeby, a polski komunizm nie jest stabilny, jak się wydaje."
+ SOV_POL_faction_news.2.d:0 "[BWR.GetLeader] odrzucił polską prośbę o wstąpienie do Kominternu \n Mówi, że czas jeszcze nie nadszedł z takiej potrzeby, a polski komunizm nie jest stabilny, jak się wydaje."
  SOV_POL_faction_news.2.a:0 "Szkoda!"
  SOV_POL_faction_news.2.b:0 "Nie byli jeszcze gotowi"
  SOV_POL_faction_news.2.c:0 "Kolejna stracona szansa"

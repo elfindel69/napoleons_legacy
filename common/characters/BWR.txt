@@ -342,7 +342,7 @@ characters = {
 			idea_token = BWR_ivan_konev
 			ledger = army
 			allowed = {
-				original_tag = SOV
+				original_tag = BWR
 			}
 			traits = {
 				army_concealment_2
@@ -411,7 +411,7 @@ characters = {
 			slot = army_chief
 			idea_token = BWR_kliment_voroshilov
 			allowed = {
-				original_tag = SOV
+				original_tag = BWR
 			}
 			traits = {
 				army_chief_drill_1
@@ -1047,7 +1047,7 @@ characters = {
 			idea_token = BWR_arseniy_golovko
 			ledger = navy
 			allowed = {
-				original_tag = SOV
+				original_tag = BWR
 			}
 			traits = {
 				navy_amphibious_assault_2
@@ -1084,7 +1084,7 @@ characters = {
 			idea_token = BWR_vladimir_kasatonov
 			ledger = navy
 			allowed = {
-				original_tag = SOV
+				original_tag = BWR
 			}
 			traits = {
 				navy_submarine_2
@@ -1477,7 +1477,7 @@ characters = {
 			slot = army_chief
 			idea_token = BWR_aleksandr_yegorov
 			allowed = {
-				original_tag = SOV
+				original_tag = BWR
 			}
 			traits = {
 				army_chief_defensive_2
@@ -1656,7 +1656,7 @@ characters = {
 			slot = army_chief
 			idea_token = anton_denikin
 			allowed = {
-				original_tag = SOV
+				original_tag = BWR
 			}		
 			traits = {
 				army_chief_drill_1
@@ -2704,7 +2704,7 @@ characters = {
 			slot = political_advisor
 			idea_token = SOV_aleksandr_kerensky
 			allowed = {
-					original_tag = SOV
+					original_tag = BWR
 			}
 			
 			available = {

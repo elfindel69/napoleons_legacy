@@ -333,13 +333,13 @@ country_event = {
 		}
 		every_country = {
 			limit = { has_government = communism }
-			SOV = { add_to_faction = PREV }
+			BWR = { add_to_faction = PREV }
 		}
 		GER = {
-			declare_war_on = { target = SOV type = annex_everything }
+			declare_war_on = { target = BWR type = annex_everything }
 			declare_war_on = { target = ENG type = annex_everything }
 		}
-		SOV = {
+		BWR = {
 			declare_war_on = { target = ENG type = annex_everything }
 		}
 	}	

@@ -79,7 +79,7 @@ SOV_morozov_design_bureau_organization = {
 	
 	allowed = {	
 		OR = {
-			tag = SOV
+			tag = BWR
 			AND = {
 				tag = MEX 
 				has_dlc = "Man the Guns"
@@ -91,16 +91,16 @@ SOV_morozov_design_bureau_organization = {
 		# When in a Foreign MIO, countries need to be at peace with original country
 		IF = {
 			limit = {
-				FROM = { NOT = { original_tag = SOV } }
+				FROM = { NOT = { original_tag = BWR } }
 			}
-			FROM = { NOT = { has_war_with = SOV } }
+			FROM = { NOT = { has_war_with = BWR } }
 		}
 
 		IF = {
 			limit = {
 				FROM = { tag = MEX }
 			}
-			FROM = { is_in_faction_with = SOV }
+			FROM = { is_in_faction_with = BWR }
 		}
 	}
 
@@ -114,7 +114,7 @@ SOV_morozov_design_bureau_organization = {
 		position = { x=@tank_1_X y=@tank_1_Y }
 		
 		visible = {
-			FROM = { original_tag = SOV }
+			FROM = { original_tag = BWR }
 		}
 
 		available = { #Three FROM blocs to provide two different check marks in the UI
@@ -146,7 +146,7 @@ SOV_morozov_design_bureau_organization = {
 		position = { x=@tank_2_X y=@tank_2_Y }
 		
 		visible = {
-			FROM = { original_tag = SOV }
+			FROM = { original_tag = BWR }
 		}
 
 		available = {
@@ -178,7 +178,7 @@ SOV_morozov_design_bureau_organization = {
 		position = { x=@tank_3_X y=@tank_3_Y }
 		
 		visible = {
-			FROM = { original_tag = SOV }
+			FROM = { original_tag = BWR }
 		}
 
 		available = {
@@ -206,7 +206,7 @@ SOV_astrov_design_bureau_organization = {
 	icon = GFX_idea_astrov_design_bureau
 	
 	allowed = {	
-		original_tag = SOV
+		original_tag = BWR
 	}
 
 	add_trait = { 
@@ -219,7 +219,7 @@ SOV_astrov_design_bureau_organization = {
 		position = { x=@tank_1_X y=@tank_1_Y }
 		
 		visible = {
-			FROM = { original_tag = SOV }
+			FROM = { original_tag = BWR }
 		}
 
 		available = { #Two FROM blocs to provide two different check marks in the UI
@@ -251,7 +251,7 @@ SOV_astrov_design_bureau_organization = {
 		position = { x=@tank_2_X y=@tank_2_Y }
 		
 		visible = {
-			FROM = { original_tag = SOV }
+			FROM = { original_tag = BWR }
 		}
 
 		available = {
@@ -283,7 +283,7 @@ SOV_astrov_design_bureau_organization = {
 		position = { x=@tank_3_X y=@tank_3_Y }
 		
 		visible = {
-			FROM = { original_tag = SOV }
+			FROM = { original_tag = BWR }
 		}
 
 		available = {
@@ -312,7 +312,7 @@ SOV_okmo_organization = {
 	
 	allowed = {	
 		
-		tag = SOV 
+		tag = BWR 
 
 	}
 
@@ -320,9 +320,9 @@ SOV_okmo_organization = {
 		# When in a Foreign MIO, countries need to be at peace with original country
 		IF = {
 			limit = {
-				FROM = { NOT = { original_tag = SOV } }
+				FROM = { NOT = { original_tag = BWR } }
 			}
-			FROM = { NOT = { has_war_with = SOV } }
+			FROM = { NOT = { has_war_with = BWR } }
 		}
 
 		
@@ -338,7 +338,7 @@ SOV_okmo_organization = {
 		position = { x=@tank_1_X y=@tank_1_Y }
 		
 		visible = {
-			FROM = { original_tag = SOV }
+			FROM = { original_tag = BWR }
 		}
 
 		available = { #Two FROM blocs to provide two different check marks in the UI
@@ -370,7 +370,7 @@ SOV_okmo_organization = {
 		position = { x=@tank_2_X y=@tank_2_Y }
 		
 		visible = {
-			FROM = { original_tag = SOV }
+			FROM = { original_tag = BWR }
 		}
 
 		available = {
@@ -402,7 +402,7 @@ SOV_okmo_organization = {
 		position = { x=@tank_3_X y=@tank_3_Y }
 		
 		visible = {
-			FROM = { original_tag = SOV }
+			FROM = { original_tag = BWR }
 		}
 
 		available = {
@@ -431,7 +431,7 @@ SOV_mytishchy_machine_building_plant_organization = {
 	
 	allowed = {	
 		
-			tag = SOV
+			tag = BWR
 			
 		
 	}
@@ -450,7 +450,7 @@ SOV_mytishchy_machine_building_plant_organization = {
 		position = { x=@tank_1_X y=@tank_1_Y }
 		
 		visible = {
-			FROM = { original_tag = SOV }
+			FROM = { original_tag = BWR }
 		}
 
 		available = { #Two FROM blocs to provide two different check marks in the UI
@@ -482,7 +482,7 @@ SOV_mytishchy_machine_building_plant_organization = {
 		position = { x=@tank_2_X y=@tank_2_Y }
 		
 		visible = {
-			FROM = { original_tag = SOV }
+			FROM = { original_tag = BWR }
 		}
 
 		available = {
@@ -514,7 +514,7 @@ SOV_mytishchy_machine_building_plant_organization = {
 		position = { x=@tank_3_X y=@tank_3_Y }
 		
 		visible = {
-			FROM = { original_tag = SOV }
+			FROM = { original_tag = BWR }
 		}
 
 		available = {
@@ -543,7 +543,7 @@ SOV_kirov_organization = {
 	
 	allowed = {	
 		
-		original_tag = SOV
+		original_tag = BWR
 			
 	}
 
@@ -565,7 +565,7 @@ SOV_kirov_organization = {
 		position = { x=@tank_1_X y=@tank_1_Y }
 		
 		visible = {
-			FROM = { original_tag = SOV }
+			FROM = { original_tag = BWR }
 		}
 
 		available = { #Two FROM blocs to provide two different check marks in the UI
@@ -597,7 +597,7 @@ SOV_kirov_organization = {
 		position = { x=@tank_2_X y=@tank_2_Y }
 		
 		visible = {
-			FROM = { original_tag = SOV }
+			FROM = { original_tag = BWR }
 		}
 
 		available = {
@@ -629,7 +629,7 @@ SOV_kirov_organization = {
 		position = { x=@tank_3_X y=@tank_3_Y }
 		
 		visible = {
-			FROM = { original_tag = SOV }
+			FROM = { original_tag = BWR }
 		}
 
 		available = {
@@ -670,7 +670,7 @@ SOV_nevskoye_design_bureau_organization = {
 	
 	allowed = {	
 		
-		tag = SOV 
+		tag = BWR 
 	}
 	
 	
@@ -685,7 +685,7 @@ SOV_nevskoye_design_bureau_organization = {
 		position = { x=@ship_1_X y=@ship_1_Y }
 		
 		visible = {
-			FROM = { original_tag = SOV }
+			FROM = { original_tag = BWR }
 			has_dlc = "Man the Guns"
 		}
 
@@ -733,7 +733,7 @@ SOV_nevskoye_design_bureau_organization = {
 		position = { x=@ship_1_X y=@ship_1_Y }
 		
 		visible = {
-			FROM = { original_tag = SOV }
+			FROM = { original_tag = BWR }
 			NOT = { has_dlc = "Man the Guns" }
 		}
 
@@ -771,7 +771,7 @@ SOV_nevskoye_design_bureau_organization = {
 		position = { x=@ship_2_X y=@ship_2_Y }
 		
 		visible = {
-			FROM = { original_tag = SOV }
+			FROM = { original_tag = BWR }
 		}
 
 		available = {
@@ -796,7 +796,7 @@ SOV_rubin_design_bureau_organization = {
 	
 	allowed = {	
 		
-			tag = SOV
+			tag = BWR
 			
 			
 		
@@ -808,9 +808,9 @@ SOV_rubin_design_bureau_organization = {
 		# When in a Foreign MIO, countries need to be at peace with original country
 		IF = {
 			limit = {
-				FROM = { NOT = { original_tag = SOV } }
+				FROM = { NOT = { original_tag = BWR } }
 			}
-			FROM = { NOT = { has_war_with = SOV } }
+			FROM = { NOT = { has_war_with = BWR } }
 		}
 
 		
@@ -826,7 +826,7 @@ SOV_rubin_design_bureau_organization = {
 		position = { x=@ship_1_X y=@ship_1_Y }
 		
 		visible = {
-			FROM = { original_tag = SOV }
+			FROM = { original_tag = BWR }
 			has_dlc = "Man the Guns"
 		}
 
@@ -874,7 +874,7 @@ SOV_rubin_design_bureau_organization = {
 		position = { x=@ship_1_X y=@ship_1_Y }
 		
 		visible = {
-			FROM = { original_tag = SOV }
+			FROM = { original_tag = BWR }
 			NOT = { has_dlc = "Man the Guns" }
 		}
 
@@ -914,7 +914,7 @@ SOV_rubin_design_bureau_organization = {
 		mutually_exclusive = { SOV_mio_trait_merge_plant_no_190 }
 		
 		visible = {
-			FROM = { original_tag = SOV }
+			FROM = { original_tag = BWR }
 		}
 
 		available = {
@@ -944,7 +944,7 @@ SOV_rubin_design_bureau_organization = {
 		mutually_exclusive = { SOV_mio_trait_merge_plant_no_363 }
 		
 		visible = {
-			FROM = { original_tag = SOV }
+			FROM = { original_tag = BWR }
 		}
 
 		available = {
@@ -968,7 +968,7 @@ SOV_black_sea_shipyard_organization = {
 	icon = GFX_idea_SOV_black_sea_shipyard
 	
 	allowed = {	
-		original_tag = SOV
+		original_tag = BWR
 	}
 
 	tree_header_text = {
@@ -1010,7 +1010,7 @@ SOV_black_sea_shipyard_organization = {
 		position = { x=@ship_1_X y=@ship_1_Y }
 		
 		visible = {
-			FROM = { original_tag = SOV }
+			FROM = { original_tag = BWR }
 			has_dlc = "Man the Guns"
 		}
 
@@ -1058,7 +1058,7 @@ SOV_black_sea_shipyard_organization = {
 		position = { x=@ship_1_X y=@ship_1_Y }
 		
 		visible = {
-			FROM = { original_tag = SOV }
+			FROM = { original_tag = BWR }
 			NOT = { has_dlc = "Man the Guns" }
 		}
 
@@ -1098,7 +1098,7 @@ SOV_black_sea_shipyard_organization = {
 		mutually_exclusive = { SOV_mio_trait_merge_plant_no_340 }
 		
 		visible = {
-			FROM = { original_tag = SOV }
+			FROM = { original_tag = BWR }
 		}
 
 		available = {
@@ -1128,7 +1128,7 @@ SOV_black_sea_shipyard_organization = {
 		mutually_exclusive = { SOV_mio_trait_merge_leninskaya_kuznitsa_plant }
 		
 		visible = {
-			FROM = { original_tag = SOV }
+			FROM = { original_tag = BWR }
 		}
 
 		available = {
@@ -1152,7 +1152,7 @@ SOV_sevastopol_marine_plant_organization = {
 	icon = GFX_idea_SOV_sevastopol_marine_plant
 	
 	allowed = {	
-		original_tag = SOV
+		original_tag = BWR
 	}
 
 	tree_header_text = {
@@ -1189,7 +1189,7 @@ SOV_sevastopol_marine_plant_organization = {
 		position = { x=@ship_1_X y=@ship_1_Y }
 		
 		visible = {
-			FROM = { original_tag = SOV }
+			FROM = { original_tag = BWR }
 			has_dlc = "Man the Guns"
 		}
 
@@ -1237,7 +1237,7 @@ SOV_sevastopol_marine_plant_organization = {
 		position = { x=@ship_1_X y=@ship_1_Y }
 		
 		visible = {
-			FROM = { original_tag = SOV }
+			FROM = { original_tag = BWR }
 			NOT = { has_dlc = "Man the Guns" }
 		}
 
@@ -1275,7 +1275,7 @@ SOV_sevastopol_marine_plant_organization = {
 		position = { x=@ship_2_X y=@ship_2_Y }
 		
 		visible = {
-			FROM = { original_tag = SOV }
+			FROM = { original_tag = BWR }
 		}
 
 		available = {
@@ -1311,7 +1311,7 @@ SOV_mig_design_bureau_organization = {
 	
 	allowed = {	
 		
-			tag = SOV
+			tag = BWR
 			
 		
 	}
@@ -1320,7 +1320,7 @@ SOV_mig_design_bureau_organization = {
 	available = {
 		IF = { #Dissolve Bureau Purge
 			limit = {
-				FROM = { original_tag = SOV }
+				FROM = { original_tag = BWR }
 			}
 			FROM = { NOT = { has_country_flag = SOV_mig_design_bureau_dissolved_flag } }
 		}
@@ -1338,7 +1338,7 @@ SOV_mig_design_bureau_organization = {
 		position = { x=@aircraft_1_X y=@aircraft_1_Y }
 		
 		visible = {
-			FROM = { original_tag = SOV }
+			FROM = { original_tag = BWR }
 		}
 
 		available = {
@@ -1373,7 +1373,7 @@ SOV_mig_design_bureau_organization = {
 		position = { x=@aircraft_2_X y=@aircraft_2_Y }
 		
 		visible = {
-			FROM = { original_tag = SOV }
+			FROM = { original_tag = BWR }
 		}
 
 		available = {
@@ -1413,7 +1413,7 @@ SOV_mig_design_bureau_organization = {
 		position = { x=@aircraft_3_X y=@aircraft_3_Y }
 		
 		visible = {
-			FROM = { original_tag = SOV }
+			FROM = { original_tag = BWR }
 		}
 
 		available = {
@@ -1453,7 +1453,7 @@ SOV_ilyushin_design_bureau_organization = {
 	
 	allowed = {	
 		
-		tag = SOV 
+		tag = BWR 
 		
 	}
 	
@@ -1468,7 +1468,7 @@ SOV_ilyushin_design_bureau_organization = {
 		position = { x=@aircraft_1_X y=@aircraft_1_Y }
 		
 		visible = {
-			FROM = { original_tag = SOV }
+			FROM = { original_tag = BWR }
 		}
 		
 		available = {
@@ -1503,7 +1503,7 @@ SOV_ilyushin_design_bureau_organization = {
 		position = { x=@aircraft_2_X y=@aircraft_2_Y }
 		
 		visible = {
-			FROM = { original_tag = SOV }
+			FROM = { original_tag = BWR }
 		}
 		
 		available = {
@@ -1543,7 +1543,7 @@ SOV_ilyushin_design_bureau_organization = {
 		position = { x=@aircraft_3_X y=@aircraft_3_Y }
 		
 		visible = {
-			FROM = { original_tag = SOV }
+			FROM = { original_tag = BWR }
 		}
 		
 		available = {
@@ -1582,13 +1582,13 @@ SOV_yakovlev_design_bureau_organization = {
 	icon = GFX_idea_yakovlev_design_bureau
 	
 	allowed = {	
-		original_tag = SOV
+		original_tag = BWR
 	}
 
 	available = {
 		IF = { #Dissolve Bureau Purge
 			limit = {
-				FROM = { original_tag = SOV }
+				FROM = { original_tag = BWR }
 			}
 			FROM = { NOT = { has_country_flag = SOV_yakovlev_design_bureau_dissolved_flag } }
 		}
@@ -1604,7 +1604,7 @@ SOV_yakovlev_design_bureau_organization = {
 		position = { x=@aircraft_1_X y=@aircraft_1_Y }
 		
 		visible = {
-			FROM = { original_tag = SOV }
+			FROM = { original_tag = BWR }
 		}
 		
 		available = {
@@ -1639,7 +1639,7 @@ SOV_yakovlev_design_bureau_organization = {
 		position = { x=@aircraft_2_X y=@aircraft_2_Y }
 		
 		visible = {
-			FROM = { original_tag = SOV }
+			FROM = { original_tag = BWR }
 		}
 		
 		available = {
@@ -1679,7 +1679,7 @@ SOV_yakovlev_design_bureau_organization = {
 		position = { x=@aircraft_3_X y=@aircraft_3_Y }
 		
 		visible = {
-			FROM = { original_tag = SOV }
+			FROM = { original_tag = BWR }
 		}
 		
 		available = {
@@ -1717,13 +1717,13 @@ SOV_tupolev_design_bureau_organization = {
 	include = generic_heavy_aircraft_organization
 	icon = GFX_idea_tupolev_design_bureau
 	allowed = {	
-		original_tag = SOV
+		original_tag = BWR
 	}
 
 	available = {
 		IF = { #Dissolve Bureau Purge
 			limit = {
-				FROM = { original_tag = SOV }
+				FROM = { original_tag = BWR }
 			}
 			FROM = { NOT = { has_country_flag = SOV_tupolev_design_bureau_dissolved_flag } }
 		}
@@ -1803,7 +1803,7 @@ SOV_tupolev_design_bureau_organization = {
 		position = { x=@aircraft_1_X y=@aircraft_1_Y }
 		
 		visible = {
-			FROM = { original_tag = SOV }
+			FROM = { original_tag = BWR }
 		}
 
 		available = {
@@ -1838,7 +1838,7 @@ SOV_tupolev_design_bureau_organization = {
 		position = { x=@aircraft_2_X y=@aircraft_2_Y }
 		
 		visible = {
-			FROM = { original_tag = SOV }
+			FROM = { original_tag = BWR }
 		}
 
 		available = {
@@ -1878,7 +1878,7 @@ SOV_tupolev_design_bureau_organization = {
 		position = { x=@aircraft_3_X y=@aircraft_3_Y }
 		
 		visible = {
-			FROM = { original_tag = SOV }
+			FROM = { original_tag = BWR }
 		}
 
 		available = {
@@ -1933,7 +1933,7 @@ SOV_grabin_design_bureau_organization = {
 	
 	allowed = {	
 		OR = {
-			tag = SOV 
+			tag = BWR 
 			AND = {
 				tag = GRE
 				has_dlc = "Battle for the Bosporus"
@@ -1945,9 +1945,9 @@ SOV_grabin_design_bureau_organization = {
 		# When in a Foreign MIO, countries need to be at peace with original country
 		IF = {
 			limit = {
-				FROM = { NOT = { original_tag = SOV } }
+				FROM = { NOT = { original_tag = BWR } }
 			}
-			FROM = { NOT = { has_war_with = SOV } }
+			FROM = { NOT = { has_war_with = BWR } }
 		}
 
 		IF = {
@@ -1968,7 +1968,7 @@ SOV_grabin_design_bureau_organization = {
 		position = { x=@materiel_1_X y=@materiel_1_Y }
 		
 		visible = {
-			FROM = { original_tag = SOV }
+			FROM = { original_tag = BWR }
 		}
 
 		available = {
@@ -1994,7 +1994,7 @@ SOV_grabin_design_bureau_organization = {
 		position = { x=@materiel_2_X y=@materiel_2_Y }
 		
 		visible = {
-			FROM = { original_tag = SOV }
+			FROM = { original_tag = BWR }
 		}
 
 		available = {
@@ -2026,7 +2026,7 @@ SOV_grabin_design_bureau_organization = {
 		position = { x=@materiel_3_X y=@materiel_3_Y }
 		
 		visible = {
-			FROM = { original_tag = SOV }
+			FROM = { original_tag = BWR }
 		}
 
 		available = {
@@ -2054,7 +2054,7 @@ SOV_tula_arms_plant_organization = {
 	icon = GFX_idea_tula_arms_plant
 	
 	allowed = {	
-		original_tag = SOV
+		original_tag = BWR
 	}
 
 	tree_header_text = {
@@ -2098,7 +2098,7 @@ SOV_tula_arms_plant_organization = {
 		position = { x=@materiel_1_X y=@materiel_1_Y }
 		
 		visible = {
-			FROM = { original_tag = SOV }
+			FROM = { original_tag = BWR }
 		}
 
 		available = {
@@ -2124,7 +2124,7 @@ SOV_tula_arms_plant_organization = {
 		position = { x=@materiel_2_X y=@materiel_2_Y }
 		
 		visible = {
-			FROM = { original_tag = SOV }
+			FROM = { original_tag = BWR }
 		}
 
 		available = {
@@ -2156,7 +2156,7 @@ SOV_tula_arms_plant_organization = {
 		position = { x=@materiel_3_X y=@materiel_3_Y }
 		
 		visible = {
-			FROM = { original_tag = SOV }
+			FROM = { original_tag = BWR }
 		}
 
 		available = {
@@ -2185,7 +2185,7 @@ SOV_gaz_organization = {
 	
 	allowed = {	
 		
-			tag = SOV 
+			tag = BWR 
 			
 			
 		
@@ -2204,7 +2204,7 @@ SOV_gaz_organization = {
 		position = { x=@materiel_1_X y=@materiel_1_Y }
 		
 		visible = {
-			FROM = { original_tag = SOV }
+			FROM = { original_tag = BWR }
 		}
 
 		available = {
@@ -2230,7 +2230,7 @@ SOV_gaz_organization = {
 		position = { x=@materiel_2_X y=@materiel_2_Y }
 		
 		visible = {
-			FROM = { original_tag = SOV }
+			FROM = { original_tag = BWR }
 		}
 
 		available = {
@@ -2262,7 +2262,7 @@ SOV_gaz_organization = {
 		position = { x=@materiel_3_X y=@materiel_3_Y }
 		
 		visible = {
-			FROM = { original_tag = SOV }
+			FROM = { original_tag = BWR }
 		}
 
 		available = {

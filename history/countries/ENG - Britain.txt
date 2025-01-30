@@ -254,21 +254,19 @@ if = {
 	#adding ministers
 	add_ideas = {
 		
-		rsaf_enfield
-		
-		english_electric		
+				
 
 		#laws
 		partial_economic_mobilisation
 		limited_conscription
 
-		ENG_george_vi
+		
 	}
 
 	recruit_character = ENG_neville_chamberlain
 	promote_character = ENG_neville_chamberlain
 	retire_character = ENG_stanley_baldwin
-	remove_ideas = george_v #Dead
+	
 
 
 

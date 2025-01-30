@@ -99,11 +99,11 @@ technology_sharing_group = {
 			AND = {
 				original_tag = GER
 				NOT = {
-					has_war_with = SOV
+					has_war_with = BWR
 				}
 			}
 			AND = {
-				original_tag = SOV
+				original_tag = BWR
 				NOT = {
 					has_war_with = GER
 				}

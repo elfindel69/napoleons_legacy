@@ -66,17 +66,17 @@ music = {
 		}
 		modifier = {
 			factor = 1.5
-			tag = SOV
+			tag = BWR
 		}
 		modifier = {
 			factor = 2
-			tag = SOV
+			tag = BWR
 			has_war_with = GER
 		}
 		modifier = {
 			factor = 2
-			has_war_with = SOV
-			SOV = {
+			has_war_with = BWR
+			BWR = {
 				surrender_progress > 20
 			}
 		}
@@ -141,16 +141,16 @@ music = {
 		}
 		modifier = {
 			factor = 1.5
-			tag = SOV
+			tag = BWR
 		}
 		modifier = {
 			factor = 2
-			tag = SOV
+			tag = BWR
 			has_war_with = GER
 		}
 		modifier = {
 			factor = 2
-			tag = SOV
+			tag = BWR
 			has_war_with = GER
 			surrender_progress > 20
 		}

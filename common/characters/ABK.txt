@@ -17,7 +17,7 @@ characters = {
 		name = "Ilarion Suvorin" 
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/SOV/Portrait_Soviet_Generic_land_5.dds"
+				large = "gfx/leaders/BWR/Portrait_Soviet_Generic_land_5.dds"
 			}
 		}
 		country_leader = {

@@ -459,11 +459,11 @@ peace_ai_desires = {
     }
 
 
-    try_and_take_neighbors_when_forcing_gov = { #Leaving here; this has unintended consequences, but we need it for SOV
+    try_and_take_neighbors_when_forcing_gov = { #Leaving here; this has unintended consequences, but we need it for BWR
         peace_action_type = { force_government puppet }
         enable = {
             ROOT = { has_government = democratic }
-            ROOT.FROM.FROM = { original_tag = SOV }
+            ROOT.FROM.FROM = { original_tag = BWR }
             ROOT.FROM.FROM.FROM = {
                 any_neighbor_state = {
                     OR = {
@@ -482,7 +482,7 @@ peace_ai_desires = {
         enable = {
             ROOT = { has_government = democratic }
             ROOT.FROM.FROM = {
-                original_tag = SOV
+                original_tag = BWR
                 pc_is_forced_government = yes
             }
             ROOT.FROM.FROM.FROM = {
@@ -657,7 +657,7 @@ peace_ai_desires = {
                 has_government = fascism
             }
             ROOT.FROM.FROM = {
-                tag = SOV
+                tag = BWR
             }
         }
         ai_desire = 25
@@ -786,7 +786,7 @@ peace_ai_desires = {
                 }
             }
             ROOT.FROM.FROM = {
-                tag = SOV
+                tag = BWR
                 is_major = yes
             }
         }
@@ -800,7 +800,7 @@ peace_ai_desires = {
                 has_government = democratic
             }
             ROOT.FROM.FROM = {
-                tag = SOV
+                tag = BWR
                 is_major = yes
             }
         }
@@ -1098,7 +1098,7 @@ peace_ai_desires = {
 	try_and_finish_off_SU = {
         peace_action_type = force_government
         enable = {
-			ROOT.FROM.FROM = { tag = SOV }
+			ROOT.FROM.FROM = { tag = BWR }
 			ROOT.FROM.FROM.FROM = {
 				any_country_with_core = {
 					NOT = { pc_is_liberated = yes }

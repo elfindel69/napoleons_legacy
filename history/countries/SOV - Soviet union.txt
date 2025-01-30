@@ -384,7 +384,7 @@ set_popularities = {
 }
 
 create_faction = Comintern
-add_to_faction = SOV
+add_to_faction = BWR
 add_to_faction = MON
 add_to_faction = TAN
 
@@ -399,7 +399,7 @@ if = {
 		traits = { operative_natural_orator }
 		bypass_recruitment = no
 		available_to_spy_master = yes
-		nationalities = { SOV HUN }
+		nationalities = { BWR HUN }
 	}
 
 	create_operative_leader = {
@@ -408,7 +408,7 @@ if = {
 		traits = { operative_double_agent operative_infiltrator }
 		bypass_recruitment = no
 		available_to_spy_master = yes
-		nationalities = { SOV ENG }
+		nationalities = { BWR ENG }
 	}
 
 	create_operative_leader = {
@@ -417,7 +417,7 @@ if = {
 		traits = { operative_well_groomed }
 		bypass_recruitment = no
 		available_to_spy_master = yes
-		nationalities = { SOV GER }
+		nationalities = { BWR GER }
 	}
 
 	create_operative_leader = {
@@ -426,7 +426,7 @@ if = {
 		traits = { operative_linguist operative_infiltrator }
 		bypass_recruitment = no
 		available_to_spy_master = yes
-		nationalities = { SOV GER HUN ROM CZE SLO }
+		nationalities = { BWR GER HUN ROM CZE SLO }
 	}
 
 }

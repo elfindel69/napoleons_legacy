@@ -154,7 +154,7 @@ SWE_hygenic_housing_resource_bonus = {
 }
 
 SWE_sami_trackers = {
-	enable = { original_tag = SCA }
+	enable = { original_tag = SWE }
 	icon = GFX_modifiers_SWE_sami_trackers
 	army_speed_factor = 0.15
 }
@@ -220,37 +220,7 @@ SWE_royal_visit_modifier = { #From neutrality path
 #################
 
 #NATIONAL SPIRITS
-DEN_neglected_military_dynamic_modifier = {
-	enable = { always = yes }
-	icon = GFX_idea_generic_neglected_military
 
-	remove_trigger = {
-		check_variable = { SCA.DEN_neglected_military_mobilization_speed = 0 }
-		check_variable = { SCA.DEN_neglected_military_surrender_limit = 0 }
-		check_variable = { SCA.DEN_neglected_military_planning_speed = 0 }
-	}
-
-	mobilization_speed = DEN_neglected_military_mobilization_speed #-0.2
-	surrender_limit = DEN_neglected_military_surrender_limit #-0.2
-	planning_speed = DEN_neglected_military_planning_speed # -0.1
-}
-
-DEN_economic_crisis_dynamic_modifier = { 
-	enable = { always = yes }
-	icon = GFX_idea_generic_economic_crisis
-
-	remove_trigger = {
-		check_variable = { SCA.DEN_economic_crisis_monthly_population = 0 }
-		check_variable = { SCA.DEN_economic_crisis_stability_weekly = 0 }
-		check_variable = { SCA.DEN_economic_crisis_neutrality_drift = 0 }
-		check_variable = { SCA.DEN_economic_crisis_democratic_drift = 0 }
-	}
-
-	monthly_population = DEN_economic_crisis_monthly_population #-0.1
-	stability_weekly = DEN_economic_crisis_stability_weekly #-0.001
-	neutrality_drift = DEN_economic_crisis_neutrality_drift #0.02
-	democratic_drift = DEN_economic_crisis_democratic_drift #-0.05
-}
 
 DEN_industrial_capability_dynamic_modifier = {
 	enable = { always = yes }
@@ -380,22 +350,6 @@ DEN_war_preparations_dynamic_modifier = {
 	production_speed_fuel_silo_factor = DEN_war_preparations_fuel_silo_speed #0
 	offensive_war_stability_factor = DEN_war_preparations_offensive_war_stability
 }
-
-DEN_political_edicts_dynamic_modifier = {
-	enable = { always = yes }
-	icon = GFX_idea_generic_constitutional_guarantees
-
-	remove_trigger = {
-		check_variable = { DEN_political_edicts_drift_defence_factor = 0 }
-		check_variable = { DEN_political_edicts_conscription_factor = 0 }
-		check_variable = { DEN_political_edicts_operative_slot = 0 }
-	}
-	
-	drift_defence_factor = DEN_political_edicts_drift_defence_factor #0
-	conscription_factor = DEN_political_edicts_conscription_factor #0
-	operative_slot = DEN_political_edicts_operative_slot #0
-}
-
 DEN_occupation_laws_dynamic_modifier = {
 	enable = { always = yes }
 	icon = GFX_idea_DEN_occupation_laws
@@ -685,7 +639,7 @@ DEN_pan_scandinavianism_modifier = {
 
 	remove_trigger = {  # ROOT refers to the state on which the modifier is added
 		ROOT = {
-			controller = { NOT = { original_tag = SCA }}
+			controller = { NOT = { original_tag = DEN }}
 		}
 	}
 
@@ -893,7 +847,7 @@ FIN_confederation_of_finno_russian_republics_dm = {
 		ROOT = {
 			controller = {
 				OR = {
-					NOT = { original_tag = SCA }
+					NOT = { original_tag = FIN }
 					is_subject = yes
 				}
 			}

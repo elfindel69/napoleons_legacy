@@ -818,7 +818,7 @@ sp_rockets_long_range_ballistic_missile = {
 				base = 10
 				modifier = {
 					factor = 100
-					FROM = { original_tag = SOV }
+					FROM = { original_tag = BWR }
 				}
 			}
 

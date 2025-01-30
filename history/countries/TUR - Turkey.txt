@@ -390,7 +390,7 @@ if = {
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		female = no
-		nationalities = { TUR SOV KAZ }
+		nationalities = { TUR BWR KAZ }
 	}
 }
 ### VARIANTS ###

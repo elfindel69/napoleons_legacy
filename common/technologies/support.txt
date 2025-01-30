@@ -1792,7 +1792,7 @@ technologies = {
 			modifier = {
 				OR = {
 					TAG = GER
-					tag = SOV
+					tag = BWR
 				}
 				factor = 1.5
 			}

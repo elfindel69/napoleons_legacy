@@ -144,7 +144,7 @@ check_has_focus_tree_to_switch_to_communism = {
 	NOT = { tag = PRC }
 	NOT = { tag = SIK }
 	NOT = { tag = MAN }
-	NOT = { tag = SOV }
+	NOT = { tag = BWR }
 	NOT = {
 		AND = {
 			tag = RAJ

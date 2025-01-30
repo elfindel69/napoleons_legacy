@@ -51,7 +51,7 @@ on_actions = {
 					set_variable = { CHI_burma_road_closed_level = CHI_burma_road_current_level }
 					set_variable = { CHI_burma_road_current_level = 0 }
 					clear_variable = tempvar
-					country_event = { id = wtt_burma_road.1 }
+					
 				}
 
 			}
@@ -97,7 +97,7 @@ on_actions = {
 					set_variable = { CHI_ledo_road_closed_level = CHI_ledo_road_current_level }
 					set_variable = { CHI_ledo_road_current_level = 0 }
 					clear_variable = tempvar
-					country_event = { id = wtt_ledo_road.1 }
+			
 				}
 
 			}
@@ -138,7 +138,7 @@ on_actions = {
 					add_offsite_building = { type = arms_factory level = tempvar }					
 					set_variable = { CHI_hanoi_route_current_level = 0 }
 					clear_variable = tempvar
-					country_event = { id = wtt_hanoi_route.1 }
+					
 				}
 
 			}
@@ -184,7 +184,7 @@ on_actions = {
 					set_variable = { CHI_the_hump_closed_level = CHI_the_hump_current_level }
 					set_variable = { CHI_the_hump_current_level = 0 }
 					clear_variable = tempvar
-					country_event = { id = wtt_the_hump.1 }
+				
 				}
 
 			}

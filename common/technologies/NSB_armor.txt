@@ -288,7 +288,7 @@ technologies = {
 				factor = 10 #you are embarassing yourself
 			}
 			modifier = {
-				tag = SOV
+				tag = BWR
 				factor = 3
 			}
 			modifier = {
@@ -568,7 +568,7 @@ technologies = {
 				date > "1938.1.1"
 			}
 			modifier = {
-				tag = SOV
+				tag = BWR
 				factor = 1.5
 			}
 
@@ -653,7 +653,7 @@ technologies = {
 
 			modifier = {
 				factor = 2
-				tag = SOV
+				tag = BWR
 			}
 
 			modifier = {

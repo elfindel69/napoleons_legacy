@@ -111,14 +111,14 @@
  SOV_POL_faction.1.b:0 "Niet!"
  
  SOV_POL_faction_news.1.t:0 "la Pologne intègre\nle Komintern!"
- SOV_POL_faction_news.1.d:0 "\n [SOV.GetLeader] a annoncé publiquement que la Pologne a demandé à rejoindre le Komintern. Il a continué en disant que cette demande avait été acceptée avec plaisir car  [POL.GetName] est un farouche défenseur des valeurs communistes."
+ SOV_POL_faction_news.1.d:0 "\n [BWR.GetLeader] a annoncé publiquement que la Pologne a demandé à rejoindre le Komintern. Il a continué en disant que cette demande avait été acceptée avec plaisir car  [POL.GetName] est un farouche défenseur des valeurs communistes."
  SOV_POL_faction_news.1.a:0 "Notre alliance se renforce!"
  SOV_POL_faction_news.1.b:0 "Un pas de plus vers la guerre."
  SOV_POL_faction_news.1.c:0 "l'URSS à un nouvel ami."
  SOV_POL_faction_news.1.e:0 "Un allié bienvenu."
  
  SOV_POL_faction_news.2.t:0 "l'URSS refuse\nune alliance avec la Pologne"
- SOV_POL_faction_news.2.d:0 "[SOV.GetLeader] a rejeté la demande polonaise de rejoindre le Komintern \n Il dit que le moment n'est pas encore venu d'un tel besoin et que le communisme polonais n'est pas une aussi stable qu'il le semble."
+ SOV_POL_faction_news.2.d:0 "[BWR.GetLeader] a rejeté la demande polonaise de rejoindre le Komintern \n Il dit que le moment n'est pas encore venu d'un tel besoin et que le communisme polonais n'est pas une aussi stable qu'il le semble."
  SOV_POL_faction_news.2.a:0 "C'est dommage!"
  SOV_POL_faction_news.2.b:0 "Ils n'étaent pas prêts"
  SOV_POL_faction_news.2.c:0 "Une opportunité manquée"

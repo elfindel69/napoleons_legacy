@@ -7,7 +7,7 @@ peace_ai_desires = {
     SOV_wants_konigsberg = {
         peace_action_type = take_states
         enable = {
-            tag = SOV  # Negotiatior is soviet union
+            tag = BWR  # Negotiatior is soviet union
             FROM = { tag = ROOT }  # And the negotiator is also taking for themselves
             FROM.FROM.FROM = { state = 763 }  # Königsberg
         }
@@ -23,9 +23,9 @@ peace_ai_desires = {
         peace_action_type = puppet
         enable = {
             is_historical_focus_on = yes
-            ROOT.FROM = { tag = BOH }
-            ROOT.FROM.FROM.FROM = { is_core_of = BOH }
-            tag = SOV
+            ROOT.FROM = { tag = CZE }
+            ROOT.FROM.FROM.FROM = { is_core_of = CZE }
+            tag = BWR
         }
         ai_desire = 150
     }
@@ -42,7 +42,7 @@ peace_ai_desires = {
                     state = 5
                 }
             }
-            ROOT.FROM = { tag = SOV }
+            ROOT.FROM = { tag = BWR }
         }
         ai_desire = 400
     }
@@ -62,7 +62,7 @@ peace_ai_desires = {
                 original_tag = KOR
             }
             ROOT = {
-                original_tag = SOV
+                original_tag = BWR
                 has_government = communism
             }
         }
@@ -82,7 +82,7 @@ peace_ai_desires = {
                 original_tag = KOR
             }
             ROOT = {
-                original_tag = SOV
+                original_tag = BWR
                 has_government = communism
             }
             USA = {

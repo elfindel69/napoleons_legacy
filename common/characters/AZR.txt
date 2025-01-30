@@ -58,7 +58,7 @@ characters={
 		name="Gara Garabeyov"
 		portraits={
 			civilian={
-				large="gfx/leaders/SOV/Portrait_Soviet_Generic_3.dds"
+				large="gfx/leaders/BWR/Portrait_Soviet_Generic_3.dds"
 			}
 		}
 		country_leader={

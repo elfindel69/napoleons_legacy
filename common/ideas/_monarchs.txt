@@ -28,20 +28,7 @@ ideas = {
 
 			traits = { popular_figurehead }
 		}
-		CSC_eu4_Pantera_Scribonia = {
-			allowed = {
-				original_tag = CSC
-			}
-
-			allowed_civil_war = {
-				original_tag = CSC
-				has_government = democratic
-			}
-
-			removal_cost = -1
-
-			traits = { popular_figurehead }
-		}
+		
 		GER_Joachim_von_Habsburg = {
 			allowed = {
 				original_tag = GER
@@ -70,20 +57,7 @@ ideas = {
 
 			traits = { popular_figurehead }
 		}
-		WIN_Gustaw_Gosiewski = {
-			allowed = {
-				original_tag = WIN
-			}
-
-			allowed_civil_war = {
-				original_tag = WIN
-				has_government = democratic
-			}
-
-			removal_cost = -1
-
-			traits = { popular_figurehead }
-		}
+		
 		LOU_Basileios_Salvia = {
 			allowed = {
 				original_tag = LOU

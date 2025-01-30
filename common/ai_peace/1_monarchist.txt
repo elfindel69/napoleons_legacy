@@ -61,7 +61,7 @@ monarchist_peace = {
 		#}
 		modifier = { #Do not annex the entire soviet union until a border with moscow is established
 			factor = 0
-			FROM = { tag = SOV }
+			FROM = { tag = BWR }
 			NOT = {
 				219 = {
 					any_neighbor_state = {
@@ -154,7 +154,7 @@ monarchist_peace = {
 					NOT = { tag = FRA }
 					NOT = { tag = USA }
 					NOT = { tag = JAP }
-					NOT = { tag = SOV }
+					NOT = { tag = BWR }
 				}
 				is_puppet = yes
 			}
@@ -202,16 +202,16 @@ monarchist_peace = {
 			NOT = { tag = FRA }
 			NOT = { tag = USA }
 			NOT = { tag = JAP }
-			NOT = { tag = SOV }
+			NOT = { tag = BWR }
 			NOT = { is_owner_neighbor_of = FROM }
 		}
 		modifier = { #Strongly seek to establish a puppet after taking Moscow if Japan and Germany - test. Germany also needs Northern Urals.
 			factor = 50
-			FROM = { tag = SOV }
+			FROM = { tag = BWR }
 			NOT = { 
 				219 = { #This seems to make Soviet unreleasable by AI for some reason.
 					OR = {
-						is_owned_by = SOV
+						is_owned_by = BWR
 						has_claimed_state_in_peace_conference = ROOT
 					}
 				}
@@ -263,7 +263,7 @@ monarchist_peace = {
 		}
 		modifier = { #Do not puppet Soviet Union unless a border with Moscow is established...
 			factor = 0
-			FROM = { tag = SOV }
+			FROM = { tag = BWR }
 			NOT = {
 				219 = {
 					any_neighbor_state = {
@@ -714,7 +714,7 @@ monarchist_peace = {
 			NOT = { tag = FRA }
 			NOT = { tag = USA }
 			NOT = { tag = JAP }
-			NOT = { tag = SOV }			
+			NOT = { tag = BWR }			
 		}
 		modifier = { #If in axis, Japan doesn't take territory out of Asia or Australia or South America or North America (to do)
 			factor = 0
@@ -765,7 +765,7 @@ monarchist_peace = {
 					}
 				}
 			}
-			NOT = { FROM = { is_core_of = SOV } }
+			NOT = { FROM = { is_core_of = BWR } }
 			FROM = {
 				OR = {
 					is_on_continent = asia
@@ -998,7 +998,7 @@ monarchist_peace = {
 			OR = {
 				#Must be taken in contiguous chunks.
 				AND = {
-					FROM = { is_core_of = SOV }
+					FROM = { is_core_of = BWR }
 					OR = { #Germany can always take Soviet land
 						NOT = { tag = GER }
 						NOT = { FROM = { is_on_continent = europe } }
@@ -1012,7 +1012,7 @@ monarchist_peace = {
 					NOT = { is_core_of = GRE }
 					NOT = { is_core_of = SWE }
 					NOT = { is_core_of = DEN }
-					NOT = { is_core_of = SOV }
+					NOT = { is_core_of = BWR }
 					NOT = { owner = { tag = ENG } } #Cyprus
 				}
 				#Minor old world AI sticks to their own continents 
@@ -1025,7 +1025,7 @@ monarchist_peace = {
 					NOT = { tag = FRA }
 					NOT = { tag = USA }
 					NOT = { tag = JAP }
-					NOT = { tag = SOV }
+					NOT = { tag = BWR }
 					OR = {
 						AND = {
 							capital_scope = { is_on_continent = europe }
@@ -1079,7 +1079,7 @@ monarchist_peace = {
 					is_faction_leader = no
 					is_in_faction_with = GER
 					OR = {
-						FROM = { owner = { tag = SOV } }
+						FROM = { owner = { tag = BWR } }
 						FROM = {
 							is_island_state = no
 							is_core_of = ENG
@@ -1266,7 +1266,7 @@ monarchist_peace = {
 							is_on_continent = australia
 							AND = {
 								is_on_continent = asia
-								NOT = { is_core_of = SOV }
+								NOT = { is_core_of = BWR }
 							}
 						}
 					}

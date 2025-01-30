@@ -22,11 +22,11 @@ technology_sharing_group = {
 	categories = { armor }
 
 	available = {
-		NOT = { has_war_with = SOV }
-		NOT = { is_justifying_wargoal_against = SOV }
+		NOT = { has_war_with = BWR }
+		NOT = { is_justifying_wargoal_against = BWR }
 		NOT = {
 			any_allied_country = {
-				has_war_with = SOV
+				has_war_with = BWR
 			}
 		}
 	}

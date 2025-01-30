@@ -6,7 +6,7 @@ armor_generic = {
 		ENG
 		USA
 		ITA
-		SOV
+		BWR
 		HUN
 	}
 
@@ -255,7 +255,7 @@ garrison_generic = {
 		ENG
 		USA
 		ITA
-		SOV
+		BWR
 		HUN
 	}
 	
@@ -353,7 +353,7 @@ infantry_generic = {
 		ENG
 		USA
 		ITA
-		SOV
+		BWR
 		HUN
 		CHI
 		
@@ -392,7 +392,7 @@ infantry_generic = {
 		}
 
 		replace_at_match = 1.5  # value higher than 1.0 means it will only upgrade/replace when upgrade_prio takes over
-		replace_with = infantry_improved
+		replace_with = infantry_mid
 		target_min_match = 0.9
 	}
 
@@ -433,7 +433,7 @@ mountaineers_generic = {
 		ENG
 		USA
 		ITA
-		SOV
+		BWR
 	}
 
 	role = mountaineers
@@ -484,7 +484,7 @@ marines_generic = {
 		ENG
 		USA
 		ITA
-		SOV
+		BWR
 	}
 
 	role = marines
@@ -575,7 +575,7 @@ paratrooper_generic = {
 		ENG
 		USA
 		ITA
-		SOV
+		BWR
 	}
 
 	role = paratroopers

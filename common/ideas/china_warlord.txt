@@ -248,7 +248,7 @@ ideas = {
 
 			removal_cost = -1
 
-			#Targeted modifier to send stuff to SOV
+			#Targeted modifier to send stuff to BWR
 			targeted_modifier = {
 				tag = SOU
 				cic_to_target_factor = 0.1
@@ -266,7 +266,7 @@ ideas = {
 
 			removal_cost = -1
 
-			#Targeted modifier to send stuff to SOV
+			#Targeted modifier to send stuff to BWR
 			targeted_modifier = {
 				tag = SOU
 				cic_to_target_factor = 0.1
@@ -284,7 +284,7 @@ ideas = {
 
 			removal_cost = -1
 
-			#Targeted modifier to send stuff to SOV
+			#Targeted modifier to send stuff to BWR
 			targeted_modifier = {
 				tag = SOU
 				cic_to_target_factor = 0.15
@@ -302,7 +302,7 @@ ideas = {
 
 			removal_cost = -1
 
-			#Targeted modifier to send stuff to SOV
+			#Targeted modifier to send stuff to BWR
 			targeted_modifier = {
 				tag = SOU
 				cic_to_target_factor = 0.2
@@ -320,7 +320,7 @@ ideas = {
 
 			removal_cost = -1
 
-			#Targeted modifier to send stuff to SOV
+			#Targeted modifier to send stuff to BWR
 			targeted_modifier = {
 				tag = SOU
 				cic_to_target_factor = 0.2
@@ -338,7 +338,7 @@ ideas = {
 
 			removal_cost = -1
 
-			#Targeted modifier to send stuff to SOV
+			#Targeted modifier to send stuff to BWR
 			targeted_modifier = {
 				tag = SOU
 				cic_to_target_factor = 0.25

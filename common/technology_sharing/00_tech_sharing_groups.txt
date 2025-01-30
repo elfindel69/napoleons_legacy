@@ -25,7 +25,7 @@ technology_sharing_group = {
 	research_sharing_per_country_bonus = 0.1
 
     available = {
-        is_in_faction_with = SOV
+        is_in_faction_with = BWR
     }
 
 }
@@ -179,9 +179,9 @@ technology_sharing_group = {
 
     available = {
         is_in_faction_with = ENG
-        is_in_faction_with = SOV
+        is_in_faction_with = BWR
         ENG = { has_government = communism }
-        SOV = { has_government = communism }
+        BWR = { has_government = communism }
     }
 
 }
@@ -232,9 +232,9 @@ technology_sharing_group = {
 	research_sharing_per_country_bonus = 0.1
 
     available = {
-        is_in_faction_with = SOV
+        is_in_faction_with = BWR
         is_in_faction_with = HOL
-        SOV = { has_government = communism }
+        BWR = { has_government = communism }
         HOL = { has_government = communism }
     }
 
@@ -281,8 +281,8 @@ technology_sharing_group = {
 	research_sharing_per_country_bonus = 0.1
 
     available = {
-        is_in_faction_with = SOV
-        SOV = { has_government = communism }
+        is_in_faction_with = BWR
+        BWR = { has_government = communism }
     }
 }
 
@@ -328,7 +328,7 @@ technology_sharing_group = {
 
 	available = {
 		#OR = {
-		#	original_tag = SOV
+		#	original_tag = BWR
 		#	SOV_is_valid_academy_of_sciences_target = yes
 		#}
 	}
@@ -347,7 +347,7 @@ technology_sharing_group = { #Alternative Soviet Academy of Sciences for non com
 
 	available = {
 		#OR = {
-		#	original_tag = SOV
+		#	original_tag = BWR
 		#	SOV_is_valid_academy_of_sciences_target = yes
 		#}
 	}
@@ -364,8 +364,8 @@ technology_sharing_group = {
 
 	available = {
 		OR = {
-			original_tag = SOV
-			is_subject_of = SOV
+			original_tag = BWR
+			is_subject_of = BWR
 		}
 	}
 }
@@ -381,8 +381,8 @@ technology_sharing_group = { #Non-commie version of the COMECON
 
 	available = {
 		OR = {
-			original_tag = SOV
-			is_subject_of = SOV
+			original_tag = BWR
+			is_subject_of = BWR
 		}
 	}
 }

@@ -207,4 +207,6 @@ tank_manufacturer = {
 		modifier = {
 		}
 	}
+
+}
 }

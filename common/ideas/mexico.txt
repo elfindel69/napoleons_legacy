@@ -58,7 +58,7 @@ ideas = {
 			}
 			
 			available = {
-				is_in_faction_with = SOV
+				is_in_faction_with = BWR
 			}
 			
 			research_bonus = {

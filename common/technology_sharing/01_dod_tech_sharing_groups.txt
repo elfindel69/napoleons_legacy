@@ -29,8 +29,8 @@ technology_sharing_group = {
 	categories = { land_doctrine }
 
     available = {
-    	NOT = { has_war_with = SOV }
-    	SOV = { has_government = communism }
+    	NOT = { has_war_with = BWR }
+    	BWR = { has_government = communism }
     }
 }
 
@@ -123,7 +123,7 @@ technology_sharing_group = {
 	categories = { }
 
     available = {
-    	YUG = { is_in_faction_with = SOV }
+    	YUG = { is_in_faction_with = BWR }
     }
 }
 
