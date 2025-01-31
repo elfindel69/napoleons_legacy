@@ -142,9 +142,7 @@ monarchism_on_the_rise_mod_category = {
 	
 		cost = 50
 		
-		complete_effect = {
-			country_event = { id = decisions.1 }
-		}
+		
 		
 		ai_will_do = {
 			factor = 0
@@ -177,9 +175,7 @@ monarchism_on_the_rise_mod_category = {
 	
 		cost = 50
 		
-		complete_effect = {
-			country_event = { id = decisions.2 }
-		}
+		
 		
 		ai_will_do = {
 			factor = 0
@@ -709,10 +705,7 @@ fascism_on_the_rise = {
 		fire_only_once = yes
 	
 		cost = 50
-		
-		complete_effect = {
-			country_event = { id = decisions.1 }
-		}
+	
 		
 		ai_will_do = {
 			factor = 0
@@ -748,9 +741,7 @@ fascism_on_the_rise = {
 	
 		cost = 50
 		
-		complete_effect = {
-			country_event = { id = decisions.2 }
-		}
+		
 		
 		ai_will_do = {
 			factor = 0
@@ -1110,9 +1101,7 @@ fascism_on_the_rise = {
 		
 		cost = 100
 		
-		complete_effect = {
-			country_event = { id = political.18 }
-		}
+		
 		
 		ai_will_do = {
 			factor = 210
@@ -1278,9 +1267,6 @@ democratic_on_the_rise = {
 	
 		cost = 50
 		
-		complete_effect = {
-			country_event = { id = decisions.1 }
-		}
 		
 		ai_will_do = {
 			factor = 0
@@ -1317,9 +1303,7 @@ democratic_on_the_rise = {
 	
 		cost = 50
 		
-		complete_effect = {
-			country_event = { id = decisions.2 }
-		}
+		
 		
 		ai_will_do = {
 			factor = 0
@@ -1677,9 +1661,6 @@ democratic_on_the_rise = {
 		
 		cost = 100
 		
-		complete_effect = {
-			country_event = { id = political.20 }
-		}
 		
 		ai_will_do = {
 			factor = 210
@@ -1845,9 +1826,7 @@ communism_on_the_rise = {
 	
 		cost = 50
 		
-		complete_effect = {
-			country_event = { id = decisions.1 }
-		}
+		
 		
 		ai_will_do = {
 			factor = 0
@@ -1884,9 +1863,7 @@ communism_on_the_rise = {
 	
 		cost = 50
 		
-		complete_effect = {
-			country_event = { id = decisions.2 }
-		}
+		
 		
 		ai_will_do = {
 			factor = 0
@@ -2244,9 +2221,7 @@ communism_on_the_rise = {
 		
 		cost = 100
 		
-		complete_effect = {
-			country_event = { id = political.19 }
-		}
+		
 		
 		ai_will_do = {
 			factor = 210
