@@ -157,9 +157,7 @@
  ENG_imperialist_new_zealand_monarchist_ADJ:0 "Imperialist New Zealand"
  ENG_MEX_dominion_monarchist:0 "Dominion of Mexico"
  ENG_MEX_dominion_monarchist_def:0 "the Dominion of Mexico"
- ENG_england_neutrality:0 "State of England"
- ENG_england_neutrality_DEF:0 "the State of England"
- ENG_england_neutrality_ADJ:0 "English"
+
  ENG_england_monarchist:0 "Kingdom of England"
  ENG_england_monarchist_DEF:0 "the Kingdom of England"
  ENG_england_monarchist_ADJ:0 "English"
@@ -244,7 +242,7 @@
  GRE_GREATER_GREECE_monarchist:0 "Kingdom of Greater Greece"
  GRE_GREATER_GREECE_monarchist_DEF:0 "the Kingdom of Greater Greece"
  GRE_GREATER_GREECE_monarchist_ADJ:0 "Hellenic"
- GRE_GREATER_GREECE_neutrality_ADJ:0 "Hellenic"
+
  
  MAE_monarchist:0 "Macedonian Kingdom"
  MAE_monarchist_DEF:0 "the Macedonian Empire"

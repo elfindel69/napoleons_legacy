@@ -1,7 +1,7 @@
 ﻿l_english:
  ITA_monarchism_focus:0 "A nation and a king!"
  
- FRA_national_integralism:0 "National Integralism"
+ 
  FRA_camelots:0 "Camelots du Roi"
  FRA_decentralised_state:0 "Decentralised State"
  
@@ -76,7 +76,6 @@
  GER_collectivize_industry_idea:0 "Industry Collectivized"
  GER_abwehr_contacts:0 "[ROOT.GetAgency] Contacts"
 
- USA_royal_path:0 "A Royal Path"
  USA_new_constitution:0 "A New Constitution"
  
  generic_dogvisor:0 "Ron of York"

@@ -14,8 +14,7 @@
  FRA_create_SNCF:0 "Create SNCF"
  FRA_create_SNCF_desc:0 "In order to unite our territory even more, it is time to create a national state-owned railway company, the SNCF."
 
- FRA_revise_the_constitution:0 "Revise the Constitution"
- FRA_revise_the_constitution_desc:0 "The current constitution was always intended to be a stopgap measure that has been allowed to persist for far too long. Now, we will rewrite it to allow more power to the monarch."
+
  FRA_enact_the_law_of_exile:0 "Enact the Law of Exile"
  FRA_enact_the_law_of_exile_desc:0 "No head of another French royal family, nor their heir, are allowed on French soil without express permission."
  FRA_consolidate_the_throne:1 "Consolidate the Crown"
@@ -42,14 +41,7 @@
 
  GER_political_sphere:0 "Open the German Political Sphere"
  GER_political_sphere_desc:0 "After twenty years since the coronation of the new Kaiser, now is the time to open the political sphere to change. Either we will continue down the Kaiser's path, or we will find a new path to tread upon."
- GER_long_live_the_kaiserreich:0 "Long live the Kaiserreich"
- GER_long_live_the_kaiserreich_desc:0 "The past twenty years have shown that the nation can be united under a common cause. We shall continue this path. Long live the Kaiserreich!"
- GER_boost_the_economy:0 "Boost the economy"
- GER_boost_the_economy_desc:1 "After the ravages of the Great Depression, we must look to boost the economy. We will ask the people to set aside their personal comforts for a time, so that we may focus all our resources on attaining this goal."
- GER_a_better_germany:0 "A Better Germany"
- GER_a_better_germany_desc:0 "While we are rebuilding our nation, we should aim to going above and beyond what is necessary, so that what we build now will stand the test of time."
- GER_a_new_constitution:0 "Draft a new constitution"
- GER_a_new_constitution_desc:0 "Following the rise of democracy in the country it is time to draft a new constitution to limit the powers of the Kaiser"
+
 
  GER_relegalize_communism:0 "Re legalize communism"
  GER_relegalize_communism_desc:0 "The Kaiser's National Security Decree, a law essentially banning communism passed after the failed Spartakist Revolution, should be repealed to allow our naturally leftist people to express their interests."
@@ -86,8 +78,6 @@
  USA_strenghten_monarchy_desc:0 "In order to regain stability, we shall strenghten monarchy"
  USA_empower_the_monarch:0 "Empower the Monarch"
  USA_empower_the_monarch_desc:0 "We shall seek to empower our monarch to make our country great!"
- USA_new_constitution:0 "A new Constitution"
- USA_new_constitution_desc:0 "Our current Constitution is obsolete and anachronic, we shall draft a new one to express our royalist ideals"
  USA_claim_lousiana:0 "Claim Louisiana"
  USA_claim_lousiana_desc:0 "An independent Louisiana is a threat to us, we shall incorporate it in the Union, no matter the cost"
  USA_from_sea_to_sea:0 "From Sea to Sea"

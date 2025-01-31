@@ -12,8 +12,7 @@
  USA_monarchist:1 "Federal Kingdom of America"
  USA_monarchist_DEF:1 "The Federal Kingdom of America"
  USA_monarchist_ADJ:0 "American"
- SWE_neutrality:0 "State of Sweden"
- SWE_neutrality_DEF:0 "The State of Sweden"
+
  SWE_monarchist:0 "Kingdom of Sweden"
  SWE_monarchist_DEF:0 "The Kingdom of Sweden"
  SWE_monarchist_ADJ:0 "Swedish"
@@ -31,8 +30,7 @@
  HOL_monarchist:0 "Kingdom of Netherlands"
  HOL_monarchist_DEF:0 "The Kingdom of Netherlands"
  HOL_monarchist_ADJ:0 "Dutch"
- CZE_neutrality:0 "State of Bohemia"
- CZE_neutrality_DEF:0 "The State of Bohemia"
+
  CZE_monarchist:0 "Kingdom of Bohemia-Moravia"
  CZE_monarchist_DEF:0 "The Kingdom of Bohemia-Moravia"
  CZE_monarchist_ADJ:0 "Czechoslovakian"
@@ -58,8 +56,7 @@
  ITA_monarchist:0 "Kingdom of Italy"
  ITA_monarchist_DEF:0 "The Kingdom of Italy"
  ITA_monarchist_ADJ:0 "Italian"
- ROM_neutrality:0 "State of Romania"
- ROM_neutrality_DEF:0 "The State of Romania"
+
  ROM_monarchist:0 "Kingdom of Romania"
  ROM_monarchist_DEF:0 "The Kingdom of Romania"
  ROM_monarchist_ADJ:0 "Romanian"
@@ -72,8 +69,7 @@
  TUR_monarchist:0 "Ottoman Sultanate"
  TUR_monarchist_DEF:0 "The Ottoman Sultanate"
  TUR_monarchist_ADJ:0 "Ottoman"
- GRE_neutrality:0 "Greece"
- GRE_neutrality_DEF:0 "Greece"
+
  GRE_monarchist:0 "Kingdom of Greece"
  GRE_monarchist_DEF:0 "The Kingdom of Greece"
  GRE_monarchist_ADJ:0 "Greek"
@@ -186,7 +182,6 @@
                       
  SAU_monarchist:0 "Saudi Arabia"
  SAU_monarchist_DEF:0 "Saudi Arabia"
- SAU_neutrality_ADJ:0 "Arabian"
  SAU_monarchist_ADJ:0 "Saudi"
  SIA_monarchist:0 "Kingdom of Thailand"
  SIA_monarchist_DEF:0 "The Kingdom of Thailand"
@@ -198,7 +193,7 @@
  TAN_monarchist_DEF:0 "Khanate of Tuva"
  TAN_monarchist_ADJ:0 "Tuvan"
  TIB_monarchist:0 "Monastic Kingdom of Tibet"
- TIB_neutrality_DEF:0 "The Monastic Kingdom of Tibet"
+ TIB_monarchist_DEF:0 "The Monastic Kingdom of Tibet"
  TIB_monarchist_ADJ:0 "Tibetan"
  VEN_monarchist:0 "Grand-Principality of Venezuela"
  VEN_monarchist_DEF:0 "The Grand-Principality of Venezuela"
@@ -245,8 +240,7 @@
  RAJ_monarchist:0 "Indian Empire"
  RAJ_monarchist_DEF:0 "The Indian Empire"
  RAJ_monarchist_ADJ:1 "Indian"
- CRO_neutrality:0 "State of Croatia"
- CRO_neutrality_DEF:0 "The State of Croatia"
+
  CRO_monarchist:0 "Kingdom of Croatia"
  CRO_monarchist_DEF:0 "The Kingdom of Croatia"
  CRO_monarchist_ADJ:0 "Croatian"
@@ -316,8 +310,7 @@
  MAL_monarchist:0 "Malaysian Confederation"
  MAL_monarchist_DEF:0 "The Malaysian Confederation"
  MAL_monarchist_ADJ:0 "Malaysian"
- LAO_neutrality:0 "State of Laos"
- LAO_neutrality_DEF:0 "The State of Laos" 
+
  LAO_monarchist:0 "Kingdom of Laos"
  LAO_monarchist_DEF:0 "The Kingdom of Laos"
  LAO_monarchist_ADJ:0 "Laotian"
