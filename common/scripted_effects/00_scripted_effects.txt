@@ -293,33 +293,8 @@ get_best_alliance_match_communism_effect = { #arguably a trigger, but it does st
 	}
 }
 
-remove_naval_treaty_effect = {
-	if = {
-		limit = {
-			has_idea = MTG_naval_treaty_adherent
-		}
-		remove_ideas = MTG_naval_treaty_adherent
-	}
-	else_if = {
-		limit = {
-			has_idea = MTG_naval_treaty_cheating
-		}
-		remove_ideas = MTG_naval_treaty_cheating
-	}
-	else_if = {
-		limit = {
-			has_idea = MTG_naval_treaty_adherent_reduced
-		}
-		remove_ideas = MTG_naval_treaty_adherent_reduced
-	}
-	else_if = {
-		limit = {
-			has_idea = MTG_naval_treaty_cheating_reduced
-		}
-		remove_ideas = MTG_naval_treaty_cheating_reduced
-	}
-	set_country_flag = MTG_naval_treaty_abandoned
-}
+
+
 
 clear_sabotaged_resources_if_necesary = {
 	if = {
@@ -620,52 +595,17 @@ gain_random_agency_upgrade = { #Gives a random agency upgrade or grants a free a
 
 join_allies_effect = {
 		get_best_alliance_match_democratic_effect = yes
-		var:best_leader = {
-			country_event = generic.2
-		}
+		
 }
 
 #Should remove any and all fascist foreign influence, to be updated
-remove_fascist_spirits_effect = {
-	if = {
-		limit = { has_idea = fascist_influence }
-		remove_ideas = fascist_influence
-	}
-	if = {
-		limit = { has_idea = american_influence_drift_fascism }
-		remove_ideas = american_influence_drift_fascism
-	}
-}
+
 
 #Should remove any and all communist foreign influence
-remove_communist_spirits_effect = {
-	if = {
-		limit = { has_idea = communist_pressure }
-		remove_ideas = communist_pressure
-	}
-	if = {
-		limit = { has_idea = american_influence_drift_communism }
-		remove_ideas = american_influence_drift_communism
-	}
-	
-	if = {
-		limit = { has_idea = agitated_peasants }
-		remove_ideas = agitated_peasants
-	}
-	if = {
-		limit = { has_idea = armed_communist_militants }
-		remove_ideas = armed_communist_militants
-	}
-	
-}
+
 
 #Should remove any and all democratic foreign influence
-remove_democratic_spirits_effect = {
-	if = {
-		limit = { has_idea = democratic_influence }
-		remove_ideas = democratic_influence
-	}
-}
+
 
 #Adds current ruling popularity to a new ideology - useful to represent ideological shifts within the same party
 add_ruling_to_dem = {

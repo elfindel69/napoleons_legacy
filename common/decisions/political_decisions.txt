@@ -733,7 +733,7 @@ fascism_on_the_rise = {
 			check_has_focus_tree_to_switch_to_fascism = yes
 			any_army_leader = {
 				is_field_marshal = yes
-				NOT = { has_unit_leader_flag = hidden_sympathies_marshal }
+				
 			}
 		}
 	

@@ -180,12 +180,7 @@ add_equipment_to_stockpile = {
 	add_command_power = 100
 	
 	#white_peace = ETH
-	if = {
-		limit = {
-			has_dlc = "Man the Guns"
-		}
-		remove_ideas = MTG_naval_treaty_adherent
-	}
+	
 	#adding ministers
 	add_ideas = {
 		fiat

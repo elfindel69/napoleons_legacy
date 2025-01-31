@@ -268,8 +268,7 @@ if = {
 			improved_heavy_battery = 1
 			advanced_dp_light_battery = 3
 		}
-		remove_ideas = MTG_naval_treaty_adherent
-		add_ideas = MTG_naval_treaty_adherent_reduced
+		
 	}
 	create_equipment_variant = {
 		name = "Martin M166"

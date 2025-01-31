@@ -923,9 +923,7 @@ country_event = {
 		days = 2
 	}
 
-	immediate = {
-		hidden_effect = { remove_ideas = fascist_revolutionaries }
-	}
+	
 
 	option = {
 		name = political.21.a
@@ -1012,9 +1010,7 @@ country_event = {
 		days = 2
 	}
 
-	immediate = {
-		hidden_effect = { remove_ideas = democratic_revolutionaries }
-	}
+	
 
 	option = {
 		name = political.23.a
@@ -1102,7 +1098,7 @@ country_event = {
 
 	option = {
 		name = political.24.a
-		remove_ideas = fascist_revolutionaries
+		
 	}
 }
 # political.25 Communist
@@ -1123,7 +1119,7 @@ country_event = {
 
 	option = {
 		name = political.25.a
-		remove_ideas = communist_revolutionaries
+	
 	}
 }
 # political.26 Democratic
@@ -1144,7 +1140,7 @@ country_event = {
 
 	option = {
 		name = political.26.a
-		remove_ideas = democratic_revolutionaries
+		
 	}
 }
 
@@ -1176,7 +1172,7 @@ country_event = {
 
 	option = {
 		name = political.27.a
-		remove_ideas = neutrality_idea
+	
 	}
 }
 
