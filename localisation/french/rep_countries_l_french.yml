@@ -744,29 +744,31 @@
  HRZ_monarchist:0 "Duché de Saint Sava"
  HRZ_monarchist_DEF:0 "le Duché de Saint Sava"
  HRZ_monarchist_ADJ:0 "herzégovinienne"
- FSL_fascism:0 "Grand-Empire louisianais"
- FSL_fascism_DEF:0 "le Grand-Empire louisianais"
- FSL_democratic:0 "États Fédérés de Louisiane"
- FSL_democratic_DEF:0 "les États Fédérés de Louisiane"
- FSL_neutrality:2 "États Confédérés de Louisiane"
- FSL_neutrality_DEF:2 "les États Confédérésde Louisiane"
- FSL_communism:0 "États socialistes de Louisiane"
- FSL_communism_DEF:0 "les États socialistes de Louisiane"
- FSL_monarchist:0 "Royaume-Uni de Louisiane"
- FSL_monarchist_DEF:0 "le Royaume-Uni de Louisiane"
- FSL_fascism_ADJ:0 "louisianaise"
- FSL_democratic_ADJ:0 "louisianaise"
- FSL_neutrality_ADJ:0 "louisianaise"
- FSL_communism_ADJ:0 "louisianaise"
- FSL_monarchist_ADJ:0 "louisianaise"
- FRLOC_FSL_ADJ_MS:0 "louisianais" # [LocEditor:CustomLanguageKey]
- FRLOC_FSL_ADJ_FS:0 "louisianaise" # [LocEditor:CustomLanguageKey]
- FRLOC_FSL_ADJ_MP:0 "louisianaiss" # [LocEditor:CustomLanguageKey]
- FRLOC_FSL_ADJ_FP:0 "louisianaises" # [LocEditor:CustomLanguageKey]
- FRLOC_FSL_INHAB:0 "Louisianais" # [LocEditor:CustomLanguageKey]
- FSL:0 "Louisiane"
- FSL_DEF:0 "la Louisiane"
- FSL_ADJ:0 "louisiano-"
+ GOT_monarchist: "Kingdom of Sweden"
+ GOT_monarchist_DEF: "The Kingdom of Sweden"
+ LOU_fascism:0 "Grand-Empire louisianais"
+ LOU_fascism_DEF:0 "le Grand-Empire louisianais"
+ LOU_democratic:0 "États Fédérés de Louisiane"
+ LOU_democratic_DEF:0 "les États Fédérés de Louisiane"
+ LOU_neutrality:2 "États Confédérés de Louisiane"
+ LOU_neutrality_DEF:2 "les États Confédérésde Louisiane"
+ LOU_communism:0 "États socialistes de Louisiane"
+ LOU_communism_DEF:0 "les États socialistes de Louisiane"
+ LOU_monarchist:0 "Royaume-Uni de Louisiane"
+ LOU_monarchist_DEF:0 "le Royaume-Uni de Louisiane"
+ LOU_fascism_ADJ:0 "louisianaise"
+ LOU_democratic_ADJ:0 "louisianaise"
+ LOU_neutrality_ADJ:0 "louisianaise"
+ LOU_communism_ADJ:0 "louisianaise"
+ LOU_monarchist_ADJ:0 "louisianaise"
+ FRLOC_LOU_ADJ_MS:0 "louisianais" # [LocEditor:CustomLanguageKey]
+ FRLOC_LOU_ADJ_FS:0 "louisianaise" # [LocEditor:CustomLanguageKey]
+ FRLOC_LOU_ADJ_MP:0 "louisianaiss" # [LocEditor:CustomLanguageKey]
+ FRLOC_LOU_ADJ_FP:0 "louisianaises" # [LocEditor:CustomLanguageKey]
+ FRLOC_LOU_INHAB:0 "Louisianais" # [LocEditor:CustomLanguageKey]
+ LOU:0 "Louisiane"
+ LOU_DEF:0 "la Louisiane"
+ LOU_ADJ:0 "louisiano-"
  
  CAL_fascism:0 "Autocracie califorienne"
  CAL_fascism_DEF:0 "l'Autocracie califorienne"
