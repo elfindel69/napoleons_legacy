@@ -348,5 +348,14 @@
 
   #####################################
 
+ BEL_flanders_monarchist: "Grand Duchy of Flanders"
+ BEL_flanders_monarchist_DEF: "the Grand Duchy of Flanders"
+ BEL_flanders_monarchist_ADJ: "Flemish"
 
- 
+ reunified_germany_monarchist: "German Empire"
+ reunified_germany_monarchist_DEF: "the German Empire"
+ reunified_germany_monarchist_ADJ: "German"
+
+ latin_africa_monarchist: "United States of Latin Africa"
+ latin_africa_monarchist_DEF: "the United States of Latin Africa"
+ latin_africa_monarchist_ADJ: "Latin African"
