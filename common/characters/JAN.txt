@@ -17,6 +17,12 @@ characters = {
 			traits = { JAN_polarizing_leader }
 			id = -1
 		}
+		country_leader = {
+			ideology = paternalism
+			expire="1965.1.1.1"
+			traits = { JAN_polarizing_leader }
+			id = -1
+		}
 		corps_commander={
 			traits={ winter_specialist naval_invader }
 			skill=5

@@ -73,6 +73,14 @@ set_popularities = {
 	neutrality = 70
 }
 
+create_country_leader = {
+	name = "Alfonso Monterrey"
+	picture = "gfx/leaders/Monarchs/Portrait_Abdullah_bin_Jassim_Al_Thani.tga"
+	expire = "1981.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
 
 1939.1.1 = {
 

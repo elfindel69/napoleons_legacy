@@ -18,6 +18,12 @@ characters = {
 			expire = "1987.1.1.1"
 			id = -1
 		}
+		country_leader = {
+			ideology = absolutism
+			traits = { GER_governor_general_trait }
+			expire = "1987.1.1.1"
+			id = -1
+		}
 
 	}
 	

@@ -97,7 +97,14 @@ set_popularities = {
 	communism = 20
 	neutrality = 20
 }
-
+create_country_leader = {
+	name = "Jean de la Thibaudière"
+	picture = "gfx/leaders/Monarchs/Portrait_Abdullah_bin_Jassim_Al_Thani.tga"
+	expire = "1981.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
 
 
 

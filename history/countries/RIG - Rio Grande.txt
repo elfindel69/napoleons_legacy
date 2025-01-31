@@ -55,6 +55,14 @@ set_popularities = {
 	fascism = 15
 }
 
+create_country_leader = {
+	name = "Alfonso Monterrey"
+	picture = "gfx/leaders/Monarchs/Portrait_Abdullah_bin_Jassim_Al_Thani.tga"
+	expire = "1981.1.1"
+	ideology = absolutism
+	traits = {
+	}
+}
 
 ### VARIANTS ###
 # 1936 Start #

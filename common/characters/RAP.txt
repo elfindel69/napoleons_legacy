@@ -18,6 +18,12 @@ characters = {
 			expire = "2017.1.1.1"
 			id = -1
 		}
+		country_leader = {
+			ideology = monarchism
+			traits = { rapa_nui_ariki }
+			expire = "2017.1.1.1"
+			id = -1
+		}
 	}
 
 	# Juan Tepano

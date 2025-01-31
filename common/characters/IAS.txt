@@ -11,6 +11,12 @@ characters = {
 			
 		}
 		country_leader = {
+			ideology = monarchism
+			traits = { non_aligned_council_trait }
+			expire = "1980.1.1.1"
+			id = -1
+		}
+		country_leader = {
 			ideology = despotism
 			traits = { non_aligned_council_trait }
 			expire = "1980.1.1.1"

@@ -19,6 +19,13 @@ characters = {
 			id = -1
 		}
 
+		country_leader = {
+			ideology = paternalism
+			traits = { }
+			expire = "1959.1.1.1"
+			id = -1
+		}
+
 	}
 
 	

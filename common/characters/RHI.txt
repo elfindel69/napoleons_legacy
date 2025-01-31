@@ -12,6 +12,12 @@ characters = {
 		}
 
 		country_leader = {
+			ideology = monarchism
+			traits = { }
+			expire = "1960.1.1.1"
+			id = -1
+		}
+		country_leader = {
 			ideology = socialism
 			traits = { }
 			expire = "1960.1.1.1"

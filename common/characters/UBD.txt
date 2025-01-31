@@ -12,6 +12,13 @@ characters = {
 		}
 
 		country_leader = {
+			ideology = monarchism
+			traits = { GER_burggraf_und_graf_zu_dohna_schlobitten }
+			expire = "1946.1.1.1"
+			id = -1
+		}
+
+		country_leader = {
 			ideology = despotism
 			traits = { GER_burggraf_und_graf_zu_dohna_schlobitten }
 			expire = "1946.1.1.1"

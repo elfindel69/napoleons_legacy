@@ -17,6 +17,12 @@ characters = {
 			id = -1
 		}
 		country_leader = {
+			ideology = absolutism
+			traits = { non_aligned_council_trait }
+			expire = "1980.1.1.1"
+			id = -1
+		}
+		country_leader = {
 			ideology = conservatism
 			traits = { democratic_council_trait }
 			expire = "1980.1.1.1"

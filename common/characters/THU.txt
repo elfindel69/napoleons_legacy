@@ -10,7 +10,12 @@ characters = {
 				large = GFX_portrait_THU_erwin_baum
 			}
 		}
-
+		country_leader = {
+			ideology = monarchism
+			traits = { }
+			expire = "1960.1.1.1"
+			id = -1
+		}
 		country_leader = {
 			ideology = conservatism
 			traits = { }
