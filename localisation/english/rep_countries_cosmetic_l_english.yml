@@ -1,70 +1,45 @@
 ﻿l_english:
- RAJ_UK_fascism:0 "British Raj"
- RAJ_UK_fascism_DEF:0 "the British Raj"
- RAJ_UK_communism:0 "British Raj"
- RAJ_UK_communism_DEF:0 "the British Raj"
+ 
  RAJ_UK_monarchist:0 "British Raj"
  RAJ_UK_monarchist_DEF:0 "the British Raj"
  
- FRA_FREE_neutrality:0 "Royalist France"
+
  FRA_FREE_monarchist:0 "Royalist France"
- FRA_FREE_neutrality_DEF:0 "Free Kingdom of France"
- FRA_FREE_monarchist_DEF:0 "Free Kingdom of France"
+ FRA_FREE_monarchist_DEF:0 "Royalist France"
  FRA_VICHY_monarchist:0 "Vichy France"
  FRA_VICHY_monarchist_DEF:0 "Vichy France"
  FRA_UK_monarchist:0 "Angevin Empire"
  FRA_UK_monarchist_DEF:0 "the Angevin Empire"
- FRA_GER_autonomy_puppet:0 "Autonomous France"
- FRA_GER_autonomy_puppet_DEF:0 "Autonomous France"
- FRA_GER_autonomy_integrated_puppet:0 "Autonomous France"
- FRA_GER_autonomy_integrated_puppet_DEF:0 "Autonomous France"
+ 
+
  
  CZE_ONLY_monarchist:0 "Kingdom of Bohemia"
  CZE_ONLY_monarchist_DEF:0 "the Kingdom of Bohemia"
  
- HUN_EMPIRE_fascism:0 "Greater Austro-Hungarian Empire"
+ 
  HUN_EMPIRE_monarchist:0 "Austro-Hungarian Empire"
- HUN_EMPIRE_democratic:0 "Danubian Confederation"
- HUN_EMPIRE_communism:0 "Association of Autonomous States"
- HUN_EMPIRE_neutrality:0 "Austria-Hungary"
- HUN_EMPIRE_fascism_DEF:0 "the Greater Austro-Hungarian Empire"
+
  HUN_EMPIRE_monarchist_DEF:0 "the Austro-Hungarian Empire"
- HUN_EMPIRE_democratic_DEF:0 "The Danubian Confederation"
- HUN_EMPIRE_communism_DEF:0 "The Association of Autonomous States"
- HUN_EMPIRE_neutrality_DEF:0 "Austria-Hungary"
+ 
  HUN_GREATER_monarchist:0 "Kingdom of Greater Hungary"
  HUN_GREATER_monarchist_DEF:0 "the Kingdom of Greater Hungary"
- HUN_GREATER_democratic:0 "Hungarian Federal Republic"
- HUN_GREATER_communist:0 "Hungarian Democratic Republic"
- HUN_GREATER_neutrality:0 "Greater Hungary"
- HUN_GREATER_fascism:0 "Empire of Greater Hungary"
- HUN_GREATER_democratic_DEF:0 "The Hungarian Federal Republic"
- HUN_GREATER_communist_DEF:0 "The Hungarian Democratic Republic"
- HUN_GREATER_neutrality_DEF:0 "Greater Hungary"
- HUN_GREATER_fascism_DEF:0 "The Empire of Greater Hungary"
+ 
  HUN_MONARCHY_monarchist:0 "Kingdom of Hungary"
  HUN_MONARCHY_monarchist_DEF:0 "the Kingdom of Hungary"
  
- SCA_UNIFIED_fascism:0 "Grand Scandinavian Empire"
+
  SCA_UNIFIED_monarchist:0 "Scandinavian Empire"
- SCA_UNIFIED_fascism_DEF:0 "the Grand Scandinavian Empire"
+
  SCA_UNIFIED_monarchist_DEF:0 "the Scandinavian Empire"
- NDC_UNIFIED_fascism:0 "Grand Nordic Empire"
+ 
  NDC_UNIFIED_monarchist:0 "Nordic Empire"
- NDC_UNIFIED_fascism_DEF:0 "the Grand Nordic Empire"
+
  NDC_UNIFIED_monarchist_DEF:0 "the Nordic Empire"
  
  GCO_UNIFIED_monarchist:0 "Kingdom of Gran Colombia"
  GCO_UNIFIED_monarchist_DEF:0 "the Kingdom of Gran Colombia"
  
- PLC_UNIFIED_fascism:0 "Polish-Lithuanian Empire"
- PLC_UNIFIED_democratic:0 "Polish-Lithuanian Federation"
- PLC_UNIFIED_communism:0 "Polish-Lithuanian SR"
- PLC_UNIFIED_fascism_DEF:0 "the Polish-Lithuanian Empire"
- PLC_UNIFIED_democratic_DEF:0 "the Polish-Lithuanian Federation"
- PLC_UNIFIED_communism_DEF:1 "The Polish-Lithuanian Socialist Republic"
- PLC_UNIFIED_neutrality:0 "Republic of Two Nations"
- PLC_UNIFIED_neutrality_DEF:0 "the Republic of Two Nations"
+ 
  PLC_UNIFIED_monarchist:0 "Kingdom of Poland-Lithuania"
  PLC_UNIFIED_monarchist_DEF:0 "the Kingdom of Poland-Lithuania"
  
@@ -87,43 +62,37 @@
  
  MUT_UNIFIED_monarchist:0 "Kingdom of Mutapa"
  MUT_UNIFIED_monarchist_DEF:0 "the Kingdom of Mutapa"
- 
- SPQR_UNIFIED_fascism:0 "Magnum Imperium Romanum"
+
  SPQR_UNIFIED_monarchist:0 "Imperium Romanum"
- SPQR_UNIFIED_fascism_DEF:0 "Magnum Imperium Romanum"
+ 
  SPQR_UNIFIED_monarchist_DEF:0 "Imperium Romanum"
  
- PER_UNIFIED_fascism:0 "Great Persian Empire"
+
  PER_UNIFIED_monarchist:0 "Persian Empire"
- PER_UNIFIED_fascism_DEF:0 "the Great Persian Empire"
+
  PER_UNIFIED_monarchist_DEF:0 "the Persian Empire"
  
- BYZ_UNIFIED_fascism:0 "Great Byzantine Empire"
+
  BYZ_UNIFIED_monarchist:0 "Byzantine Empire"
- BYZ_UNIFIED_fascism_DEF:0 "the Great Byzantine Empire"
- BYZ_UNIFIED_monarchist_DEF:0 "Byzantine Empire"
- BYZ_UNIFIED_democratic:0 "East-Roman Republic"
- BYZ_UNIFIED_democratic_DEF:0 "the East-Roman Republic"
  
- ARA_UNIFIED_fascism:0 "Great Arabian Empire"
+ BYZ_UNIFIED_monarchist_DEF:0 "Byzantine Empire"
+
+ 
+
  ARA_UNIFIED_monarchist:0 "Arabian Empire"
- ARA_UNIFIED_fascism_DEF:0 "the Great Arabian Empire"
  ARA_UNIFIED_monarchist_DEF:0 "the Arabian Empire"
  
- MAJ_UNIFIED_fascism:0 "Great Majapahit Empire"
+
  MAJ_UNIFIED_monarchist:0 "Majapahit Empire"
- MAJ_UNIFIED_fascism_DEF:0 "the Great Majapahit Empire"
  MAJ_UNIFIED_monarchist_DEF:0 "the Majapahit Empire"
  
- RAT_UNIFIED_fascism:0 "Rattanakosin Great Empire"
+ 
  RAT_UNIFIED_monarchist:0 "Rattanakosin Empire"
- RAT_UNIFIED_fascism_DEF:0 "the Rattanakosin Great Empire"
+
  RAT_UNIFIED_monarchist_DEF:0 "the Rattanakosin Empire"
  
  HRE_UNIFIED_monarchist:0 "Holy Roman Empire"
  HRE_UNIFIED_monarchist_DEF:0 "the Holy Roman Empire"
- HRE_UNIFIED_neutrality:0 "Holy Roman State"
- HRE_UNIFIED_neutrality_DEF:0 "the Holy Roman State"
  
  PRC_proclaimed_monarchist:0 "Chinese Empire"
  CHI_warlord_leader_monarchist:0 "Chinese Empire"
@@ -247,9 +216,7 @@
  POR_empire_monarchist_def:0 "the Fifth Portuguese Empire"
  POR_empire_monarchist_adj:0 "Portuguese"
  
- united_polynesia_neutrality:0 "United States of Polynesia"
- united_polynesia_neutrality_DEF:0 "the United States of Polynesia"
- united_polynesia_neutrality_ADJ:0 "Polynesian"
+
  united_polynesia_monarchist:0 "United Kingdom of Polynesia"
  united_polynesia_monarchist_DEF:0 "the United Kingdom of Polynesia"
  united_polynesia_monarchist_ADJ:0 "Polynesian"
@@ -300,12 +267,7 @@
  SOV_russia_monarchist:0 "Tsardom of Russia"
  SOV_russia_monarchist_DEF:0 "the Russian Tsardom"
  SOV_russia_monarchist_ADJ:0 "Russian"
- SOV_russia_democratic:0 "Russian Democratic Federative Republic"
- SOV_russia_democratic_DEF:0 "the Russian Democratic Federative Republic"
- SOV_russia_democratic_ADJ:0 "Russian"
- SOV_russia_fascism:0 "All-Russian State"
- SOV_russia_fascism_DEF:0 "the Russian State"
- SOV_russia_fascism_ADJ:0 "Russian"
+ 
 
  GREATER_LIT_monarchist:1 "Grand Duchy of Lithuania"
  GREATER_LIT_monarchist_DEF:1 "the Grand Duchy of Lithuania"

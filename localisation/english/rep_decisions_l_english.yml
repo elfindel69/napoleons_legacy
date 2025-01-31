@@ -8,11 +8,8 @@
  ban_monarchist_party_tt:1 "Change in popularity of Monarchism: §G-§![?.Root.party_popularity@monarchist|%0G].\n"
  anti_monarchist_raids:0 "Anti-Monarchist Raids"
  anti_monarchist_raids_desc:0 "We must crack down on monarchist elements in our nation for the sake of long-term domestic stability. Their influence is too great, and may potentially become a problem to the government."
- ban_neutrality_party:0 "Ban Non-aligned"
- ban_neutrality_party_desc:0 "In the current situation, allowing non-aligned parties to continue to organize would undermine our ability to govern effectively. Drastic measures will need to be taken."
- ban_neutrality_party_tt:1 "Change in popularity of Non-aligned: §G-§![?.Root.party_popularity@neutrality|%0G].\n"
- anti_neutrality_raids:0 "Anti-Non-aligned Raids"
- anti_neutrality_raids_desc:0 "We must crack down on non-aligned elements in our nation for the sake of long-term domestic stability. Their influence is too great, and may potentially become a problem to the government."
+
+ 
  hold_the_monarchist_national_referendum:0 "Hold National Referendum"
  hold_the_monarchist_national_referendum_desc:0 "With sufficient support, we may now safely hold a referendum to affect a change of government, without bloodshed."
  monarchist_on_the_rise:0 "Monarchy on the Rise"

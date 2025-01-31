@@ -105,7 +105,6 @@
  LUX_monarchist_party:0 "RHL"
  LUX_monarchist_party_long:0 "Royalistesch Haus vu Lëtzebuerg"
  BHU_monarchist_party:0 "Wangchuk Dynasty (M)"
- SLO_fascism_party:0 "HSLS"
  SLO_monarchist_party:0 "SKS"
  SLO_monarchist_party_long:0 "Slovenská kráľovská strana"
  ECU_monarchist_party:0 "PRE"
@@ -239,13 +238,13 @@
 
  ####################################################
  
- RUS_communism_party:0 "Russian Communist Party"
- RUS_democratic_party:0 "Trudoviks"
- RUS_democratic_party_long:0 "Trudoviks Party"
- RUS_fascism_party:0 "RFP"
- RUS_neutrality_party:0 "RMP"
- RUS_neutrality_party_long:0 "Russian Monarchist Party"
- RUS_monarchist_party:0 "Dom Romanovykh"
+ BWR_communism_party:0 "Russian Communist Party"
+ BWR_democratic_party:0 "Trudoviks"
+ BWR_democratic_party_long:0 "Trudoviks Party"
+ BWR_fascism_party:0 "RFP"
+ BWR_neutrality_party:0 "RMP"
+ BWR_neutrality_party_long:0 "Russian Monarchist Party"
+ BWR_monarchist_party:0 "Dom Romanovykh"
  
  ARA_neutrality_party:0 "House of Saud"
  ARA_monarchist_party:0 "House of Saud (M)"
