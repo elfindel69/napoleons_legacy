@@ -7,9 +7,9 @@ state = {
 	state_category = town
 	
 	history = {
-		owner = SOV
+		owner = BWR
 		add_core_of = FIN
-		add_core_of = SOV
+		add_core_of = BWR
 		
 		victory_points = { #Turku
 			3083 3

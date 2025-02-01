@@ -1400,14 +1400,9 @@ form_commonwealth_category = {
 		}
 
 		complete_effect = {
-			if = {
-				limit = { has_cosmetic_tag = POL_KINGDOM_RUS }
-				set_cosmetic_tag = PLC_UNIFIED_RUS
-			}
-			else = {
+			
 				set_cosmetic_tag = PLC_UNIFIED
-			}
-			POL_basic_form_commonwealth = yes
+			
 		}
 
 		ai_will_do = {
@@ -5262,12 +5257,7 @@ form_roman_empire_category = {
 						}
 					}
 				}
-				if = {
-					limit = {
-						has_government = fascism
-					}
-					ITA_remove_king_vittorio_emanuele_as_idea = yes
-				}
+				
 			}
 
 			add_stability = 0.1
@@ -10405,7 +10395,7 @@ form_macedonian_empire_category = {
 
 		complete_effect = {
 			set_country_flag = GRE_mae_flag
-			GRE_set_appropriate_cosmetic_tag = yes
+			
 			# Iran
 			custom_effect_tooltip = form_country_iran_coring_states_tt
 			hidden_effect = {
@@ -12529,7 +12519,7 @@ form_ethiopian_empire_category  = {
 		}
 
 		available = {
-			controls_all_ethiopian_core_states = yes 
+			
 			842 = { 
 				is_owned_by = ROOT 
 				is_fully_controlled_by = ROOT 
@@ -12553,7 +12543,7 @@ form_ethiopian_empire_category  = {
 					province = 13237
 					value = 5
 				}
-				ETH_upgrade_state_category = yes 
+				
 			}
 			#custom_effect_tooltip = ETH_prevents_further_capital_moves_tt
 			#set_country_flag = ETH_has_moved_capital_flag
@@ -12638,8 +12628,7 @@ form_ethiopian_empire_category  = {
 				has_government = neutrality
 				has_government = fascism
 			}
-			NOT = { has_cosmetic_tag = gojjam }
-			NOT = { has_cosmetic_tag = jimma }
+			
 		}
 		fire_only_once = yes 
 
@@ -14809,13 +14798,10 @@ germany_formable_category = {
 				original_tag = WGR # West Germany
 				original_tag = DDR # East Germany
 				original_tag = UBD # United Baltic Duchy
-				AND = {
-					original_tag = LUX # Luxembourg 
-					has_game_rule = {
-						rule = germany_fragmentation_status
-						option = GERMANY_FRAGMENTED
-					}
-				}
+				
+				original_tag = LUX # Luxembourg 
+					
+				
 				
 			}
 			

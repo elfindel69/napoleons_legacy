@@ -2455,7 +2455,7 @@ political_actions = {
 				}
 				set_country_flag = banned_fascism_flag
 			}
-			remove_fascist_spirits_effect = yes
+			
 			custom_effect_tooltip = ban_fascist_party_tt
 			add_stability = ban_ideology_var
 		}
@@ -2511,7 +2511,7 @@ political_actions = {
 				}
 				set_country_flag = banned_democratic_flag				
 			}
-			remove_democratic_spirits_effect = yes 
+			
 			custom_effect_tooltip = ban_democratic_party_tt
 			add_stability = ban_ideology_var
 		}
@@ -2567,7 +2567,7 @@ political_actions = {
 				}
 				set_country_flag = banned_communism_flag
 			}
-			remove_communist_spirits_effect = yes
+		
 			custom_effect_tooltip = ban_communist_party_tt
 			add_stability = ban_ideology_var
 		}
