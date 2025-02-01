@@ -11,7 +11,7 @@ state = {
 		chromium=2 # was: 2
 	}
 	history={
-		owner = SOV
+		owner = BWR
 
 		victory_points = { #Kemi
 			11164 2
@@ -33,7 +33,7 @@ state = {
 			infrastructure = 1
 		}
 		add_core_of = FIN
-		add_core_of = SOV
+		add_core_of = BWR
 		if = {
 			limit = {
 				has_dlc = "Arms Against Tyranny"
